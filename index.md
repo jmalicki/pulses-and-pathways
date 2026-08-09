@@ -29,7 +29,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-# Chapter 1: The Bedside Question
+# Act 1: The Bedside Question
 
 **Characters:**
 
@@ -119,7 +119,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <div class="play-text" markdown="1">
 # The Hydraulic Conversation
 
-## Chapter 2: Pressure and Flow
+## Act 2: Pressure and Flow
 
 </div>
 <div class="projections" markdown="1">
@@ -325,7 +325,7 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 <div class="play-text" markdown="1">
 # The Hydraulic Conversation
 
-## Chapter 3: Living Pipes
+## Act 3: Living Pipes
 
 </div>
 <div class="projections" markdown="1">
@@ -464,7 +464,7 @@ Inferring the unseen. That's my entire job.
 <div class="play-text" markdown="1">
 # The Hydraulic Conversation
 
-## Chapter 4: Inverse Problems
+## Act 4: Inverse Problems
 
 </div>
 <div class="projections" markdown="1">

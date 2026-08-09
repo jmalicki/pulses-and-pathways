@@ -1,6 +1,6 @@
 # The Hydraulic Conversation
 
-## Chapter 2: Pressure and Flow
+## Act 2: Pressure and Flow
 
 **CHARACTERS:**
 

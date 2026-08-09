@@ -1,6 +1,6 @@
 # The Hydraulic Conversation
 
-## Chapter 4: Inverse Problems
+## Act 4: Inverse Problems
 
 **CHARACTERS:**
 

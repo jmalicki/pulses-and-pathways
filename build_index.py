@@ -17,7 +17,7 @@ layout: default
 
 """
 
-def parse_chapter_to_rows(markdown_content):
+def parse_act_to_rows(markdown_content):
     lines = markdown_content.split('\n')
     
     html_output = []
@@ -90,28 +90,28 @@ def parse_chapter_to_rows(markdown_content):
 
 
 with open("00_dedication.md", "r") as f:
-    dedication = parse_chapter_to_rows(f.read())
+    dedication = parse_act_to_rows(f.read())
 
-with open("chapter_1_the_bedside_question.md", "r") as f:
+with open("act_1_the_bedside_question.md", "r") as f:
     ch1 = f.read()
-    ch1 = ch1.replace("## Chapter 1: The Bedside Question", "## Chapter 1: The Bedside Question\n\n![Exposure Sketch](exposure_sketch_1786259337787.jpg)\n\n")
-    ch1_html = parse_chapter_to_rows(ch1)
+    ch1 = ch1.replace("## Act 1: The Bedside Question", "## Act 1: The Bedside Question\n\n![Exposure Sketch](exposure_sketch_1786259337787.jpg)\n\n")
+    ch1_html = parse_act_to_rows(ch1)
 
-with open("chapter_2_pressure_and_flow.md", "r") as f:
+with open("act_2_pressure_and_flow.md", "r") as f:
     ch2 = f.read()
-    ch2 = ch2.replace("## Chapter 2: Pressure and Flow", "## Chapter 2: Pressure and Flow\n\n![Clamping Sketch](clamping_sketch_1786259348177.jpg)\n\n")
-    ch2_html = parse_chapter_to_rows(ch2)
+    ch2 = ch2.replace("## Act 2: Pressure and Flow", "## Act 2: Pressure and Flow\n\n![Clamping Sketch](clamping_sketch_1786259348177.jpg)\n\n")
+    ch2_html = parse_act_to_rows(ch2)
 
-with open("chapter_3_living_pipes.md", "r") as f:
+with open("act_3_living_pipes.md", "r") as f:
     ch3 = f.read()
-    ch3 = ch3.replace("## Chapter 3: Living Pipes", "## Chapter 3: Living Pipes\n\n![Suturing Sketch](suturing_sketch_1786259361282.jpg)\n\n")
-    ch3_html = parse_chapter_to_rows(ch3)
+    ch3 = ch3.replace("## Act 3: Living Pipes", "## Act 3: Living Pipes\n\n![Suturing Sketch](suturing_sketch_1786259361282.jpg)\n\n")
+    ch3_html = parse_act_to_rows(ch3)
 
-with open("chapter_4_inverse_problems.md", "r") as f:
+with open("act_4_inverse_problems.md", "r") as f:
     ch4 = f.read()
-    ch4 = ch4.replace("## Chapter 4: Inverse Problems", "## Chapter 4: Inverse Problems\n\n![Doppler Sketch](doppler_sketch_1786259371250.jpg)\n\n")
+    ch4 = ch4.replace("## Act 4: Inverse Problems", "## Act 4: Inverse Problems\n\n![Doppler Sketch](doppler_sketch_1786259371250.jpg)\n\n")
     ch4 += "\n\n![Closure Sketch](closure_sketch_1786259427073.jpg)\n\n"
-    ch4_html = parse_chapter_to_rows(ch4)
+    ch4_html = parse_act_to_rows(ch4)
 
 with open("index.md", "w") as out:
     out.write(front_matter)

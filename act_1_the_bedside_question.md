@@ -1,4 +1,4 @@
-# Chapter 1: The Bedside Question
+# Act 1: The Bedside Question
 
 **Characters:**
 
