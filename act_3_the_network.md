@@ -41,7 +41,7 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 
 > [!NOTE]
 > **Continuity Equation**
-> $Q = A \cdot v$
+> $$Q = A \cdot v$$
 > To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease.
 
 **DR. SARAH HAYES**
