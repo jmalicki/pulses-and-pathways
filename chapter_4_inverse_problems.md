@@ -5,7 +5,7 @@
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. HAYES** – The Surgeon; calm, experienced, and observant.
+* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
 * **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
 * **ELENA** – The Nurse; keeps the surgical field running smoothly.
 
@@ -19,7 +19,7 @@ An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the 
 **MARK**
 Inferring the unseen. That's my entire job.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Without looking up, her hands moving with microscopic precision as she loops a 7-0 Prolene suture]*
 How so, Mark?
 
@@ -35,7 +35,7 @@ So you calculate what the wellhead pressure *should* be, and compare it to the a
 *[Napping his fingers as much as the sterile drapes allow]*
 Exactly. We compare the calculated pressure $y_{calc}$ against our observed pressure $y_{obs}$. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals, $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that cost function $J(x)$ converges toward zero.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Taking a pair of micro-scissors from Elena to cut the suture tail]*
 We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
 
@@ -43,7 +43,7 @@ We do the exact same thing, Mark. In medicine, we call our boundary measurements
 *[Nodding eagerly]*
 Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the velocity $v$. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation: $\Delta P = 4v^2$.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Adjusting the angle of her surgical loupes]*
 And if we need a more detailed map of the geometry, we use CT angiography. We reconstruct the three-dimensional lumen, which Stuart can then feed into a computational fluid dynamics model to solve the Navier-Stokes equations. Or, if we have access to phase-contrast MRI, we can directly map the velocity vectors in three dimensions and calculate the local wall shear stress and pressure gradients from those velocity fields. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
 
@@ -58,20 +58,20 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 **MARK**
 Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber $C$, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor $R_s$. Right after it, we place our transducer to measure the observed pressure $y_{obs}$. Then the line splits into parallel networks—$R_1$, $R_2$, $R_3$—modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
 And the bottom half shows the mathematical convergence.
 
 **MARK**
 Right. The plot on the left shows how our parameters—the resistance $R_s$ and compliance $C$—start from initial blind guesses and converge over iteration step $n$ toward their true physical values. And on the right, you see the error minimization, where the cost function $J(x)$ decays toward zero. If the math works, the model matches the physical reality.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Gently grasping the needle holder]*
 Let's hope my physical model matches the math. I've just placed the final micro-suture. Elena, saline irrigator.
 
 *[Elena passes the syringe of heparinized saline. Dr. Hayes flushes the surgical field, verifying that the edges of the arterial anastomosis are perfectly aligned.]*
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 Ready to restore flow. Stuart, get the suction ready. Elena, micro-forceps.
 
 *[Dr. Hayes carefully positions her fingers over the vascular clamps. She gently releases the distal clamp first to allow back-bleeding to clear any micro-bubbles, then releases the proximal clamp.]*
@@ -82,7 +82,7 @@ The vessel is filling...
 
 *[The repaired artery begins to swell, its walls pulsing rhythmically in time with Mark's heartbeat.]*
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe. Let's get our boundary measurement.
 
 *[Stuart hands the sterile ultrasound probe to Dr. Hayes. She gently places the tip against the pulsing artery. A loud, rhythmic, swooshing sound fills the operating room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
@@ -91,20 +91,20 @@ Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Dopp
 *[Smiling widely]*
 Strong triphasic flow. The waveform is beautiful.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Removing the probe and handing it back to Stuart]*
 The pressure gradients are restored. The boundary measurements look perfect. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
 *[Dr. Hayes begins closing the deeper tissue layers while Elena prepares the dressings. Stuart assists with the final skin closure. Within a few minutes, Elena wraps a clean, sterile bandage around Mark's arm.]*
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 All done, Mark. You have a brand new, watertight anastomosis.
 
 **MARK**
 *[Sighing with relief, his shoulders finally relaxing on the table]*
 Thanks, Doc. I have to say, the pressure drop in my arm was a lot easier to fix than a pressure leak in a deepwater well. We don't have the luxury of putting sutures on a reservoir two miles down.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Pulling off her surgical gloves with a sharp snap and smiling warmly]*
 Yes, well, you have to remember that I've had the benefit of several billion years of biological R&D to refine my vascular pipes. Evolution is a very patient engineer. Your steel casings have only had about a century.
 

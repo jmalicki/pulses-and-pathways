@@ -5,7 +5,7 @@
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. HAYES** – The Surgeon; calm, experienced, and observant.
+* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
 * **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
 * **ELENA** – The Nurse; keeps the surgical field running smoothly.
 
@@ -19,7 +19,7 @@ An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial a
 **MARK**
 No. Steel pipes don't breathe. They just sit there and take the pressure until they don't.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Without looking up, she takes the micro-needle holder loaded with a 6-0 Prolene suture from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.
 
@@ -31,7 +31,7 @@ It’s the Windkessel effect. The aorta acts as a temporary elastic reservoir, s
 *[Nervously shifting his head, his left hand tapping the side table]*
 In my world, we call that fluid-structure interaction, or FSI. We use gas-charged accumulators or surge tanks in pipeline networks to damp out pressure transients. Without that compliance, every stroke of a reciprocating pump would send a massive hammer wave through the line. The pressure spikes would fatigue the welds and blow out the flanges.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Gently irrigating the exposed artery with heparinized saline to prevent local clot formation]*
 That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity. Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
 
@@ -50,7 +50,7 @@ Like this one. I drew this out earlier when we were talking about transients.
 **MARK**
 Look at the RC circuit analogy at the top—resistance $R$ for viscous friction, compliance $C$ for the elastic walls. If compliance is high, like Curve A, you get a smooth, damp wave with a nice dicrotic notch from the valve closure. But if compliance drops—Curve B—the wave becomes sharp, jagged, and high-amplitude. The peak pressure spikes dramatically.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Peering through her surgical loupes, aligning the cut edges of the vessel]*
 Yes, and that high-amplitude pressure wave travels downstream, damaging the delicate micro-circulation. But the physics is even more complex because the fluid itself isn't simple water.
 
@@ -61,13 +61,13 @@ Right, blood is non-Newtonian. It exhibits shear-thinning behavior. Under high s
 *[His eyes widening]*
 Yield stress and shear-thinning? You're describing drilling muds. When we drill a well, we pump bentonite slurries or thixotropic polymer fluids down the drill string. When circulation stops, we need the mud to gel up—that's the yield stress—so the heavy rock cuttings don't settle back down and pack off the drill bit. But the second we restart the pumps, the shear stresses break the gel, the viscosity thins out, and it flows easily. You're telling me my body is pumping a thixotropic slurry through self-damping, elastic hoses?
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[A warm smile visible behind her mask]*
 Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit still for too long, which is why we have to keep these clamps temporary. Elena, pass the micro-forceps.
 
 *[Elena places the fine jeweler's forceps into Dr. Hayes's hand. Dr. Hayes gently handles the vessel wall.]*
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 Look at the structural difference here. When your steel pipes fail under too much pressure, how does it look?
 
 **MARK**
@@ -80,14 +80,14 @@ Well, it's a yield failure. Hoop stress—the circumferential tension in the pip
 **MARK**
 Left panel shows the steel casing under hoop stress, and the split failure when it yields. But look at the living vessel on the right.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Stitching a stay suture at the corner of the vessel]*
 That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius $r$ ballooning outwards increases, and the wall thickness $t$ decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
 A runaway failure under pressure. That's exactly how blowouts happen in our wells. Take the Deepwater Horizon in 2010. It was a cascade of barrier failures. The cement barrier at the bottom of the wellbore failed under high pressure, letting natural gas leak into the casing. As that gas migrated up the well, the hydrostatic pressure of the drilling mud column above it decreased. And because the pressure decreased, the gas expanded exponentially according to Boyle's law. It displaced the drilling mud, pushing it up and out of the riser. Once the mud was gone, the hydrostatic head was completely lost, and the reservoir pressure blew out uncontrollably at the surface.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Her expression turns serious as she listens, keeping her hands perfectly steady]*
 The medical equivalent of that well blowout is a ruptured aneurysm. Once the vessel wall gives way, the high-pressure blood breaches the barrier. It blows out into the retroperitoneal or abdominal cavity. There is no mechanical barrier to contain it. The pressure drop is immediate, and the blood loss is catastrophic. The patient enters deep hypovolemic shock within minutes as the circulating volume is depleted. It is a complete and sudden loss of hydrostatic containment.
 
@@ -95,13 +95,13 @@ The medical equivalent of that well blowout is a ruptured aneurysm. Once the ves
 *[Tensely]*
 And without immediate surgical clamping to restore containment, it’s fatal.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Adjusting the tension on the first stay suture]*
 Exactly. Which is why we respect the pressure. Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
 
 *[Elena passes the micro-needle holder. Dr. Hayes adjusts the surgical loupes, leaning in close to the wound under the bright lights. She grips the micro-needle holder. Stuart holds the suction tip perfectly still, clearing a tiny bead of blood from the arterial edge. Dr. Hayes is suturing the vessel under magnification.]*
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
 
 **MARK**

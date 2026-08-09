@@ -5,7 +5,7 @@
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. HAYES** – The Surgeon; calm, experienced, and observant.
+* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
 * **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
 * **ELENA** – The Nurse; keeps the surgical field running smoothly.
 
@@ -19,7 +19,7 @@ An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and as
 **MARK**
 Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[With a firm but gentle click, she locks the teeth of a vascular clamp across the brachial artery branch. She watches the arterial monitor mounted on the anesthesia pole.]*
 Confirmed. There's the upward deflection on the arterial line pressure transducer. The pressure waveform just spiked upstream.
 
@@ -27,7 +27,7 @@ Confirmed. There's the upward deflection on the arterial line pressure transduce
 *[Straining slightly as he holds the retractors, his eyes darting to the monitor]*
 Look at the shape of the wave. The peak systolic pressure is up, but the normal dicrotic notch—the dip from the aortic valve closure—is completely washed out by the reflection.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Without looking up, she stabilizes the clamped vessel with DeBakey forceps]*
 Exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
@@ -35,7 +35,7 @@ Exactly. The clamp creates a complete reflection boundary. In vascular systems, 
 *[Nervously tapping his free left hand against the arm board]*
 We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Gently dab-drying the tissue with a gauze sponge]*
 And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.
 
@@ -49,7 +49,7 @@ It's all about diameter. Even a tiny reduction in the vessel's radius drasticall
 *[Shifting his head to look at Stuart]*
 Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on $R \propto 1/r^4$ if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Chuckling softly behind her mask]*
 Hardly. Blood vessels are curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
 
@@ -74,14 +74,14 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 **MARK**
 Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number: $Re = \frac{\rho v d}{\mu}$.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Using a cotton-tipped applicator to clean the arterial adventitia]*
 And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Worse, they activate platelets. Stuart, what happens when platelets are exposed to high shear and turbulence?
 
 **STUART**
 They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 Yes. The body tries to plug what it perceives as a tear, but instead, it creates a total occlusion. That's how a minor plaque narrowing suddenly becomes an acute myocardial infarction or a stroke.
 
 **MARK**
@@ -94,7 +94,7 @@ Wait, does blood boil in the body?
 **MARK**
 No, not boiling in the thermal sense. But those vapor bubbles travel downstream into a higher-pressure region, where they collapse. The implosion is so violent that it shoots micro-jets of liquid at supersonic speeds. It eats away at steel impellers, pitting them until they fail. If cavitation can destroy solid steel, I can't imagine what it does to living tissue.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Adjusting her surgical loupes, her fingers carefully placing a damp laparotomy sponge around the clamp]*
 We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions hemolyze the red cells and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
 
@@ -111,20 +111,20 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet flow 
 **STUART**
 And look at the graph on the right. The total cross-sectional area, $A_{total}$, is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, $Q = A \cdot v$, the mean flow velocity $v$ is inversely proportional to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Nodding in agreement, her hands moving back to the surgical field]*
 Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that 'Min Vel.' region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 *[Taking a bulb syringe loaded with sterile saline from Elena]*
 Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
 
 *[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood.]*
 
-**DR. HAYES**
+**DR. SARAH HAYES**
 Stuart, irrigate here. Let's clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren't steel.
 
 **MARK**
