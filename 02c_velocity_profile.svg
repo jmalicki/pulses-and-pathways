@@ -11,7 +11,7 @@
     python3 illustration-prompts/build_velocity_profile_vessel.py
     (script embeds velocity_profile_vessel.png as a data URI below)
 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="100%" height="100%">
   <defs>
     <marker id="arrow-tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
       <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#1e3d59" />
@@ -92,25 +92,25 @@
     <path d="M 762 332 L 870 332 L 870 100 L 340 100 L 340 282" />
   </g>
 
-  <!-- Normalized-axis key: left-aligned with speed axis label; wrapped to stay on canvas -->
-  <text x="484" y="520" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+  <!-- Normalized-axis key -->
+  <text x="484" y="520" font-family="EB Garamond, Georgia, serif" font-size="20" fill="#3a3a3a">
     <tspan font-style="italic">r</tspan>/<tspan font-style="italic">R</tspan> = fraction of lumen radius
   </text>
-  <text x="484" y="540" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+  <text x="484" y="544" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#5a5a5a">
     (0 = center, 1 = wall)
   </text>
-  <text x="484" y="568" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
-    <tspan font-style="italic">v</tspan>/<tspan font-style="italic">v</tspan><tspan font-size="11" dy="-5">max</tspan><tspan dy="5"> = fraction of centerline</tspan>
+  <text x="484" y="578" font-family="EB Garamond, Georgia, serif" font-size="20" fill="#3a3a3a">
+    <tspan font-style="italic">v</tspan>/<tspan font-style="italic">v</tspan><tspan font-size="14" dy="-6">max</tspan><tspan dy="6"> = fraction of centerline</tspan>
   </text>
-  <text x="484" y="588" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+  <text x="484" y="602" font-family="EB Garamond, Georgia, serif" font-size="18" fill="#5a5a5a">
     (maximum) speed
   </text>
 
   <!-- Two-line footer -->
-  <text x="40" y="620" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#5a5a5a">
+  <text x="40" y="640" font-family="EB Garamond, Georgia, serif" font-size="24" fill="#3a3a3a">
     Same distance from center means same speed.
   </text>
-  <text x="40" y="642" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#5a5a5a">
+  <text x="40" y="672" font-family="EB Garamond, Georgia, serif" font-size="24" fill="#3a3a3a">
     Cells are illustrative; rings are the math.
   </text>
 </svg>
