@@ -12,7 +12,7 @@ def parse_chapter_to_rows(markdown_content):
     def start_row():
         nonlocal in_row, in_text
         if not in_row:
-            html_output.append('<stage-row>\n<play-text>\n<div markdown="1">')
+            html_output.append('<stage-row>\n<play-text>\n<div markdown="1">\n')
             in_row = True
             in_text = True
         
@@ -61,7 +61,7 @@ def parse_chapter_to_rows(markdown_content):
         if line.startswith('!['):
             start_row()
             if in_text:
-                html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">')
+                html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">\n')
                 in_text = False
                 in_proj = True
             html_output.append(line)
@@ -72,7 +72,7 @@ def parse_chapter_to_rows(markdown_content):
         if line.startswith('> [!NOTE]') or (line.startswith('>') and in_proj):
             start_row()
             if in_text:
-                html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">')
+                html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">\n')
                 in_text = False
                 in_proj = True
             html_output.append(line)
