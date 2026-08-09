@@ -123,11 +123,14 @@ with open("act_1_the_bedside_question.md", "r") as f:
 with open("act_2_pressure_and_flow.md", "r") as f:
     ch2_html = parse_chapter_to_rows(f.read())
 
-with open("act_3_living_pipes.md", "r") as f:
+with open("act_3_the_network.md", "r") as f:
     ch3_html = parse_chapter_to_rows(f.read())
 
-with open("act_4_inverse_problems.md", "r") as f:
+with open("act_3_living_pipes.md", "r") as f:
     ch4_html = parse_chapter_to_rows(f.read())
+
+with open("act_4_inverse_problems.md", "r") as f:
+    ch5_html = parse_chapter_to_rows(f.read())
 
 with open("index.md", "w") as out:
     out.write("---\nlayout: default\n---\n")
@@ -136,6 +139,7 @@ with open("index.md", "w") as out:
     out.write(ch1_html + "\n\n<hr>\n\n")
     out.write(ch2_html + "\n\n<hr>\n\n")
     out.write(ch3_html + "\n\n<hr>\n\n")
-    out.write(ch4_html + "\n\n")
+    out.write(ch4_html + "\n\n<hr>\n\n")
+    out.write(ch5_html + "\n\n")
 
-print("Built two-pane index.md")
+print("Built five-act index.md")

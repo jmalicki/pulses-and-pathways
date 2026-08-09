@@ -181,7 +181,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 # The Hydraulic Conversation
 
-## Act 2: Pressure and Flow
+## Act 2: The Narrowing
 
 <stage-row>
 <play-text>
@@ -406,6 +406,41 @@ Myocardial infarction. A heart attack.
 *[Frowning at the ceiling]*
 Occlusion — you mean a total blockage? So the turbulence tricks the body into thinking it's injured, and the repair response plugs it off completely? That's a runaway blowout.
 
+*[A brief silence falls over the room. The steady beep of the heart monitor fills the space.]*
+
+**DR. SARAH HAYES**
+*[Quietly, returning her focus to the wound]*
+Which is exactly why we're here tonight. Stuart, let's irrigate this field. I need it pristine before we go any further.
+
+
+</div>
+</play-text>
+<projections></projections>
+</stage-row>
+
+<hr>
+
+# The Hydraulic Conversation
+
+## Act 3: The Network
+
+<stage-row>
+<play-text>
+<div markdown="1">
+
+**SETTING:**
+An operating room. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table under a regional block.
+
+</div>
+</play-text>
+<projections></projections>
+</stage-row>
+---
+
+<stage-row>
+<play-text>
+<div markdown="1">
+
 **MARK**
 *[His eyes wide, staring at the ceiling tiles]*
 Fascinating. In a pipeline or a centrifugal pump, if that velocity spike at a constriction is high enough, the local static pressure doesn't just drop—it falls below the vapor pressure of the fluid. The liquid literally boils at room temperature, flashing into tiny vapor cavities. We call it cavitation.
@@ -440,7 +475,7 @@ So the whole system is a balance of pressure gradients and local geometries. Let
 <div markdown="1">
 
 **MARK**
-Look at the left panel, the Vascular Branching Tree. You have a main inlet main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how
+Look at the left panel, the Vascular Branching Tree. You have a main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how you distribute flow to different organs without needing a massive pressure head at the main pump.
 
 </div>
 </play-text>
@@ -453,7 +488,7 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet main 
 
 <p>$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$</p>
 
-<p>The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.</p>
+<p>The total resistance of the vascular bed drops as more parallel branches are added.</p>
 
 </div>
 
@@ -466,7 +501,7 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet main 
 <div markdown="1">
 
 **STUART**
-And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, where volumetric flow equals the cross-sectional area times velocity, the mean flow velocity is inversely proportional
+And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, the mean flow velocity is inversely proportional to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
 
 </div>
 </play-text>
@@ -479,7 +514,7 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 
 <p>$Q = A \cdot v$</p>
 
-<p>To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.</p>
+<p>To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease.</p>
 
 </div>
 
@@ -519,7 +554,7 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 
 # The Hydraulic Conversation
 
-## Act 3: Living Pipes
+## Act 4: Living Pipes
 
 <stage-row>
 <play-text>
@@ -672,7 +707,7 @@ Inferring the unseen. That's my entire job.
 
 # The Hydraulic Conversation
 
-## Act 4: Inverse Problems
+## Act 5: Inverse Problems
 
 <stage-row>
 <play-text>
