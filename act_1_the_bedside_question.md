@@ -48,6 +48,8 @@
 
 **MARK**: *[Wiggling his uninjured right hand]* Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
 
+<!-- stage-break -->
+
 **DR. SARAH HAYES**: *[Chuckles]* Stuart, let's help him out. Is there a sterile marker and a clean drape packet backing?
 
 **STUART**: *[Retrieves a sterile skin marker and grabs a clean, stiff paper backing from a drape pack, holding it up in front of Mark's face]* Here you go, Mark. Draw it out. I'll hold it steady for you.

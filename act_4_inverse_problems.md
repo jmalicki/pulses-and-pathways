@@ -72,6 +72,8 @@ Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can cal
 **DR. SARAH HAYES**
 Exactly. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
 
+<!-- stage-break -->
+
 **MARK**
 *[Gesturing with his free left hand]*
 Elena, could you flip to the next page of my notepad? The one I drew during the pre-op.

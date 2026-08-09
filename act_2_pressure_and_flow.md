@@ -67,7 +67,12 @@ Exactly. And when you have a narrowing—a restriction in a vessel, or a choke v
 We call that a stenosis.
 
 **MARK**
-Right, a stenosis. Elena, can you hand me my notepad? The clean page.
+Right, a stenosis.
+
+<!-- stage-break -->
+
+**MARK**
+Elena, can you hand me my notepad? The clean page.
 
 *[Elena reaches for the metal-backed clipboard on Mark's side table, flipping to his fresh sketch.]*
 

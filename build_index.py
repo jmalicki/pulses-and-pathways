@@ -1,115 +1,120 @@
 import os
+import re
+
 
 def parse_chapter_to_rows(markdown_content):
+    """Build stage-rows that keep dialogue with its matching projection.
+
+    Play text and projections (images + notes) stay in the same row until:
+    - an explicit break (heading, ---, <!-- stage-break -->), or
+    - a new image arrives after projections already have content (new visual beat).
+    """
     lines = markdown_content.split('\n')
-    
     html_output = []
-    
-    in_row = False
-    in_text = False
-    in_proj = False
-    
-    def start_row():
-        nonlocal in_row, in_text
-        if not in_row:
-            html_output.append('<stage-row>\n<play-text>\n<div markdown="1">\n')
-            in_row = True
-            in_text = True
-        
-    def end_row():
-        nonlocal in_row, in_text, in_proj
-        if in_row:
-            if in_text:
-                html_output.append('</div>\n</play-text>')
-                in_text = False
-            if in_proj:
-                html_output.append('</div>\n</projections>')
-                in_proj = False
+
+    play_buf = []
+    proj_buf = []
+
+    def flush_row():
+        nonlocal play_buf, proj_buf
+        # Skip entirely empty rows
+        if not any(s.strip() for s in play_buf) and not proj_buf:
+            play_buf = []
+            proj_buf = []
+            return
+
+        html_output.append('<stage-row>\n')
+        html_output.append('<play-text>\n<div markdown="1">\n')
+        html_output.extend(play_buf)
+        if play_buf and not play_buf[-1].endswith('\n'):
+            html_output.append('\n')
+        html_output.append('</div>\n</play-text>\n')
+
+        html_output.append('<projections>\n')
+        if proj_buf:
+            html_output.append('<div markdown="1">\n')
+            html_output.extend(proj_buf)
+            html_output.append('\n</div>\n')
+        html_output.append('</projections>\n')
+        html_output.append('</stage-row>\n')
+
+        play_buf = []
+        proj_buf = []
+
+    def append_play(line):
+        play_buf.append(line if line.endswith('\n') else line + '\n')
+
+    def parse_note_block(start_i):
+        """Parse a > [!NOTE] block into HTML; return (html_string, next_index)."""
+        parts = ['<div class="note-alert">\n']
+        i = start_i + 1  # skip > [!NOTE]
+        while i < len(lines) and lines[i].startswith('>'):
+            content = lines[i][1:]
+            if content.startswith(' '):
+                content = content[1:]
+            content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+            eq = content.strip()
+            if re.fullmatch(r'\$\$[^$]+\$\$', eq):
+                parts.append(f'<div class="note-math">{eq}</div>\n')
+            elif re.fullmatch(r'\$[^$]+\$', eq):
+                parts.append(f'<div class="note-math">$${eq[1:-1]}$$</div>\n')
             else:
-                html_output.append('<projections></projections>')
-            html_output.append('</stage-row>')
-            in_row = False
+                parts.append(f'<p>{content}</p>\n')
+            i += 1
+        parts.append('</div>\n')
+        return ''.join(parts), i
 
     i = 0
     while i < len(lines):
         line = lines[i]
-        
-        # Explicit stage-row break (no visible rule)
+
         if line.strip() == '<!-- stage-break -->':
-            end_row()
+            flush_row()
             i += 1
             continue
 
-        # Headers and dividers break the layout completely
         if line.startswith('#') or line.startswith('---') or line.startswith('<div class="preferred'):
-            end_row()
-            html_output.append(line)
+            flush_row()
+            out = line if line.endswith('\n') else line + '\n'
+            if line.startswith('#'):
+                # markdownlint MD022: blank lines around headings
+                if html_output and not html_output[-1].endswith('\n\n'):
+                    if html_output[-1].endswith('\n'):
+                        html_output.append('\n')
+                    else:
+                        html_output.append('\n\n')
+                html_output.append(out)
+                html_output.append('\n')
+            else:
+                html_output.append(out)
             i += 1
             continue
-            
-        # Closing div for preferred-presentation breaks layout too
-        if line.startswith('</div>') and not in_row:
-            html_output.append(line)
-            i += 1
-            continue
-            
 
-        # Check for image
+        if line.startswith('</div>') and not play_buf and not proj_buf:
+            html_output.append(line + '\n')
+            i += 1
+            continue
+
         if line.startswith('!['):
-            start_row()
-            if in_text:
-                html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">\n')
-                in_text = False
-                in_proj = True
-            html_output.append(line)
+            # New figure after an existing projection beat → new stage-row
+            if proj_buf:
+                flush_row()
+            proj_buf.append(line + '\n')
             i += 1
             continue
-            
-        # Check for Note / Lookaside
-        if line.startswith('> [!NOTE]'):
-            start_row()
-            if in_text:
-                html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">\n')
-                in_text = False
-                in_proj = True
 
-            html_output.append('<div class="note-alert">\n')
-            i += 1  # Skip the > [!NOTE] line
-            while i < len(lines) and lines[i].startswith('>'):
-                content = lines[i][1:]
-                if content.startswith(' '):
-                    content = content[1:]
-                import re
-                content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
-                # Standalone equation lines → display math ($$) so fractions aren't tiny
-                eq = content.strip()
-                if re.fullmatch(r'\$\$[^$]+\$\$', eq):
-                    html_output.append(f'<div class="note-math">{eq}</div>\n')
-                elif re.fullmatch(r'\$[^$]+\$', eq):
-                    html_output.append(f'<div class="note-math">$${eq[1:-1]}$$</div>\n')
-                else:
-                    html_output.append(f'<p>{content}</p>\n')
-                i += 1
-            html_output.append('</div>\n')
+        if line.startswith('> [!NOTE]'):
+            note_html, i = parse_note_block(i)
+            proj_buf.append(note_html)
             continue
-            
-        # If it's normal text but we are in projections, we need a new row
-        if in_proj and line.strip() != "" and not line.startswith('>'):
-            end_row()
-            start_row()
-            html_output.append(line)
-            i += 1
-            continue
-            
-        # Normal text in normal flow
-        if line.strip() != "" and not in_row:
-            start_row()
-            
-        html_output.append(line)
+
+        # Normal play text (including blanks) stays with the current projection beat
+        append_play(line)
         i += 1
 
-    end_row()
-    return '\n'.join(html_output)
+    flush_row()
+    return ''.join(html_output)
+
 
 title_page_md = """
 <div class="title-page" markdown="1">

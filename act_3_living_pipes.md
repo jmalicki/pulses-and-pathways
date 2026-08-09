@@ -68,6 +68,8 @@ Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit
 
 *[Elena places the fine jeweler's forceps into Dr. Hayes's hand. Dr. Hayes gently handles the vessel wall.]*
 
+<!-- stage-break -->
+
 **DR. SARAH HAYES**
 Look at the structural difference here. When your steel pipes fail under too much pressure, how does it look?
 
@@ -86,16 +88,27 @@ Left panel shows the steel casing under hoop stress, and the split failure when 
 That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
-A runaway failure under pressure. That's exactly how blowouts happen in our wells. Take the Deepwater Horizon in 2010. It was a cascade of barrier failures. The cement barrier at the bottom of the wellbore failed under high pressure, letting natural gas leak into the casing. As that gas migrated up the well, the hydrostatic pressure of the drilling mud column above it decreased. And because the pressure decreased, the gas expanded exponentially according to Boyle's law. It displaced the drilling mud, pushing it up and out of the riser. Once the mud was gone, the hydrostatic head was completely lost, and the reservoir pressure blew out uncontrollably at the surface.
+A runaway failure under pressure. That's... that's how blowouts happen in our wells, actually. Deepwater Horizon, 2010—it wasn't one wall giving out. It was a stack of barriers. The cement at the bottom failed first, gas leaked into the casing, climbed the well, knocked down the mud weight, and once that hydrostatic column was gone the reservoir just... blew. Uncontrollable. At the surface.
+
+*[He glances at the vessel under Hayes's hands, uncertain.]*
+
+I don't know your anatomy well enough. Is that anything like what you're looking at?
 
 **DR. SARAH HAYES**
-*[Her expression turns serious as she listens, keeping her hands perfectly steady]*
-The medical equivalent of that well blowout is a ruptured aneurysm. Once the vessel wall gives way, the high-pressure blood breaches the barrier. It blows out into the retroperitoneal or abdominal cavity. There is no mechanical barrier to contain it. The pressure drop is immediate, and the blood loss is catastrophic. The patient enters deep hypovolemic shock within minutes as the circulating volume is depleted. It is a complete and sudden loss of hydrostatic containment.
+*[To Stuart, still stitching]*
+Maybe. Sort of. Stuart—layers. Intima on the inside, media in the middle, adventitia outside. I'm not sure his cement is our intima. Cement's a plug. Intima's a lining.
+
+**MARK**
+Yeah, that part feels wrong. The steel casing though—hoop stress, thickness, radius—that *sounds* like what you were saying about the middle layer?
+
+**DR. SARAH HAYES**
+*[Nodding toward Stuart]*
+The media. That's the one that carries the load. When it thins in an aneurysm, that's the runaway. And if the whole wall gives, blood tears through into the retroperitoneal or abdominal cavity. Same ending he just described. I wouldn't swear the pieces map. The cascade does.
 
 **STUART**
-*[Tensely]*
-And without immediate surgical clamping to restore containment, it’s fatal.
+*[Quietly]*
+So clamping is... trying to get containment back before it's gone?
 
 **DR. SARAH HAYES**
 *[Adjusting the tension on the first stay suture]*
-Exactly. Which is why we respect the pressure.
+That's the idea. While there's still a wall to hold. Which is why we respect the pressure.
