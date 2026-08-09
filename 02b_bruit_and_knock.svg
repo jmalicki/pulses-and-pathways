@@ -93,39 +93,39 @@
     <line x1="200" y1="70" x2="200" y2="280" stroke="#5a5a5a" stroke-width="1.4" stroke-dasharray="4,4" />
     <text x="200" y="62" font-family="Georgia, serif" font-size="11" fill="#5a5a5a" text-anchor="middle">shut-in</text>
 
-    <!-- Arterial / clamp trace: baseline, spike, settle with little ring -->
-    <path d="M 70 220
-             L 200 220
-             L 208 95
-             L 220 200
-             L 235 210
-             L 260 215
-             L 460 218"
-          fill="none" stroke="#3a3a3a" stroke-width="2.4" />
-    <circle cx="200" cy="220" r="3" fill="#3a3a3a" />
+    <!-- Clamp trace: solid orange — spike then damps flat -->
+    <path d="M 70 230
+             L 200 230
+             L 208 100
+             L 222 215
+             L 240 224
+             L 270 228
+             L 460 228"
+          fill="none" stroke="#c2410c" stroke-width="3" stroke-linejoin="round" />
+    <circle cx="200" cy="230" r="4" fill="#c2410c" />
 
-    <!-- Well knock trace: baseline, spike, decaying ring -->
-    <path d="M 70 240
-             L 200 240
-             L 206 88
-             L 218 255
-             L 230 110
-             L 242 245
-             L 254 130
-             L 266 235
-             L 278 155
-             L 290 225
-             L 310 190
-             L 340 210
-             L 380 205
-             L 460 208"
-          fill="none" stroke="#1e3d59" stroke-width="2.4" />
-    <circle cx="200" cy="240" r="3" fill="#1e3d59" />
+    <!-- Valve trace: solid teal — spike then ringing; settles lower so it never sits on the orange line -->
+    <path d="M 70 255
+             L 200 255
+             L 206 85
+             L 218 268
+             L 230 105
+             L 242 258
+             L 254 125
+             L 266 248
+             L 278 145
+             L 290 238
+             L 310 175
+             L 340 205
+             L 380 195
+             L 460 192"
+          fill="none" stroke="#0f766e" stroke-width="3" stroke-linejoin="round" />
+    <circle cx="200" cy="255" r="4" fill="#0f766e" />
 
     <!-- Legend -->
-    <line x1="300" y1="90" x2="330" y2="90" stroke="#3a3a3a" stroke-width="2.4" />
-    <text x="338" y="94" font-family="Georgia, serif" font-size="11" fill="#3a3a3a">Arterial line (clamp)</text>
-    <line x1="300" y1="112" x2="330" y2="112" stroke="#1e3d59" stroke-width="2.4" />
-    <text x="338" y="116" font-family="Georgia, serif" font-size="11" fill="#1e3d59">Well knock (valve)</text>
+    <line x1="300" y1="90" x2="335" y2="90" stroke="#c2410c" stroke-width="3" />
+    <text x="343" y="94" font-family="Georgia, serif" font-size="12" fill="#c2410c">Clamp (elastic vessel)</text>
+    <line x1="300" y1="114" x2="335" y2="114" stroke="#0f766e" stroke-width="3" />
+    <text x="343" y="118" font-family="Georgia, serif" font-size="12" fill="#0f766e">Valve (steel pipe)</text>
   </g>
 </svg>
