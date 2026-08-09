@@ -2,7 +2,7 @@
 
 **Target:** `accident_sketch.png`  
 **Beat:** Act 1 open — waiting for the regional block; Mark recounts the table-saw mishap in his garage.  
-**Status:** Needs generation.
+**Status:** Regenerated (workshop scene).
 
 Workshop scene (not a medical plate). Still graphite and charcoal on cream paper so it matches the play’s drawing language.
 

@@ -5,7 +5,7 @@ Graphite/charcoal illustration prompts for *Pulses and Pathways*.
 | File | Kind | Target | Status |
 | --- | --- | --- | --- |
 | [`medical_shared_style.md`](medical_shared_style.md) | Medical shared rules | (linked from each medical prompt) | — |
-| [`accident.md`](accident.md) | Workshop scene | `accident_sketch.png` | **Needs generation** |
+| [`accident.md`](accident.md) | Workshop scene | `accident_sketch.png` | Regenerated |
 | [`01_title_page.md`](01_title_page.md) | Medical | `title_page_sketch_*.jpg` | Matches |
 | [`02_exposure.md`](02_exposure.md) | Medical | `exposure_sketch.png` | Regenerated |
 | [`03_clamping.md`](03_clamping.md) | Medical | `clamping_sketch_*.jpg` | Matches |
