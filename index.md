@@ -757,68 +757,6 @@ Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can cal
 [*To Stuart*]
 Exactly. Mapping the inside from signals at the edge.
 
-</div>
-</play-text>
-<projections>
-<div markdown="1">
-![Darcy's Law](07_darcys_law.svg)
-<div class="note-alert">
-<p><strong>Measurement vs Calculation (History Matching)</strong></p>
-<p><strong>Measurement</strong> $P_{\mathrm{obs}}(t)$: wellhead pressure from the transducers</p>
-<p><strong>Calculation</strong> $P_{\mathrm{calc}}(t)$: wellhead pressure predicted by the Darcy forward model</p>
-<div class="note-math">$$J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$$</div>
-<p>Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.</p>
-</div>
-<div class="note-alert">
-<p><strong>Simplified Bernoulli Equation (Clinical)</strong></p>
-<div class="note-math">$$\Delta P \approx 4v^2$$</div>
-<p>A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.</p>
-</div>
-
-</div>
-</projections>
-</stage-row>
-<stage-row>
-<play-text>
-<div markdown="1">
-
-**MARK**
-[*Gesturing with his free left hand*]
-Elena, could you flip to the next page of my notepad? The one I drew during the pre-op.
-
-[*Elena carefully turns the page of the notepad and holds it up so Dr. Hayes and Stuart can see the diagram under the surgical lights.*]
-
-
-**MARK**
-Look at this. One circuit. Your names on top, mine underneath. Heart over the pump, arterial stretch over the surge tank, stenosis over the choke—same slots on the page, not the same hardware. Arterial line over the transducer—when either side actually instruments the pressure. Then it splits: capillary bed above, fracture network below. Not synonyms. Just the same shape.
-
-**DR. SARAH HAYES**
-[*Peering at the diagram, nodding in approval*]
-And the matching—the convergence you were talking about?
-
-**MARK**
-Different page. Elena—next sheet.
-
-[*Elena flips to the following page and holds it up.*]
-
-</div>
-</play-text>
-<projections>
-<div markdown="1">
-![The Shared Model](06_the_shared_model.svg)
-
-</div>
-</projections>
-</stage-row>
-<stage-row>
-<play-text>
-<div markdown="1">
-
-
-**MARK**
-Right. Upper plot: guesses for permeability and compliance start blind and converge toward what actually fits the well. Lower plot: pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
-
-**DR. SARAH HAYES**
 [*Looks over the screen to Mark, softer*]
 Let's hope my physical model matches the math.
 
@@ -843,7 +781,19 @@ The vessel is filling...
 </play-text>
 <projections>
 <div markdown="1">
-![History Matching](08_history_matching.svg)
+![Darcy's Law](07_darcys_law.svg)
+<div class="note-alert">
+<p><strong>Measurement vs Calculation (History Matching)</strong></p>
+<p><strong>Measurement</strong> $P_{\mathrm{obs}}(t)$: wellhead pressure from the transducers</p>
+<p><strong>Calculation</strong> $P_{\mathrm{calc}}(t)$: wellhead pressure predicted by the Darcy forward model</p>
+<div class="note-math">$$J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$$</div>
+<p>Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.</p>
+</div>
+<div class="note-alert">
+<p><strong>Simplified Bernoulli Equation (Clinical)</strong></p>
+<div class="note-math">$$\Delta P \approx 4v^2$$</div>
+<p>A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.</p>
+</div>
 
 </div>
 </projections>

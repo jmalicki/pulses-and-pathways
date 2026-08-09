@@ -82,36 +82,6 @@ Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can cal
 [*To Stuart*]
 Exactly. Mapping the inside from signals at the edge.
 
-<!-- stage-break -->
-
-**MARK**
-[*Gesturing with his free left hand*]
-Elena, could you flip to the next page of my notepad? The one I drew during the pre-op.
-
-[*Elena carefully turns the page of the notepad and holds it up so Dr. Hayes and Stuart can see the diagram under the surgical lights.*]
-
-![The Shared Model](06_the_shared_model.svg)
-
-**MARK**
-Look at this. One circuit. Your names on top, mine underneath. Heart over the pump, arterial stretch over the surge tank, stenosis over the choke—same slots on the page, not the same hardware. Arterial line over the transducer—when either side actually instruments the pressure. Then it splits: capillary bed above, fracture network below. Not synonyms. Just the same shape.
-
-**DR. SARAH HAYES**
-[*Peering at the diagram, nodding in approval*]
-And the matching—the convergence you were talking about?
-
-**MARK**
-Different page. Elena—next sheet.
-
-[*Elena flips to the following page and holds it up.*]
-
-<!-- stage-break -->
-
-![History Matching](08_history_matching.svg)
-
-**MARK**
-Right. Upper plot: guesses for permeability and compliance start blind and converge toward what actually fits the well. Lower plot: pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
-
-**DR. SARAH HAYES**
 [*Looks over the screen to Mark, softer*]
 Let's hope my physical model matches the math.
 
