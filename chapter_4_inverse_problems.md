@@ -25,7 +25,12 @@ How so, Mark?
 
 **MARK**
 *[Nervously twitching his fingers, his eyes tracking the surgical light]*
-Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability $k$ or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation using Darcy's law: $Q = -kA/\mu \cdot dP/dx$.
+Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation using Darcy's law.
+
+> [!NOTE]
+> **Darcy's Law for Porous Media**
+> $Q = -\frac{kA}{\mu} \frac{dP}{dx}$
+> Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
 
 **STUART**
 *[Gently retracting the wound edge, squinting under the bright overhead light]*
@@ -33,7 +38,12 @@ So you calculate what the wellhead pressure *should* be, and compare it to the a
 
 **MARK**
 *[Napping his fingers as much as the sterile drapes allow]*
-Exactly. We compare the calculated pressure $y_{calc}$ against our observed pressure $y_{obs}$. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals, $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that cost function $J(x)$ converges toward zero.
+Exactly. We compare the calculated pressure against our observed pressure. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals between the observed and calculated values. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that mathematical cost function converges toward zero.
+
+> [!NOTE]
+> **Objective Cost Function (Error Minimization)**
+> $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
+> The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
 
 **DR. SARAH HAYES**
 *[Taking a pair of micro-scissors from Elena to cut the suture tail]*
@@ -41,7 +51,12 @@ We do the exact same thing, Mark. In medicine, we call our boundary measurements
 
 **STUART**
 *[Nodding eagerly]*
-Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the velocity $v$. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation: $\Delta P = 4v^2$.
+Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
+
+> [!NOTE]
+> **Simplified Bernoulli Equation (Clinical)**
+> $\Delta P \approx 4v^2$
+> A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
 
 **DR. SARAH HAYES**
 *[Adjusting the angle of her surgical loupes]*
@@ -56,14 +71,14 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 ![The Shared Model](06_the_shared_model.svg)
 
 **MARK**
-Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber $C$, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor $R_s$. Right after it, we place our transducer to measure the observed pressure $y_{obs}$. Then the line splits into parallel networks—$R_1$, $R_2$, $R_3$—modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
+Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor. Right after it, we place our transducer to measure the observed pressure. Then the line splits into multiple parallel networks, modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
 And the bottom half shows the mathematical convergence.
 
 **MARK**
-Right. The plot on the left shows how our parameters—the resistance $R_s$ and compliance $C$—start from initial blind guesses and converge over iteration step $n$ toward their true physical values. And on the right, you see the error minimization, where the cost function $J(x)$ decays toward zero. If the math works, the model matches the physical reality.
+Right. The plot on the left shows how our parameters—the resistance and compliance—start from initial blind guesses and converge over each iteration step toward their true physical values. And on the right, you see the error minimization, where the cost function decays toward zero. If the math works, the model matches the physical reality.
 
 **DR. SARAH HAYES**
 *[Gently grasping the needle holder]*

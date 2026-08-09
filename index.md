@@ -133,11 +133,16 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 
 **STUART**
 *[Adjusting his grip]*
-It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius: $R \propto 1/r^4$.
+It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
+
+> [!NOTE]
+> **Poiseuille's Law (Resistance)**
+> $R \propto 1/r^4$
+> A tiny decrease in radius $r$ causes a massive, fourth-power exponential increase in resistance $R$.
 
 **MARK**
 *[Shifting his head to look at Stuart]*
-Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on $R \propto 1/r^4$ if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
+Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
 
 **DR. SARAH HAYES**
 *[Chuckling softly behind her mask]*
@@ -156,7 +161,7 @@ Look at this sketch here.
 ![The Narrowing](02_the_narrowing.svg)
 
 **MARK**
-Look at Profile A, the healthy vessel with a radius $r_1$ and smooth, parabolic laminar streamlines. But in Profile B, where you have severe stenosis with radius $r_2$, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat of diameter $d$, the local velocity $v$ spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
+Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you have severe stenosis with a severely restricted radius, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat of the narrowest diameter, the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
 
 **STUART**
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
@@ -201,10 +206,20 @@ So the whole system is a balance of pressure gradients and local geometries. Let
 ![The Vascular Network](03_the_vascular_network.svg)
 
 **MARK**
-Look at the left panel, the Vascular Branching Tree. You have a main inlet flow $Q_{in}$ entering the aorta, which branches into smaller arteries with resistances $R_1, R_2, R_3$, and flows $q_1, q_2, q_3$. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch: $1/R_{total} = \sum 1/R_i$. That's how you distribute flow to different organs without needing a massive pressure head at the main pump.
+Look at the left panel, the Vascular Branching Tree. You have a main inlet main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how
+
+> [!NOTE]
+> **Parallel Hydraulic Resistance**
+> $\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
+> The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.
 
 **STUART**
-And look at the graph on the right. The total cross-sectional area, $A_{total}$, is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, $Q = A \cdot v$, the mean flow velocity $v$ is inversely proportional to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, where volumetric flow equals the cross-sectional area times velocity, the mean flow velocity is inversely proportional
+
+> [!NOTE]
+> **Continuity Equation**
+> $Q = A \cdot v$
+> To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
 
 **DR. SARAH HAYES**
 *[Nodding in agreement, her hands moving back to the surgical field]*
@@ -282,7 +297,7 @@ Like this one. I drew this out earlier when we were talking about transients.
 ![Pulsatile Flow](05_pulsatile_flow.svg)
 
 **MARK**
-Look at the RC circuit analogy at the top—resistance $R$ for viscous friction, compliance $C$ for the elastic walls. If compliance is high, like Curve A, you get a smooth, damp wave with a nice dicrotic notch from the valve closure. But if compliance drops—Curve B—the wave becomes sharp, jagged, and high-amplitude. The peak pressure spikes dramatically.
+Look at the RC circuit analogy at the top—electrical resistance standing in for viscous fluid friction, and capacitance representing the compliance of the elastic walls. If compliance is high, like Curve A, you get a smooth, damp wave with a nice dicrotic notch from the valve closure. But if compliance drops—Curve B—the wave becomes sharp, jagged, and high-amplitude. The peak pressure spikes dramatically.
 
 **DR. SARAH HAYES**
 *[Peering through her surgical loupes, aligning the cut edges of the vessel]*
@@ -316,7 +331,7 @@ Left panel shows the steel casing under hoop stress, and the split failure when 
 
 **DR. SARAH HAYES**
 *[Stitching a stay suture at the corner of the vessel]*
-That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius $r$ ballooning outwards increases, and the wall thickness $t$ decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
+That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
 A runaway failure under pressure. That's exactly how blowouts happen in our wells. Take the Deepwater Horizon in 2010. It was a cascade of barrier failures. The cement barrier at the bottom of the wellbore failed under high pressure, letting natural gas leak into the casing. As that gas migrated up the well, the hydrostatic pressure of the drilling mud column above it decreased. And because the pressure decreased, the gas expanded exponentially according to Boyle's law. It displaced the drilling mud, pushing it up and out of the riser. Once the mud was gone, the hydrostatic head was completely lost, and the reservoir pressure blew out uncontrollably at the surface.
@@ -375,7 +390,12 @@ How so, Mark?
 
 **MARK**
 *[Nervously twitching his fingers, his eyes tracking the surgical light]*
-Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability $k$ or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation using Darcy's law: $Q = -kA/\mu \cdot dP/dx$.
+Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation using Darcy's law.
+
+> [!NOTE]
+> **Darcy's Law for Porous Media**
+> $Q = -\frac{kA}{\mu} \frac{dP}{dx}$
+> Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
 
 **STUART**
 *[Gently retracting the wound edge, squinting under the bright overhead light]*
@@ -383,7 +403,12 @@ So you calculate what the wellhead pressure *should* be, and compare it to the a
 
 **MARK**
 *[Napping his fingers as much as the sterile drapes allow]*
-Exactly. We compare the calculated pressure $y_{calc}$ against our observed pressure $y_{obs}$. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals, $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that cost function $J(x)$ converges toward zero.
+Exactly. We compare the calculated pressure against our observed pressure. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals between the observed and calculated values. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that mathematical cost function converges toward zero.
+
+> [!NOTE]
+> **Objective Cost Function (Error Minimization)**
+> $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
+> The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
 
 **DR. SARAH HAYES**
 *[Taking a pair of micro-scissors from Elena to cut the suture tail]*
@@ -391,7 +416,12 @@ We do the exact same thing, Mark. In medicine, we call our boundary measurements
 
 **STUART**
 *[Nodding eagerly]*
-Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the velocity $v$. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation: $\Delta P = 4v^2$.
+Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
+
+> [!NOTE]
+> **Simplified Bernoulli Equation (Clinical)**
+> $\Delta P \approx 4v^2$
+> A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
 
 **DR. SARAH HAYES**
 *[Adjusting the angle of her surgical loupes]*
@@ -406,14 +436,14 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 ![The Shared Model](06_the_shared_model.svg)
 
 **MARK**
-Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber $C$, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor $R_s$. Right after it, we place our transducer to measure the observed pressure $y_{obs}$. Then the line splits into parallel networks—$R_1$, $R_2$, $R_3$—modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
+Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor. Right after it, we place our transducer to measure the observed pressure. Then the line splits into multiple parallel networks, modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
 And the bottom half shows the mathematical convergence.
 
 **MARK**
-Right. The plot on the left shows how our parameters—the resistance $R_s$ and compliance $C$—start from initial blind guesses and converge over iteration step $n$ toward their true physical values. And on the right, you see the error minimization, where the cost function $J(x)$ decays toward zero. If the math works, the model matches the physical reality.
+Right. The plot on the left shows how our parameters—the resistance and compliance—start from initial blind guesses and converge over each iteration step toward their true physical values. And on the right, you see the error minimization, where the cost function decays toward zero. If the math works, the model matches the physical reality.
 
 **DR. SARAH HAYES**
 *[Gently grasping the needle holder]*

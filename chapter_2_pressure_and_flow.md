@@ -43,11 +43,16 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 
 **STUART**
 *[Adjusting his grip]*
-It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius: $R \propto 1/r^4$.
+It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
+
+> [!NOTE]
+> **Poiseuille's Law (Resistance)**
+> $R \propto 1/r^4$
+> A tiny decrease in radius $r$ causes a massive, fourth-power exponential increase in resistance $R$.
 
 **MARK**
 *[Shifting his head to look at Stuart]*
-Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on $R \propto 1/r^4$ if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
+Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
 
 **DR. SARAH HAYES**
 *[Chuckling softly behind her mask]*
@@ -66,7 +71,7 @@ Look at this sketch here.
 ![The Narrowing](02_the_narrowing.svg)
 
 **MARK**
-Look at Profile A, the healthy vessel with a radius $r_1$ and smooth, parabolic laminar streamlines. But in Profile B, where you have severe stenosis with radius $r_2$, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat of diameter $d$, the local velocity $v$ spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
+Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you have severe stenosis with a severely restricted radius, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat of the narrowest diameter, the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
 
 **STUART**
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
@@ -111,10 +116,20 @@ So the whole system is a balance of pressure gradients and local geometries. Let
 ![The Vascular Network](03_the_vascular_network.svg)
 
 **MARK**
-Look at the left panel, the Vascular Branching Tree. You have a main inlet flow $Q_{in}$ entering the aorta, which branches into smaller arteries with resistances $R_1, R_2, R_3$, and flows $q_1, q_2, q_3$. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch: $1/R_{total} = \sum 1/R_i$. That's how you distribute flow to different organs without needing a massive pressure head at the main pump.
+Look at the left panel, the Vascular Branching Tree. You have a main inlet main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how
+
+> [!NOTE]
+> **Parallel Hydraulic Resistance**
+> $\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
+> The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.
 
 **STUART**
-And look at the graph on the right. The total cross-sectional area, $A_{total}$, is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, $Q = A \cdot v$, the mean flow velocity $v$ is inversely proportional to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, where volumetric flow equals the cross-sectional area times velocity, the mean flow velocity is inversely proportional
+
+> [!NOTE]
+> **Continuity Equation**
+> $Q = A \cdot v$
+> To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
 
 **DR. SARAH HAYES**
 *[Nodding in agreement, her hands moving back to the surgical field]*
