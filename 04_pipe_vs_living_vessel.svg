@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <!-- Hatch pattern for steel pipe cross section -->
+    <pattern id="steel-hatch" width="6" height="6" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1e3d59" stroke-width="1" />
+    </pattern>
+    <!-- Arrowheads -->
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e3d59" />
+    </marker>
+    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
+    </marker>
+  </defs>
+
+  <!-- Cream background -->
+  <rect width="100%" height="100%" fill="#faf8f5" />
+
+  <!-- Grid lines -->
+  <line x1="40" y1="40" x2="760" y2="40" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="40" y1="510" x2="760" y2="510" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="400" y1="30" x2="400" y2="460" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+
+  <!-- SECTION 1: STEEL PIPE UNDER PRESSURE (LEFT) -->
+  <g transform="translate(0, 0)">
+    <text x="50" y="70" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">A: Steel Pipe (Elastic Yield &amp; Rupture)</text>
+
+    <!-- 3D Isometric Cylinder Pipe -->
+    <g transform="translate(30, 20)">
+      <!-- Casing body lines -->
+      <ellipse cx="270" cy="80" rx="10" ry="25" fill="none" stroke="#1e3d59" stroke-width="1.5" stroke-dasharray="3,3" />
+      <line x1="90" y1="55" x2="270" y2="55" stroke="#1e3d59" stroke-width="2" />
+      <line x1="90" y1="105" x2="270" y2="105" stroke="#1e3d59" stroke-width="2" />
+
+      <!-- Jagged Yield Split/Fracture in the middle -->
+      <path d="M 150 55 L 165 52 L 180 58 L 195 53 L 210 56 L 225 55" fill="none" stroke="#1e3d59" stroke-width="2" />
+      <path d="M 180 43 L 180 51" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <path d="M 180 67 L 180 59" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <path d="M 205 43 L 205 51" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <path d="M 205 67 L 205 59" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+
+      <!-- Front open face cylinder -->
+      <path d="M 90 55 C 80 55, 75 66, 75 80 C 75 94, 80 105, 90 105" fill="none" stroke="#1e3d59" stroke-width="2" />
+      <ellipse cx="90" cy="80" rx="8" ry="22" fill="url(#steel-hatch)" stroke="#1e3d59" stroke-width="1.5" />
+      <ellipse cx="90" cy="80" rx="6" ry="17" fill="#faf8f5" stroke="#1e3d59" stroke-width="1.5" />
+
+      <!-- Internal Pressure arrows -->
+      <path d="M 90 80 L 90 68" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <path d="M 90 80 L 90 92" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <path d="M 90 80 L 85 80" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <path d="M 90 80 L 95 80" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
+      <text x="96" y="83" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#1e3d59">P</text>
+
+      <!-- Label r and t -->
+      <line x1="97" y1="62" x2="108" y2="52" stroke="#1e3d59" stroke-width="0.8" />
+      <text x="110" y="50" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#1e3d59">t</text>
+      <line x1="90" y1="80" x2="90" y2="97" stroke="#1e3d59" stroke-width="0.8" />
+      <circle cx="90" cy="80" r="1.5" fill="#1e3d59" />
+      <circle cx="90" cy="97" r="1.5" fill="#1e3d59" />
+      <text x="94" y="93" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#1e3d59">r</text>
+    </g>
+
+    <!-- Stress-Strain Graph (Bottom Left) -->
+    <g transform="translate(0, 160)">
+      <!-- Axes -->
+      <line x1="80" y1="230" x2="340" y2="230" stroke="#1c1c1c" stroke-width="1.2" marker-end="url(#arrow-charcoal)" />
+      <line x1="80" y1="80" x2="80" y2="230" stroke="#1c1c1c" stroke-width="1.2" marker-end="url(#arrow-charcoal)" />
+      
+      <!-- Explicit Labels: Full Name + Variable -->
+      <!-- Left Y-Axis (Stress sigma) rotated -90, to the left of the axis line -->
+      <text x="45" y="155" font-family="Georgia, serif" font-size="12" fill="#1c1c1c" transform="rotate(-90 45 155)" text-anchor="middle">Stress <tspan font-style="italic">σ</tspan></text>
+      
+      <!-- X-Axis (Strain epsilon) above the axis line -->
+      <text x="280" y="220" font-family="Georgia, serif" font-size="12" fill="#1c1c1c" text-anchor="middle">Strain <tspan font-style="italic">ε</tspan></text>
+
+      <!-- Hookean Curve -->
+      <path d="M 80 230 L 180 110 C 190 108, 195 106, 200 105 L 200 230" fill="none" stroke="#1e3d59" stroke-width="2.5" />
+      <line x1="200" y1="105" x2="200" y2="230" stroke="#1e3d59" stroke-width="1.5" stroke-dasharray="3,3" />
+
+      <!-- Labels on Graph -->
+      <circle cx="180" cy="110" r="3" fill="#1e3d59" />
+      <text x="110" y="105" font-family="Georgia, serif" font-size="11" fill="#1e3d59">Yield Point</text>
+      <circle cx="200" cy="105" r="3" fill="#c94a4a" />
+      <text x="210" y="110" font-family="Georgia, serif" font-size="11" fill="#c94a4a">Fracture</text>
+    </g>
+
+    <!-- Equation Hoop Stress -->
+    <g transform="translate(80, 440)">
+      <rect x="0" y="0" width="220" height="50" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+      <text x="25" y="32" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#1c1c1c">
+        <tspan font-style="italic">σ<tspan font-size="12" dy="4">θ</tspan></tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">P r</tspan> / <tspan font-style="italic">t</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- SECTION 2: LIVING VESSEL & ANEURYSM (RIGHT) -->
+  <g transform="translate(400, 0)">
+    <text x="30" y="70" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">B: Blood Vessel (Compliance &amp; Aneurysm)</text>
+
+    <!-- Vessel Sketch -->
+    <g transform="translate(30, 20)">
+      <path d="M 20 50 L 110 50" stroke="#3a3a3a" stroke-width="2" fill="none" />
+      <path d="M 20 45 L 110 45" stroke="#5a5a5a" stroke-width="0.8" stroke-dasharray="2,2" />
+      <path d="M 20 110 L 110 110" stroke="#3a3a3a" stroke-width="2" fill="none" />
+      <path d="M 20 115 L 110 115" stroke="#5a5a5a" stroke-width="0.8" stroke-dasharray="2,2" />
+
+      <!-- Aneurysm Bulge -->
+      <path d="M 110 50 C 130 50, 140 10, 180 10 C 220 10, 230 50, 250 50 L 290 50" stroke="#3a3a3a" stroke-width="1.2" fill="none" />
+      <path d="M 110 110 C 130 110, 140 150, 180 150 C 220 150, 230 110, 250 110 L 290 110" stroke="#3a3a3a" stroke-width="1.2" fill="none" />
+
+      <path d="M 140 16 C 160 14, 170 12, 180 12 C 190 12, 200 14, 220 16" stroke="#5a5a5a" stroke-width="0.5" fill="none" />
+      <path d="M 140 144 C 160 146, 170 148, 180 148 C 190 148, 200 146, 220 144" stroke="#5a5a5a" stroke-width="0.5" fill="none" />
+
+      <!-- Hatching -->
+      <path d="M 30 45 L 35 50 M 50 45 L 55 50 M 70 45 L 75 50 M 90 45 L 95 50" stroke="#5a5a5a" stroke-width="0.8" />
+      <path d="M 30 115 L 35 110 M 50 115 L 55 110 M 70 115 L 75 110 M 90 115 L 95 110" stroke="#5a5a5a" stroke-width="0.8" />
+      <path d="M 155 25 L 165 17 M 175 22 L 185 12 M 195 25 L 205 17" stroke="#5a5a5a" stroke-width="0.6" opacity="0.7" />
+      <path d="M 155 135 L 165 143 M 175 138 L 185 148 M 195 135 L 205 143" stroke="#5a5a5a" stroke-width="0.6" opacity="0.7" />
+
+      <!-- Labels -->
+      <line x1="50" y1="80" x2="50" y2="50" stroke="#3a3a3a" stroke-width="0.8" />
+      <circle cx="50" cy="80" r="1.5" fill="#3a3a3a" />
+      <circle cx="50" cy="50" r="1.5" fill="#3a3a3a" />
+      <text x="55" y="70" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#3a3a3a">r</text>
+      <text x="75" y="38" font-family="Georgia, serif" font-size="11" fill="#3a3a3a">wall thickness <tspan font-style="italic">t</tspan></text>
+
+      <line x1="180" y1="80" x2="180" y2="10" stroke="#3a3a3a" stroke-width="0.8" stroke-dasharray="2,2" />
+      <circle cx="180" cy="80" r="1.5" fill="#3a3a3a" />
+      <circle cx="180" cy="10" r="1.5" fill="#3a3a3a" />
+      <text x="185" y="45" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#3a3a3a">r'</text>
+      <text x="195" y="25" font-family="Georgia, serif" font-size="11" fill="#c94a4a">thinning <tspan font-style="italic" fill="#c94a4a">t'</tspan></text>
+      <text x="140" y="83" font-family="Georgia, serif" font-size="11" fill="#c94a4a">Aneurysm</text>
+    </g>
+
+    <!-- Nonlinear Compliance Graph (Bottom Right) -->
+    <g transform="translate(20, 160)">
+      <!-- Axes -->
+      <line x1="80" y1="230" x2="340" y2="230" stroke="#1c1c1c" stroke-width="1.2" marker-end="url(#arrow-charcoal)" />
+      <line x1="80" y1="80" x2="80" y2="230" stroke="#1c1c1c" stroke-width="1.2" marker-end="url(#arrow-charcoal)" />
+      
+      <!-- Explicit Labels: Full Name + Variable -->
+      <!-- Left Y-Axis (Volume V) rotated -90, to the left of the axis line -->
+      <text x="45" y="155" font-family="Georgia, serif" font-size="12" fill="#1c1c1c" transform="rotate(-90 45 155)" text-anchor="middle">Volume <tspan font-style="italic">V</tspan></text>
+      
+      <!-- X-Axis (Pressure P) above the axis line -->
+      <text x="280" y="220" font-family="Georgia, serif" font-size="12" fill="#1c1c1c" text-anchor="middle">Pressure <tspan font-style="italic">P</tspan></text>
+
+      <!-- Compliance Curve -->
+      <path d="M 80 230 C 130 220, 180 180, 220 120 C 240 90, 270 90, 310 90" fill="none" stroke="#c94a4a" stroke-width="2.5" />
+      
+      <!-- Slopes -->
+      <path d="M 140 198 L 175 198 L 175 168" stroke="#5a5a5a" stroke-width="0.8" fill="none" />
+      <text x="180" y="188" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">High compliance <tspan font-style="italic">C</tspan></text>
+
+      <path d="M 250 90 L 290 90 L 290 98" stroke="#5a5a5a" stroke-width="0.8" fill="none" />
+      <text x="250" y="80" font-family="Georgia, serif" font-size="10" fill="#c94a4a">Stiffening (Low compliance)</text>
+    </g>
+
+    <!-- Equation Compliance -->
+    <g transform="translate(80, 440)">
+      <rect x="0" y="0" width="220" height="50" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+      <text x="35" y="32" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#1c1c1c">
+        <tspan font-style="italic">C</tspan> = Δ<tspan font-style="italic">V</tspan> / Δ<tspan font-style="italic">P</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Title / Figure label -->
+  <text x="50" y="35" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Fig. 4 — Structural Yield: Steel Pipe vs. Compliant Blood Vessel</text>
+</svg>

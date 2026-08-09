@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#faf8f5" />
+  <defs>
+    <filter id="pencil" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+      <feGaussianBlur stdDeviation="0.3" in="displaced" result="blurred" />
+      <feMerge>
+        <feMergeNode in="blurred" />
+        <feMergeNode in="SourceGraphic" opacity="0.5" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#pencil)" stroke="#3a3a3a" fill="none" stroke-width="1.5">
+    <!-- Magnified view circle -->
+    <circle cx="400" cy="400" r="300" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="8 4" />
+    
+    <!-- Vessel Walls -->
+    <path d="M 150 400 C 300 350, 500 350, 650 400" stroke-width="5" stroke="#4a4a4a" />
+    <path d="M 150 480 C 300 530, 500 530, 650 480" stroke-width="5" stroke="#4a4a4a" />
+    
+    <!-- Tear / Incision being sutured -->
+    <path d="M 350 380 L 350 500 M 450 380 L 450 500" stroke-width="2" stroke="#5a5a5a" stroke-dasharray="5 5" />
+    
+    <!-- Micro Forceps (Left Hand) -->
+    <path d="M 200 150 L 330 380" stroke-width="3" />
+    <path d="M 250 130 L 360 380" stroke-width="3" />
+    <path d="M 330 380 C 340 390, 350 390, 360 380" stroke-width="1.5" /> <!-- Grasping edge -->
+    
+    <!-- Needle Holder (Right Hand) -->
+    <path d="M 600 150 L 470 380" stroke-width="4" />
+    <path d="M 650 170 L 490 390" stroke-width="4" />
+    
+    <!-- Curved Needle -->
+    <path d="M 470 380 C 430 350, 380 400, 420 440" stroke-width="1.5" />
+    <polygon points="420,440 425,435 415,435" fill="#3a3a3a" stroke="none" /> <!-- Needle tip -->
+    
+    <!-- Fine Suture Thread -->
+    <path d="M 470 380 C 550 300, 600 400, 500 500 C 400 600, 200 450, 250 650" stroke-width="1" stroke="#2c2c2c" />
+    
+    <!-- Existing Stitches -->
+    <path d="M 370 370 L 370 510" stroke-width="1.5" stroke="#2c2c2c" />
+    <path d="M 400 365 L 400 515" stroke-width="1.5" stroke="#2c2c2c" />
+    <circle cx="370" cy="370" r="2" fill="#2c2c2c" />
+    <circle cx="400" cy="365" r="2" fill="#2c2c2c" />
+    
+    <!-- Hatching & Texture inside vessel -->
+    <path d="M 200 410 L 220 430 M 230 410 L 250 430 M 260 415 L 280 435 M 500 420 L 520 440 M 530 425 L 550 445" stroke-width="1" stroke="#5a5a5a" />
+  </g>
+  
+  <!-- Labels -->
+  <text x="400" y="750" font-family="Georgia, serif" font-size="20" fill="#3a3a3a" text-anchor="middle" font-style="italic">Fig 3b: Microvascular Anastomosis</text>
+</svg>
