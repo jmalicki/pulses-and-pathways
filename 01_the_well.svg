@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 980" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" width="100%" height="100%">
   <defs>
     <pattern id="earth-hatch" width="20" height="20" patternTransform="rotate(30 0 0)" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="0" y2="20" stroke="#c0b9af" stroke-width="1" />
@@ -21,15 +21,10 @@
 
   <rect width="100%" height="100%" fill="#f2efe3" />
   <line x1="30" y1="40" x2="490" y2="40" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
-  <line x1="30" y1="500" x2="490" y2="500" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
-  <line x1="30" y1="920" x2="490" y2="920" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
 
-  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 1 — Hydrostatic Pressure in a Wellbore</text>
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 1 — Wellbore Layout</text>
 
-  <!-- TOP: wellbore -->
   <g transform="translate(0, 10)">
-    <text x="40" y="58" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Wellbore layout</text>
-
     <rect x="50" y="90" width="70" height="340" fill="url(#earth-hatch)" />
     <rect x="250" y="90" width="70" height="340" fill="url(#earth-hatch)" />
 
@@ -95,36 +90,5 @@
 
     <text x="335" y="430" font-family="Georgia, serif" font-size="12" fill="#1e3d59">Drill Bit</text>
     <path d="M 330 426 L 215 426" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow)" />
-  </g>
-
-  <!-- BOTTOM: pressure graph -->
-  <g transform="translate(0, 500)">
-    <text x="40" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Depth vs hydrostatic pressure</text>
-
-    <line x1="80" y1="60" x2="440" y2="60" stroke="#e8e2d8" stroke-width="1" />
-    <line x1="80" y1="140" x2="440" y2="140" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
-    <line x1="80" y1="220" x2="440" y2="220" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
-    <line x1="80" y1="300" x2="440" y2="300" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
-    <line x1="80" y1="380" x2="440" y2="380" stroke="#e8e2d8" stroke-width="1" />
-
-    <line x1="80" y1="60" x2="80" y2="395" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-black)" />
-    <line x1="80" y1="60" x2="455" y2="60" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-black)" />
-
-    <text x="45" y="220" font-family="Georgia, serif" font-size="13" fill="#1c1c1c" transform="rotate(-90 45 220)" text-anchor="middle">Depth <tspan font-style="italic">z</tspan></text>
-    <text x="260" y="48" font-family="Georgia, serif" font-size="13" fill="#1c1c1c" text-anchor="middle">Hydrostatic Pressure <tspan font-style="italic">P</tspan><tspan font-size="9" dy="4">h</tspan></text>
-
-    <line x1="80" y1="60" x2="400" y2="380" stroke="#1e3d59" stroke-width="2.5" />
-    <path d="M 80 100 L 120 100 M 80 140 L 160 140 M 80 180 L 200 180 M 80 220 L 240 220 M 80 260 L 280 260 M 80 300 L 320 300 M 80 340 L 360 340 M 80 380 L 400 380" stroke="#b0c4de" stroke-width="1" stroke-dasharray="2,2" />
-
-    <circle cx="160" cy="140" r="3.5" fill="#1e3d59" />
-    <circle cx="300" cy="280" r="3.5" fill="#1e3d59" />
-  </g>
-
-  <g transform="translate(30, 920)">
-    <rect x="0" y="0" width="460" height="48" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
-    <text x="14" y="30" font-family="Georgia, Times New Roman, serif" font-size="13" fill="#1c1c1c">
-      <tspan font-style="italic">P</tspan><tspan font-size="9" dy="3">h</tspan><tspan dy="-3"> = </tspan><tspan font-style="italic">ρ g z</tspan>
-      <tspan fill="#5a5a5a">  ·  hydrostatic pressure rises linearly with depth</tspan>
-    </text>
   </g>
 </svg>

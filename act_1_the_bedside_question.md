@@ -69,11 +69,11 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **STUART**: *[Retrieves a sterile skin marker and grabs a clean, stiff paper backing from a drape pack, holding it up in front of Mark's face]* Here you go, Mark. Draw it out. I'll hold it steady for you.
 
-**MARK**: *[Takes the marker with his right hand and begins sketching rapidly on the paper backing, his hand trembling slightly but drawing clean, precise lines. He draws a concentric pipe diagram, arrows indicating flow direction, a graph, and the governing hydrostatic equation]* Okay, look. This is how we visualize the system.
+**MARK**: *[Takes the marker with his right hand and begins sketching rapidly on the paper backing, his hand trembling slightly but drawing clean, precise lines. He draws a concentric pipe diagram with arrows indicating flow direction]* Okay, look. This is how we visualize the system.
 
 ![The Well](01_the_well.svg)
 
-**MARK**: *[Pointing with the marker]* In the top panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
+**MARK**: *[Pointing with the marker]* Here's the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
 
 <!-- stage-break -->
 <!-- projections-end -->
@@ -84,7 +84,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 <!-- stage-break -->
 
-**MARK**: *[Nodding nervously]* Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. The graph in the bottom panel of my sketch shows the hydrostatic pressure increasing linearly with depth. But when the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
+**MARK**: *[Nodding nervously]* Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
 
 **STUART**: *[Holding the retractor, eyes wide]* So the pressure is higher when you're pumping?
 
