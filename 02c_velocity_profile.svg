@@ -3,67 +3,73 @@
   Velocity profile composite. Geometry locked; raster from script.
 
   Shared with illustration-prompts/build_velocity_profile_vessel.py:
-    image at (20,40) size 400x400
+    image at (20,90) size 400x400
     CX=200, CY=200, R=150 in image px
-    page center (220,240), page R=150
+    page center (220,290), page R=150
 
   Workflow:
     python3 illustration-prompts/build_velocity_profile_vessel.py
     then open this SVG
 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" width="100%" height="100%">
   <defs>
     <marker id="arrow-tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
       <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#1e3d59" />
     </marker>
     <clipPath id="vessel-frame">
-      <rect x="20" y="40" width="400" height="400" />
+      <rect x="20" y="90" width="400" height="400" />
     </clipPath>
   </defs>
 
   <rect width="100%" height="100%" fill="#f2efe3" />
 
-  <!-- Procedural vessel from build_velocity_profile_vessel.py -->
+  <!-- Titles sit in their own band above leader lanes and plot dots -->
+  <text x="40" y="32" font-family="EB Garamond, Georgia, serif" font-size="22" font-weight="bold" fill="#1c1c1c">
+    Fig. 2c+ &#x2014; Laminar velocity profile
+  </text>
+  <text x="520" y="32" font-family="EB Garamond, Georgia, serif" font-size="20" font-weight="bold" fill="#1c1c1c">
+    Speed vs radius
+  </text>
+  <text x="520" y="56" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#5a5a5a">
+    <tspan font-style="italic">v</tspan>(<tspan font-style="italic">r</tspan>) = <tspan font-style="italic">v</tspan><tspan font-size="12" dy="-7">max</tspan><tspan dy="7">(1 &#x2212; </tspan><tspan font-style="italic">r</tspan>&#x00B2;/<tspan font-style="italic">R</tspan>&#x00B2;)
+  </text>
+
+  <!-- Procedural vessel -->
   <image
     href="velocity_profile_vessel.png"
-    x="20" y="40" width="400" height="400"
+    x="20" y="90" width="400" height="400"
     preserveAspectRatio="xMidYMid meet"
     clip-path="url(#vessel-frame)"
   />
 
-  <!-- Equal-velocity rings from locked (CX,CY,R) = (220,240,150) -->
+  <!-- Equal-velocity rings: page (CX,CY,R) = (220,290,150) -->
   <g id="rings" fill="none" stroke="#1e3d59" stroke-width="1.1" stroke-dasharray="3 4" opacity="0.85">
-    <circle cx="220" cy="240" r="75" />
-    <circle cx="220" cy="240" r="120" />
+    <circle cx="220" cy="290" r="75" />
+    <circle cx="220" cy="290" r="120" />
   </g>
-  <circle cx="220" cy="240" r="3" fill="#1e3d59" />
+  <circle cx="220" cy="290" r="3" fill="#1e3d59" />
 
-  <!-- Graph: speed vs radius -->
-  <g id="graph" transform="translate(520, 60)">
-    <text x="0" y="-22" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c1c1c">
-      Speed vs radius
-    </text>
-    <text x="0" y="4" font-family="Georgia, serif" font-size="16" fill="#5a5a5a">
-      <tspan font-style="italic">v</tspan>(<tspan font-style="italic">r</tspan>) = <tspan font-style="italic">v</tspan><tspan font-size="12" dy="-7">max</tspan><tspan dy="7">(1 &#x2212; </tspan><tspan font-style="italic">r</tspan>&#x00B2;/<tspan font-style="italic">R</tspan>&#x00B2;)
-    </text>
-
+  <!-- Graph plot (titles are outside this group) -->
+  <g id="graph" transform="translate(520, 110)">
     <line x1="40" y1="320" x2="320" y2="320" stroke="#3a3a3a" stroke-width="1.3" />
     <line x1="40" y1="320" x2="40" y2="40" stroke="#3a3a3a" stroke-width="1.3" />
-    <text x="180" y="352" font-family="Georgia, serif" font-size="17" fill="#5a5a5a" text-anchor="middle">
+
+    <!-- x ticks, then axis title clearly below them -->
+    <text x="40" y="342" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">0</text>
+    <text x="180" y="342" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">0.5</text>
+    <text x="292" y="342" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">1</text>
+    <text x="180" y="385" font-family="EB Garamond, Georgia, serif" font-size="17" fill="#5a5a5a" text-anchor="middle">
       radius <tspan font-style="italic">r</tspan> / <tspan font-style="italic">R</tspan>
     </text>
-    <text x="10" y="180" font-family="Georgia, serif" font-size="17" fill="#5a5a5a" text-anchor="middle" transform="rotate(-90 10 180)">
+
+    <!-- y ticks, then vertical axis title further left (reads bottom-to-top) -->
+    <text x="26" y="326" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="end">0</text>
+    <text x="26" y="186" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="end">0.5</text>
+    <text x="26" y="52" font-family="EB Garamond, Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="end">1</text>
+    <text x="-36" y="180" font-family="EB Garamond, Georgia, serif" font-size="17" fill="#5a5a5a" text-anchor="middle" transform="rotate(-90 -36 180)">
       speed <tspan font-style="italic">v</tspan> / <tspan font-style="italic">v</tspan><tspan font-size="12" dy="-6">max</tspan>
     </text>
 
-    <text x="40" y="342" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">0</text>
-    <text x="180" y="342" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">0.5</text>
-    <text x="292" y="342" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">1</text>
-    <text x="26" y="326" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="end">0</text>
-    <text x="26" y="186" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="end">0.5</text>
-    <text x="26" y="52" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="end">1</text>
-
-    <!-- v = 1-(r/R)^2 ; x=40+252u ; y=320-272v -->
     <path
       d="M 40 48 L 103 65 L 166 116 L 229 201 L 242 222 L 292 320"
       fill="none"
@@ -72,24 +78,39 @@
     />
 
     <circle cx="40" cy="48" r="5" fill="#1e3d59" />
-    <text x="54" y="42" font-family="Georgia, serif" font-size="16" fill="#1e3d59">1.00</text>
+    <text x="54" y="42" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#1e3d59">1.00</text>
     <circle cx="166" cy="116" r="5" fill="#1e3d59" />
-    <text x="180" y="110" font-family="Georgia, serif" font-size="16" fill="#1e3d59">0.75</text>
+    <text x="180" y="110" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#1e3d59">0.75</text>
     <circle cx="242" cy="222" r="5" fill="#1e3d59" />
-    <text x="256" y="216" font-family="Georgia, serif" font-size="16" fill="#1e3d59">0.36</text>
+    <text x="256" y="216" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#1e3d59">0.36</text>
   </g>
 
-  <!-- Callout leaders: distinct top lanes; 0.36 goes right first so it never crosses 1.00 -->
+  <!-- Leaders in a band below titles, clear of title text -->
   <g id="leaders" fill="none" stroke="#5a5a5a" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow-tip)" opacity="0.9">
-    <path d="M 560 108 L 560 36 L 220 36 L 220 232" />
-    <path d="M 686 176 L 686 52 L 295 52 L 295 232" />
-    <path d="M 762 282 L 870 282 L 870 68 L 340 68 L 340 232" />
+    <path d="M 560 158 L 560 72 L 220 72 L 220 282" />
+    <path d="M 686 226 L 686 86 L 295 86 L 295 282" />
+    <path d="M 762 332 L 870 332 L 870 100 L 340 100 L 340 282" />
   </g>
 
-  <text x="40" y="30" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#1c1c1c">
-    Fig. 2c+ &#x2014; Laminar velocity profile
+  <!-- Normalized-axis key: left-aligned with speed axis label; wrapped to stay on canvas -->
+  <text x="484" y="520" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+    <tspan font-style="italic">r</tspan>/<tspan font-style="italic">R</tspan> = fraction of lumen radius
   </text>
-  <text x="40" y="462" font-family="Georgia, serif" font-size="16" fill="#5a5a5a">
-    Same distance from center &#x2192; same speed. Cells are illustrative; rings are the math.
+  <text x="484" y="540" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+    (0 = center, 1 = wall)
+  </text>
+  <text x="484" y="568" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+    <tspan font-style="italic">v</tspan>/<tspan font-style="italic">v</tspan><tspan font-size="11" dy="-5">max</tspan><tspan dy="5"> = fraction of centerline</tspan>
+  </text>
+  <text x="484" y="588" font-family="EB Garamond, Georgia, serif" font-size="15" fill="#5a5a5a">
+    (maximum) speed
+  </text>
+
+  <!-- Two-line footer -->
+  <text x="40" y="620" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#5a5a5a">
+    Same distance from center means same speed.
+  </text>
+  <text x="40" y="642" font-family="EB Garamond, Georgia, serif" font-size="16" fill="#5a5a5a">
+    Cells are illustrative; rings are the math.
   </text>
 </svg>

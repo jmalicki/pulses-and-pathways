@@ -2,8 +2,8 @@
 """Procedural velocity-profile vessel plate (no AI, no manual registration).
 
 Shared geometry with 02c_velocity_profile.svg:
-  image placed at (20, 40), size 400×400
-  CX=200, CY=200, R=150 in image pixels → page (220, 240), R=150
+  image placed at (20, 90), size 400×400
+  CX=200, CY=200, R=150 in image pixels → page (220, 290), R=150
 
 Usage:
   python3 illustration-prompts/build_velocity_profile_vessel.py
@@ -191,7 +191,7 @@ def main() -> None:
     vessel.save(OUT_VESSEL, "PNG")
     print(f"wrote {OUT_VESSEL}")
     print(f"wrote {OUT_BASE}")
-    print(f"locked: CX={CX} CY={CY} R={R} → page ({20 + CX}, {40 + CY}), R={R}")
+    print(f"locked: CX={CX} CY={CY} R={R} → page ({20 + CX}, {90 + CY}), R={R}")
 
 
 if __name__ == "__main__":

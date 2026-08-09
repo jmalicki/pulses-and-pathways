@@ -15,7 +15,7 @@
 python3 illustration-prompts/build_velocity_profile_vessel.py
 ```
 
-Locked: `CX=200 CY=200 R=150` in the 400×400 image → page `(220, 240)`, `R=150`.
+Locked: `CX=200 CY=200 R=150` in the 400×400 image → page `(220, 290)`, `R=150`.
 
 ---
 
