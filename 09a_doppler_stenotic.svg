@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="100%" height="100%">
+  <defs>
+    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3" />
+  <text x="260" y="28" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c" text-anchor="middle">Fig. 9a &#8212; Duplex Screen (First Check)</text>
+
+  <!-- Monitor bezel -->
+  <rect x="40" y="48" width="440" height="340" rx="10" fill="#2a2a2a" />
+  <rect x="56" y="64" width="408" height="280" fill="#1a1a1a" />
+  <circle cx="260" cy="368" r="6" fill="#5a5a5a" />
+
+  <!-- Screen content: spectral Doppler -->
+  <rect x="72" y="80" width="376" height="248" fill="#0d1a14" />
+
+  <!-- Grid -->
+  <g stroke="#1e3d3a" stroke-width="0.8">
+    <line x1="72" y1="130" x2="448" y2="130" />
+    <line x1="72" y1="180" x2="448" y2="180" />
+    <line x1="72" y1="230" x2="448" y2="230" />
+    <line x1="72" y1="280" x2="448" y2="280" />
+    <line x1="160" y1="80" x2="160" y2="328" />
+    <line x1="248" y1="80" x2="248" y2="328" />
+    <line x1="336" y1="80" x2="336" y2="328" />
+  </g>
+
+  <!-- Baseline (zero velocity) -->
+  <line x1="88" y1="250" x2="432" y2="250" stroke="#8a9a8a" stroke-width="1.2" stroke-dasharray="4,3" />
+  <text x="92" y="246" font-family="Georgia, serif" font-size="10" fill="#8a9a8a">0</text>
+
+  <!-- Axes labels -->
+  <text x="260" y="318" font-family="Georgia, serif" font-size="11" fill="#a8b8a8" text-anchor="middle">time</text>
+  <text x="82" y="200" font-family="Georgia, serif" font-size="11" fill="#a8b8a8" transform="rotate(-90 82 200)" text-anchor="middle">velocity</text>
+
+  <!-- Stenotic spectrum: tall jet peaks, spectral broadening, little reverse -->
+  <!-- Cycle 1 -->
+  <path d="M 100 248
+           L 112 240
+           L 118 95
+           L 128 110
+           L 138 200
+           L 148 235
+           L 160 248
+           L 175 248"
+        fill="none" stroke="#c94a4a" stroke-width="2.2" />
+  <!-- spectral fill / broadening under peak -->
+  <path d="M 112 240 L 118 95 L 128 110 L 138 200 L 148 235 L 112 240"
+        fill="#c94a4a" fill-opacity="0.25" stroke="none" />
+
+  <!-- Cycle 2 -->
+  <path d="M 175 248
+           L 188 238
+           L 195 88
+           L 206 105
+           L 218 195
+           L 228 232
+           L 242 248
+           L 258 248"
+        fill="none" stroke="#c94a4a" stroke-width="2.2" />
+  <path d="M 188 238 L 195 88 L 206 105 L 218 195 L 228 232 L 188 238"
+        fill="#c94a4a" fill-opacity="0.25" stroke="none" />
+
+  <!-- Cycle 3 -->
+  <path d="M 258 248
+           L 270 240
+           L 277 92
+           L 288 108
+           L 300 198
+           L 310 234
+           L 324 248
+           L 340 248"
+        fill="none" stroke="#c94a4a" stroke-width="2.2" />
+  <path d="M 270 240 L 277 92 L 288 108 L 300 198 L 310 234 L 270 240"
+        fill="#c94a4a" fill-opacity="0.25" stroke="none" />
+
+  <!-- Cycle 4 partial -->
+  <path d="M 340 248
+           L 352 238
+           L 360 90
+           L 372 108
+           L 385 200
+           L 398 236
+           L 412 248"
+        fill="none" stroke="#c94a4a" stroke-width="2.2" />
+  <path d="M 352 238 L 360 90 L 372 108 L 385 200 L 398 236 L 352 238"
+        fill="#c94a4a" fill-opacity="0.25" stroke="none" />
+
+  <text x="260" y="108" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#c94a4a" text-anchor="middle">stenotic jet &#8212; high peak velocity</text>
+  <text x="260" y="300" font-family="Georgia, serif" font-size="11" fill="#8a9a8a" text-anchor="middle">loss of triphasic shape</text>
+</svg>

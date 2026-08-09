@@ -54,7 +54,11 @@
   <text x="420" y="550" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Sutured Artery Repair</text>
   <line x1="400" y1="505" x2="420" y2="535" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
 
-  <text x="600" y="320" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Doppler Probe</text>
+  <text x="600" y="320" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Duplex Probe</text>
   <line x1="480" y1="320" x2="590" y2="315" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
 
+  <!-- Small spectral screen at cord end -->
+  <rect x="680" y="40" width="90" height="70" rx="4" fill="none" stroke="#3a3a3a" stroke-width="2" filter="url(#pencil)"/>
+  <path d="M 695 95 L 705 55 L 715 70 L 725 50 L 735 75 L 750 60" fill="none" stroke="#3a3a3a" stroke-width="1.5" filter="url(#pencil)"/>
+  <text x="725" y="130" font-family="Georgia, serif" font-size="14" fill="#3a3a3a" text-anchor="middle" filter="url(#pencil)">Screen</text>
 </svg>

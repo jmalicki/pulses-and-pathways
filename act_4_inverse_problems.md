@@ -13,7 +13,7 @@ Starting the anastomosis. Stuart—don't let me purse these bites. We narrow thi
 
 [*She places the first stitch. A beat. She looks over the screen to Mark—softer.*]
 
-Mark—I'm sewing the artery back together now. You won't feel it. When we're done we'll check the flow with a Doppler probe. Until then I'm watching the wall, not blood moving through it.
+Mark—I'm sewing the artery back together now. You won't feel it. When we're done we'll check the flow with duplex Doppler—probe and screen. Until then I'm watching the wall, not blood moving through it.
 
 **MARK**
 [*Eyes on the ceiling lights, free fingers twitching against the drape*]
@@ -54,11 +54,11 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 
 **DR. SARAH HAYES**
 [*Taking scissors from Elena to cut the suture end; then looks over the screen to Mark*]
-We do something close, Mark. Outside measurements. We can't open every vessel just to check flow or resistance. Doppler ultrasound. Non-invasive diagnostics.
+We do something close, Mark. Outside measurements. We can't open every vessel just to check flow or resistance. Duplex ultrasound—image plus spectral Doppler. Non-invasive diagnostics.
 
 **STUART**
 [*Nodding eagerly*]
-Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
+Right. The duplex probe measures the frequency shift of the sound waves bouncing off the moving red blood cells. Velocity shows up on the spectral display. From that peak velocity we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
 
 > [!NOTE]
 > **Simplified Bernoulli Equation (Clinical)**
@@ -135,21 +135,72 @@ The vessel is filling...
 <!-- stage-break -->
 
 **DR. SARAH HAYES**
-Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe.
+Anastomosis is patent. No suture line bleeding. Stuart, roll up the duplex.
 
-![Doppler Sketch](doppler_sketch_1786259371250.jpg)
+[*Stuart brings the sterile probe and the small screen to the field. Dr. Hayes gels the tip, seats it on the pulsing artery, glances at the display—then thumbs the speaker on.*]
 
-[*Stuart hands the probe to Dr. Hayes. She places the tip against the pulsing artery. A loud, rhythmic swoosh fills the room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.*]
+**DR. SARAH HAYES**
+Speaker on. I still like hearing it. You watch the screen.
+
+![Duplex — First Check](09a_doppler_stenotic.svg)
+
+[*A harsh, high-pitched rasp fills the room—wrong. On the screen the spectrum spikes tall and ugly.*]
 
 **STUART**
-[*Smiling widely*]
+[*Smile gone*]
+That's not triphasic. Peak velocity's through the roof.
+
+**DR. SARAH HAYES**
+[*Voice flat*]
+Pursed. Clamp back on. We're revising.
+
+[*Elena and Stuart go still. Dr. Hayes re-clamps, cuts out the cinching bite, and replaces it—quiet, fast, no teaching.*]
+
+<!-- stage-break -->
+
+**DR. SARAH HAYES**
+Unclamp. Duplex again.
+
+![Duplex — Second Check](09b_doppler_triphasic.svg)
+
+[*Speaker still on: a clean rhythmic WHOOSH-chhh, WHOOSH-chhh. On the screen the spectrum opens into a clean triphasic trace.*]
+
+**STUART**
+[*Breathing out*]
 Strong triphasic flow. The waveform is beautiful.
 
 <!-- stage-break -->
 
 **DR. SARAH HAYES**
-[*Removing the probe and handing it back to Stuart*]
-Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
+[*Handing the probe back*]
+That first join had cinched a little throat. Leave a throat like that and it clots—or it fails downstream. So we cut it and put it back open.
+
+![Pursed vs Revised](09c_pursed_vs_open.svg)
+
+> [!NOTE]
+> **Duplex spectral Doppler**
+> **Triphasic** (good): sharp systolic forward peak, brief early-diastolic reverse, low late-diastolic forward — open runoff.
+> **Stenotic / pursed** (bad): high peak velocity through the throat and loss of the normal triphasic shape — same idea as Act 2: velocity up at a restriction, pressure drop by simplified Bernoulli $\Delta P \approx 4v^2$.
+
+**MARK**
+[*Quiet, then*]
+Oh—like a choke. You'd never leave a bean that tight in a flowline. Same throat.
+
+**DR. SARAH HAYES**
+[*A short nod*]
+Same physics.
+
+**MARK**
+Difference is you can open the pipe and sew it again. I get a bad gauge signature two miles down and I don't get to climb in with a needle.
+
+**DR. SARAH HAYES**
+[*Almost a smile*]
+Lucky me.
+
+<!-- stage-break -->
+
+**DR. SARAH HAYES**
+Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
 ![Closure Sketch](closure_sketch_1786259427073.jpg)
 

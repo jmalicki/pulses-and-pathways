@@ -4,13 +4,13 @@ Prepend this to every **medical** illustration prompt in this directory (not `ac
 
 ## What this is
 
-Story illustration for *Pulses and Pathways*: OR beats of a **left** forearm ulnar-artery repair under regional block (exposure, clamp, suture, Doppler, close). Graphite/charcoal pencil on textured off-white paper.
+Story illustration for *Pulses and Pathways*: OR beats of a **left** forearm ulnar-artery repair under regional block (exposure, clamp, suture, duplex Doppler, close). Graphite/charcoal pencil on textured off-white paper.
 
 **Evoke** a medical textbook illustration — paper grain, careful hatching, calm clinical focus — without being a teaching atlas plate. OR story plates carry **no** on-image labels or callouts; the play carries the explanation. The stenosis cutaway is the exception: annotated anatomy with crisp typeset labels (see `07_stenosis_cutaway.md`).
 
-Stay **true to the beat**: left mid-to-distal forearm (approximately 10–14 cm proximal to the wrist), ulnar side; retractors and suction; proximal vascular clamp; microvascular anastomosis; sterile Doppler check; skin closure with adhesive. Do not swap arms, operations, tools, or skip ahead in the procedure.
+Stay **true to the beat**: left mid-to-distal forearm (approximately 10–14 cm proximal to the wrist), ulnar side; retractors and suction; proximal vascular clamp; microvascular anastomosis; sterile duplex Doppler check (probe + screen); skin closure with adhesive. Do not swap arms, operations, tools, or skip ahead in the procedure.
 
-Anatomy and instruments must be **accurate enough not to jar**: real forearm layers, vessels as tubes, recognizable clamps/retractors/suture tools/Doppler probe. Prefer plausible restraint over textbook completeness.
+Anatomy and instruments must be **accurate enough not to jar**: real forearm layers, vessels as tubes, recognizable clamps/retractors/suture tools/duplex probe. Prefer plausible restraint over textbook completeness.
 
 ## Style
 

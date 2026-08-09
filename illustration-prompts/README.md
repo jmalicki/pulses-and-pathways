@@ -13,7 +13,7 @@ Graphite/charcoal illustration prompts for *Pulses and Pathways*.
 | [`02_exposure.md`](02_exposure.md) | Medical | `exposure_sketch.png` | Regenerated |
 | [`03_clamping.md`](03_clamping.md) | Medical | `clamping_sketch_*.jpg` | Matches |
 | [`04_suturing.md`](04_suturing.md) | Medical | `suturing_sketch_*.jpg` | Matches |
-| [`05_doppler.md`](05_doppler.md) | Medical | `doppler_sketch_*.jpg` | Matches |
+| [`05_doppler.md`](05_doppler.md) | Medical | duplex screen SVGs `09a`/`09b` (+ optional field JPG) | Screen SVGs in play; prompt retargeted from pencil Doppler |
 | [`06_closure.md`](06_closure.md) | Medical | `closure_sketch_*.jpg` | Matches |
 | [`07_stenosis_cutaway.md`](07_stenosis_cutaway.md) | Medical (labeled) | `stenosis_cutaway.jpg` | Keep labels; **regen for crisp type** |
 | [`08_vascular_tree.md`](08_vascular_tree.md) | Medical | `vascular_tree.jpg` | Matches |
