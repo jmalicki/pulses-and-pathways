@@ -116,7 +116,7 @@
           fill="none" stroke="#3a3a3a" stroke-width="3" />
 
     <!-- Label Curve A -->
-    <text x="235" y="130" font-family="Georgia, serif" font-size="11" fill="#3a3a3a">Curve A (Healthy Artery - High Compliance)</text>
+    <text x="120" y="215" font-family="Georgia, serif" font-size="11" fill="#3a3a3a">Curve A (Healthy Artery - High Compliance)</text>
     <path d="M 210 140 L 225 133" stroke="#3a3a3a" stroke-width="0.8" />
     <text x="228" y="132" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#3a3a3a">dicrotic notch</text>
 
@@ -134,17 +134,17 @@
           fill="none" stroke="#1e3d59" stroke-width="2.2" stroke-dasharray="6,3" />
 
     <!-- Label Curve B -->
-    <text x="140" y="52" font-family="Georgia, serif" font-size="11" fill="#1e3d59">Curve B (Stiff/Calcified - Low Compliance)</text>
+    <text x="140" y="75" font-family="Georgia, serif" font-size="11" fill="#1e3d59">Curve B (Stiff/Calcified - Low Compliance)</text>
     
     <line x1="80" y1="160" x2="640" y2="160" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
     <line x1="80" y1="110" x2="640" y2="110" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
   </g>
 
   <!-- SECTION 3: EQUATION PANEL (BOTTOM) -->
-  <g transform="translate(180, 485)">
-    <rect x="0" y="0" width="440" height="50" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
-    <text x="35" y="32" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#1c1c1c">
-      <tspan font-style="italic">Q(t)</tspan> = <tspan font-style="italic">P(t)</tspan> / <tspan font-style="italic">R</tspan> + <tspan font-style="italic">C</tspan> <tspan font-style="italic">dP(t)</tspan>/<tspan font-style="italic">dt</tspan>
+  <g transform="translate(15, 485)">
+    <rect x="0" y="0" width="770" height="50" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+    <text x="25" y="32" font-family="Georgia, Times New Roman, serif" font-size="16" fill="#1c1c1c">
+      Flow (<tspan font-style="italic">Q</tspan>) = Pressure (<tspan font-style="italic">P</tspan>) / Resistance (<tspan font-style="italic">R</tspan>) + Compliance (<tspan font-style="italic">C</tspan>) × d<tspan font-style="italic">P</tspan>/d<tspan font-style="italic">t</tspan>
     </text>
   </g>
 
