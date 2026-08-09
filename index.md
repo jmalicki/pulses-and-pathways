@@ -120,7 +120,21 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**MARK**: *[Rambling quickly, his voice high-pitched]* It's all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don't counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus. We have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
+**MARK**: *[Rambling quickly, his voice high-pitched]* It's all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don't counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus...
+
+</div>
+<div class="projections" markdown="1"></div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
+**STUART**: *[Frowning behind his mask]* The annulus? Like the mitral valve annulus?
+
+</div>
+<div class="projections" markdown="1"></div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
+**MARK**: What? No. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
 
 </div>
 <div class="projections" markdown="1"></div>
@@ -183,7 +197,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
+**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
 
 </div>
 <div class="projections" markdown="1"></div>
