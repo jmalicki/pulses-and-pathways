@@ -100,12 +100,6 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **STUART**: *[Frowning behind his mask]* The annulus? Like the mitral valve annulus?
 
-**MARK**: Mitral—? I don't know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
-
-**STUART**: *[Leaning closer to the wound]* So the mud just sits there?
-
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
-
 </div>
 </play-text>
 <projections>
@@ -115,10 +109,11 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 <play-text>
 <div markdown="1">
 
+**MARK**: Mitral—? I don't know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
 
-**DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
+**STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Wiggling his uninjured right hand]* Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
 
 </div>
 </play-text>
@@ -131,6 +126,19 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </div>
 
 </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
+
+**DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
+
+**MARK**: *[Wiggling his uninjured right hand]* Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
+
+</div>
+</play-text>
+<projections>
 </projections>
 </stage-row>
 <stage-row>
