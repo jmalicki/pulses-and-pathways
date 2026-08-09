@@ -10,12 +10,21 @@ necessary blood evidence. Do not redraw, mirror, rotate, crop, or recompose it.
 
 ## Prompt (copy below with pass 1 attached)
 
-Edit this exact supplied pass 1 image. Preserve every graphite line and all
-established geometry: identity, face, anatomical LEFT arm, left little finger,
-ulnar wound position, right hand and rag, pose, framing, table saw, fence,
-removed guard and riving knife, intact workpiece, and blind partial groove.
-Do **not** regenerate the scene. Do **not** swap arms or move the wound. Add
-selective restrained deep red only as specified below.
+Edit this exact supplied Pass 1 image. Preserve every graphite line and all
+established geometry: identity, face, anatomical LEFT arm, visible left palm
+and digits, exposed volar-ulnar surface, fixed rag contact point, laceration
+immediately distal/image-above that rag, RIGHT index finger guiding the rag
+toward it, pose, framing, table saw, fence, removed guard and riving knife,
+intact display-cabinet upper rail, and full-length / non-through-depth glass
+track. Do **not** regenerate the scene.
+Do **not** swap arms, move the rag, move the laceration, or change the
+camera-visible forearm surface. Add selective restrained deep red only as
+specified below.
+
+Preserve the Pass 0 courtroom-sketch style: symbolic paper-white light, broad
+value families, directional hatching, broken contours, and loose edges. Do not
+introduce realistic reflections, glossy wet rendering, specular highlights,
+smooth gradients, or photographic volume when adding the restrained red.
 
 This is not gore, horror, or injury fetishism. It is a clinical narrative
 illustration for vascular surgeons and petroleum engineers. The blood pattern
@@ -27,17 +36,29 @@ show surgical exposure, proximal and distal control, and arterial repair.
 
 ## Add blood in this exact order
 
-### 1. Wound and beginning pressure
+### 1. Wound and pre-compression movement
 
-Keep the existing injury exactly on the volar-ulnar / little-finger border of
-the anatomical LEFT distal forearm. Add restrained deep red within the wound.
-The healthy RIGHT hand still presses the folded rag against only the near lip.
-Soak only that rag corner. Most of the injury remains visible because pressure
-has just begun and has not yet controlled the artery.
+Keep the existing injury exactly where Pass 1 placed it: immediately
+**distal / wristward (image-above)** the fixed rag and RIGHT index finger, on
+the camera-facing volar-ulnar / little-finger border of the anatomical LEFT
+mid-to-distal forearm, **10–14 cm above the wrist crease**. The visible LEFT palm still
+proves orientation (thumb image-left, little finger image-right).
 
-The **proximal / heart-side end** is the only pulsatile source. The distal end
-does not pulse; at most add one weak gravity drip within a few centimeters of
-the same wound.
+This is the instant **just before compression seats**: the healthy RIGHT hand
+is sliding/lifting the folded rag toward the wound; its leading edge approaches
+the proximal lip but does not yet cover or seal it. Keep the entire wound, or
+nearly all of it, visible. Add a small red stain only to the rag’s advancing
+corner where it has just caught first contact—not a fully soaked compress.
+
+Preserve the Pass 1 table-saw morphology: irregular slightly oblique main gash,
+scalloped/abraded margins, deepest at the ulnar border, and a shallower
+pull-away taper. Do not smooth it into a clean kitchen-knife incision and do
+not enlarge it into a shredded cavity.
+
+At the deepest ulnar segment, the saw path has completely divided the ulnar
+artery. The **proximal / heart-side end** at that segment is the only pulsatile
+source. The distal end does not pulse; at most add one weak gravity drip within
+a few centimeters of the same wound.
 
 ### 2. Earlier blood on and immediately around the saw: pulses 1–4
 
@@ -54,8 +75,8 @@ The first four systoles occurred before he pulled away:
 - Add only **1–3** small drips/spatters in sawdust at the saw base.
 
 These are earlier landed marks, not additional jets frozen in the air. Keep
-the blind groove readable; do not flood or obscure the workpiece. No giant
-pool and no room-wide trail.
+the full-length, flat-bottomed, non-through-depth groove readable; do not flood
+or obscure the workpiece. No giant pool and no room-wide trail.
 
 ### 3. Add exactly one live airborne systolic pulse: pulse 5
 
@@ -69,7 +90,8 @@ Vitals are BP **138/82**, HR **96**:
   previous pulse has landed before the next begins. Therefore show **exactly
   one airborne burst**, never two arcs.
 
-Pulse 5 emerges from the proximal side of the wound and escapes beside the rag:
+Pulse 5 emerges from the proximal side of the still-uncovered wound while the
+rag is moving into place:
 
 - One coherent heartbeat-driven column only **5–10 cm** long.
 - It then breaks into **3–6** primary droplets, each approximately **1–3 mm**.
@@ -93,13 +115,24 @@ remains the original grayscale graphite.
 
 - Base image is unchanged except for added blood.
 - Injured arm remains anatomical LEFT.
+- LEFT palm orientation and camera-visible volar-ulnar surface remain
+  unchanged.
+- Laceration remains 10–14 cm above wrist; rag remains immediately
+  proximal/image-below with RIGHT index finger guiding it into place.
+- Wound remains fully or nearly fully visible in the pre-compression instant.
 - Wound remains on the LEFT little-finger / volar-ulnar border.
+- Irregular saw-tooth margins and pull-away taper remain visible; wound has not
+  become a clean knife slice or exaggerated shredded cavity.
 - Exactly one airborne systolic pulse exists.
 - Connected column is 5–10 cm; total throw is 15–25 cm.
 - Four earlier pulse marks and modest smear remain on the saw.
 - Distal stump does not pulse.
-- Rag shows incomplete beginning pressure.
-- Blind groove, removed guard, and riving knife remain visible.
+- Rag is visibly beginning to move into pressure position but has not yet
+  seated or hidden the wound.
+- Full-length, non-through-depth groove, removed guard, and riving knife remain
+  visible.
+- Cutter remains visibly a narrow ¼-inch dado stack, not one thin blade and
+  not a broad ¾-inch stack.
 - Total blood remains restrained; no graphic tissue detail.
 
 If any audit item fails, correct the edit before returning it. No text, labels,

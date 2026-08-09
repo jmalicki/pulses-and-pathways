@@ -56,12 +56,12 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 *[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. A regional block has just been placed; they are waiting for it to set before going deeper. STUART stands beside her, observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
-**DR. SARAH HAYES**: *[Glancing at the clock, then over the screen to Mark]* Block's in. We'll give it another minute before I go further. While we wait—walk me through what happened. Table saw?
+**DR. SARAH HAYES**: *[Glancing at the clock, then over the screen to Mark]* Block's in. We'll give it another minute before I go further. I read the ED note, but I want to hear it from you. While we wait—tell me what happened to your arm.
 
-**MARK**: *[Staring at the ceiling, swallowing]* Yeah. Garage. Non-through groove for a shelf—guard had to come off for that, just this once. Goddammit. Board bound, kicked, left arm went in before I could let go. Felt the blade more than I heard it. Clean line across the ulnar side. Neighbor drove me in.
+**MARK**: *[Staring at the ceiling, swallowing]* I was in the garage, using the table saw to make a cabinet with sliding glass doors. The glass was a quarter-inch thick, so I put in a dado set—a wider blade that cuts the groove to width in one pass. The regular guard won't clear it. So I took the guard off. Just for that cut. I had the wood against the guide and was using a block to push it through. It twisted; the blade threw it back. My left hand slipped, and when I jerked away, the underside of my forearm caught the cutter. I pressed the first shop rag I could reach over it and ran next door to Steve's. He drove me in.
 
 
-**STUART**: *[Quiet, almost to himself]* Distal forearm… ulnar artery territory.
+**STUART**: *[Quiet, almost to himself]* Mid-forearm… ulnar artery territory.
 
 **DR. SARAH HAYES**: *[A short nod]* We'll see when we're in. Elena, saline ready when I ask for it.
 

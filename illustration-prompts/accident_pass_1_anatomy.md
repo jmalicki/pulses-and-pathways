@@ -1,103 +1,147 @@
-# Accident pass 1 — anatomy, mechanism, and composition
+# Accident pass 1 — add the left ulnar laceration
 
+**Input image:** `accident_pass_0_base.png`  
 **Output:** `accident_pass_1_anatomy.png`  
 **Next step:** Use this exact output as the input image for
 [`accident_pass_2_blood.md`](accident_pass_2_blood.md).  
-**Pass boundary:** Show the injury, but **no blood at all**. Pass 1 exists to
-lock laterality, anatomy, pose, saw geometry, and composition before blood is
-introduced.
+**Pass boundary:** Edit the supplied Pass 0 image to add only the non-bloody
+laceration at the rag anchor. Do not redraw, mirror, crop, or recompose it.
 
 ---
 
-## Prompt (copy below)
+## Prompt (copy below with Pass 0 attached)
 
-Create a restrained graphite-and-charcoal narrative illustration on textured
-cream paper. Home garage workshop. This is pass 1 of an educational plate for
-*Pulses and Pathways*, a conversation between vascular surgeons and petroleum
-engineers. The injury is clinically specific because later plates show
-exploration, proximal and distal control, and repair of the left ulnar artery.
-This is not horror or injury fetishism. Keep the wound non-graphic and show
-**no blood in this pass**.
+Edit this exact supplied Pass 0 image. Preserve every established graphite
+line and all geometry: person, face, anatomical LEFT arm, visible left palm
+and digits, healthy RIGHT hand, clean rag, pose, camera angle, framing, saw,
+fence, removed guard and riving knife, intact rail, and through-running /
+non-through-depth groove.
+Preserve its skilled courtroom-sketch line language: broken contours,
+gestural construction, selective hatching, open cream paper, and loose edges.
+Do not polish it into photorealistic graphite rendering.
 
-### 1. Lock the person and laterality
+Add one restrained non-bloody laceration at the anatomically anchored rag
+location described below. Do not add blood or red in this pass. This is a
+clinical narrative setup for later left ulnar-artery exposure and repair, not
+horror or sensationalism.
 
-A frightened middle-aged woodworker is centered in the frame, shown
-three-quarter / near-profile facing toward image-right. His torso and raised
-arm dominate mid-frame. He wears plaid work clothes and clear safety glasses.
-His face shows a fearful pain grimace: wide eyes, tense brows, clenched teeth.
+## The rag is the fixed anchor
 
-The affected arm is unmistakably his anatomical **LEFT** arm. Show the LEFT
-hand clearly enough to identify its thumb and little finger. Left elbow bent;
-left forearm raised to chest-to-shoulder height and naturally rotated so the
-palm-side and little-finger / ulnar border face the viewer. His healthy
-anatomical **RIGHT** hand holds a clean folded shop rag against only the near
-edge of the injury, just beginning pressure.
+Do not move the rag to meet a newly invented wound. The clean rag is already
+correctly located:
 
-### 2. Lock the ulnar injury
+- on the **image-right / little-finger border** of the raised anatomical LEFT
+  mid-to-distal forearm;
+- on the camera-facing **volar-ulnar surface**;
+- its leading edge approximately **13–16 cm proximal to the wrist crease**;
+- RIGHT index finger guiding that leading edge toward the exposed patch
+  immediately **distal / wristward (image-above)** it;
+- not yet covering the future injury site.
 
-Trace an imaginary line from the LEFT little finger toward the elbow. Place a
-deep transverse laceration on that same line, on the **volar-ulnar / pinky
-border of the LEFT distal forearm**, several inches proximal to the wrist. The
-LEFT thumb / radial border is intact. The wound may be a dark, non-graphic
-opening with restrained hatching, but there is **no red, blood, spray, drip,
-pool, or stain anywhere in pass 1**.
+The visible LEFT palm establishes orientation: thumb on image-left,
+little finger on image-right. The camera-facing forearm surface continuous with
+the little finger is the ulnar surface. Preserve those landmarks exactly.
 
-Landmark audit: injured hand = LEFT; identify its little finger; wound is on
-that same side of the forearm. If the wound is on the thumb side or on the
-right arm, correct it before returning the image.
+## Place the laceration relative to the rag
 
-### 3. Preserve the plausible mechanism
+Add one principal deep saw laceration in the exposed patch **immediately
+distal / wristward (image-above) the rag’s leading edge and RIGHT index
+finger**. Center it approximately **10–14 cm proximal to the wrist crease**,
+matching the mid-to-distal forearm operative level shown in the later surgical
+plates. The rag is
+being moved toward the wound but has not covered it. At most its leading edge
+approaches the proximal lip; keep the wound fully or nearly fully visible on
+the camera-facing volar-ulnar surface.
 
-The accident was a kickback while cutting a non-through shelf groove:
+The laceration must:
 
-1. Rip fence was on the **right** of the blade; board between blade and fence.
-2. His LEFT hand had been palm-down on the stock, pressing it rightward toward
-   the fence, fingers toward outfeed.
-3. In that cutting grip, LEFT thumb faced the fence and LEFT pinky / ulnar
-   border faced the blade.
-4. The board bound and kicked; the ulnar border crossed the exposed teeth.
-5. His RIGHT hand had been safely aft on a push block.
+- lie on the same anatomical line as the LEFT little finger;
+- cross the **volar-ulnar / pinky-side mid-to-distal forearm** transversely;
+- sit approximately **10–14 cm above the wrist crease**, around the
+  mid-to-distal forearm rather than at the wrist joint;
+- appear immediately above/distal to the rag and guided by the RIGHT index
+  finger, so the intended pressure motion is obvious;
+- remain entirely away from the LEFT thumb / radial border;
+- read as the injury site that will lead to left ulnar-artery exploration,
+  proximal/distal control, and repair.
 
-The illustration shows the **aftermath**, not contact with the blade. He has
-yanked clear and turned the injured left forearm toward himself and the camera.
-This display rotation is ordinary and does not change where the cut occurred.
+## Make it a table-saw wound, not a knife cut
 
-### 4. Lock the safe aftermath composition
+The blade was spinning and the forearm was moving as he recoiled. The wound
+must therefore be **irregular and mechanically directional**, not a ruler-
+straight surgical incision:
 
-He remains centered and upright on the normal operator side, half a step back
-from the saw—not leaning over the cutter. The table saw is shifted to
-image-left / lower-left, clearly away from his torso, with open space between
-him and the blade. Do not move him to a far corner merely to separate him from
-the saw.
+- principal gash is broadly transverse but slightly oblique;
+- it begins deepest at the ulnar / little-finger border where the teeth first
+  caught, then extends a short distance onto the volar-ulnar surface;
+- it becomes shallower and tapers in the pull-away direction as he yanked the
+  arm back;
+- deepest contact zone is a **localized irregular gouge approximately the width
+  of the 6–7 mm dado stack**, not a hairline slit and not a broad cavity;
+- margins are uneven, scalloped, and lightly abraded from the two outer scoring
+  blades plus intermediate chipper teeth, with modest localized tissue loss;
+- allow two or three very short, closely spaced tooth tracks at one trailing
+  margin, subordinate to the main wound—not several separate dramatic slashes;
+- at the deepest ulnar segment, the path completely transects the ulnar artery,
+  which explains the later proximal/distal control and repair, but do not show
+  an exposed labeled artery in this pass.
 
-### 5. Lock the saw and workpiece
+Wrong if the wound is a perfectly straight, smooth, narrow kitchen-knife slice;
+wrong if it is a huge shredded cavity, limb amputation, or many long parallel
+claw marks. Plausible table-saw trauma lies between those extremes.
 
-The blade guard and riving knife are both **removed and plainly visible**
-resting near the saw: recognizable guard hood plus thin splitter/riving-knife
-piece. The blade is uncovered. Do not substitute a push stick for either part.
+Use a restrained dark graphite opening and hatching only. No graphic internal
+tissue detail. **No blood, red, spray, drip, stain, soaked rag, pool, or saw
+spatter** in Pass 1.
 
-One solid board remains intact against the fence. Its top face contains a
-**blind rectangular dado / groove only one-third to one-half through the
-board**. Use a slightly top-down angle so the flat wooden bottom of the groove
-and uncut thickness beneath it are unmistakable. Both ends and edges remain
-connected; no daylight through the groove; no split board. Only a short arc of
-blade teeth rises above the table.
+## Why this location is mechanically plausible
 
-Workshop pegboard, lumber, shelves, dust, and sawdust remain secondary and
-loosely drawn. Visible pencil strokes, cross-hatching, and paper grain.
-Grayscale only.
+He was building a glass-front display cabinet with sliding glass doors and
+feeding one 30–38 mm-thick hardwood upper rail lengthwise along the rip fence.
+A narrow dado stack was cutting the deeper upper glass track: 6–7 mm wide and
+12–14 mm deep, for a 6 mm / ¼-inch glass pane that lifts into the upper track
+during installation. The stock guard and riving knife were off because they
+did not fit that setup.
 
-### Pass 1 final audit
+Fence was on the right of the dado stack. His LEFT hand had been palm-down
+guiding the rail against the fence: thumb toward fence, little finger / ulnar
+border toward blade; RIGHT hand was aft on a push block. The long rail twisted
+against the fence, bound, and kicked backward **clear of the dado stack**. His
+left hand suddenly lost support. While he twisted and recoiled, the exposed
+volar-ulnar mid-forearm made one **brief but penetrating glancing contact** with
+the top quadrant of approximately 12–14 mm of exposed teeth. He jerked clear
+immediately, producing the shallower trailing taper. “Brief” limits wound
+length and collateral destruction; it does **not** mean superficial—the deepest
+focal segment completely crosses the ulnar artery. Kickback did not magically
+pull his arm into the saw, and he did not land his full body weight on it.
 
-- Anatomical LEFT arm injured; RIGHT hand holds clean rag.
-- LEFT little finger identifiable; wound on that same forearm border.
-- Thumb / radial side intact.
-- Man centered, facing image-right, arm raised, fearful grimace.
-- Man stepped back; saw shifted aside.
-- Guard and riving knife visibly removed.
-- Board intact; blind partial groove has a visible wooden bottom.
-- Absolutely no blood or red anywhere.
+The current image is the aftermath; he has turned the arm naturally so the same
+ulnar injury and palm-ulnar surface face the camera. Preserve the thick display
+cabinet upper rail, narrow deep flat-bottomed glass track, matching shallow
+lower-track/glass-pane context, narrow dado stack, removed guard/riving knife,
+and nearby push block from Pass 0.
 
-No text, labels, arrows, captions, signatures, watermarks, photorealism,
-extra limbs, mirrored anatomy, right-arm injury, radial-side injury,
-through-cut board, mounted guard, or graphic exposed-tissue detail.
+## Pass 1 final audit
+
+- Base image is unchanged except for the added dark laceration.
+- Injured arm remains anatomical LEFT.
+- LEFT palm and little finger remain visible and identifiable.
+- Rag has not moved.
+- Laceration is immediately distal/image-above the rag and RIGHT index finger,
+  on the same side as the LEFT little finger.
+- Laceration is on the camera-facing volar-ulnar mid-to-distal forearm,
+  10–14 cm above the wrist—not at the wrist joint.
+- Rag is visibly beginning to move into place but does not hide the wound.
+- Wound is irregular and slightly oblique, deepest at the ulnar border and
+  tapering with pull-away—not a smooth knife incision.
+- LEFT thumb/radial side remains intact.
+- Saw, full-length flat-bottomed glass track, removed guard, and riving knife
+  remain unchanged.
+- Visible cutter remains a narrow ¼-inch dado stack, not a single thin blade
+  and not a broad ¾-inch stack.
+- Absolutely no blood or red appears anywhere.
+
+If any audit item fails, correct the edit before returning it. No text, labels,
+arrows, captions, signatures, watermarks, mirroring, cropping, recomposition,
+new limbs, radial-side injury, moved rag, hidden landmarks, blood, or graphic
+tissue detail.
