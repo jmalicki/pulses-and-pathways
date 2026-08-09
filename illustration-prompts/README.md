@@ -17,5 +17,6 @@ Graphite/charcoal illustration prompts for *Pulses and Pathways*.
 | [`06_closure.md`](06_closure.md) | Medical | `closure_sketch_*.jpg` | Matches |
 | [`07_stenosis_cutaway.md`](07_stenosis_cutaway.md) | Medical (labeled) | `stenosis_cutaway.jpg` | Keep labels; **regen for crisp type** |
 | [`08_vascular_tree.md`](08_vascular_tree.md) | Medical | `vascular_tree.jpg` | Matches |
+| [`09_velocity_profile_vessel.md`](09_velocity_profile_vessel.md) | Procedural script | `velocity_profile_vessel.png` | `build_velocity_profile_vessel.py` → under `02c_velocity_profile.svg` |
 
 Medical plates link to [`medical_shared_style.md`](medical_shared_style.md) and specify the patient’s **left** forearm. The workshop accident uses a repeatable three-pass workflow: lock the left volar-ulnar camera surface and rag anchor, add the non-bloody wound at that anchor, then add the clinically necessary pulse pattern.
