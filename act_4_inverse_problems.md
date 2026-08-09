@@ -38,15 +38,11 @@ Exactly. We compare the calculated pressure against our observed pressure. Then 
 
 **DR. SARAH HAYES**
 *[Taking a pair of micro-scissors from Elena to cut the suture tail]*
-We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler
-
-![Doppler Sketch](doppler_sketch_1786259371250.jpg) ultrasound.
+We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
 
 **STUART**
 *[Nodding eagerly]*
-Right. The Doppler
-
-![Doppler Sketch](doppler_sketch_1786259371250.jpg) probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
+Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
 
 > [!NOTE]
 > **Simplified Bernoulli Equation (Clinical)**
@@ -93,9 +89,9 @@ The vessel is filling...
 *[The repaired artery begins to swell, its walls pulsing rhythmically in time with Mark's heartbeat.]*
 
 **DR. SARAH HAYES**
-Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler
+Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe. Let's get our boundary measurement.
 
-![Doppler Sketch](doppler_sketch_1786259371250.jpg) probe. Let's get our boundary measurement.
+![Doppler Sketch](doppler_sketch_1786259371250.jpg)
 
 *[Stuart hands the sterile ultrasound probe to Dr. Hayes. She gently places the tip against the pulsing artery. A loud, rhythmic, swooshing sound fills the operating room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
 
@@ -107,9 +103,9 @@ Strong triphasic flow. The waveform is beautiful.
 *[Removing the probe and handing it back to Stuart]*
 The pressure gradients are restored. The boundary measurements look perfect. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
-*[Dr. Hayes begins closing the deeper tissue layers while Elena prepares the dressings. Stuart assists with the final skin closure
+*[Dr. Hayes begins closing the deeper tissue layers while Elena prepares the dressings. Stuart assists with the final skin closure. Within a few minutes, Elena wraps a clean, sterile bandage around Mark's arm.]*
 
-![Closure Sketch](closure_sketch_1786259427073.jpg). Within a few minutes, Elena wraps a clean, sterile bandage around Mark's arm.]*
+![Closure Sketch](closure_sketch_1786259427073.jpg)
 
 **DR. SARAH HAYES**
 All done, Mark. You have a brand new, watertight anastomosis.

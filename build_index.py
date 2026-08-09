@@ -11,42 +11,57 @@ def parse_chapter_to_rows(markdown_content):
     
     def start_row():
         nonlocal in_row, in_text
-        html_output.append('<div class="stage-row" markdown="1">\n<div class="play-text" markdown="1">')
-        in_row = True
-        in_text = True
+        if not in_row:
+            html_output.append('<stage-row markdown="1">\n<play-text markdown="1">')
+            in_row = True
+            in_text = True
         
     def end_row():
         nonlocal in_row, in_text, in_proj
         if in_row:
             if in_text:
-                html_output.append('</div>')
+                html_output.append('</play-text>')
                 in_text = False
-            if not in_proj:
-                html_output.append('<div class="projections" markdown="1"></div>')
-            html_output.append('</div>')
+            if in_proj:
+                html_output.append('</projections>')
+                in_proj = False
+            else:
+                html_output.append('<projections markdown="1"></projections>')
+            html_output.append('</stage-row>')
             in_row = False
-            in_proj = False
 
-    start_row()
-    
     i = 0
     while i < len(lines):
         line = lines[i]
         
-        # New chunk triggers a new row
+        # Headers and dividers break the layout completely
+        if line.startswith('#') or line.startswith('---') or line.startswith('<div class="preferred'):
+            end_row()
+            html_output.append(line)
+            i += 1
+            continue
+            
+        # Closing div for preferred-presentation breaks layout too
+        if line.startswith('</div>') and not in_row:
+            html_output.append(line)
+            i += 1
+            continue
+            
+        # New dialogue chunk or scene setting triggers a new row
         is_new_chunk = line.startswith('**') and ':' in line
         is_new_chunk = is_new_chunk or line.startswith('*[Scene')
-        is_new_chunk = is_new_chunk or line.startswith('## Act')
-        is_new_chunk = is_new_chunk or line.startswith('---')
+        is_new_chunk = is_new_chunk or line.startswith('**SETTING:**')
+        is_new_chunk = is_new_chunk or (line.startswith('**') and not ':' in line and len(line) < 30) # Speaker name alone
         
-        if is_new_chunk and i > 0:
+        if is_new_chunk:
             end_row()
             start_row()
             
         # Check for image
         if line.startswith('!['):
+            start_row()
             if in_text:
-                html_output.append('</div>\n<div class="projections" markdown="1">')
+                html_output.append('</play-text>\n<projections markdown="1">')
                 in_text = False
                 in_proj = True
             html_output.append(line)
@@ -55,8 +70,9 @@ def parse_chapter_to_rows(markdown_content):
             
         # Check for Note / Lookaside
         if line.startswith('> [!NOTE]') or (line.startswith('>') and in_proj):
+            start_row()
             if in_text:
-                html_output.append('</div>\n<div class="projections" markdown="1">')
+                html_output.append('</play-text>\n<projections markdown="1">')
                 in_text = False
                 in_proj = True
             html_output.append(line)
@@ -72,6 +88,9 @@ def parse_chapter_to_rows(markdown_content):
             continue
             
         # Normal text in normal flow
+        if line.strip() != "" and not in_row:
+            start_row()
+            
         html_output.append(line)
         i += 1
 

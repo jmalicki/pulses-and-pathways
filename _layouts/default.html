@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pulses and Pathways</title>
   <style>
-    body {
-      background-color: #faf8f5;
+    html, body {
+      background-color: #faf8f5 !important;
       color: #333;
       font-family: Georgia, serif;
       line-height: 1.8;
@@ -59,38 +59,40 @@
       margin-bottom: 4rem;
     }
     
-    /* Two-pane stage layout */
+    /* Two-pane stage layout using semantic custom tags */
     .container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 2rem;
     }
-    .stage-row {
+    stage-row {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       gap: 4rem;
       margin-bottom: 1rem;
+      width: 100%;
     }
-    .play-text {
+    play-text {
+      display: block;
       font-size: 1.1rem;
     }
-    .play-text p {
+    play-text p {
       margin-bottom: 1.5rem;
     }
-    .projections {
+    projections {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
       padding-top: 1rem;
     }
-    .projections img {
+    projections img {
       max-width: 100%;
       height: auto;
       border-radius: 4px;
       margin-bottom: 2rem;
     }
-    .projections .markdown-alert {
+    projections .markdown-alert {
       background-color: #fff;
       border: 1px solid #e8e2d8;
       border-left: 4px solid #4a90e2;
@@ -101,7 +103,7 @@
       font-size: 1rem;
       margin-bottom: 2rem;
     }
-    .projections blockquote {
+    projections blockquote {
       background-color: #fff;
       border: 1px solid #e8e2d8;
       border-left: 4px solid #4a90e2;
@@ -113,7 +115,7 @@
     }
     
     @media (max-width: 800px) {
-      .stage-row {
+      stage-row {
         grid-template-columns: 1fr;
         gap: 2rem;
       }
