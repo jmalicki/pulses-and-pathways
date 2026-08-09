@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" width="100%" height="100%">
+  <defs>
+    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3" />
+  <line x1="30" y1="36" x2="490" y2="36" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="30" y1="300" x2="490" y2="300" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="30" y1="560" x2="490" y2="560" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 8  History Matching</text>
+
+  <g transform="translate(0, 40)">
+    <text x="40" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Guessed parameters converging</text>
+    <text x="40" y="46" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Blind initial guesses for permeability and compliance ’ values that fit the well</text>
+
+    <line x1="70" y1="230" x2="460" y2="230" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <line x1="70" y1="230" x2="70" y2="70" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <text x="38" y="150" font-family="Georgia, serif" font-size="11" fill="#1c1c1c" transform="rotate(-90 38 150)" text-anchor="middle">Parameter value</text>
+    <text x="400" y="218" font-family="Georgia, serif" font-size="11" fill="#1c1c1c">Iteration <tspan font-style="italic">n</tspan></text>
+
+    <line x1="70" y1="100" x2="430" y2="100" stroke="#1e3d59" stroke-width="1" stroke-dasharray="4,4" />
+    <text x="435" y="104" font-family="Georgia, serif" font-size="11" fill="#1e3d59"><tspan font-style="italic">k</tspan><tspan font-size="8" dy="3">true</tspan></text>
+    <path d="M 70 210 Q 130 75, 180 120 Q 230 90, 280 102 Q 330 97, 380 100 L 430 100"
+          fill="none" stroke="#1e3d59" stroke-width="2.5" />
+
+    <line x1="70" y1="155" x2="430" y2="155" stroke="#c94a4a" stroke-width="1" stroke-dasharray="4,4" />
+    <text x="435" y="159" font-family="Georgia, serif" font-size="11" fill="#c94a4a"><tspan font-style="italic">C</tspan><tspan font-size="8" dy="3">true</tspan></text>
+    <path d="M 70 85 Q 130 185, 180 140 Q 230 165, 280 152 Q 330 156, 380 155 L 430 155"
+          fill="none" stroke="#c94a4a" stroke-width="2.5" />
+
+    <circle cx="70" cy="210" r="3.5" fill="#1e3d59" />
+    <circle cx="70" cy="85" r="3.5" fill="#c94a4a" />
+    <text x="80" y="216" font-family="Georgia, serif" font-size="10" fill="#1e3d59">Initial <tspan font-style="italic">k</tspan></text>
+    <text x="80" y="80" font-family="Georgia, serif" font-size="10" fill="#c94a4a">Initial <tspan font-style="italic">C</tspan></text>
+  </g>
+
+  <g transform="translate(0, 310)">
+    <text x="40" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Transducer vs Darcy prediction</text>
+    <text x="40" y="46" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Wellhead pressure: measured record vs model output, iteration by iteration</text>
+
+    <line x1="70" y1="200" x2="460" y2="200" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <line x1="70" y1="200" x2="70" y2="55" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <text x="38" y="130" font-family="Georgia, serif" font-size="11" fill="#1c1c1c" transform="rotate(-90 38 130)" text-anchor="middle">Wellhead pressure</text>
+    <text x="400" y="188" font-family="Georgia, serif" font-size="11" fill="#1c1c1c">Iteration <tspan font-style="italic">n</tspan></text>
+
+    <line x1="70" y1="100" x2="430" y2="100" stroke="#1c1c1c" stroke-width="2.2" stroke-dasharray="6,4" />
+    <text x="435" y="104" font-family="Georgia, serif" font-size="11" fill="#1c1c1c"><tspan font-style="italic">P</tspan><tspan font-size="8" dy="3">obs</tspan></text>
+    <text x="300" y="90" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">transducer record</text>
+
+    <path d="M 70 175
+             Q 120 165, 160 150
+             Q 210 130, 260 115
+             Q 310 105, 360 102
+             L 430 100"
+          fill="none" stroke="#1e3d59" stroke-width="2.5" />
+    <circle cx="70" cy="175" r="3.5" fill="#1e3d59" />
+    <text x="80" y="185" font-family="Georgia, serif" font-size="10" fill="#1e3d59">Initial <tspan font-style="italic">P</tspan><tspan font-size="8" dy="2">calc</tspan></text>
+    <text x="280" y="135" font-family="Georgia, serif" font-size="11" fill="#1e3d59"><tspan font-style="italic">P</tspan><tspan font-size="8" dy="3">calc</tspan><tspan dy="-3"> ’ matches sensors</tspan></text>
+
+    <line x1="58" y1="100" x2="58" y2="175" stroke="#c94a4a" stroke-width="1.2" />
+    <text x="52" y="140" font-family="Georgia, serif" font-size="9" fill="#c94a4a" transform="rotate(-90 52 140)" text-anchor="middle">mismatch</text>
+  </g>
+
+  <g transform="translate(30, 560)">
+    <rect x="0" y="0" width="460" height="60" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
+    <text x="16" y="24" font-family="Georgia, Times New Roman, serif" font-size="14" fill="#1c1c1c">
+      <tspan font-style="italic">J</tspan> = <tspan font-size="16"></tspan><tspan font-size="10" dy="3">t</tspan><tspan dy="-3"> [ </tspan><tspan font-style="italic">P<tspan font-size="9" dy="3">obs</tspan></tspan><tspan dy="-3">(</tspan><tspan font-style="italic">t</tspan>)  <tspan font-style="italic">P<tspan font-size="9" dy="3">calc</tspan></tspan><tspan dy="-3">(</tspan><tspan font-style="italic">t</tspan>) ]<tspan font-size="9" dy="-4">2</tspan>
+    </text>
+    <text x="16" y="46" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">
+      Tune permeability <tspan font-style="italic" fill="#1c1c1c">k</tspan> and compliance <tspan font-style="italic" fill="#1c1c1c">C</tspan> until transducer and model agree
+    </text>
+  </g>
+</svg>

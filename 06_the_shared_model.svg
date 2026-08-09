@@ -1,148 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 920" width="100%" height="100%">
-  <defs>
-    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e3d59" />
-    </marker>
-    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
-    </marker>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 270" width="100%" height="100%">
   <rect width="100%" height="100%" fill="#f2efe3" />
   <line x1="30" y1="36" x2="490" y2="36" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
-  <line x1="30" y1="250" x2="490" y2="250" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
-  <line x1="30" y1="530" x2="490" y2="530" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
-  <line x1="30" y1="810" x2="490" y2="810" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="30" y1="252" x2="490" y2="252" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
 
-  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 6 — Unified Model &amp; Parameter Identification</text>
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 6 — One Circuit, Two Namings</text>
 
-  <!-- SECTION 1: CIRCUIT (compressed for narrow column) -->
-  <g transform="translate(0, 0)">
-    <text x="40" y="58" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Unified Hydraulic Circuit Model</text>
+  <g transform="translate(0, 42)">
+    <text x="40" y="14" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Medicine above · petroleum below — same slots, not the same parts</text>
 
-    <g transform="translate(20, 55)">
-      <!-- Pump / Heart -->
-      <circle cx="28" cy="100" r="18" fill="none" stroke="#1e3d59" stroke-width="2" />
-      <path d="M 20 100 L 38 92 L 38 108 Z" fill="#1e3d59" />
-      <text x="28" y="135" font-family="Georgia, serif" font-size="9" fill="#5a5a5a" text-anchor="middle">Pump / Heart</text>
+    <!-- Medicine labels: more air under the legend, tight above C/P -->
+    <text x="48" y="64" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">Heart</text>
+    <text x="125" y="56" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">Arterial</text>
+    <text x="125" y="68" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">stretch</text>
+    <text x="200" y="64" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">Stenosis</text>
+    <text x="275" y="56" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">Arterial</text>
+    <text x="275" y="68" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">line</text>
+    <text x="355" y="56" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">Capillary</text>
+    <text x="355" y="68" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">bed</text>
+    <text x="445" y="56" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">Venous</text>
+    <text x="445" y="68" font-family="Georgia, serif" font-size="10" fill="#1c1c1c" text-anchor="middle">return</text>
 
-      <line x1="46" y1="100" x2="105" y2="100" stroke="#1e3d59" stroke-width="2" />
+    <!-- Circuit: C top ~10px under "stretch" -->
+    <g transform="translate(0, 76)">
+      <circle cx="48" cy="52" r="15" fill="none" stroke="#1e3d59" stroke-width="2" />
+      <path d="M 41 52 L 55 46 L 55 58 Z" fill="#1e3d59" />
 
-      <!-- Compliance -->
-      <circle cx="105" cy="100" r="2.5" fill="#1e3d59" />
-      <line x1="105" y1="100" x2="105" y2="72" stroke="#1e3d59" stroke-width="2" />
-      <rect x="92" y="38" width="26" height="34" fill="none" stroke="#1e3d59" stroke-width="2" rx="3" />
-      <line x1="94" y1="55" x2="116" y2="55" stroke="#1e3d59" stroke-width="2" />
-      <text x="105" y="30" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#1e3d59" text-anchor="middle">C</text>
-      <text x="105" y="150" font-family="Georgia, serif" font-size="9" fill="#5a5a5a" text-anchor="middle">Compliance</text>
+      <line x1="63" y1="52" x2="125" y2="52" stroke="#1e3d59" stroke-width="2" />
 
-      <line x1="105" y1="100" x2="165" y2="100" stroke="#1e3d59" stroke-width="2" />
+      <circle cx="125" cy="52" r="2.5" fill="#1e3d59" />
+      <line x1="125" y1="52" x2="125" y2="34" stroke="#1e3d59" stroke-width="2" />
+      <rect x="113" y="10" width="24" height="24" fill="none" stroke="#1e3d59" stroke-width="2" rx="2" />
+      <line x1="115" y1="22" x2="135" y2="22" stroke="#1e3d59" stroke-width="2" />
+      <text x="142" y="20" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#1e3d59">C</text>
 
-      <!-- Stenosis / Choke -->
-      <path d="M 165 100 L 178 90 L 178 110 L 191 100 Z" fill="#1e3d59" />
-      <line x1="165" y1="100" x2="191" y2="100" stroke="#1e3d59" stroke-width="2" />
-      <text x="178" y="82" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#1e3d59" text-anchor="middle">R<tspan font-size="8" dy="3">s</tspan></text>
-      <text x="178" y="150" font-family="Georgia, serif" font-size="9" fill="#5a5a5a" text-anchor="middle">Stenosis / Choke</text>
+      <line x1="125" y1="52" x2="175" y2="52" stroke="#1e3d59" stroke-width="2" />
 
-      <line x1="191" y1="100" x2="245" y2="100" stroke="#1e3d59" stroke-width="2" />
+      <path d="M 175 52 L 186 44 L 186 60 L 197 52 Z" fill="#1e3d59" />
+      <text x="186" y="38" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#1e3d59" text-anchor="middle">R</text>
 
-      <!-- Transducer P_obs -->
-      <circle cx="245" cy="100" r="3" fill="#1e3d59" />
-      <line x1="245" y1="100" x2="245" y2="68" stroke="#1c1c1c" stroke-width="1.2" />
-      <rect x="224" y="42" width="42" height="22" fill="#f2efe3" stroke="#1c1c1c" stroke-width="1.5" />
-      <text x="245" y="57" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#1c1c1c" text-anchor="middle">P<tspan font-size="8" dy="3">obs</tspan></text>
-      <text x="245" y="150" font-family="Georgia, serif" font-size="9" fill="#5a5a5a" text-anchor="middle">Transducer</text>
+      <line x1="197" y1="52" x2="275" y2="52" stroke="#1e3d59" stroke-width="2" />
 
-      <line x1="245" y1="100" x2="300" y2="100" stroke="#1e3d59" stroke-width="2" />
+      <circle cx="275" cy="52" r="3" fill="#1e3d59" />
+      <line x1="275" y1="52" x2="275" y2="34" stroke="#1c1c1c" stroke-width="1.2" />
+      <rect x="256" y="14" width="38" height="18" fill="#f2efe3" stroke="#1c1c1c" stroke-width="1.5" />
+      <text x="275" y="27" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#1c1c1c" text-anchor="middle">P</text>
 
-      <!-- Parallel branches -->
-      <line x1="300" y1="70" x2="300" y2="130" stroke="#1e3d59" stroke-width="2" />
-      <line x1="300" y1="70" x2="360" y2="70" stroke="#1e3d59" stroke-width="2" />
-      <line x1="300" y1="100" x2="360" y2="100" stroke="#1e3d59" stroke-width="2" />
-      <line x1="300" y1="130" x2="360" y2="130" stroke="#1e3d59" stroke-width="2" />
-      <text x="330" y="62" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#1e3d59" text-anchor="middle">R<tspan font-size="7" dy="2">1</tspan></text>
-      <text x="330" y="92" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#1e3d59" text-anchor="middle">R<tspan font-size="7" dy="2">2</tspan></text>
-      <text x="330" y="122" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#1e3d59" text-anchor="middle">R<tspan font-size="7" dy="2">3</tspan></text>
-      <line x1="360" y1="70" x2="360" y2="130" stroke="#1e3d59" stroke-width="2" />
-      <line x1="360" y1="100" x2="410" y2="100" stroke="#1e3d59" stroke-width="2" />
+      <line x1="275" y1="52" x2="320" y2="52" stroke="#1e3d59" stroke-width="2" />
 
-      <!-- Sump -->
-      <rect x="410" y="85" width="48" height="30" fill="none" stroke="#1e3d59" stroke-width="2" />
-      <text x="434" y="104" font-family="Georgia, serif" font-size="10" fill="#1e3d59" text-anchor="middle">Sump</text>
-      <text x="330" y="168" font-family="Georgia, serif" font-size="9" fill="#5a5a5a" text-anchor="middle">capillary bed / reservoir fractures</text>
+      <line x1="320" y1="34" x2="320" y2="70" stroke="#1e3d59" stroke-width="2" />
+      <line x1="320" y1="34" x2="380" y2="34" stroke="#1e3d59" stroke-width="2" />
+      <line x1="320" y1="52" x2="380" y2="52" stroke="#1e3d59" stroke-width="2" />
+      <line x1="320" y1="70" x2="380" y2="70" stroke="#1e3d59" stroke-width="2" />
+      <line x1="380" y1="34" x2="380" y2="70" stroke="#1e3d59" stroke-width="2" />
+      <line x1="380" y1="52" x2="420" y2="52" stroke="#1e3d59" stroke-width="2" />
+
+      <rect x="420" y="38" width="50" height="28" fill="none" stroke="#1e3d59" stroke-width="2" />
     </g>
-  </g>
 
-  <!-- SECTION 2 TOP PLOT: parameter convergence -->
-  <g transform="translate(0, 255)">
-    <text x="40" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Guessed parameters converging</text>
-    <text x="40" y="46" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Blind initial guesses for permeability and compliance → values that fit the well</text>
-
-    <line x1="70" y1="230" x2="460" y2="230" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
-    <line x1="70" y1="230" x2="70" y2="70" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
-    <text x="38" y="150" font-family="Georgia, serif" font-size="11" fill="#1c1c1c" transform="rotate(-90 38 150)" text-anchor="middle">Parameter value</text>
-    <text x="400" y="218" font-family="Georgia, serif" font-size="11" fill="#1c1c1c">Iteration <tspan font-style="italic">n</tspan></text>
-
-    <line x1="70" y1="100" x2="430" y2="100" stroke="#1e3d59" stroke-width="1" stroke-dasharray="4,4" />
-    <text x="435" y="104" font-family="Georgia, serif" font-size="11" fill="#1e3d59"><tspan font-style="italic">k</tspan><tspan font-size="8" dy="3">true</tspan></text>
-    <path d="M 70 210 Q 130 75, 180 120 Q 230 90, 280 102 Q 330 97, 380 100 L 430 100"
-          fill="none" stroke="#1e3d59" stroke-width="2.5" />
-
-    <line x1="70" y1="155" x2="430" y2="155" stroke="#c94a4a" stroke-width="1" stroke-dasharray="4,4" />
-    <text x="435" y="159" font-family="Georgia, serif" font-size="11" fill="#c94a4a"><tspan font-style="italic">C</tspan><tspan font-size="8" dy="3">true</tspan></text>
-    <path d="M 70 85 Q 130 185, 180 140 Q 230 165, 280 152 Q 330 156, 380 155 L 430 155"
-          fill="none" stroke="#c94a4a" stroke-width="2.5" />
-
-    <circle cx="70" cy="210" r="3.5" fill="#1e3d59" />
-    <circle cx="70" cy="85" r="3.5" fill="#c94a4a" />
-    <text x="80" y="216" font-family="Georgia, serif" font-size="10" fill="#1e3d59">Initial <tspan font-style="italic">k</tspan></text>
-    <text x="80" y="80" font-family="Georgia, serif" font-size="10" fill="#c94a4a">Initial <tspan font-style="italic">C</tspan></text>
-  </g>
-
-  <!-- SECTION 3 BOTTOM PLOT: pressure match -->
-  <g transform="translate(0, 535)">
-    <text x="40" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Transducer vs Darcy prediction</text>
-    <text x="40" y="46" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Wellhead pressure: measured record vs model output, iteration by iteration</text>
-
-    <line x1="70" y1="230" x2="460" y2="230" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
-    <line x1="70" y1="230" x2="70" y2="70" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
-    <text x="38" y="150" font-family="Georgia, serif" font-size="11" fill="#1c1c1c" transform="rotate(-90 38 150)" text-anchor="middle">Wellhead pressure</text>
-    <text x="400" y="218" font-family="Georgia, serif" font-size="11" fill="#1c1c1c">Iteration <tspan font-style="italic">n</tspan></text>
-
-    <!-- P_obs: measured transducer record (flat target band / constant mean pressure match target) -->
-    <line x1="70" y1="120" x2="430" y2="120" stroke="#1c1c1c" stroke-width="2.2" stroke-dasharray="6,4" />
-    <text x="435" y="124" font-family="Georgia, serif" font-size="11" fill="#1c1c1c"><tspan font-style="italic">P</tspan><tspan font-size="8" dy="3">obs</tspan></text>
-    <text x="300" y="110" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">transducer record</text>
-
-    <!-- P_calc: starts wrong, converges to P_obs -->
-    <path d="M 70 200
-             Q 120 190, 160 175
-             Q 210 155, 260 140
-             Q 310 128, 360 122
-             L 430 120"
-          fill="none" stroke="#1e3d59" stroke-width="2.5" />
-    <circle cx="70" cy="200" r="3.5" fill="#1e3d59" />
-    <text x="80" y="210" font-family="Georgia, serif" font-size="10" fill="#1e3d59">Initial <tspan font-style="italic">P</tspan><tspan font-size="8" dy="2">calc</tspan></text>
-    <text x="280" y="155" font-family="Georgia, serif" font-size="11" fill="#1e3d59"><tspan font-style="italic">P</tspan><tspan font-size="8" dy="3">calc</tspan><tspan dy="-3"> → matches sensors</tspan></text>
-
-    <!-- Mismatch bracket at start -->
-    <line x1="58" y1="120" x2="58" y2="200" stroke="#c94a4a" stroke-width="1.2" />
-    <text x="52" y="165" font-family="Georgia, serif" font-size="9" fill="#c94a4a" transform="rotate(-90 52 165)" text-anchor="middle">mismatch</text>
-  </g>
-
-  <!-- Equation strip -->
-  <g transform="translate(30, 825)">
-    <rect x="0" y="0" width="460" height="75" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
-    <text x="16" y="26" font-family="Georgia, Times New Roman, serif" font-size="14" fill="#1c1c1c">
-      <tspan font-style="italic">J</tspan> = <tspan font-size="16">∑</tspan><tspan font-size="10" dy="3">t</tspan><tspan dy="-3"> [ </tspan><tspan font-style="italic">P<tspan font-size="9" dy="3">obs</tspan></tspan><tspan dy="-3">(</tspan><tspan font-style="italic">t</tspan>) − <tspan font-style="italic">P<tspan font-size="9" dy="3">calc</tspan></tspan><tspan dy="-3">(</tspan><tspan font-style="italic">t</tspan>) ]<tspan font-size="9" dy="-4">2</tspan>
-    </text>
-    <text x="16" y="48" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">
-      <tspan font-style="italic" fill="#1c1c1c">P<tspan font-size="8" dy="2">obs</tspan></tspan><tspan dy="-2">: wellhead transducer</tspan>
-      &#160;·&#160;
-      <tspan font-style="italic" fill="#1c1c1c">P<tspan font-size="8" dy="2">calc</tspan></tspan><tspan dy="-2">: Darcy model prediction</tspan>
-    </text>
-    <text x="16" y="66" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">
-      Tune permeability <tspan font-style="italic" fill="#1c1c1c">k</tspan> and compliance <tspan font-style="italic" fill="#1c1c1c">C</tspan> until they agree
-    </text>
+    <!-- Petroleum: clear of parallel/sump, not as loose as the first draft -->
+    <text x="48" y="176" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">Pump</text>
+    <text x="125" y="168" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">Surge</text>
+    <text x="125" y="180" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">tank</text>
+    <text x="200" y="176" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">Choke</text>
+    <text x="275" y="176" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">Transducer</text>
+    <text x="355" y="168" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">Fracture</text>
+    <text x="355" y="180" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">network</text>
+    <text x="445" y="176" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="middle">Sump</text>
   </g>
 </svg>

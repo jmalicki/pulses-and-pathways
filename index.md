@@ -39,7 +39,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 **Characters:**
 
 * **DR. SARAH HAYES**: Vascular Surgeon. Calm, experienced, and observant.
-* **MARK**: Patient. Anxious oil engineer, draped under local anesthesia.
+* **MARK**: Patient. Anxious oil engineer, awake, arm numb from regional anesthesia.
 * **STUART**: Third-year medical student, observing the surgery.
 * **ELENA**: Circulating nurse, managing IV and vitals.
 
@@ -53,19 +53,21 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <play-text>
 <div markdown="1">
 
-*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
+*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is at the arm, about to go deeper into the laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
 
-**DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open.
+**DR. SARAH HAYES**: *[Without looking up]* Elena, saline wide open.
 
-*[She straightens just enough to look over the screen to Mark; voice warmer.]*
+*[She looks over the screen to Mark.]*
 
-Mark, you're doing great. How is the arm feeling?
+Mark—before I go further. I'm going to press here. Tell me: sharp, or just pressure?
 
-**MARK**: *[Staring intently at the ceiling, his knuckles white as he grips the edge of the operating table]* It's... fine. I mean, I don't feel pain, Dr. Hayes. Just this bizarre tugging. Like someone is rooting around in a kitchen drawer, but the drawer is my wrist.
+*[A firm press on the forearm below the field.]*
 
-**DR. SARAH HAYES**: *[Using forceps to carefully dissect through the subcutaneous tissue]* That's the regional block. It completely shuts down the pain receptors, but you can still feel dull pressure and movement. It's a strange sensation, but it means the anesthetic is working exactly where we want it.
+**MARK**: *[Staring at the ceiling, knuckles white on the table edge]* Not sharp. Just… weird. Like someone's rooting around in a kitchen drawer, but the drawer is my wrist.
+
+**DR. SARAH HAYES**: *[A small nod; back to the field]* Good. That's what we want. The numbing's holding—you can feel pressure and movement, but cutting pain shouldn't get through. If anything turns sharp, say so.
 
 **ELENA**: *[Checking the vitals monitor]* Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he's running a little fast.
 
@@ -92,11 +94,11 @@ Mark, you're doing great. How is the arm feeling?
 
 **STUART**: *[Frowning behind his mask]* The annulus? Like the mitral valve annulus?
 
-**MARK**: What? No. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
+**MARK**: Mitral—? I don't know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
 
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's P-h equals rho gee zee. Density rho of the mud, gravity gee, and vertical depth zee. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks—sorry—formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
 
 
 **DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
@@ -137,10 +139,7 @@ Mark, you're doing great. How is the arm feeling?
 
 **MARK**: *[Sweat beads forming on his forehead]* Much higher. We call it the Equivalent Circulating Density, or ECD. It's the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We run computer simulations on it, breaking the whole well down into chunks. You can't just calculate it on paper because the mud gets compressed and heated the deeper it goes, changing how it flows at every single foot.
 
-**DR. SARAH HAYES**: *[Locating the lacerated vessel, her movements precise]* A hydraulic network. A pump, a conduit, and resistance. It's the same physics, whether it's steel casing or the ulnar artery.
-
-*[Dr. Hayes preparing to clamp the severed vessel to isolate the bleeding. Stuart is holding the retractor.]*
-
+**DR. SARAH HAYES**: *[Locating the lacerated vessel, her movements precise]* There. Ulnar artery. Torn—but the ends look clean enough to work with.
 
 </div>
 </play-text>
@@ -154,9 +153,6 @@ Mark, you're doing great. How is the arm feeling?
 <stage-row>
 <play-text>
 <div markdown="1">
-**DR. SARAH HAYES**: Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first. Watch the pressure.
-
-**MARK**: *[Watches the ceiling, sweating, and says]* Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.
 
 </div>
 </play-text>
@@ -181,7 +177,7 @@ Mark, you're doing great. How is the arm feeling?
 <div markdown="1">
 
 **SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is ready to control the flow at the lacerated artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
 
 </div>
 </play-text>
@@ -194,20 +190,54 @@ An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hay
 <div markdown="1">
 
 **DR. SARAH HAYES**
-*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the arterial monitor.]*
+Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first.
 
-Confirmed. There's the upward deflection on the arterial line pressure transducer. The pressure waveform just spiked upstream.
+**MARK**
+*[Watches the ceiling, sweating]*
+Clamping the flow. That's a valve shut-in.
+
+**DR. SARAH HAYES**
+*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the field go quiet.]*
+
+Good. Proximal control. Field's dry.
+
+**MARK**
+*[A small flinch at the click; eyes still on the ceiling]*
+That's it? You just closed it?
+
+**DR. SARAH HAYES**
+*[Looks over the screen to Mark]*
+Proximal clamp's on. Bleeding's stopped on this side.
+
+**MARK**
+*[Trying to map it to something he knows]*
+On a well, you'd see that shut-in on the gauges—pressure jumps upstream the second the valve closes. That's why we hang transducers. Early warning. So… you saw the spike?
+
+**DR. SARAH HAYES**
+I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.
+
+**MARK**
+*[A short, incredulous laugh]*
+Every few minutes. After a shut-in.
+
+**DR. SARAH HAYES**
+*[Back to the field]*
+For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn't clear that bar.
+
+**ELENA**
+*[Checking the cuff cycle on the vitals monitor]*
+We don't instrument for sport.
 
 **STUART**
-*[Straining slightly as he holds the retractors, his eyes darting to the monitor]*
-Look at the shape of the wave. The peak systolic pressure is up, but the normal dicrotic notch—the dip from the aortic valve closure—is completely washed out by the reflection.
+*[Still holding retractors, thinking out loud]*
+But if we *did* have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.
 
 **DR. SARAH HAYES**
 *[Without looking up, she steadies the clamped vessel with forceps]*
-Ten points for quoting the physiology textbook verbatim, Stuart. But yes, exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
+Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 **MARK**
-*[Nervously tapping his free left hand against the arm board]*
+*[Nervously tapping his free hand against the arm board]*
 We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
 
 </div>
@@ -388,7 +418,7 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 <div markdown="1">
 
 **SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
 
 </div>
 </play-text>
@@ -492,7 +522,7 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 <div markdown="1">
 
 **SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
 
 </div>
 </play-text>
@@ -650,7 +680,7 @@ That's the idea. While there's still a wall to hold. Which is why we respect the
 <div markdown="1">
 
 **SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
 
 </div>
 </play-text>
@@ -671,16 +701,25 @@ Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the
 *[Eyes on the vessel, voice flat]*
 Starting the anastomosis. Stuart—don't let me purse these bites. We narrow this lumen, resistance climbs. Hard.
 
-*[She places the first stitch. A beat. She looks over the screen to Mark—softer—then her eyes drop back to the vessel.]*
+*[She places the first stitch. A beat. She looks over the screen to Mark—softer.]*
 
-We won't see the flow in here until we're done. Not until Doppler.
+Mark—I'm sewing the artery back together now. You won't feel it. When we're done we'll check the flow with a Doppler probe. Until then I'm watching the wall, not blood moving through it.
 
 **MARK**
-Inferring the unseen. That's my entire job.
+*[Eyes on the ceiling lights, free fingers twitching against the drape]*
+I can't see any of that. Arm's just… blank. You're sewing it without watching the flow?
+
+**DR. SARAH HAYES**
+*[Already back to the field]*
+The join, yes. The flow comes after.
+
+**MARK**
+*[A thin breath]*
+Then we're the same. I never see inside the reservoir either. That's my entire job—working from the outside.
 
 **DR. SARAH HAYES**
 *[Still not looking up, looping the fine suture with steady precision]*
-How so, Mark?
+How so?
 
 **MARK**
 *[Nervously twitching his fingers, his eyes tracking the surgical light]*
@@ -755,14 +794,33 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 
 
 **MARK**
-Look at the top half. Same circuit for both of us. Heart or pump into a compliance chamber—your arterial stretch, or one of our surge accumulators. Then a stenosis or a choke valve, same idea, a flow resistor. Transducer right after it for the pressure we can actually see. Then it splits into parallel paths—your capillary bed, our fracture network—before it drains into a sump.
+Look at this. One circuit. Your names on top, mine underneath. Heart over the pump, arterial stretch over the surge tank, stenosis over the choke—same slots on the page, not the same hardware. Arterial line over the transducer—when either side actually instruments the pressure. Then it splits: capillary bed above, fracture network below. Not synonyms. Just the same shape.
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
-And below that—the mathematical convergence.
+And the matching—the convergence you were talking about?
 
 **MARK**
-Right. The upper plot shows how our guesses for permeability and compliance start blind and converge toward the values that actually fit the well. The lower plot is the pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
+Different page. Elena—next sheet.
+
+*[Elena flips to the following page and holds it up.]*
+
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![The Shared Model](06_the_shared_model.svg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
+
+
+**MARK**
+Right. Upper plot: guesses for permeability and compliance start blind and converge toward what actually fits the well. Lower plot: pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
 
 **DR. SARAH HAYES**
 *[Looks over the screen to Mark, softer]*
@@ -789,7 +847,7 @@ The vessel is filling...
 </play-text>
 <projections>
 <div markdown="1">
-![The Shared Model](06_the_shared_model.svg)
+![History Matching](08_history_matching.svg)
 
 </div>
 </projections>

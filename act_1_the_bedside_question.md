@@ -3,26 +3,28 @@
 **Characters:**
 
 * **DR. SARAH HAYES**: Vascular Surgeon. Calm, experienced, and observant.
-* **MARK**: Patient. Anxious oil engineer, draped under local anesthesia.
+* **MARK**: Patient. Anxious oil engineer, awake, arm numb from regional anesthesia.
 * **STUART**: Third-year medical student, observing the surgery.
 * **ELENA**: Circulating nurse, managing IV and vitals.
 
 ---
 
-*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
+*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is at the arm, about to go deeper into the laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
 ![Exposure Sketch](01a_exposure.svg)
 
-**DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open.
+**DR. SARAH HAYES**: *[Without looking up]* Elena, saline wide open.
 
-*[She straightens just enough to look over the screen to Mark; voice warmer.]*
+*[She looks over the screen to Mark.]*
 
-Mark, you're doing great. How is the arm feeling?
+Mark—before I go further. I'm going to press here. Tell me: sharp, or just pressure?
 
-**MARK**: *[Staring intently at the ceiling, his knuckles white as he grips the edge of the operating table]* It's... fine. I mean, I don't feel pain, Dr. Hayes. Just this bizarre tugging. Like someone is rooting around in a kitchen drawer, but the drawer is my wrist.
+*[A firm press on the forearm below the field.]*
 
-**DR. SARAH HAYES**: *[Using forceps to carefully dissect through the subcutaneous tissue]* That's the regional block. It completely shuts down the pain receptors, but you can still feel dull pressure and movement. It's a strange sensation, but it means the anesthetic is working exactly where we want it.
+**MARK**: *[Staring at the ceiling, knuckles white on the table edge]* Not sharp. Just… weird. Like someone's rooting around in a kitchen drawer, but the drawer is my wrist.
+
+**DR. SARAH HAYES**: *[A small nod; back to the field]* Good. That's what we want. The numbing's holding—you can feel pressure and movement, but cutting pain shouldn't get through. If anything turns sharp, say so.
 
 **ELENA**: *[Checking the vitals monitor]* Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he's running a little fast.
 
@@ -38,11 +40,11 @@ Mark, you're doing great. How is the arm feeling?
 
 **STUART**: *[Frowning behind his mask]* The annulus? Like the mitral valve annulus?
 
-**MARK**: What? No. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
+**MARK**: Mitral—? I don't know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
 
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's P-h equals rho gee zee. Density rho of the mud, gravity gee, and vertical depth zee. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks—sorry—formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
 
 > [!NOTE]
 > **Hydrostatic Pressure**
@@ -73,12 +75,6 @@ Mark, you're doing great. How is the arm feeling?
 
 **MARK**: *[Sweat beads forming on his forehead]* Much higher. We call it the Equivalent Circulating Density, or ECD. It's the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We run computer simulations on it, breaking the whole well down into chunks. You can't just calculate it on paper because the mud gets compressed and heated the deeper it goes, changing how it flows at every single foot.
 
-**DR. SARAH HAYES**: *[Locating the lacerated vessel, her movements precise]* A hydraulic network. A pump, a conduit, and resistance. It's the same physics, whether it's steel casing or the ulnar artery.
-
-*[Dr. Hayes preparing to clamp the severed vessel to isolate the bleeding. Stuart is holding the retractor.]*
-
+**DR. SARAH HAYES**: *[Locating the lacerated vessel, her movements precise]* There. Ulnar artery. Torn—but the ends look clean enough to work with.
 
 ![Exposure Sketch](01a_exposure.svg)
-**DR. SARAH HAYES**: Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first. Watch the pressure.
-
-**MARK**: *[Watches the ceiling, sweating, and says]* Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.

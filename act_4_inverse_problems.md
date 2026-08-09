@@ -3,7 +3,7 @@
 ## Act 5: Inverse Problems
 
 **SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
 
 ---
 
@@ -16,16 +16,25 @@ Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the
 *[Eyes on the vessel, voice flat]*
 Starting the anastomosis. Stuart—don't let me purse these bites. We narrow this lumen, resistance climbs. Hard.
 
-*[She places the first stitch. A beat. She looks over the screen to Mark—softer—then her eyes drop back to the vessel.]*
+*[She places the first stitch. A beat. She looks over the screen to Mark—softer.]*
 
-We won't see the flow in here until we're done. Not until Doppler.
+Mark—I'm sewing the artery back together now. You won't feel it. When we're done we'll check the flow with a Doppler probe. Until then I'm watching the wall, not blood moving through it.
 
 **MARK**
-Inferring the unseen. That's my entire job.
+*[Eyes on the ceiling lights, free fingers twitching against the drape]*
+I can't see any of that. Arm's just… blank. You're sewing it without watching the flow?
+
+**DR. SARAH HAYES**
+*[Already back to the field]*
+The join, yes. The flow comes after.
+
+**MARK**
+*[A thin breath]*
+Then we're the same. I never see inside the reservoir either. That's my entire job—working from the outside.
 
 **DR. SARAH HAYES**
 *[Still not looking up, looping the fine suture with steady precision]*
-How so, Mark?
+How so?
 
 **MARK**
 *[Nervously twitching his fingers, his eyes tracking the surgical light]*
@@ -89,14 +98,23 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 ![The Shared Model](06_the_shared_model.svg)
 
 **MARK**
-Look at the top half. Same circuit for both of us. Heart or pump into a compliance chamber—your arterial stretch, or one of our surge accumulators. Then a stenosis or a choke valve, same idea, a flow resistor. Transducer right after it for the pressure we can actually see. Then it splits into parallel paths—your capillary bed, our fracture network—before it drains into a sump.
+Look at this. One circuit. Your names on top, mine underneath. Heart over the pump, arterial stretch over the surge tank, stenosis over the choke—same slots on the page, not the same hardware. Arterial line over the transducer—when either side actually instruments the pressure. Then it splits: capillary bed above, fracture network below. Not synonyms. Just the same shape.
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
-And below that—the mathematical convergence.
+And the matching—the convergence you were talking about?
 
 **MARK**
-Right. The upper plot shows how our guesses for permeability and compliance start blind and converge toward the values that actually fit the well. The lower plot is the pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
+Different page. Elena—next sheet.
+
+*[Elena flips to the following page and holds it up.]*
+
+<!-- stage-break -->
+
+![History Matching](08_history_matching.svg)
+
+**MARK**
+Right. Upper plot: guesses for permeability and compliance start blind and converge toward what actually fits the well. Lower plot: pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
 
 **DR. SARAH HAYES**
 *[Looks over the screen to Mark, softer]*

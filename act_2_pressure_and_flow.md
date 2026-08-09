@@ -3,26 +3,60 @@
 ## Act 2: The Narrowing
 
 **SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is ready to control the flow at the lacerated artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
 
 ---
 
 **DR. SARAH HAYES**
-*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the arterial monitor.]*
+Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first.
+
+**MARK**
+*[Watches the ceiling, sweating]*
+Clamping the flow. That's a valve shut-in.
+
+**DR. SARAH HAYES**
+*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the field go quiet.]*
 
 ![Clamping Sketch](clamping_sketch_1786259348177.jpg)
-Confirmed. There's the upward deflection on the arterial line pressure transducer. The pressure waveform just spiked upstream.
+Good. Proximal control. Field's dry.
+
+**MARK**
+*[A small flinch at the click; eyes still on the ceiling]*
+That's it? You just closed it?
+
+**DR. SARAH HAYES**
+*[Looks over the screen to Mark]*
+Proximal clamp's on. Bleeding's stopped on this side.
+
+**MARK**
+*[Trying to map it to something he knows]*
+On a well, you'd see that shut-in on the gauges—pressure jumps upstream the second the valve closes. That's why we hang transducers. Early warning. So… you saw the spike?
+
+**DR. SARAH HAYES**
+I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.
+
+**MARK**
+*[A short, incredulous laugh]*
+Every few minutes. After a shut-in.
+
+**DR. SARAH HAYES**
+*[Back to the field]*
+For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn't clear that bar.
+
+**ELENA**
+*[Checking the cuff cycle on the vitals monitor]*
+We don't instrument for sport.
 
 **STUART**
-*[Straining slightly as he holds the retractors, his eyes darting to the monitor]*
-Look at the shape of the wave. The peak systolic pressure is up, but the normal dicrotic notch—the dip from the aortic valve closure—is completely washed out by the reflection.
+*[Still holding retractors, thinking out loud]*
+But if we *did* have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.
 
 **DR. SARAH HAYES**
 *[Without looking up, she steadies the clamped vessel with forceps]*
-Ten points for quoting the physiology textbook verbatim, Stuart. But yes, exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
+Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 **MARK**
-*[Nervously tapping his free left hand against the arm board]*
+*[Nervously tapping his free hand against the arm board]*
 We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
 
 ![Bruit and Knocking](02b_bruit_and_knock.svg)
