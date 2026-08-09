@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850" width="100%" height="100%">
   <!-- Background -->
-  <rect width="100%" height="100%" fill="#faf8f5" />
+  <rect width="100%" height="100%" fill="#f2efe3" />
   
   <text x="300" y="40" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1c1c1c" text-anchor="middle">Fig. 2b — Acoustic Signatures</text>
 
   <!-- TOP: Vascular Bruit (Medical) -->
   <g transform="translate(50, 80)">
-    <rect x="0" y="0" width="500" height="340" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1.5" rx="5" />
+    <rect x="0" y="0" width="500" height="340" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1.5" rx="5" />
     <text x="250" y="30" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#3a3a3a" text-anchor="middle">Vascular Bruit</text>
     
     <!-- Artery with stenosis -->
@@ -22,7 +22,7 @@
     <path d="M 260 185 C 290 150, 330 200, 360 160 C 390 130, 420 180, 440 170" fill="none" stroke="#c94a4a" stroke-width="2" stroke-dasharray="4,4" />
 
     <!-- Waveform Box -->
-    <rect x="50" y="230" width="400" height="80" fill="#faf8f5" stroke="#3a3a3a" stroke-width="1.5" rx="3" />
+    <rect x="50" y="230" width="400" height="80" fill="#f2efe3" stroke="#3a3a3a" stroke-width="1.5" rx="3" />
     <!-- Low-frequency chaotic wave -->
     <path d="M 50 270 Q 75 240, 100 280 T 150 250 T 200 290 T 250 240 T 300 280 T 350 250 T 400 280 T 450 270" fill="none" stroke="#3a3a3a" stroke-width="2.5" />
     <text x="250" y="330" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#5a5a5a" text-anchor="middle">Continuous Low-Frequency Murmur</text>
@@ -30,7 +30,7 @@
 
   <!-- BOTTOM: Well Knocking (Engineering) -->
   <g transform="translate(50, 450)">
-    <rect x="0" y="0" width="500" height="340" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1.5" rx="5" />
+    <rect x="0" y="0" width="500" height="340" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1.5" rx="5" />
     <text x="250" y="30" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1e3d59" text-anchor="middle">Wellbore Knocking</text>
     
     <!-- Steel Pipe with valve/restriction -->
@@ -52,7 +52,7 @@
     <path d="M 190 125 A 50 50 0 0 0 190 195" fill="none" stroke="#c94a4a" stroke-width="2" stroke-dasharray="6,4" />
 
     <!-- Waveform Box -->
-    <rect x="50" y="230" width="400" height="80" fill="#faf8f5" stroke="#1c1c1c" stroke-width="1.5" rx="3" />
+    <rect x="50" y="230" width="400" height="80" fill="#f2efe3" stroke="#1c1c1c" stroke-width="1.5" rx="3" />
     <!-- Sharp transient spike (water hammer) -->
     <path d="M 50 270 L 150 270 L 160 210 L 170 300 L 180 230 L 190 290 L 200 240 L 210 280 L 220 250 L 230 270 L 450 270" fill="none" stroke="#1e3d59" stroke-width="2" />
     <text x="250" y="330" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#1e3d59" text-anchor="middle">High-Amplitude Transient Spike</text>

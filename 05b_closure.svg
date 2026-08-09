@@ -15,7 +15,7 @@
     </pattern>
   </defs>
 
-  <rect width="100%" height="100%" fill="#faf8f5" filter="url(#paper)" />
+  <rect width="100%" height="100%" fill="#f2efe3" filter="url(#paper)" />
 
   <!-- Patient Arm Contours -->
   <path d="M 100 250 C 300 200 500 200 700 250" fill="none" stroke="#4a4a4a" stroke-width="1.5" filter="url(#pencil)"/>
@@ -43,7 +43,7 @@
   <!-- Ampoule shape -->
   <ellipse cx="610" cy="120" rx="15" ry="35" transform="rotate(-20 610 120)" fill="none" stroke="#4a4a4a" stroke-width="1.5" filter="url(#pencil)"/>
   <!-- Glue droplet -->
-  <path d="M 515 385 C 510 395 525 395 525 385 C 525 380 520 375 515 385" fill="#faf8f5" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
+  <path d="M 515 385 C 510 395 525 395 525 385 C 525 380 520 375 515 385" fill="#f2efe3" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
   <!-- Thin glue layer over incision (represented by slight shading/highlight along the line) -->
   <path d="M 400 405 C 450 415 500 405 520 395" fill="none" stroke="#5a5a5a" stroke-width="3" opacity="0.3" filter="url(#pencil)"/>
 

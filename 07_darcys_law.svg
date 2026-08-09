@@ -6,7 +6,7 @@
     </marker>
   </defs>
 
-  <rect width="100%" height="100%" fill="#faf8f5" />
+  <rect width="100%" height="100%" fill="#f2efe3" />
   <line x1="30" y1="36" x2="490" y2="36" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
   <line x1="30" y1="400" x2="490" y2="400" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
   <line x1="30" y1="720" x2="490" y2="720" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
@@ -73,7 +73,7 @@
   </g>
 
   <g transform="translate(30, 730)">
-    <rect x="0" y="0" width="460" height="55" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+    <rect x="0" y="0" width="460" height="55" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
     <text x="16" y="24" font-family="Georgia, Times New Roman, serif" font-size="14" fill="#1c1c1c">
       <tspan font-style="italic">Q</tspan> = &#x2212;(<tspan font-style="italic">k A</tspan> / <tspan font-style="italic">&#x03BC;</tspan>) &#x00B7; (<tspan font-style="italic">dP</tspan>/<tspan font-style="italic">dx</tspan>)
     </text>

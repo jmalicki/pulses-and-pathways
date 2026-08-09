@@ -14,7 +14,7 @@
   </defs>
 
   <!-- Cream background -->
-  <rect width="100%" height="100%" fill="#faf8f5" />
+  <rect width="100%" height="100%" fill="#f2efe3" />
 
   <!-- Grid lines -->
   <line x1="40" y1="40" x2="760" y2="40" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
@@ -42,7 +42,7 @@
       <!-- Front open face cylinder -->
       <path d="M 90 55 C 80 55, 75 66, 75 80 C 75 94, 80 105, 90 105" fill="none" stroke="#1e3d59" stroke-width="2" />
       <ellipse cx="90" cy="80" rx="8" ry="22" fill="url(#steel-hatch)" stroke="#1e3d59" stroke-width="1.5" />
-      <ellipse cx="90" cy="80" rx="6" ry="17" fill="#faf8f5" stroke="#1e3d59" stroke-width="1.5" />
+      <ellipse cx="90" cy="80" rx="6" ry="17" fill="#f2efe3" stroke="#1e3d59" stroke-width="1.5" />
 
       <!-- Internal Pressure arrows -->
       <path d="M 90 80 L 90 68" stroke="#1e3d59" stroke-width="1" marker-end="url(#arrow-blue)" />
@@ -86,7 +86,7 @@
 
     <!-- Equation Hoop Stress -->
     <g transform="translate(80, 440)">
-      <rect x="0" y="0" width="220" height="50" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+      <rect x="0" y="0" width="220" height="50" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
       <text x="25" y="32" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#1c1c1c">
         <tspan font-style="italic">σ<tspan font-size="12" dy="4">θ</tspan></tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">P r</tspan> / <tspan font-style="italic">t</tspan>
       </text>
@@ -158,7 +158,7 @@
 
     <!-- Equation Compliance -->
     <g transform="translate(80, 440)">
-      <rect x="0" y="0" width="220" height="50" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+      <rect x="0" y="0" width="220" height="50" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
       <text x="35" y="32" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#1c1c1c">
         <tspan font-style="italic">C</tspan> = Δ<tspan font-style="italic">V</tspan> / Δ<tspan font-style="italic">P</tspan>
       </text>

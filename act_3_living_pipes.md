@@ -3,19 +3,19 @@
 ## Act 4: Living Pipes
 
 **SETTING:**
-An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial anastomosis. Stuart holds the suction and assists. Elena is preparing the suture line. Mark lies on the operating table under a regional block.
+An operating room. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
 
 ---
 
 **DR. SARAH HAYES**
-*[Without looking up, she takes the micro-needle holder loaded with a 6-0 Prolene suture from Elena]*
+*[Without looking up, she takes the needle holder from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.
 
 **DR. SARAH HAYES**
 Stuart, what do we call the mechanism that smooths out the pulsatile flow from the heart?
 
 **STUART**
-*[Carefully adjusting the Senn retractor to maintain exposure of the artery's proximal end]*
+*[Carefully adjusting the retractor to keep the artery exposed]*
 The Windkessel effect. The aorta acts as a temporary elastic reservoir, storing energy during systole and releasing it during diastole to maintain continuous perfusion.
 
 **MARK**
@@ -23,7 +23,7 @@ The Windkessel effect. The aorta acts as a temporary elastic reservoir, storing 
 In my world, we call that fluid-structure interaction, or FSI. We use gas-charged accumulators or surge tanks in pipeline networks to damp out pressure transients. Without that compliance, every stroke of a reciprocating pump would send a massive hammer wave through the line. The pressure spikes would fatigue the welds and blow out the flanges.
 
 **DR. SARAH HAYES**
-*[Gently irrigating the exposed artery with heparinized saline to prevent local clot formation]*
+*[Gently irrigating the exposed artery with saline to keep the field clear]*
 That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity. Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
 
 **STUART**

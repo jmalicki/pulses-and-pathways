@@ -8,7 +8,7 @@ An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and as
 ---
 
 **DR. SARAH HAYES**
-*[With a firm but gentle click, she locks the teeth of a vascular clamp across the brachial artery branch. She watches the arterial monitor mounted on the anesthesia pole.]*
+*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the arterial monitor.]*
 
 ![Clamping Sketch](clamping_sketch_1786259348177.jpg)
 Confirmed. There's the upward deflection on the arterial line pressure transducer. The pressure waveform just spiked upstream.
@@ -18,7 +18,7 @@ Confirmed. There's the upward deflection on the arterial line pressure transduce
 Look at the shape of the wave. The peak systolic pressure is up, but the normal dicrotic notch—the dip from the aortic valve closure—is completely washed out by the reflection.
 
 **DR. SARAH HAYES**
-*[Without looking up, she stabilizes the clamped vessel with DeBakey forceps]*
+*[Without looking up, she steadies the clamped vessel with forceps]*
 Ten points for quoting the physiology textbook verbatim, Stuart. But yes, exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 **MARK**
@@ -32,10 +32,10 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 > In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
 
 **DR. SARAH HAYES**
-*[Gently dab-drying the tissue with a gauze sponge]*
+*[Gently dabbing the tissue with gauze]*
 And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.
 
-*[Elena hands Dr. Hayes a syringe filled with heparinized saline. Dr. Hayes washes the surgical field. Stuart takes the retractor, maintaining the exposure.]*
+*[Elena hands Dr. Hayes a syringe of saline. Dr. Hayes washes the wound. Stuart takes the retractor, holding the exposure.]*
 
 <!-- stage-break -->
 
@@ -97,7 +97,7 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 > The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.
 
 **DR. SARAH HAYES**
-*[Using a cotton-tipped applicator to clean the arterial adventitia]*
+*[Cleaning the outer surface of the artery]*
 And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Stuart, what do platelets do when they're exposed to high shear and turbulence?
 
 **STUART**

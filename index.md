@@ -210,7 +210,7 @@ An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and as
 <div markdown="1">
 
 **DR. SARAH HAYES**
-*[With a firm but gentle click, she locks the teeth of a vascular clamp across the brachial artery branch. She watches the arterial monitor mounted on the anesthesia pole.]*
+*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the arterial monitor.]*
 
 </div>
 </play-text>
@@ -232,7 +232,7 @@ Confirmed. There's the upward deflection on the arterial line pressure transduce
 Look at the shape of the wave. The peak systolic pressure is up, but the normal dicrotic notch—the dip from the aortic valve closure—is completely washed out by the reflection.
 
 **DR. SARAH HAYES**
-*[Without looking up, she stabilizes the clamped vessel with DeBakey forceps]*
+*[Without looking up, she steadies the clamped vessel with forceps]*
 Ten points for quoting the physiology textbook verbatim, Stuart. But yes, exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 **MARK**
@@ -263,10 +263,10 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 <div markdown="1">
 
 **DR. SARAH HAYES**
-*[Gently dab-drying the tissue with a gauze sponge]*
+*[Gently dabbing the tissue with gauze]*
 And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.
 
-*[Elena hands Dr. Hayes a syringe filled with heparinized saline. Dr. Hayes washes the surgical field. Stuart takes the retractor, maintaining the exposure.]*
+*[Elena hands Dr. Hayes a syringe of saline. Dr. Hayes washes the wound. Stuart takes the retractor, holding the exposure.]*
 
 </div>
 </play-text>
@@ -381,7 +381,7 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 <div markdown="1">
 
 **DR. SARAH HAYES**
-*[Using a cotton-tipped applicator to clean the arterial adventitia]*
+*[Cleaning the outer surface of the artery]*
 And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Stuart, what do platelets do when they're exposed to high shear and turbulence?
 
 **STUART**
@@ -457,7 +457,7 @@ Wait, does blood boil in the body?
 No, not boiling in the thermal sense. But those vapor bubbles travel downstream into a higher-pressure region, where they collapse. The implosion is so violent that it shoots micro-jets of liquid at supersonic speeds. It eats away at steel impellers, pitting them until they fail. If cavitation can destroy solid steel, I can't imagine what it does to living tissue.
 
 **DR. SARAH HAYES**
-*[Adjusting her surgical loupes, her fingers carefully placing a damp laparotomy sponge around the clamp]*
+*[Adjusting her loupes, placing a damp sponge around the clamp]*
 We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions physically rupture the red cells—we call it hemolysis—and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
 
 **MARK**
@@ -539,7 +539,7 @@ Which is perfect for physiology. The blood slows down to a crawl in the capillar
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
 **DR. SARAH HAYES**
-*[Taking a bulb syringe loaded with sterile saline from Elena]*
+*[Taking a saline syringe from Elena]*
 Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
 
 *[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood.]*
@@ -566,7 +566,7 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 <div markdown="1">
 
 **SETTING:**
-An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial anastomosis. Stuart holds the suction and assists. Elena is preparing the suture line. Mark lies on the operating table under a regional block.
+An operating room. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
 
 </div>
 </play-text>
@@ -579,14 +579,14 @@ An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial a
 <div markdown="1">
 
 **DR. SARAH HAYES**
-*[Without looking up, she takes the micro-needle holder loaded with a 6-0 Prolene suture from Elena]*
+*[Without looking up, she takes the needle holder from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.
 
 **DR. SARAH HAYES**
 Stuart, what do we call the mechanism that smooths out the pulsatile flow from the heart?
 
 **STUART**
-*[Carefully adjusting the Senn retractor to maintain exposure of the artery's proximal end]*
+*[Carefully adjusting the retractor to keep the artery exposed]*
 The Windkessel effect. The aorta acts as a temporary elastic reservoir, storing energy during systole and releasing it during diastole to maintain continuous perfusion.
 
 **MARK**
@@ -594,7 +594,7 @@ The Windkessel effect. The aorta acts as a temporary elastic reservoir, storing 
 In my world, we call that fluid-structure interaction, or FSI. We use gas-charged accumulators or surge tanks in pipeline networks to damp out pressure transients. Without that compliance, every stroke of a reciprocating pump would send a massive hammer wave through the line. The pressure spikes would fatigue the welds and blow out the flanges.
 
 **DR. SARAH HAYES**
-*[Gently irrigating the exposed artery with heparinized saline to prevent local clot formation]*
+*[Gently irrigating the exposed artery with saline to keep the field clear]*
 That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity. Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
 
 **STUART**
@@ -711,7 +711,7 @@ Exactly. Which is why we respect the pressure.
 <div markdown="1">
 
 **SETTING:**
-An operating room. Dr. Sarah Hayes is beginning the arterial anastomosis. Stuart holds suction at the vessel edge. Elena prepares the fine suture line. Mark lies on the operating table under a regional block.
+An operating room. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
 
 </div>
 </play-text>
@@ -726,7 +726,7 @@ An operating room. Dr. Sarah Hayes is beginning the arterial anastomosis. Stuart
 **DR. SARAH HAYES**
 Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
 
-*[Elena passes the micro-needle holder. Dr. Hayes adjusts the surgical loupes, leaning in close to the wound under the bright lights. She grips the micro-needle holder. Stuart holds the suction tip perfectly still, clearing a tiny bead of blood from the arterial edge.]*
+*[Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.]*
 
 **DR. SARAH HAYES**
 I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
@@ -735,7 +735,7 @@ I'm starting the anastomosis now. Micro-sutures. We have to stitch this without 
 Inferring the unseen. That's my entire job.
 
 **DR. SARAH HAYES**
-*[Without looking up, her hands moving with microscopic precision as she loops a 7-0 Prolene suture]*
+*[Without looking up, looping the fine suture with steady precision]*
 How so, Mark?
 
 **MARK**
@@ -792,7 +792,7 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 <div markdown="1">
 
 **DR. SARAH HAYES**
-*[Taking a pair of micro-scissors from Elena to cut the suture tail]*
+*[Taking scissors from Elena to cut the suture end]*
 We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
 
 **STUART**
@@ -859,7 +859,7 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 <div markdown="1">
 
 **MARK**
-Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor. Right after it, we place our transducer to measure the observed pressure. Then the line splits into multiple parallel networks, modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
+Look at the top half. Same circuit for both of us. Heart or pump into a compliance chamber—your arterial stretch, or one of our surge accumulators. Then a stenosis or a choke valve, same idea, a flow resistor. Transducer right after it for the pressure we can actually see. Then it splits into parallel paths—your capillary bed, our fracture network—before it drains into a sump.
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
@@ -872,18 +872,18 @@ Right. The upper plot shows how our guesses for permeability and compliance star
 *[Gently grasping the needle holder]*
 Let's hope my physical model matches the math. I've just placed the final micro-suture. Elena, saline irrigator.
 
-*[Elena passes the syringe of heparinized saline. Dr. Hayes flushes the surgical field, verifying that the edges of the arterial anastomosis are perfectly aligned.]*
+*[Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.]*
 
 **DR. SARAH HAYES**
 Ready to restore flow. Stuart, get the suction ready. Elena, micro-forceps.
 
-*[Dr. Hayes carefully positions her fingers over the vascular clamps. She gently releases the distal clamp first to allow back-bleeding to clear any micro-bubbles, then releases the proximal clamp.]*
+*[Dr. Hayes positions her fingers over the clamps. She releases the far clamp first, letting blood flush back through the repair, then releases the near clamp.]*
 
 **STUART**
 *[Leaning forward, his breath catching]*
 The vessel is filling...
 
-*[The repaired artery begins to swell, its walls pulsing rhythmically in time with Mark's heartbeat.]*
+*[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
 
 **DR. SARAH HAYES**
 Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe. Let's get our boundary measurement.
@@ -902,7 +902,7 @@ Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Dopp
 <play-text>
 <div markdown="1">
 
-*[Stuart hands the sterile ultrasound probe to Dr. Hayes. She gently places the tip against the pulsing artery. A loud, rhythmic, swooshing sound fills the operating room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
+*[Stuart hands the probe to Dr. Hayes. She places the tip against the pulsing artery. A loud, rhythmic swoosh fills the room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
 
 **STUART**
 *[Smiling widely]*
@@ -912,7 +912,7 @@ Strong triphasic flow. The waveform is beautiful.
 *[Removing the probe and handing it back to Stuart]*
 The pressure gradients are restored. The boundary measurements look perfect. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
-*[Dr. Hayes begins closing the deeper tissue layers while Elena prepares the dressings. Stuart assists with the final skin closure. Within a few minutes, Elena wraps a clean, sterile bandage around Mark's arm.]*
+*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
 
 </div>
 </play-text>

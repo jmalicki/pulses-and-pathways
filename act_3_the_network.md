@@ -18,7 +18,7 @@ Wait, does blood boil in the body?
 No, not boiling in the thermal sense. But those vapor bubbles travel downstream into a higher-pressure region, where they collapse. The implosion is so violent that it shoots micro-jets of liquid at supersonic speeds. It eats away at steel impellers, pitting them until they fail. If cavitation can destroy solid steel, I can't imagine what it does to living tissue.
 
 **DR. SARAH HAYES**
-*[Adjusting her surgical loupes, her fingers carefully placing a damp laparotomy sponge around the clamp]*
+*[Adjusting her loupes, placing a damp sponge around the clamp]*
 We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions physically rupture the red cells—we call it hemolysis—and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
 
 **MARK**
@@ -52,7 +52,7 @@ Which is perfect for physiology. The blood slows down to a crawl in the capillar
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
 **DR. SARAH HAYES**
-*[Taking a bulb syringe loaded with sterile saline from Elena]*
+*[Taking a saline syringe from Elena]*
 Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
 
 *[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood.]*

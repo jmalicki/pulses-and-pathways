@@ -3,14 +3,14 @@
 ## Act 5: Inverse Problems
 
 **SETTING:**
-An operating room. Dr. Sarah Hayes is beginning the arterial anastomosis. Stuart holds suction at the vessel edge. Elena prepares the fine suture line. Mark lies on the operating table under a regional block.
+An operating room. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
 
 ---
 
 **DR. SARAH HAYES**
 Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
 
-*[Elena passes the micro-needle holder. Dr. Hayes adjusts the surgical loupes, leaning in close to the wound under the bright lights. She grips the micro-needle holder. Stuart holds the suction tip perfectly still, clearing a tiny bead of blood from the arterial edge.]*
+*[Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.]*
 
 **DR. SARAH HAYES**
 I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
@@ -19,7 +19,7 @@ I'm starting the anastomosis now. Micro-sutures. We have to stitch this without 
 Inferring the unseen. That's my entire job.
 
 **DR. SARAH HAYES**
-*[Without looking up, her hands moving with microscopic precision as she loops a 7-0 Prolene suture]*
+*[Without looking up, looping the fine suture with steady precision]*
 How so, Mark?
 
 **MARK**
@@ -44,7 +44,7 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 > Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.
 
 **DR. SARAH HAYES**
-*[Taking a pair of micro-scissors from Elena to cut the suture tail]*
+*[Taking scissors from Elena to cut the suture end]*
 We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
 
 **STUART**
@@ -81,7 +81,7 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 ![The Shared Model](06_the_shared_model.svg)
 
 **MARK**
-Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor. Right after it, we place our transducer to measure the observed pressure. Then the line splits into multiple parallel networks, modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
+Look at the top half. Same circuit for both of us. Heart or pump into a compliance chamber—your arterial stretch, or one of our surge accumulators. Then a stenosis or a choke valve, same idea, a flow resistor. Transducer right after it for the pressure we can actually see. Then it splits into parallel paths—your capillary bed, our fracture network—before it drains into a sump.
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
@@ -94,25 +94,25 @@ Right. The upper plot shows how our guesses for permeability and compliance star
 *[Gently grasping the needle holder]*
 Let's hope my physical model matches the math. I've just placed the final micro-suture. Elena, saline irrigator.
 
-*[Elena passes the syringe of heparinized saline. Dr. Hayes flushes the surgical field, verifying that the edges of the arterial anastomosis are perfectly aligned.]*
+*[Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.]*
 
 **DR. SARAH HAYES**
 Ready to restore flow. Stuart, get the suction ready. Elena, micro-forceps.
 
-*[Dr. Hayes carefully positions her fingers over the vascular clamps. She gently releases the distal clamp first to allow back-bleeding to clear any micro-bubbles, then releases the proximal clamp.]*
+*[Dr. Hayes positions her fingers over the clamps. She releases the far clamp first, letting blood flush back through the repair, then releases the near clamp.]*
 
 **STUART**
 *[Leaning forward, his breath catching]*
 The vessel is filling...
 
-*[The repaired artery begins to swell, its walls pulsing rhythmically in time with Mark's heartbeat.]*
+*[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
 
 **DR. SARAH HAYES**
 Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe. Let's get our boundary measurement.
 
 ![Doppler Sketch](doppler_sketch_1786259371250.jpg)
 
-*[Stuart hands the sterile ultrasound probe to Dr. Hayes. She gently places the tip against the pulsing artery. A loud, rhythmic, swooshing sound fills the operating room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
+*[Stuart hands the probe to Dr. Hayes. She places the tip against the pulsing artery. A loud, rhythmic swoosh fills the room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
 
 **STUART**
 *[Smiling widely]*
@@ -122,7 +122,7 @@ Strong triphasic flow. The waveform is beautiful.
 *[Removing the probe and handing it back to Stuart]*
 The pressure gradients are restored. The boundary measurements look perfect. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
-*[Dr. Hayes begins closing the deeper tissue layers while Elena prepares the dressings. Stuart assists with the final skin closure. Within a few minutes, Elena wraps a clean, sterile bandage around Mark's arm.]*
+*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
 
 ![Closure Sketch](closure_sketch_1786259427073.jpg)
 
