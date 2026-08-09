@@ -34,6 +34,12 @@ def parse_chapter_to_rows(markdown_content):
     while i < len(lines):
         line = lines[i]
         
+        # Explicit stage-row break (no visible rule)
+        if line.strip() == '<!-- stage-break -->':
+            end_row()
+            i += 1
+            continue
+
         # Headers and dividers break the layout completely
         if line.startswith('#') or line.startswith('---') or line.startswith('<div class="preferred'):
             end_row()
@@ -66,14 +72,13 @@ def parse_chapter_to_rows(markdown_content):
                 html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">\n')
                 in_text = False
                 in_proj = True
-            
+
             html_output.append('<div class="note-alert">\n')
-            i += 1 # Skip the > [!NOTE] line
+            i += 1  # Skip the > [!NOTE] line
             while i < len(lines) and lines[i].startswith('>'):
                 content = lines[i][1:]
                 if content.startswith(' '):
                     content = content[1:]
-                # Convert **bold** to <strong>
                 import re
                 content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
                 html_output.append(f'<p>{content}</p>\n')
@@ -103,6 +108,7 @@ title_page_md = """
 <div class="title-page" markdown="1">
 
 # Pulses and Pathways
+
 ## a Vascular Surgeon meets a Petroleum Engineer
 
 <div class="preferred-presentation">

@@ -3,9 +3,20 @@
 ## Act 5: Inverse Problems
 
 **SETTING:**
-An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the arterial repair. Stuart and Elena are assisting. Mark lies on the operating table under a regional block.
+An operating room. Dr. Sarah Hayes is beginning the arterial anastomosis. Stuart holds suction at the vessel edge. Elena prepares the fine suture line. Mark lies on the operating table under a regional block.
 
 ---
+
+**DR. SARAH HAYES**
+Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
+
+*[Elena passes the micro-needle holder. Dr. Hayes adjusts the surgical loupes, leaning in close to the wound under the bright lights. She grips the micro-needle holder. Stuart holds the suction tip perfectly still, clearing a tiny bead of blood from the arterial edge.]*
+
+**DR. SARAH HAYES**
+I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
+
+**MARK**
+Inferring the unseen. That's my entire job.
 
 **DR. SARAH HAYES**
 *[Without looking up, her hands moving with microscopic precision as she loops a 7-0 Prolene suture]*
@@ -13,25 +24,24 @@ How so, Mark?
 
 **MARK**
 *[Nervously twitching his fingers, his eyes tracking the surgical light]*
-Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation using Darcy's law.
+Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation: how much fluid a pressure gradient can push through the rock against viscosity. Same idea as resistance in a pipe, except the "pipe" is a tangled pore network—what we call Darcy's law.
 
-> [!NOTE]
-> **Darcy's Law for Porous Media**
-> $Q = -\frac{kA}{\mu} \frac{dP}{dx}$
-> Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
+![Darcy's Law](07_darcys_law.svg)
 
 **STUART**
 *[Gently retracting the wound edge, squinting under the bright overhead light]*
 So you calculate what the wellhead pressure *should* be, and compare it to the actual sensor data?
 
 **MARK**
-*[Napping his fingers as much as the sterile drapes allow]*
-Exactly. We compare the calculated pressure against our observed pressure. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals between the observed and calculated values. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that mathematical cost function converges toward zero.
+*[Tapping his fingers as much as the sterile drapes allow]*
+Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down $P_{\mathrm{obs}}$ over time. The calculation is the hard part: we guess a permeability map, run Darcy's law forward through every grid cell, and the model tells us what the wellhead pressure *ought* to be, $P_{\mathrm{calc}}$. Then we keep adjusting those guesses until the calculated wellhead pressure tracks the transducer record.
 
 > [!NOTE]
-> **Objective Cost Function (Error Minimization)**
-> $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
-> The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
+> **Measurement vs Calculation (History Matching)**
+> **Measurement** $P_{\mathrm{obs}}(t)$: wellhead pressure from the transducers
+> **Calculation** $P_{\mathrm{calc}}(t)$: wellhead pressure predicted by the Darcy forward model
+> $J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$
+> Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.
 
 **DR. SARAH HAYES**
 *[Taking a pair of micro-scissors from Elena to cut the suture tail]*
@@ -51,7 +61,7 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 And if we need a more detailed map of the geometry, Stuart, what do we use?
 
 **STUART**
-CT angiography to reconstruct the three-dimensional lumen. Then we can feed that geometry into a computational fluid dynamics model.
+CT angiography—inject contrast and take a CT scan so we can reconstruct the three-dimensional lumen. Then we can feed that geometry into a computational fluid dynamics model.
 
 **DR. SARAH HAYES**
 And if we need velocity data without contrast or radiation?
@@ -75,10 +85,10 @@ Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to bo
 
 **DR. SARAH HAYES**
 *[Peering at the diagram, nodding in approval]*
-And the bottom half shows the mathematical convergence.
+And below that—the mathematical convergence.
 
 **MARK**
-Right. The plot on the left shows how our parameters—the resistance and compliance—start from initial blind guesses and converge over each iteration step toward their true physical values. And on the right, you see the error minimization, where the cost function decays toward zero. If the math works, the model matches the physical reality.
+Right. The upper plot shows how our guesses for permeability and compliance start blind and converge toward the values that actually fit the well. The lower plot is the pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
 
 **DR. SARAH HAYES**
 *[Gently grasping the needle holder]*

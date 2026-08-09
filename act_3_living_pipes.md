@@ -98,12 +98,4 @@ And without immediate surgical clamping to restore containment, it’s fatal.
 
 **DR. SARAH HAYES**
 *[Adjusting the tension on the first stay suture]*
-Exactly. Which is why we respect the pressure. Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
-
-*[Elena passes the micro-needle holder. Dr. Hayes adjusts the surgical loupes, leaning in close to the wound under the bright lights. She grips the micro-needle holder. Stuart holds the suction tip perfectly still, clearing a tiny bead of blood from the arterial edge. Dr. Hayes is suturing the vessel under magnification.]*
-
-**DR. SARAH HAYES**
-I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
-
-**MARK**
-Inferring the unseen. That's my entire job.
+Exactly. Which is why we respect the pressure.

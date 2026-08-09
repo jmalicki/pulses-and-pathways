@@ -25,6 +25,8 @@
 
 **MARK**: *[Taking a shallow, rapid breath]* I'm an engineer. Reservoir and downhole hydraulics, offshore. We design the flow loops for drilling deep wells. Wellbore stability, hydrostatic balance, transient pressure modeling. It's... it's mostly math and physics, keeping the fluid columns from either collapsing the rock or blowing out the top.
 
+<!-- stage-break -->
+
 **DR. SARAH HAYES**: *[Gently irrigating the wound with saline]* Hydrostatic balance. How does that work when you're drilling thousands of feet down?
 
 **MARK**: *[Rambling quickly, his voice high-pitched]* It's all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don't counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus...
