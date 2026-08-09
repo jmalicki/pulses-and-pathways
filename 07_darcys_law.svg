@@ -11,7 +11,7 @@
   <line x1="30" y1="400" x2="490" y2="400" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
   <line x1="30" y1="720" x2="490" y2="720" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
 
-  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 7 &#x2014; Darcy's Law: Two Variables at a Time</text>
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 11 &#x2014; Darcy's Law: Two Variables at a Time</text>
 
   <g transform="translate(0, 0)">
     <text x="40" y="58" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Flow vs Pressure Drop</text>

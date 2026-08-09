@@ -22,7 +22,7 @@
   <line x1="30" y1="300" x2="490" y2="300" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
   <line x1="30" y1="560" x2="490" y2="560" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
 
-  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 2c &#x2014; Poiseuille's Law</text>
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Unused — Poiseuille's Law</text>
 
   <!-- Vessel with labeled radius -->
   <g transform="translate(0, 0)">

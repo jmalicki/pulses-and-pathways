@@ -407,7 +407,7 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 </play-text>
 <projections>
 <div markdown="1">
-![Wellhead choke](choke_sketch.png)
+![Wellhead choke](05_wellhead_choke.svg)
 <div class="note-alert">
 <p><strong>The Reynolds Number ($Re$)</strong></p>
 <div class="note-math">$$Re = \frac{\rho v d}{\mu}$$</div>

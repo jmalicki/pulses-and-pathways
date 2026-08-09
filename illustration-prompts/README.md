@@ -18,6 +18,6 @@ Graphite/charcoal illustration prompts for *Pulses and Pathways*.
 | [`07_stenosis_cutaway.md`](07_stenosis_cutaway.md) | Medical (labeled) | `stenosis_cutaway.jpg` | Keep labels; **regen for crisp type** |
 | [`08_vascular_tree.md`](08_vascular_tree.md) | Medical | `vascular_tree.jpg` | Matches |
 | [`09_velocity_profile_vessel.md`](09_velocity_profile_vessel.md) | Procedural script | `velocity_profile_vessel.png` | `build_velocity_profile_vessel.py` embeds into `02c_velocity_profile.svg` |
-| [`10_wellhead_choke.md`](10_wellhead_choke.md) | Engineering (labeled) | `choke_sketch.png` | Installed |
+| [`10_wellhead_choke.md`](10_wellhead_choke.md) | Engineering (labeled) | `choke_sketch.png` → Fig. 5 via `05_wellhead_choke.svg` | Installed |
 
 Medical plates link to [`medical_shared_style.md`](medical_shared_style.md) and specify the patient’s **left** forearm. The wellhead choke is a labeled **engineering** plate exception (like stenosis cutaway). The workshop accident uses a repeatable three-pass workflow: lock the left volar-ulnar camera surface and rag anchor, add the non-bloody wound at that anchor, then add the clinically necessary pulse pattern.

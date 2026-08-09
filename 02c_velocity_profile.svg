@@ -25,7 +25,7 @@
 
   <!-- Titles sit in their own band above leader lanes and plot dots -->
   <text x="40" y="32" font-family="EB Garamond, Georgia, serif" font-size="22" font-weight="bold" fill="#1c1c1c">
-    Fig. 2c+ &#x2014; Laminar velocity profile
+    Fig. 3 &#x2014; Laminar velocity profile
   </text>
   <text x="520" y="32" font-family="EB Garamond, Georgia, serif" font-size="20" font-weight="bold" fill="#1c1c1c">
     Speed vs radius

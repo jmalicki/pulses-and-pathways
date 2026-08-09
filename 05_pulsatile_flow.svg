@@ -11,7 +11,7 @@
   <rect width="100%" height="100%" fill="#f2efe3" />
 
   <!-- Title -->
-  <text x="28" y="34" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1c1c1c">Fig. 5 — Transient Pulsatile Flow &amp; Windkessel Compliance</text>
+  <text x="28" y="34" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1c1c1c">Fig. 9 — Transient Pulsatile Flow &amp; Windkessel Compliance</text>
 
   <!-- SECTION 1: WINDKESSEL -->
   <text x="28" y="62" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Windkessel R-C Circuit Model</text>

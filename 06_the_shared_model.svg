@@ -3,7 +3,7 @@
   <line x1="30" y1="36" x2="490" y2="36" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
   <line x1="30" y1="252" x2="490" y2="252" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
 
-  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 6 — One Circuit, Two Namings</text>
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Unused — One Circuit, Two Namings</text>
 
   <g transform="translate(0, 42)">
     <text x="40" y="14" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Medicine above · petroleum below</text>

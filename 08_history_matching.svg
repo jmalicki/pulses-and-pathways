@@ -10,7 +10,7 @@
   <line x1="30" y1="300" x2="490" y2="300" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
   <line x1="30" y1="560" x2="490" y2="560" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
 
-  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 8 &#8212; History Matching</text>
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Unused — History Matching</text>
 
   <g transform="translate(0, 40)">
     <text x="40" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Guessed parameters converging</text>

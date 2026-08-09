@@ -1,6 +1,6 @@
 # Wellhead choke — engineering illustration prompt
 
-**Target:** `choke_sketch.png` (or `.jpg`)  
+**Target:** `choke_sketch.png` (or `.jpg`); shown in the play via `05_wellhead_choke.svg` as **Fig. 5**.  
 **Use:** Embedded in Act 2 after Mark’s choke / stenosis bridge (`act_2_pressure_and_flow.md`).  
 **Kind:** Labeled engineering plate (exception like `07_stenosis_cutaway.md`).
 

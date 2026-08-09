@@ -108,7 +108,7 @@ Look at this sketch here.
 **MARK**
 A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and you don't get that pressure back clean on the other side. Same idea as your stenosis.
 
-![Wellhead choke](choke_sketch.png)
+![Wellhead choke](05_wellhead_choke.svg)
 
 **STUART**
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.

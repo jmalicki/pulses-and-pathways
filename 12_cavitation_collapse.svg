@@ -9,7 +9,7 @@
   </defs>
 
   <rect width="100%" height="100%" fill="#f2efe3" />
-  <text x="28" y="32" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Cavitation collapse (uncavitation)</text>
+  <text x="28" y="32" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 7 &#8212; Cavitation collapse</text>
   <text x="28" y="52" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Pressure recovers; vapor condenses; liquid driven in by delta-P; damage at a wall</text>
 
   <!-- (a) -->
