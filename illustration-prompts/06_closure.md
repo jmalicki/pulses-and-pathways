@@ -8,6 +8,8 @@
 
 ## Prompt
 
+**Style:** Follow [`medical_shared_style.md`](medical_shared_style.md).
+
 Medical illustration for the play. Graphite/charcoal diagonal close-up of a hairy forearm: almond-shaped opening with a sutured incision; gloved hand from upper right applies liquid skin adhesive from a small ampoule applicator along the stitches. Plausible skin, hair, and suture spacing. Isolated on textured paper; full grayscale.
 
 No text, brand names on the applicator, labels, arrows, captions, signatures, or watermarks.

@@ -9,6 +9,8 @@
 
 ## Prompt
 
+**Style:** Follow [`medical_shared_style.md`](medical_shared_style.md).
+
 Medical illustration for the play’s narrowing beat. Graphite/charcoal longitudinal cutaway of an artery on slightly aged cream paper: lumpy atherosclerotic plaque, severely narrowed irregular lumen, wall layers readable via hatching and stippling. Grayscale sketch.
 
 **Labels (required):** Clean, crisp **typeset** labels in a professional medical-figure font — small sans-serif or classical serif book face, even weight, print-sharp. Thin straight leader lines to the structures. Not handwriting, not marker lettering, not comic or rounded “fun” type.

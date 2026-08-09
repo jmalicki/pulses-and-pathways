@@ -1,6 +1,6 @@
 # Shared style — medical illustration
 
-Prepend this to every prompt in this directory.
+Prepend this to every **medical** illustration prompt in this directory (not `accident.md`).
 
 ## What this is
 
