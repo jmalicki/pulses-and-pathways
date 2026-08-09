@@ -1,6 +1,4 @@
-# The Hydraulic Conversation
-
-## Act 3: The Network
+# Act 3: The Network
 
 **MARK**
 [*His eyes wide, staring at the ceiling tiles*]

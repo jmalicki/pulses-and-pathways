@@ -1,6 +1,4 @@
-# The Hydraulic Conversation
-
-## Act 2: The Narrowing
+# Act 2: The Narrowing
 
 **DR. SARAH HAYES**
 Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first.

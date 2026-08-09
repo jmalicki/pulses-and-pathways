@@ -1,6 +1,4 @@
-# The Hydraulic Conversation
-
-## Act 5: Inverse Problems
+# Act 5: Inverse Problems
 
 **DR. SARAH HAYES**
 Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.

@@ -192,10 +192,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 <hr>
 
-# The Hydraulic Conversation
-
-
-## Act 2: The Narrowing
+# Act 2: The Narrowing
 
 <stage-row>
 <play-text>
@@ -428,10 +425,7 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 
 <hr>
 
-# The Hydraulic Conversation
-
-
-## Act 3: The Network
+# Act 3: The Network
 
 <stage-row>
 <play-text>
@@ -534,10 +528,7 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 
 <hr>
 
-# The Hydraulic Conversation
-
-
-## Act 4: Living Pipes
+# Act 4: Living Pipes
 
 <stage-row>
 <play-text>
@@ -679,10 +670,7 @@ That's the idea. While there's still a wall to hold. Which is why we respect the
 
 <hr>
 
-# The Hydraulic Conversation
-
-
-## Act 5: Inverse Problems
+# Act 5: Inverse Problems
 
 <stage-row>
 <play-text>

@@ -1,6 +1,4 @@
-# The Hydraulic Conversation
-
-## Act 4: Living Pipes
+# Act 4: Living Pipes
 
 **DR. SARAH HAYES**
 [*Without looking up, she takes the needle holder from Elena*]
