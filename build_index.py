@@ -98,6 +98,8 @@ def parse_chapter_to_rows(markdown_content):
     return '\n'.join(html_output)
 
 title_page_md = """
+<div class="title-page" markdown="1">
+
 # Pulses and Pathways
 ## a Vascular Surgeon meets a Petroleum Engineer
 
@@ -106,10 +108,12 @@ title_page_md = """
 </div>
 
 ![Title Page](title_page_sketch_1786259325961.jpg)
+
+</div>
 """
 
 with open("00_dedication.md", "r") as f:
-    dedication = parse_chapter_to_rows(f.read())
+    dedication = f'<div class="title-page" markdown="1">\n\n{f.read()}\n\n</div>'
 
 with open("act_1_the_bedside_question.md", "r") as f:
     ch1_html = parse_chapter_to_rows(f.read())
@@ -125,7 +129,7 @@ with open("act_4_inverse_problems.md", "r") as f:
 
 with open("index.md", "w") as out:
     out.write("---\nlayout: default\n---\n")
-    out.write(parse_chapter_to_rows(title_page_md) + "\n\n<hr>\n\n")
+    out.write(title_page_md + "\n\n<hr>\n\n")
     out.write(dedication + "\n\n<hr>\n\n")
     out.write(ch1_html + "\n\n<hr>\n\n")
     out.write(ch2_html + "\n\n<hr>\n\n")

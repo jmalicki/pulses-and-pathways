@@ -2,36 +2,33 @@
 layout: default
 ---
 
+<div class="title-page" markdown="1">
+
 # Pulses and Pathways
 
 ## a Vascular Surgeon meets a Petroleum Engineer
 
 <div class="preferred-presentation">
-<stage-row markdown="1">
-<play-text markdown="1">
   Preferred Presentation: This play is designed to be experienced with the script on center stage, and educational technical slides projected to the right.
 </div>
 
-</play-text>
-<projections markdown="1">
 ![Title Page](title_page_sketch_1786259325961.jpg)
 
-</projections>
-</stage-row>
+</div>
+
 
 <hr>
 
+<div class="title-page" markdown="1">
+
 # Dedication
 
-<stage-row markdown="1">
-<play-text markdown="1">
 This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/user/enquicity/), whose brief recount of their surgery inspired this entire story.
 
 *A special note from the author: I used Google Gemini to teach me in depth about both petroleum engineering and vascular surgery concepts so I could learn exactly how they're related, as I initially had only a shallow understanding of each—just enough to know there were underlying analogies waiting to be uncovered.*
 
-</play-text>
-<projections markdown="1"></projections>
-</stage-row>
+
+</div>
 
 <hr>
 
