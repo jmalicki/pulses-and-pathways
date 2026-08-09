@@ -81,7 +81,7 @@
   <g transform="translate(50, 610)">
     <rect x="0" y="0" width="500" height="340" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1.5" rx="5" />
     <text x="250" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c" text-anchor="middle">Pressure vs Time</text>
-    <text x="250" y="48" font-family="Georgia, serif" font-size="11" fill="#5a5a5a" text-anchor="middle">Same shut-in instant &#8212; elastic vessel damps; steel pipe rings</text>
+    <text x="250" y="48" font-family="Georgia, serif" font-size="11" fill="#5a5a5a" text-anchor="middle">Same shut-in instant</text>
 
     <!-- Axes -->
     <line x1="70" y1="280" x2="460" y2="280" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
@@ -122,10 +122,12 @@
           fill="none" stroke="#0f766e" stroke-width="3" stroke-linejoin="round" />
     <circle cx="200" cy="255" r="4" fill="#0f766e" />
 
-    <!-- Legend -->
-    <line x1="300" y1="90" x2="335" y2="90" stroke="#c2410c" stroke-width="3" />
-    <text x="343" y="94" font-family="Georgia, serif" font-size="12" fill="#c2410c">Clamp (elastic vessel)</text>
-    <line x1="300" y1="114" x2="335" y2="114" stroke="#0f766e" stroke-width="3" />
-    <text x="343" y="118" font-family="Georgia, serif" font-size="12" fill="#0f766e">Valve (steel pipe)</text>
+    <!-- Legend with behavior subtitles -->
+    <line x1="285" y1="84" x2="320" y2="84" stroke="#c2410c" stroke-width="3" />
+    <text x="328" y="88" font-family="Georgia, serif" font-size="12" fill="#c2410c">Clamp (elastic vessel)</text>
+    <text x="328" y="104" font-family="Georgia, serif" font-size="10" fill="#8a5a3a">spike, then damps flat</text>
+    <line x1="285" y1="124" x2="320" y2="124" stroke="#0f766e" stroke-width="3" />
+    <text x="328" y="128" font-family="Georgia, serif" font-size="12" fill="#0f766e">Valve (steel pipe)</text>
+    <text x="328" y="144" font-family="Georgia, serif" font-size="10" fill="#3d6b66">spike, then rings (knock)</text>
   </g>
 </svg>

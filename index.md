@@ -280,7 +280,7 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 ![Shut-In Transients](02b_bruit_and_knock.svg)
 <div class="note-alert">
 <p><strong>Shut-In Transients</strong></p>
-<p>Sudden closure stops the flow and sends a pressure wave back upstream. An <strong>arterial line</strong> upstream of a clamp would show a sharp pressure spike that the elastic vessel quickly damps. A <strong>well shut-in</strong> in stiff steel pipe rings—the same spike, then decaying oscillation heard as well knocking.</p>
+<p>Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking). An <strong>arterial line</strong> (or a well transducer) does not cause that — it is how you would <em>measure</em> the waveform if you had continuous pressure monitoring.</p>
 </div>
 
 </div>
