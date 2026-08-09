@@ -104,20 +104,34 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 
 **DR. SARAH HAYES**
 *[Using a cotton-tipped applicator to clean the arterial adventitia]*
-And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Worse, they activate platelets. Stuart, what happens when platelets are exposed to high shear and turbulence?
+And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Stuart, what do platelets do when they're exposed to high shear and turbulence?
 
 **STUART**
 They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.
 
 **DR. SARAH HAYES**
-Yes. The body tries to plug what it perceives as a tear.
+Good. So now think it through. You've got a minor plaque narrowing. It accelerates the flow. The turbulence activates platelets. What happens next?
+
+**STUART**
+*[Pausing, then his eyes widening]*
+The clot narrows it further... which accelerates the flow even more... which activates more platelets...
+
+**DR. SARAH HAYES**
+Keep going.
+
+**STUART**
+It's a positive feedback loop. It runs away until you get total occlusion.
+
+**DR. SARAH HAYES**
+And if that vessel feeds the myocardium?
+
+**STUART**
+*[Quietly]*
+Myocardial infarction. A heart attack.
 
 **MARK**
 *[Frowning at the ceiling]*
-So the turbulence tricks the body into thinking it's injured? And then the repair response makes it worse?
-
-**DR. SARAH HAYES**
-Exactly. The clot builds on itself and creates a total occlusion. That's how a minor plaque narrowing suddenly becomes an acute myocardial infarction or a stroke.
+So the turbulence tricks the body into thinking it's injured, and the repair response makes it worse? That's a runaway blowout.
 
 **MARK**
 *[His eyes wide, staring at the ceiling tiles]*
