@@ -29,7 +29,7 @@
 
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure—which is just the density of the mud, times gravity, times the vertical depth. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's P-h equals rho gee zee. Density rho of the mud, gravity gee, and vertical depth zee. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
 
 > [!NOTE]
 > **Hydrostatic Pressure**

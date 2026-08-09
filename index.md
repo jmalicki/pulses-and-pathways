@@ -7,17 +7,28 @@ layout: default
   <h2>a Vascular Surgeon meets a Petroleum Engineer</h2>
 </div>
 
+<div class="preferred-presentation">
+  Preferred Presentation: This play is designed to be experienced with the script on center stage, and educational technical slides projected to the right.
+</div>
+
 <hr>
 
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 # Dedication
 
 This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/user/enquicity/), whose brief recount of their surgery inspired this entire story.
 
 *A special note from the author: I used Google Gemini to teach me in depth about both petroleum engineering and vascular surgery concepts so I could learn exactly how they're related, as I initially had only a shallow understanding of each—just enough to know there were underlying analogies waiting to be uncovered.*
 
+</div>
+<div class="projections" markdown="1"></div>
+</div>
 
 <hr>
 
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 # Chapter 1: The Bedside Question
 
 **Characters:**
@@ -49,13 +60,19 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure—which is just the density of the mud, times gravity, times the vertical depth. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's P-h equals rho gee zee. Density rho of the mud, gravity gee, and vertical depth zee. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Hydrostatic Pressure**
 > $P_h = \rho g z$
 > Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
 
 **MARK**: *[Wiggling his uninjured right hand]* Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
@@ -66,8 +83,14 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 **MARK**: *[Takes the marker with his right hand and begins sketching rapidly on the paper backing, his hand trembling slightly but drawing clean, precise lines. He draws a concentric pipe diagram, arrows indicating flow direction, a graph, and the governing hydrostatic equation]* Okay, look. This is how we visualize the system.
 
+</div>
+<div class="projections" markdown="1">
 ![The Well](01_the_well.svg)
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it. 
 
 **DR. SARAH HAYES**: *[Carefully dissecting around the ulnar artery]* Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
@@ -86,17 +109,28 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 **MARK**: *[Watches the ceiling, sweating, and says]* Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.
 
+</div>
+<div class="projections" markdown="1"></div>
+</div>
 
 <hr>
 
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 # The Hydraulic Conversation
 
 ## Chapter 2: Pressure and Flow
 
+</div>
+<div class="projections" markdown="1">
 ![Clamping Sketch](clamping_sketch_1786259348177.jpg)
 
 
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
@@ -140,11 +174,17 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 *[Adjusting his grip]*
 It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Poiseuille's Law (Resistance)**
 > $R \propto 1/r^4$
 > A tiny decrease in radius $r$ causes a massive, fourth-power exponential increase in resistance $R$.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**
 *[Shifting his head to look at Stuart]*
 Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
@@ -163,8 +203,14 @@ Look at this sketch here.
 
 *[Elena holds the clipboard up under the bright surgical lights. Stuart leans in slightly while keeping the suction tip steady in his left hand.]*
 
+</div>
+<div class="projections" markdown="1">
 ![The Narrowing](02_the_narrowing.svg)
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**
 Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you have severe stenosis with a severely restricted radius, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat of the narrowest diameter, the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
 
@@ -174,11 +220,17 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 **MARK**
 *[Points to the chaotic swirls in Profile B]* Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity. 
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **The Reynolds Number ($Re$)**
 > $Re = \frac{\rho v d}{\mu}$
 > A dimensionless quantity used to predict fluid flow patterns. High values indicate turbulence (chaotic eddies), while low values indicate laminar (smooth) flow.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **DR. SARAH HAYES**
 *[Using a cotton-tipped applicator to clean the arterial adventitia]*
 And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Worse, they activate platelets. Stuart, what happens when platelets are exposed to high shear and turbulence?
@@ -208,24 +260,42 @@ So the whole system is a balance of pressure gradients and local geometries. Let
 
 *[Elena carefully flips the clipboard page to reveal the next diagram.]*
 
+</div>
+<div class="projections" markdown="1">
 ![The Vascular Network](03_the_vascular_network.svg)
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**
 Look at the left panel, the Vascular Branching Tree. You have a main inlet main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Parallel Hydraulic Resistance**
 > $\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
 > The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **STUART**
 And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, where volumetric flow equals the cross-sectional area times velocity, the mean flow velocity is inversely proportional
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Continuity Equation**
 > $Q = A \cdot v$
 > To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **DR. SARAH HAYES**
 *[Nodding in agreement, her hands moving back to the surgical field]*
 Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that 'Min Vel.' region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
@@ -245,17 +315,28 @@ Stuart, irrigate here. Let's clear this field. The tissue walls here are incredi
 **MARK**
 No. Steel pipes don't breathe. They just sit there and take the pressure until they don't.
 
+</div>
+<div class="projections" markdown="1"></div>
+</div>
 
 <hr>
 
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 # The Hydraulic Conversation
 
 ## Chapter 3: Living Pipes
 
+</div>
+<div class="projections" markdown="1">
 ![Suturing Sketch](suturing_sketch_1786259361282.jpg)
 
 
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
@@ -299,8 +380,14 @@ Like this one. I drew this out earlier when we were talking about transients.
 
 *[Elena holds the notepad up so Dr. Hayes and Stuart can see the sketch under the surgical lights.]*
 
+</div>
+<div class="projections" markdown="1">
 ![Pulsatile Flow](05_pulsatile_flow.svg)
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**
 Look at the RC circuit analogy at the top—electrical resistance standing in for viscous fluid friction, and capacitance representing the compliance of the elastic walls. If compliance is high, like Curve A, you get a smooth, damp wave with a nice dicrotic notch from the valve closure. But if compliance drops—Curve B—the wave becomes sharp, jagged, and high-amplitude. The peak pressure spikes dramatically.
 
@@ -329,8 +416,14 @@ Well, it's a yield failure. Hoop stress—the circumferential tension in the pip
 
 *[Mark flips the page on his notepad to show another drawing]*
 
+</div>
+<div class="projections" markdown="1">
 ![Pipe vs Living Vessel](04_pipe_vs_living_vessel.svg)
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**
 Left panel shows the steel casing under hoop stress, and the split failure when it yields. But look at the living vessel on the right.
 
@@ -361,17 +454,28 @@ I'm starting the anastomosis now. Micro-sutures. We have to stitch this without 
 **MARK**
 Inferring the unseen. That's my entire job.
 
+</div>
+<div class="projections" markdown="1"></div>
+</div>
 
 <hr>
 
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 # The Hydraulic Conversation
 
 ## Chapter 4: Inverse Problems
 
+</div>
+<div class="projections" markdown="1">
 ![Doppler Sketch](doppler_sketch_1786259371250.jpg)
 
 
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
@@ -397,11 +501,17 @@ How so, Mark?
 *[Nervously twitching his fingers, his eyes tracking the surgical light]*
 Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation using Darcy's law.
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Darcy's Law for Porous Media**
 > $Q = -\frac{kA}{\mu} \frac{dP}{dx}$
 > Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **STUART**
 *[Gently retracting the wound edge, squinting under the bright overhead light]*
 So you calculate what the wellhead pressure *should* be, and compare it to the actual sensor data?
@@ -410,11 +520,17 @@ So you calculate what the wellhead pressure *should* be, and compare it to the a
 *[Napping his fingers as much as the sterile drapes allow]*
 Exactly. We compare the calculated pressure against our observed pressure. Then we set up an optimization algorithm to minimize the error. We define a cost function—usually the sum of the squared residuals between the observed and calculated values. We run the simulation over and over, iteratively adjusting the permeability distribution and the compliance parameters of our reservoir model until that mathematical cost function converges toward zero.
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Objective Cost Function (Error Minimization)**
 > $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
 > The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **DR. SARAH HAYES**
 *[Taking a pair of micro-scissors from Elena to cut the suture tail]*
 We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
@@ -423,11 +539,17 @@ We do the exact same thing, Mark. In medicine, we call our boundary measurements
 *[Nodding eagerly]*
 Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
 
+</div>
+<div class="projections" markdown="1">
 > [!NOTE]
 > **Simplified Bernoulli Equation (Clinical)**
 > $\Delta P \approx 4v^2$
 > A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **DR. SARAH HAYES**
 *[Adjusting the angle of her surgical loupes]*
 And if we need a more detailed map of the geometry, we use CT angiography. We reconstruct the three-dimensional lumen, which Stuart can then feed into a computational fluid dynamics model to solve the Navier-Stokes equations. Or, if we have access to phase-contrast MRI, we can directly map the velocity vectors in three dimensions and calculate the local wall shear stress and pressure gradients from those velocity fields. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
@@ -438,8 +560,14 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 
 *[Elena carefully turns the page of the notepad and holds it up so Dr. Hayes and Stuart can see the diagram under the surgical lights.]*
 
+</div>
+<div class="projections" markdown="1">
 ![The Shared Model](06_the_shared_model.svg)
 
+</div>
+</div>
+<div class="stage-row" markdown="1">
+<div class="play-text" markdown="1">
 **MARK**
 Look at the top half. I drew a Unified Hydraulic Circuit Model. It applies to both of us. The heart or the pump feeds into a compliance chamber, representing the arterial elasticity or a surge accumulator. Then we hit a stenosis or a choke valve—that's our flow resistor. Right after it, we place our transducer to measure the observed pressure. Then the line splits into multiple parallel networks, modeling the branching capillary bed or the reservoir fractures, before draining into the venous sump.
 
@@ -500,7 +628,10 @@ I'll make sure to mention that to our reservoir modeling team. They could use a 
 *[The team laughs softly as Elena begins clearing the surgical trays.]*
 
 
+</div>
+<div class="projections" markdown="1">
 ![Closure Sketch](closure_sketch_1786259427073.jpg)
 
 
+</div>
 
