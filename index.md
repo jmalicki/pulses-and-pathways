@@ -257,6 +257,19 @@ We don't instrument for sport.
 *[Still holding retractors, thinking out loud]*
 But if we *did* have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.
 
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![Clamping Sketch](clamping_sketch_1786259348177.jpg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
+
 **DR. SARAH HAYES**
 *[Without looking up, she steadies the clamped vessel with forceps]*
 Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
@@ -269,7 +282,11 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 </play-text>
 <projections>
 <div markdown="1">
-![Clamping Sketch](clamping_sketch_1786259348177.jpg)
+![Bruit and Knocking](02b_bruit_and_knock.svg)
+<div class="note-alert">
+<p><strong>Acoustic Signatures of Turbulence</strong></p>
+<p>In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A <strong>bruit</strong> is a continuous, low-frequency murmur, whereas <strong>well knocking</strong> presents as a sharp, high-amplitude transient spike.</p>
+</div>
 
 </div>
 </projections>
@@ -288,14 +305,6 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 </div>
 </play-text>
 <projections>
-<div markdown="1">
-![Bruit and Knocking](02b_bruit_and_knock.svg)
-<div class="note-alert">
-<p><strong>Acoustic Signatures of Turbulence</strong></p>
-<p>In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A <strong>bruit</strong> is a continuous, low-frequency murmur, whereas <strong>well knocking</strong> presents as a sharp, high-amplitude transient spike.</p>
-</div>
-
-</div>
 </projections>
 </stage-row>
 <stage-row>
