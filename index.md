@@ -309,7 +309,13 @@ It's just geometry! Flow is velocity times area. The cross-sectional area of a p
 Hardly. Blood vessels are curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
 
 **MARK**
-Exactly. And when you have a narrowing—a stenosis in a vessel, or a choke valve in a wellbore—those ideal assumptions break down completely. Elena, can you hand me my notepad? The clean page.
+Exactly. And when you have a narrowing—a restriction in a vessel, or a choke valve in a wellbore—those ideal assumptions break down completely.
+
+**DR. SARAH HAYES**
+We call that a stenosis.
+
+**MARK**
+Right, a stenosis. Elena, can you hand me my notepad? The clean page.
 
 *[Elena reaches for the metal-backed clipboard on Mark's side table, flipping to his fresh sketch.]*
 
