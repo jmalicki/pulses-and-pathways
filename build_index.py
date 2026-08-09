@@ -81,7 +81,14 @@ def parse_chapter_to_rows(markdown_content):
                     content = content[1:]
                 import re
                 content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
-                html_output.append(f'<p>{content}</p>\n')
+                # Standalone equation lines → display math ($$) so fractions aren't tiny
+                eq = content.strip()
+                if re.fullmatch(r'\$\$[^$]+\$\$', eq):
+                    html_output.append(f'<div class="note-math">{eq}</div>\n')
+                elif re.fullmatch(r'\$[^$]+\$', eq):
+                    html_output.append(f'<div class="note-math">$${eq[1:-1]}$$</div>\n')
+                else:
+                    html_output.append(f'<p>{content}</p>\n')
                 i += 1
             html_output.append('</div>\n')
             continue

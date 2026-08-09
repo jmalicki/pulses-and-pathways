@@ -111,7 +111,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 <p><strong>Hydrostatic Pressure</strong></p>
 
-<p>$P_h = \rho g z$</p>
+<div class="note-math">$$P_h = \rho g z$$</div>
 
 <p>Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).</p>
 
@@ -268,6 +268,15 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 
 *[Elena hands Dr. Hayes a syringe filled with heparinized saline. Dr. Hayes washes the surgical field. Stuart takes the retractor, maintaining the exposure.]*
 
+</div>
+</play-text>
+<projections></projections>
+</stage-row>
+
+<stage-row>
+<play-text>
+<div markdown="1">
+
 **STUART**
 *[Adjusting his grip]*
 It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
@@ -288,20 +297,7 @@ It's just geometry! Flow is velocity times area. The cross-sectional area of a p
 <projections>
 <div markdown="1">
 
-<div class="note-alert">
-
-<p><strong>Poiseuille's Law Derivation</strong></p>
-
-<p>$Q \propto r^4 \implies R \propto 1/r^4$</p>
-
-<p><strong>1.</strong> Area scales with $r^2$ ($\pi r^2$)</p>
-
-<p><strong>2.</strong> Velocity profile scales with $r^2$ (wall friction)</p>
-
-<p><strong>3.</strong> Flow ($Q$) = Area $\times$ Velocity $\propto r^2 \times r^2 = r^4$</p>
-
-</div>
-
+![Poiseuille's Law](02c_poiseuille.svg)
 
 </div>
 </projections>
@@ -362,7 +358,7 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 
 <p><strong>The Reynolds Number ($Re$)</strong></p>
 
-<p>$Re = \frac{\rho v d}{\mu}$</p>
+<div class="note-math">$$Re = \frac{\rho v d}{\mu}$$</div>
 
 <p>Always positive, ranging from 0 to ∞.</p>
 
@@ -495,7 +491,7 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet flow 
 
 <p><strong>Parallel Hydraulic Resistance</strong></p>
 
-<p>$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$</p>
+<div class="note-math">$$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$$</div>
 
 <p>The total resistance of the vascular bed drops as more parallel branches are added.</p>
 
@@ -521,7 +517,7 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 
 <p><strong>Continuity Equation</strong></p>
 
-<p>$Q = A \cdot v$</p>
+<div class="note-math">$$Q = A \cdot v$$</div>
 
 <p>To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease.</p>
 
@@ -537,7 +533,7 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 
 **DR. SARAH HAYES**
 *[Nodding in agreement, her hands moving back to the surgical field]*
-Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that 'Min Vel.' region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
+Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that minimum-velocity region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
@@ -781,7 +777,7 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 
 <p><strong>Calculation</strong> $P_{\mathrm{calc}}(t)$: wellhead pressure predicted by the Darcy forward model</p>
 
-<p>$J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$</p>
+<div class="note-math">$$J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$$</div>
 
 <p>Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.</p>
 
@@ -812,7 +808,7 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 
 <p><strong>Simplified Bernoulli Equation (Clinical)</strong></p>
 
-<p>$\Delta P \approx 4v^2$</p>
+<div class="note-math">$$\Delta P \approx 4v^2$$</div>
 
 <p>A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.</p>
 

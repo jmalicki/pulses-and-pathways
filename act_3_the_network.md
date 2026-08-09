@@ -33,7 +33,7 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet flow 
 
 > [!NOTE]
 > **Parallel Hydraulic Resistance**
-> $\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
+> $$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$$
 > The total resistance of the vascular bed drops as more parallel branches are added.
 
 **STUART**
@@ -46,7 +46,7 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 
 **DR. SARAH HAYES**
 *[Nodding in agreement, her hands moving back to the surgical field]*
-Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that 'Min Vel.' region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
+Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that minimum-velocity region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
