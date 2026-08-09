@@ -12,6 +12,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install -g markdownlint-cli svglint
-      - run: markdownlint-cli "**/*.md"
-      - run: svglint "**/*.svg"
+      - run: npx -y markdownlint-cli "**/*.md"
+      - run: npx -y svglint "**/*.svg"
