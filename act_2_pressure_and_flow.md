@@ -2,11 +2,6 @@
 
 ## Act 2: The Narrowing
 
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is ready to control the flow at the lacerated artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
----
-
 **DR. SARAH HAYES**
 Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first.
 

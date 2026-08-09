@@ -209,19 +209,6 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 <play-text>
 <div markdown="1">
 
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is ready to control the flow at the lacerated artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
-</div>
-</play-text>
-<projections>
-</projections>
-</stage-row>
----
-<stage-row>
-<play-text>
-<div markdown="1">
-
 **DR. SARAH HAYES**
 Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first.
 
@@ -459,19 +446,6 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 <play-text>
 <div markdown="1">
 
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
-</div>
-</play-text>
-<projections>
-</projections>
-</stage-row>
----
-<stage-row>
-<play-text>
-<div markdown="1">
-
 **MARK**
 *[His eyes wide, staring at the ceiling tiles]*
 Fascinating. In a pipeline or a centrifugal pump, if that velocity spike at a constriction is high enough, the local static pressure doesn't just drop—it falls below the vapor pressure of the fluid. The liquid literally boils at room temperature, flashing into tiny vapor cavities. We call it cavitation.
@@ -559,19 +533,6 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 
 ## Act 4: Living Pipes
 
-<stage-row>
-<play-text>
-<div markdown="1">
-
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
-</div>
-</play-text>
-<projections>
-</projections>
-</stage-row>
----
 <stage-row>
 <play-text>
 <div markdown="1">
@@ -717,19 +678,6 @@ That's the idea. While there's still a wall to hold. Which is why we respect the
 
 ## Act 5: Inverse Problems
 
-<stage-row>
-<play-text>
-<div markdown="1">
-
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
-</div>
-</play-text>
-<projections>
-</projections>
-</stage-row>
----
 <stage-row>
 <play-text>
 <div markdown="1">

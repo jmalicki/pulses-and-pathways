@@ -2,11 +2,6 @@
 
 ## Act 4: Living Pipes
 
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
----
-
 **DR. SARAH HAYES**
 *[Without looking up, she takes the needle holder from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.

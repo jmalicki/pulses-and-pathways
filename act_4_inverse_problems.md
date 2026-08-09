@@ -2,11 +2,6 @@
 
 ## Act 5: Inverse Problems
 
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
----
-
 **DR. SARAH HAYES**
 Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
 

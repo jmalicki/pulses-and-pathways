@@ -2,11 +2,6 @@
 
 ## Act 3: The Network
 
-**SETTING:**
-An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table, awake, his arm numb from regional anesthesia.
-
----
-
 **MARK**
 *[His eyes wide, staring at the ceiling tiles]*
 Fascinating. In a pipeline or a centrifugal pump, if that velocity spike at a constriction is high enough, the local static pressure doesn't just drop—it falls below the vapor pressure of the fluid. The liquid literally boils at room temperature, flashing into tiny vapor cavities. We call it cavitation.
