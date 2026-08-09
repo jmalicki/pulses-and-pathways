@@ -4,17 +4,18 @@
 
 **MARK**
 [*His eyes wide, staring at the ceiling tiles*]
-Fascinating. In a pipeline or a centrifugal pump, if that velocity spike at a constriction is high enough, the local static pressure doesn't just drop—it falls below the vapor pressure of the fluid. The liquid literally boils at room temperature, flashing into tiny vapor cavities. We call it cavitation.
+That pressure drop at the throat Stuart walked through—we've seen it go further. Speed up hard enough, static pressure falls below the vapor pressure, and the liquid turns to vapor—little cavities, still at ambient temperature. Cavitation. I've seen centrifugal pump impellers pitted through from it. Downstream the flow slows, pressure comes back up. Above vapor pressure that vapor isn't stable anymore, so it condenses—liquid again, tiny volume. While the cavity was there, pressure inside was low and pressure outside was higher, so as it disappears the surrounding liquid is driven in by that difference. Out in the middle of the flow that mostly just churns liquid. Against a wall—pipe wall, impeller face, same idea—the cavity collapses onto the surface, so the punch hits steel. Enough times and it pits through. I couldn't imagine what that could do to tissue. Do you guys ever see that?
 
-**STUART**
-Wait, does blood boil in the body?
+![Vapor pressure](11_vapor_pressure.svg)
 
-**MARK**
-No, not boiling in the thermal sense. But those vapor bubbles travel downstream into a higher-pressure region, where they collapse. The implosion is so violent that it shoots micro-jets of liquid at supersonic speeds. It eats away at steel impellers, pitting them until they fail. If cavitation can destroy solid steel, I can't imagine what it does to living tissue.
+![Cavitation collapse](12_cavitation_collapse.svg)
 
 **DR. SARAH HAYES**
 [*Adjusting her loupes, placing a damp sponge around the clamp*]
-We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions physically rupture the red cells—we call it hemolysis—and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
+We do—mechanical heart valves. Leaflets slam shut, local pressure drops below blood's vapor pressure, micro-bubbles form and collapse on the valve or on red cells. That rupture is hemolysis; it also activates platelets. That's why mechanical-valve patients stay on warfarin—clots from that mechanical trauma.
+
+**STUART**
+So blood vaporizes?
 
 **MARK**
 So the whole system is a balance of pressure gradients and local geometries.

@@ -36,7 +36,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **DR. SARAH HAYES**: [*Looks over the screen to Mark*] Completely normal under the circumstances. So, what is it you do, Mark?
 
-**MARK**: [*Taking a shallow, rapid breath*] I'm an engineer. Reservoir and downhole hydraulics, offshore. We design the flow loops for drilling deep wells. Wellbore stability, hydrostatic balance, transient pressure modeling. It's... it's mostly math and physics, keeping the fluid columns from either collapsing the rock or blowing out the top.
+**MARK**: [*Taking a shallow, rapid breath*] I'm an oil engineer. Reservoir and downhole hydraulics, offshore. Mostly keeping fluid columns from collapsing the rock or blowing out the top—wellbore stability, hydrostatic balance, transient pressure modeling. Math that has to work on a real well.
 
 <!-- stage-break -->
 

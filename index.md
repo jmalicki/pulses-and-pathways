@@ -79,7 +79,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **DR. SARAH HAYES**: [*Looks over the screen to Mark*] Completely normal under the circumstances. So, what is it you do, Mark?
 
-**MARK**: [*Taking a shallow, rapid breath*] I'm an engineer. Reservoir and downhole hydraulics, offshore. We design the flow loops for drilling deep wells. Wellbore stability, hydrostatic balance, transient pressure modeling. It's... it's mostly math and physics, keeping the fluid columns from either collapsing the rock or blowing out the top.
+**MARK**: [*Taking a shallow, rapid breath*] I'm an oil engineer. Reservoir and downhole hydraulics, offshore. Mostly keeping fluid columns from collapsing the rock or blowing out the top—wellbore stability, hydrostatic balance, transient pressure modeling. Math that has to work on a real well.
 
 </div>
 </play-text>
@@ -100,6 +100,12 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **STUART**: [*Frowning behind his mask*] The annulus? Like the mitral valve annulus?
 
+**MARK**: Mitral—? I don't know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
+
+**STUART**: [*Leaning closer to the wound*] So the mud just sits there?
+
+**MARK**: [*Shaking his head, staring at the ceiling*] No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
+
 </div>
 </play-text>
 <projections>
@@ -109,11 +115,10 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 <play-text>
 <div markdown="1">
 
-**MARK**: Mitral—? I don't know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It's the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
 
-**STUART**: [*Leaning closer to the wound*] So the mud just sits there?
+**DR. SARAH HAYES**: [*Using a suction tip to clear the surgical field*] And how do you model the flow along the well? If it's circulating, it's not static anymore.
 
-**MARK**: [*Shaking his head, staring at the ceiling*] No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
+**MARK**: [*Wiggling his uninjured right hand*] Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
 
 </div>
 </play-text>
@@ -126,19 +131,6 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </div>
 
 </div>
-</projections>
-</stage-row>
-<stage-row>
-<play-text>
-<div markdown="1">
-
-**DR. SARAH HAYES**: [*Using a suction tip to clear the surgical field*] And how do you model the flow along the well? If it's circulating, it's not static anymore.
-
-**MARK**: [*Wiggling his uninjured right hand*] Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
-
-</div>
-</play-text>
-<projections>
 </projections>
 </stage-row>
 <stage-row>
@@ -163,7 +155,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </div>
 </projections>
 </stage-row>
-<stage-row>
+<stage-row class="projections-end">
 <play-text>
 <div markdown="1">
 
@@ -257,6 +249,8 @@ Every few minutes. After a shut-in.
 [*Back to the field*]
 For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn't clear that bar.
 
+
+
 **ELENA**
 [*Checking the cuff cycle on the vitals monitor*]
 We don't instrument for sport.
@@ -271,7 +265,7 @@ Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that'
 
 **MARK**
 [*Nervously tapping his free hand against the arm board*]
-We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
+The first time I realized what water hammer could do, a valve slammed on a platform and blew a gasket on the discharge flange. We were down most of the shift fixing it. After that we were a little more careful to open valves slowly on restart. It's a transient shock wave in the line, what we call well knocking. We listen for it the same way you listen for a bruit.
 
 **DR. SARAH HAYES**
 [*Gently dabbing the tissue with gauze*]
@@ -286,7 +280,7 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 ![Shut-In Transients](02b_bruit_and_knock.svg)
 <div class="note-alert">
 <p><strong>Shut-In Transients</strong></p>
-<p>Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking). An <strong>arterial line</strong> (or a well transducer) does not cause that — it is how you would <em>measure</em> the waveform if you had continuous pressure monitoring.</p>
+<p>Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking). An <strong>arterial line</strong> (or a well transducer) does not cause that — it is how you would *measure* the waveform if you had continuous pressure monitoring.</p>
 </div>
 
 </div>
@@ -301,20 +295,13 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
 
 **MARK**
-[*Shifting his head to look at Stuart*]
-Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. Do they teach you *why* it's to the fourth power in medical school?
-
-**STUART**
-[*Blinking, momentarily caught off guard*]
-Well, it's just the formula for resistance.
-
-**MARK**
-It's just geometry! Flow is velocity times area. The cross-sectional area of a pipe is proportional to the radius squared. And the fluid velocity—because of the parabolic friction profile dragging against the walls—is *also* proportional to the radius squared. You multiply an $r$-squared area by an $r$-squared velocity, and you get an $r$ to the fourth power flow rate. But in engineering, we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
+[*Shifting his head toward Stuart*]
+Yeah. We see that in oil too. You close a choke down a little and you give up a lot of pressure. Same if scale narrows a line—small change in diameter, big hit on what you can push through.
 
 
 **DR. SARAH HAYES**
 [*Chuckling softly behind her mask*]
-Hardly. Blood vessels are curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
+And blood vessels aren't straight rigid pipes. They're curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
 
 **MARK**
 Exactly. And when you have a narrowing—a restriction in a vessel, or a choke valve in a wellbore—those ideal assumptions break down completely.
@@ -350,13 +337,27 @@ Look at this sketch here.
 
 
 **MARK**
-Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you've got a tight restriction choking the flow down, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat—the narrowest point—the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
+A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and you don't get that pressure back clean on the other side. Same idea as your stenosis.
+
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![The Narrowing](02_the_narrowing.svg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
 
 **STUART**
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
 
 **MARK**
-[*Points to the chaotic swirls in Profile B*] Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity.
+[*Points to the chaotic swirls in Profile B*]
+Right. I've seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn't explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can't decelerate smoothly, so the kinetic energy goes into recirculating eddies. That's turbulence. Stuart: Reynolds number. Density times velocity times diameter, over viscosity. Once that climbs, laminar is gone and you're burning pressure for nothing.
 
 
 **DR. SARAH HAYES**
@@ -409,7 +410,7 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 </play-text>
 <projections>
 <div markdown="1">
-![The Narrowing](02_the_narrowing.svg)
+![Wellhead choke](choke_sketch.png)
 <div class="note-alert">
 <p><strong>The Reynolds Number ($Re$)</strong></p>
 <div class="note-math">$$Re = \frac{\rho v d}{\mu}$$</div>
@@ -438,17 +439,28 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 
 **MARK**
 [*His eyes wide, staring at the ceiling tiles*]
-Fascinating. In a pipeline or a centrifugal pump, if that velocity spike at a constriction is high enough, the local static pressure doesn't just drop—it falls below the vapor pressure of the fluid. The liquid literally boils at room temperature, flashing into tiny vapor cavities. We call it cavitation.
+That pressure drop at the throat Stuart walked through—we've seen it go further. Speed up hard enough, static pressure falls below the vapor pressure, and the liquid turns to vapor—little cavities, still at ambient temperature. Cavitation. I've seen centrifugal pump impellers pitted through from it. Downstream the flow slows, pressure comes back up. Above vapor pressure that vapor isn't stable anymore, so it condenses—liquid again, tiny volume. While the cavity was there, pressure inside was low and pressure outside was higher, so as it disappears the surrounding liquid is driven in by that difference. Out in the middle of the flow that mostly just churns liquid. Against a wall—pipe wall, impeller face, same idea—the cavity collapses onto the surface, so the punch hits steel. Enough times and it pits through. I couldn't imagine what that could do to tissue. Do you guys ever see that?
 
-**STUART**
-Wait, does blood boil in the body?
 
-**MARK**
-No, not boiling in the thermal sense. But those vapor bubbles travel downstream into a higher-pressure region, where they collapse. The implosion is so violent that it shoots micro-jets of liquid at supersonic speeds. It eats away at steel impellers, pitting them until they fail. If cavitation can destroy solid steel, I can't imagine what it does to living tissue.
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![Vapor pressure](11_vapor_pressure.svg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
 
 **DR. SARAH HAYES**
 [*Adjusting her loupes, placing a damp sponge around the clamp*]
-We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions physically rupture the red cells—we call it hemolysis—and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
+We do—mechanical heart valves. Leaflets slam shut, local pressure drops below blood's vapor pressure, micro-bubbles form and collapse on the valve or on red cells. That rupture is hemolysis; it also activates platelets. That's why mechanical-valve patients stay on warfarin—clots from that mechanical trauma.
+
+**STUART**
+So blood vaporizes?
 
 **MARK**
 So the whole system is a balance of pressure gradients and local geometries.
@@ -456,6 +468,10 @@ So the whole system is a balance of pressure gradients and local geometries.
 </div>
 </play-text>
 <projections>
+<div markdown="1">
+![Cavitation collapse](12_cavitation_collapse.svg)
+
+</div>
 </projections>
 </stage-row>
 <stage-row>

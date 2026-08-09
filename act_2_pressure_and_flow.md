@@ -60,7 +60,7 @@ Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that'
 
 **MARK**
 [*Nervously tapping his free hand against the arm board*]
-We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
+The first time I realized what water hammer could do, a valve slammed on a platform and blew a gasket on the discharge flange. We were down most of the shift fixing it. After that we were a little more careful to open valves slowly on restart. It's a transient shock wave in the line, what we call well knocking. We listen for it the same way you listen for a bruit.
 
 **DR. SARAH HAYES**
 [*Gently dabbing the tissue with gauze*]
@@ -75,21 +75,14 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
 
 **MARK**
-[*Shifting his head to look at Stuart*]
-Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. Do they teach you *why* it's to the fourth power in medical school?
-
-**STUART**
-[*Blinking, momentarily caught off guard*]
-Well, it's just the formula for resistance.
-
-**MARK**
-It's just geometry! Flow is velocity times area. The cross-sectional area of a pipe is proportional to the radius squared. And the fluid velocity—because of the parabolic friction profile dragging against the walls—is *also* proportional to the radius squared. You multiply an $r$-squared area by an $r$-squared velocity, and you get an $r$ to the fourth power flow rate. But in engineering, we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
+[*Shifting his head toward Stuart*]
+Yeah. We see that in oil too. You close a choke down a little and you give up a lot of pressure. Same if scale narrows a line—small change in diameter, big hit on what you can push through.
 
 ![Laminar velocity profile](02c_velocity_profile.svg)
 
 **DR. SARAH HAYES**
 [*Chuckling softly behind her mask*]
-Hardly. Blood vessels are curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
+And blood vessels aren't straight rigid pipes. They're curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
 
 **MARK**
 Exactly. And when you have a narrowing—a restriction in a vessel, or a choke valve in a wellbore—those ideal assumptions break down completely.
@@ -115,13 +108,16 @@ Look at this sketch here.
 ![The Narrowing](02_the_narrowing.svg)
 
 **MARK**
-Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you've got a tight restriction choking the flow down, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat—the narrowest point—the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
+A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and you don't get that pressure back clean on the other side. Same idea as your stenosis.
+
+![Wellhead choke](choke_sketch.png)
 
 **STUART**
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
 
 **MARK**
-[*Points to the chaotic swirls in Profile B*] Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity.
+[*Points to the chaotic swirls in Profile B*]
+Right. I've seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn't explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can't decelerate smoothly, so the kinetic energy goes into recirculating eddies. That's turbulence. Stuart: Reynolds number. Density times velocity times diameter, over viscosity. Once that climbs, laminar is gone and you're burning pressure for nothing.
 
 > [!NOTE]
 > **The Reynolds Number ($Re$)**
