@@ -134,6 +134,19 @@
     <path d="M 210 140 L 225 133" stroke="#3a3a3a" stroke-width="0.8" />
     <text x="228" y="132" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#3a3a3a">dicrotic notch</text>
     
+    <!-- Curve B: Calcified Artery -->
+    <path d="M 100 190 
+             L 130 60
+             L 165 175
+             C 195 188, 245 190, 280 190
+             L 310 60
+             L 345 175
+             C 375 188, 425 190, 460 190
+             L 490 60
+             L 525 175
+             C 555 188, 605 190, 640 190" 
+          fill="none" stroke="#1e3d59" stroke-width="2.2" stroke-dasharray="6,3" />
+
     <line x1="80" y1="160" x2="640" y2="160" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
     <line x1="80" y1="110" x2="640" y2="110" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
   </g>
