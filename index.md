@@ -45,11 +45,16 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 **DR. SARAH HAYES**: *[Gently irrigating the wound with saline]* Hydrostatic balance. How does that work when you're drilling thousands of feet down?
 
-**MARK**: *[Rambling quickly, his voice high-pitched]* It's all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don't counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus. We have to design the hydrostatic pressure, \(P_h\), to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
+**MARK**: *[Rambling quickly, his voice high-pitched]* It's all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don't counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus. We have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.
 
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's \(P_h = \rho g z\). Density \(\rho\) of the mud, gravity \(g\), and vertical depth \(z\). If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure—which is just the density of the mud, times gravity, times the vertical depth. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
+
+> [!NOTE]
+> **Hydrostatic Pressure**
+> $P_h = \rho g z$
+> Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).
 
 **DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
 
@@ -63,11 +68,11 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 ![The Well](01_the_well.svg)
 
-**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the casing, with radius \(r_c\). The inner tube is the drill pipe, radius \(r_p\). The mud goes down the inside of the drill pipe and comes up the annulus. We model the flow as a concentric or eccentric annulus. The fluid itself is non-Newtonian, usually a yield-pseudoplastic fluid, which means it doesn't move at all until you exceed a yield stress, and then its viscosity drops as the shear rate increases.
+**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it. 
 
-**DR. SARAH HAYES**: *[Carefully dissecting around the ulnar artery]* Fascinating. So the velocity profile isn't a simple parabola like water in a pipe.
+**DR. SARAH HAYES**: *[Carefully dissecting around the ulnar artery]* Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
 
-**MARK**: *[Nodding nervously]* Exactly! It has a flat plug flow in the center where the shear stress is below the yield stress. To model flow along a deep well, we solve the equations for momentum transport in an annular geometry, accounting for the rotation of the drill pipe, which adds a tangential velocity component and shears the fluid further. The graph on the right of my sketch shows the hydrostatic pressure, \(P_h\), increasing linearly with depth \(z\). But when the pumps are on, the pressure gradient at any point \(z\) is the sum of the hydrostatic gradient and the dynamic frictional pressure gradient.
+**MARK**: *[Nodding nervously]* Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. The graph on the right of my sketch shows the hydrostatic pressure increasing linearly with depth. But when the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
 
 **STUART**: *[Holding the retractor, eyes wide]* So the pressure is higher when you're pumping?
 
