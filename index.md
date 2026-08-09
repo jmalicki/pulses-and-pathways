@@ -415,7 +415,7 @@ Look at the shape of the wave. The peak systolic pressure is up, but the normal 
 
 **DR. SARAH HAYES**
 *[Without looking up, she stabilizes the clamped vessel with DeBakey forceps]*
-Exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
+Ten points for quoting the physiology textbook verbatim, Stuart. But yes, exactly. The clamp creates a complete reflection boundary. In vascular systems, when we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 </div>
 </play-text>
