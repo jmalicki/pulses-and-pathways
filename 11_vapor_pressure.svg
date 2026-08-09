@@ -21,11 +21,10 @@
   <!-- Vapor-pressure curve -->
   <path d="M 110 300 C 160 280, 200 230, 250 170 C 280 130, 310 110, 340 100"
         fill="none" stroke="#3a3a3a" stroke-width="2" />
-  <text x="250" y="130" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">vapor-pressure curve</text>
 
-  <!-- Phase regions -->
-  <text x="150" y="200" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#5a5a5a">liquid</text>
-  <text x="200" y="300" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#5a5a5a">vapor</text>
+  <!-- Phase regions: liquid above the curve; vapor below and strictly right of the isotherm -->
+  <text x="130" y="200" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#5a5a5a">liquid</text>
+  <text x="275" y="310" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#5a5a5a">vapor</text>
 
   <!-- Isotherm drop (fixed T) -->
   <line x1="220" y1="120" x2="220" y2="330" stroke="#c94a4a" stroke-width="1.8" stroke-dasharray="4,3" marker-end="url(#arrow-red)" />
