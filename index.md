@@ -53,11 +53,17 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <play-text>
 <div markdown="1">
 
-*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is at the arm, about to go deeper into the laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
+*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. A regional block has just been placed; they are waiting for it to set before going deeper. STUART stands beside her, observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
+**DR. SARAH HAYES**: *[Glancing at the clock, then over the screen to Mark]* Block's in. We'll give it another minute before I go further. While we wait—walk me through what happened. Table saw?
 
-**DR. SARAH HAYES**: *[Without looking up]* Elena, saline wide open.
+**MARK**: *[Staring at the ceiling, swallowing]* Yeah. Garage. Crosscut on a long board. Kickback—arm came forward before I could let go. Felt the blade more than I heard it. Clean line across the ulnar side. A lot of blood. Neighbor drove me in.
+
+
+**STUART**: *[Quiet, almost to himself]* Distal forearm… ulnar artery territory.
+
+**DR. SARAH HAYES**: *[A short nod]* We'll see when we're in. Elena, saline ready when I ask for it.
 
 *[She looks over the screen to Mark.]*
 
@@ -65,7 +71,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 *[A firm press on the forearm below the field.]*
 
-**MARK**: *[Staring at the ceiling, knuckles white on the table edge]* Not sharp. Just… weird. Like someone's rooting around in a kitchen drawer, but the drawer is my wrist.
+**MARK**: *[Knuckles white on the table edge]* Not sharp. Just… weird. Like someone's rooting around in a kitchen drawer, but the drawer is my wrist.
 
 **DR. SARAH HAYES**: *[A small nod; back to the field]* Good. That's what we want. The numbing's holding—you can feel pressure and movement, but cutting pain shouldn't get through. If anything turns sharp, say so.
 
@@ -79,7 +85,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </play-text>
 <projections>
 <div markdown="1">
-![Exposure Sketch](exposure_sketch.png)
+![Accident Sketch](accident_sketch.png)
 
 </div>
 </projections>
@@ -99,6 +105,15 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
 **MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
+
+</div>
+</play-text>
+<projections>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
 
 
 **DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
@@ -129,11 +144,38 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 **MARK**: *[Takes the marker with his right hand and begins sketching rapidly on the paper backing, his hand trembling slightly but drawing clean, precise lines. He draws a concentric pipe diagram, arrows indicating flow direction, a graph, and the governing hydrostatic equation]* Okay, look. This is how we visualize the system.
 
 
-**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
+**MARK**: *[Pointing with the marker]* In the top panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
+
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![The Well](01_the_well.svg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row class="projections-end">
+<play-text>
+<div markdown="1">
 
 **DR. SARAH HAYES**: *[Carefully dissecting around the ulnar artery]* Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
 
-**MARK**: *[Nodding nervously]* Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. The graph on the right of my sketch shows the hydrostatic pressure increasing linearly with depth. But when the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
+
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![Exposure Sketch](exposure_sketch.png)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
+
+**MARK**: *[Nodding nervously]* Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. The graph in the bottom panel of my sketch shows the hydrostatic pressure increasing linearly with depth. But when the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
 
 **STUART**: *[Holding the retractor, eyes wide]* So the pressure is higher when you're pumping?
 
@@ -144,10 +186,6 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </div>
 </play-text>
 <projections>
-<div markdown="1">
-![The Well](01_the_well.svg)
-
-</div>
 </projections>
 </stage-row>
 

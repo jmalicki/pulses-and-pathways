@@ -14,16 +14,19 @@ def parse_chapter_to_rows(markdown_content):
 
     play_buf = []
     proj_buf = []
+    projections_end = False
 
     def flush_row():
-        nonlocal play_buf, proj_buf
+        nonlocal play_buf, proj_buf, projections_end
         # Skip entirely empty rows
         if not any(s.strip() for s in play_buf) and not proj_buf:
             play_buf = []
             proj_buf = []
+            projections_end = False
             return
 
-        html_output.append('<stage-row>\n')
+        row_class = ' class="projections-end"' if projections_end else ''
+        html_output.append(f'<stage-row{row_class}>\n')
         html_output.append('<play-text>\n<div markdown="1">\n')
         html_output.extend(play_buf)
         if play_buf and not play_buf[-1].endswith('\n'):
@@ -40,6 +43,7 @@ def parse_chapter_to_rows(markdown_content):
 
         play_buf = []
         proj_buf = []
+        projections_end = False
 
     def append_play(line):
         play_buf.append(line if line.endswith('\n') else line + '\n')
@@ -70,6 +74,11 @@ def parse_chapter_to_rows(markdown_content):
 
         if line.strip() == '<!-- stage-break -->':
             flush_row()
+            i += 1
+            continue
+
+        if line.strip() == '<!-- projections-end -->':
+            projections_end = True
             i += 1
             continue
 
