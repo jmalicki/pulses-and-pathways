@@ -15,6 +15,8 @@
 python3 illustration-prompts/build_velocity_profile_vessel.py
 ```
 
+Writes `velocity_profile_vessel.png` and embeds it as a data URI in `02c_velocity_profile.svg` (required so RBCs show when the SVG is used as `<img>`).
+
 Locked: `CX=200 CY=200 R=150` in the 400×400 image → page `(220, 290)`, `R=150`.
 
 ---

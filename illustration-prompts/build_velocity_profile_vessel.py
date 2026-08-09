@@ -5,14 +5,20 @@ Shared geometry with 02c_velocity_profile.svg:
   image placed at (20, 90), size 400×400
   CX=200, CY=200, R=150 in image pixels → page (220, 290), R=150
 
+Writes a standalone PNG and embeds it as a data URI in the SVG so the
+figure works when the SVG is used as <img> (browsers block external
+hrefs inside SVG-as-image).
+
 Usage:
   python3 illustration-prompts/build_velocity_profile_vessel.py
 """
 
 from __future__ import annotations
 
+import base64
 import math
 import random
+import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter
@@ -26,6 +32,7 @@ WALL = 32
 ROOT = Path(__file__).resolve().parent.parent
 OUT_VESSEL = ROOT / "velocity_profile_vessel.png"
 OUT_BASE = ROOT / "velocity_profile_vessel_base.png"
+OUT_SVG = ROOT / "02c_velocity_profile.svg"
 
 CREAM = (242, 239, 227)
 LUMEN = (248, 245, 236)
@@ -184,13 +191,33 @@ def build_base() -> Image.Image:
     return paper_grain(img, seed=7, amp=4)
 
 
+def embed_vessel_in_svg(png_path: Path, svg_path: Path) -> None:
+    """Replace the vessel <image href=...> with a self-contained data URI."""
+    png_b64 = base64.b64encode(png_path.read_bytes()).decode("ascii")
+    data_uri = f"data:image/png;base64,{png_b64}"
+    text = svg_path.read_text(encoding="utf-8")
+    # Match the procedural vessel image only (x/y locked to plate placement).
+    pattern = re.compile(
+        r'(<image\s+href=")([^"]*)("\s*\n\s*x="20" y="90" width="400" height="400")',
+        re.MULTILINE,
+    )
+    updated, n = pattern.subn(rf"\g<1>{data_uri}\g<3>", text, count=1)
+    if n != 1:
+        raise SystemExit(
+            f"expected exactly one vessel <image> at (20,90) 400×400 in {svg_path}, found {n}"
+        )
+    svg_path.write_text(updated, encoding="utf-8")
+
+
 def main() -> None:
     base = build_base()
     base.save(OUT_BASE, "PNG")
     vessel = build_vessel()
     vessel.save(OUT_VESSEL, "PNG")
+    embed_vessel_in_svg(OUT_VESSEL, OUT_SVG)
     print(f"wrote {OUT_VESSEL}")
     print(f"wrote {OUT_BASE}")
+    print(f"embedded vessel into {OUT_SVG}")
     print(f"locked: CX={CX} CY={CY} R={R} → page ({20 + CX}, {90 + CY}), R={R}")
 
 
