@@ -39,13 +39,22 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
 
 > [!NOTE]
-> **Poiseuille's Law (Resistance)**
-> $R \propto 1/r^4$
-> A tiny decrease in radius $r$ causes a massive, fourth-power exponential increase in resistance $R$.
+> **Poiseuille's Law Derivation**
+> $Q \propto r^4 \implies R \propto 1/r^4$
+> **1.** Area scales with $r^2$ ($\pi r^2$)
+> **2.** Velocity profile scales with $r^2$ (wall friction)
+> **3.** Flow ($Q$) = Area $\times$ Velocity $\propto r^2 \times r^2 = r^4$
 
 **MARK**
 *[Shifting his head to look at Stuart]*
-Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. In engineering, we use the same relation, but we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
+Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. Do they teach you *why* it's to the fourth power in medical school?
+
+**STUART**
+*[Blinking, momentarily caught off guard]*
+Well, it's just the formula for resistance.
+
+**MARK**
+It's just geometry! Flow is velocity times area. The cross-sectional area of a pipe is proportional to the radius squared. And the fluid velocity—because of the parabolic friction profile dragging against the walls—is *also* proportional to the radius squared. You multiply an $r$-squared area by an $r$-squared velocity, and you get an $r$ to the fourth power flow rate. But in engineering, we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
 
 **DR. SARAH HAYES**
 *[Chuckling softly behind her mask]*
