@@ -91,7 +91,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it. 
+**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
 
 **DR. SARAH HAYES**: *[Carefully dissecting around the ulnar artery]* Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
 
@@ -209,7 +209,7 @@ Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
 
 **MARK**
-*[Points to the chaotic swirls in Profile B]* Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity. 
+*[Points to the chaotic swirls in Profile B]* Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity.
 
 </div>
 <div class="projections" markdown="1">

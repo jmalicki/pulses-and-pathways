@@ -48,7 +48,7 @@
 
 ![The Well](01_the_well.svg)
 
-**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it. 
+**MARK**: *[Pointing with the marker]* In the left panel, you see the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them—the annulus. And the mud is thick. It's not like water. It's basically a clay slurry. It won't even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.
 
 **DR. SARAH HAYES**: *[Carefully dissecting around the ulnar artery]* Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
 
