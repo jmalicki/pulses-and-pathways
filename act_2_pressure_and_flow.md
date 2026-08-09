@@ -88,7 +88,7 @@ Well, it's just the formula for resistance.
 **MARK**
 It's just geometry! Flow is velocity times area. The cross-sectional area of a pipe is proportional to the radius squared. And the fluid velocity—because of the parabolic friction profile dragging against the walls—is *also* proportional to the radius squared. You multiply an $r$-squared area by an $r$-squared velocity, and you get an $r$ to the fourth power flow rate. But in engineering, we always qualify its assumptions. You can only rely on that inverse fourth-power rule if the flow is laminar, steady, and the fluid is Newtonian, running through a straight, rigid cylinder. Is your patient's artery a straight, rigid pipe?
 
-![Poiseuille's Law](02c_poiseuille.svg)
+![Laminar velocity profile](02c_velocity_profile.svg)
 
 **DR. SARAH HAYES**
 *[Chuckling softly behind her mask]*

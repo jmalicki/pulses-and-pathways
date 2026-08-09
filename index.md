@@ -335,7 +335,7 @@ Right, a stenosis.
 </play-text>
 <projections>
 <div markdown="1">
-![Poiseuille's Law](02c_poiseuille.svg)
+![Laminar velocity profile](02c_velocity_profile.svg)
 
 </div>
 </projections>
