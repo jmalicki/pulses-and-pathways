@@ -7,9 +7,6 @@ An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the 
 
 ---
 
-**MARK**
-Inferring the unseen. That's my entire job.
-
 **DR. SARAH HAYES**
 *[Without looking up, her hands moving with microscopic precision as she loops a 7-0 Prolene suture]*
 How so, Mark?

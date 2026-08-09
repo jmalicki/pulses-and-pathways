@@ -7,9 +7,6 @@ An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and as
 
 ---
 
-**MARK**
-Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.
-
 **DR. SARAH HAYES**
 *[With a firm but gentle click, she locks the teeth of a vascular clamp across the brachial artery branch. She watches the arterial monitor mounted on the anesthesia pole.]*
 

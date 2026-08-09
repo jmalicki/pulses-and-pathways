@@ -200,9 +200,6 @@ An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and as
 <play-text>
 <div markdown="1">
 
-**MARK**
-Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.
-
 **DR. SARAH HAYES**
 *[With a firm but gentle click, she locks the teeth of a vascular clamp across the brachial artery branch. She watches the arterial monitor mounted on the anesthesia pole.]*
 
@@ -541,9 +538,6 @@ An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial a
 <play-text>
 <div markdown="1">
 
-**MARK**
-No. Steel pipes don't breathe. They just sit there and take the pressure until they don't.
-
 **DR. SARAH HAYES**
 *[Without looking up, she takes the micro-needle holder loaded with a 6-0 Prolene suture from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.
@@ -696,9 +690,6 @@ An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the 
 <stage-row>
 <play-text>
 <div markdown="1">
-
-**MARK**
-Inferring the unseen. That's my entire job.
 
 **DR. SARAH HAYES**
 *[Without looking up, her hands moving with microscopic precision as she loops a 7-0 Prolene suture]*

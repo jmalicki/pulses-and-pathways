@@ -7,9 +7,6 @@ An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial a
 
 ---
 
-**MARK**
-No. Steel pipes don't breathe. They just sit there and take the pressure until they don't.
-
 **DR. SARAH HAYES**
 *[Without looking up, she takes the micro-needle holder loaded with a 6-0 Prolene suture from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.
