@@ -47,16 +47,7 @@ def parse_chapter_to_rows(markdown_content):
             i += 1
             continue
             
-        # New dialogue chunk or scene setting triggers a new row
-        is_new_chunk = line.startswith('**') and ':' in line
-        is_new_chunk = is_new_chunk or line.startswith('*[Scene')
-        is_new_chunk = is_new_chunk or line.startswith('**SETTING:**')
-        is_new_chunk = is_new_chunk or (line.startswith('**') and not ':' in line and len(line) < 30) # Speaker name alone
-        
-        if is_new_chunk:
-            end_row()
-            start_row()
-            
+
         # Check for image
         if line.startswith('!['):
             start_row()
@@ -129,7 +120,7 @@ with open("act_4_inverse_problems.md", "r") as f:
 
 with open("index.md", "w") as out:
     out.write("---\nlayout: default\n---\n")
-    out.write(title_page_md + "\n\n<hr>\n\n")
+    out.write(title_page_md + "\n\n")
     out.write(dedication + "\n\n<hr>\n\n")
     out.write(ch1_html + "\n\n<hr>\n\n")
     out.write(ch2_html + "\n\n<hr>\n\n")

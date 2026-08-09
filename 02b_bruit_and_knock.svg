@@ -8,7 +8,7 @@
 
   <!-- LEFT: Vascular Bruit (Medical) -->
   <g transform="translate(40, 70)">
-    <text x="160" y="20" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#3a3a3a" text-anchor="middle">Vascular Bruit</text>
+    <text x="160" y="5" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#3a3a3a" text-anchor="middle">Vascular Bruit</text>
     
     <!-- Artery with stenosis -->
     <path d="M 40 100 C 120 100, 140 130, 160 130 C 180 130, 200 100, 280 100" fill="none" stroke="#5a5a5a" stroke-width="3" />
@@ -32,7 +32,7 @@
 
   <!-- RIGHT: Well Knocking (Engineering) -->
   <g transform="translate(440, 70)">
-    <text x="160" y="20" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1e3d59" text-anchor="middle">Wellbore Knocking</text>
+    <text x="160" y="5" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1e3d59" text-anchor="middle">Wellbore Knocking</text>
     
     <!-- Steel Pipe with valve/restriction -->
     <rect x="40" y="100" width="240" height="60" fill="none" stroke="#1c1c1c" stroke-width="2" />
