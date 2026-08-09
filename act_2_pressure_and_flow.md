@@ -145,7 +145,7 @@ No, not boiling in the thermal sense. But those vapor bubbles travel downstream 
 
 **DR. SARAH HAYES**
 *[Adjusting her surgical loupes, her fingers carefully placing a damp laparotomy sponge around the clamp]*
-We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions hemolyze the red cells and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
+We actually see cavitation in medicine, specifically with mechanical heart valves. When the rigid carbon leaflets slam shut, the rapid deceleration and local flow squeeze create transient, extreme low-pressure fields. If the pressure drops below blood's vapor pressure, micro-bubbles form and immediately collapse on the valve structure or adjacent red blood cells. The shear stresses from those implosions physically rupture the red cells—we call it hemolysis—and activate platelets. That's why patients with mechanical valves require warfarin for the rest of their lives—to prevent the clots triggered by that mechanical turbulence.
 
 **MARK**
 So the whole system is a balance of pressure gradients and local geometries. Let's look at the next page of my sketch.
