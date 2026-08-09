@@ -15,7 +15,7 @@
 
 **MARK**: *[Staring intently at the ceiling, his knuckles white as he grips the edge of the operating table]* It's... fine. I mean, I don't feel pain, Dr. Hayes. Just this bizarre tugging. Like someone is rooting around in a kitchen drawer, but the drawer is my wrist.
 
-**DR. HAYES**: *[Using forceps to carefully dissect through the subcutaneous tissue]* That's the local block. It shuts down the nociceptors, but the pressure and proprioceptive fibers still fire. It's a strange sensation, but it means the anesthetic is working exactly where we want it.
+**DR. HAYES**: *[Using forceps to carefully dissect through the subcutaneous tissue]* That's the regional block. It completely shuts down the pain receptors, but you can still feel dull pressure and movement. It's a strange sensation, but it means the anesthetic is working exactly where we want it.
 
 **ELENA**: *[Checking the vitals monitor]* Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he's running a little fast.
 
