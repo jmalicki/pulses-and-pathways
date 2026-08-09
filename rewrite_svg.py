@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+import sys
+
+svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
   <defs>
     <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
       <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
@@ -92,3 +94,8 @@
   <!-- Title / Figure label -->
   <text x="50" y="35" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Fig. 3 — Branching Networks &amp; Parallel Resistances</text>
 </svg>
+"""
+
+with open("03_the_vascular_network.svg", "w") as f:
+    f.write(svg_content)
+print("Updated SVG")
