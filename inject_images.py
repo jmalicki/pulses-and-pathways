@@ -12,7 +12,7 @@ def insert_after(filename, search_text, insert_text):
 # Act 1
 insert_after('act_1_the_bedside_question.md', 
              ']*\n', 
-             '![Exposure Sketch](exposure_sketch_1786259337787.jpg)')
+             '![Exposure Sketch](exposure_sketch.png)')
 
 # Act 2
 insert_after('act_2_pressure_and_flow.md',

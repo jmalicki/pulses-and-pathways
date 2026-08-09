@@ -79,7 +79,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </play-text>
 <projections>
 <div markdown="1">
-![Exposure Sketch](01a_exposure.svg)
+![Exposure Sketch](exposure_sketch.png)
 
 </div>
 </projections>

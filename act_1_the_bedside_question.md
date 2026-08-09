@@ -12,7 +12,7 @@
 *[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is at the arm, about to go deeper into the laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
-![Exposure Sketch](01a_exposure.svg)
+![Exposure Sketch](exposure_sketch.png)
 
 **DR. SARAH HAYES**: *[Without looking up]* Elena, saline wide open.
 

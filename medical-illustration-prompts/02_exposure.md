@@ -1,8 +1,8 @@
 # Exposure — medical illustration prompt
 
-**Target:** `exposure_sketch_*.jpg`  
+**Target:** `exposure_sketch.png`  
 **Beat:** Act 1 — field exposed; retractors + suction clearing toward the lacerated ulnar artery.  
-**Current JPG:** Scene/style match, but still has “SUCTION TIP” label and leader lines — regenerate without those.
+**Current asset:** Regenerated (Gemini PNG); no labels.
 
 ---
 
