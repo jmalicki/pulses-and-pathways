@@ -339,7 +339,7 @@ Look at this sketch here.
 <div markdown="1">
 
 **MARK**
-Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you have severe stenosis with a severely restricted radius, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat of the narrowest diameter, the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
+Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic laminar streamlines. But in Profile B, where you've got a tight restriction choking the flow down, the fluid has to accelerate to maintain the volumetric flow rate. As it passes through that throat—the narrowest point—the local velocity spikes. You can see it on the velocity curve below—it shoots straight up at the throat.
 
 **STUART**
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
