@@ -548,9 +548,12 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 *[Without looking up, she takes the micro-needle holder loaded with a 6-0 Prolene suture from Elena]*
 Which is exactly why biology doesn't use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.
 
+**DR. SARAH HAYES**
+Stuart, what do we call the mechanism that smooths out the pulsatile flow from the heart?
+
 **STUART**
 *[Carefully adjusting the Senn retractor to maintain exposure of the artery's proximal end]*
-It’s the Windkessel effect. The aorta acts as a temporary elastic reservoir, storing kinetic energy as potential energy during the peak pressure phase, then releasing it to maintain continuous perfusion even when the heart is relaxing between beats.
+The Windkessel effect. The aorta acts as a temporary elastic reservoir, storing energy during systole and releasing it during diastole to maintain continuous perfusion.
 
 **MARK**
 *[Nervously shifting his head, his left hand tapping the side table]*
@@ -591,8 +594,18 @@ Look at the RC circuit analogy at the top—electrical resistance standing in fo
 *[Peering through her surgical loupes, aligning the cut edges of the vessel]*
 Yes, and that high-amplitude pressure wave travels downstream, damaging the delicate micro-circulation. But the physics is even more complex because the fluid itself isn't simple water.
 
+**DR. SARAH HAYES**
+Stuart, is blood a Newtonian fluid?
+
 **STUART**
-Right, blood is non-Newtonian. It exhibits shear-thinning behavior. Under high shear rates in major arteries, the viscosity drops, allowing it to flow more easily. But at low shear rates, like in stagnant regions or micro-vessels, the red cells aggregate into rouleaux formations, and the viscosity rises. It even has a yield stress.
+*[Shaking his head]*
+No, it's shear-thinning. Under high shear rates in major arteries, the viscosity drops. But at low shear rates, the red cells aggregate into rouleaux formations and the viscosity climbs.
+
+**DR. SARAH HAYES**
+Good. And what happens when circulation stops completely?
+
+**STUART**
+It has a yield stress—it gels up. That's part of why stagnant blood clots.
 
 **MARK**
 *[His eyes widening]*
@@ -782,7 +795,19 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 
 **DR. SARAH HAYES**
 *[Adjusting the angle of her surgical loupes]*
-And if we need a more detailed map of the geometry, we use CT angiography. We reconstruct the three-dimensional lumen, which Stuart can then feed into a computational fluid dynamics model to solve the Navier-Stokes equations. Or, if we have access to phase-contrast MRI, we can directly map the velocity vectors in three dimensions and calculate the local wall shear stress and pressure gradients from those velocity fields. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
+And if we need a more detailed map of the geometry, Stuart, what do we use?
+
+**STUART**
+CT angiography to reconstruct the three-dimensional lumen. Then we can feed that geometry into a computational fluid dynamics model.
+
+**DR. SARAH HAYES**
+And if we need velocity data without contrast or radiation?
+
+**STUART**
+Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
+
+**DR. SARAH HAYES**
+Exactly. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
 
 **MARK**
 *[Gesturing with his free left hand]*

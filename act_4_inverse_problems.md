@@ -51,7 +51,19 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 
 **DR. SARAH HAYES**
 *[Adjusting the angle of her surgical loupes]*
-And if we need a more detailed map of the geometry, we use CT angiography. We reconstruct the three-dimensional lumen, which Stuart can then feed into a computational fluid dynamics model to solve the Navier-Stokes equations. Or, if we have access to phase-contrast MRI, we can directly map the velocity vectors in three dimensions and calculate the local wall shear stress and pressure gradients from those velocity fields. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
+And if we need a more detailed map of the geometry, Stuart, what do we use?
+
+**STUART**
+CT angiography to reconstruct the three-dimensional lumen. Then we can feed that geometry into a computational fluid dynamics model.
+
+**DR. SARAH HAYES**
+And if we need velocity data without contrast or radiation?
+
+**STUART**
+Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
+
+**DR. SARAH HAYES**
+Exactly. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
 
 **MARK**
 *[Gesturing with his free left hand]*
