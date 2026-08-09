@@ -359,7 +359,7 @@ Right. I've seen that after an eroded choke bean on a surface line. Gauges bounc
 
 **DR. SARAH HAYES**
 [*Cleaning the outer surface of the artery; a glance at Mark's sketch*]
-And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
+And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
 
 [*To Stuart, teaching tone.*]
 
@@ -479,16 +479,16 @@ Let's look at the next page of my sketch.
 
 
 **MARK**
-Look at the left panel, the Vascular Branching Tree. You have a main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how you distribute flow to different organs without needing a massive pressure head at the main pump.
+The branching tree—main inlet into the aorta, then smaller arteries with their own resistances and flows. Parallel network. Total resistance stays below any single branch. That's how you feed a bunch of organs without needing a ridiculous pressure head at the pump.
 
 
 **STUART**
-And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, the mean flow velocity is inversely proportional to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+And once it branches hard enough, total cross-sectional area balloons—tiny in the aorta, huge through the arterioles and capillaries. Continuity: mean velocity falls as area climbs. Fastest leaving the heart, crawl in the capillary bed.
 
 
 **DR. SARAH HAYES**
 [*Nodding in agreement, her hands moving back to the surgical field*]
-Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that minimum-velocity region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
+Which is perfect for physiology. The blood slows down to a crawl in the capillaries—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
@@ -512,13 +512,13 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 ![The Vascular Network](03_the_vascular_network.svg)
 <div class="note-alert">
 <p><strong>Parallel Hydraulic Resistance</strong></p>
-<div class="note-math">$$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$$</div>
-<p>The total resistance of the vascular bed drops as more parallel branches are added.</p>
+<div class="note-math">$$\frac{1}{R_{\mathrm{total}}} = \sum_{i} \frac{1}{R_{i}}$$</div>
+<p>\(R_i\): resistance of branch \(i\). \(R_{\mathrm{total}}\): resistance of the parallel network. More open branches → lower \(R_{\mathrm{total}}\).</p>
 </div>
 <div class="note-alert">
 <p><strong>Continuity Equation</strong></p>
 <div class="note-math">$$Q = A \cdot v$$</div>
-<p>To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease.</p>
+<p>\(Q\): volumetric flow rate. \(A\): total cross-sectional area. \(v\): mean velocity. Same \(Q\) through a wider bed means slower \(v\)—why capillaries crawl.</p>
 </div>
 
 </div>
@@ -569,7 +569,7 @@ Like this one. I drew this out earlier when we were talking about transients.
 
 
 **MARK**
-Look at the RC circuit analogy at the top—electrical resistance standing in for viscous fluid friction, and capacitance representing the compliance of the elastic walls. If compliance is high, like Curve A, you get a smooth, damp wave with a nice dicrotic notch from the valve closure. But if compliance drops—Curve B—the wave becomes sharp, jagged, and high-amplitude. The peak pressure spikes dramatically.
+RC analogy—resistance for viscous friction, capacitance for wall compliance. High compliance, Curve A: smooth damp wave, nice dicrotic notch when the valve closes. Compliance drops, Curve B: sharp, jagged, high-amplitude. Peak pressure spikes.
 
 **DR. SARAH HAYES**
 [*Peering through her surgical loupes, aligning the cut edges of the vessel*]
@@ -625,11 +625,11 @@ Well, it's a yield failure. Hoop stress—the circumferential tension in the pip
 
 
 **MARK**
-Left panel—steel casing under hoop stress, and the split when it yields. Living vessel on the right.
+Steel casing under hoop stress—here's the split when it yields. Living vessel next to it.
 
 **DR. SARAH HAYES**
 [*Stitching a stay suture at the corner of the vessel; a glance at Mark's sketch*]
-That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
+That living vessel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
 A runaway failure under pressure. That's... that's how blowouts happen in our wells, actually. Deepwater Horizon, 2010—it wasn't one wall giving out. It was a stack of barriers. The cement at the bottom failed first, gas leaked into the casing, climbed the well, knocked down the mud weight, and once that hydrostatic column was gone the reservoir just... blew. Uncontrollable. At the surface.

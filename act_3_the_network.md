@@ -28,24 +28,24 @@ Let's look at the next page of my sketch.
 ![The Vascular Network](03_the_vascular_network.svg)
 
 **MARK**
-Look at the left panel, the Vascular Branching Tree. You have a main inlet flow entering the aorta, which branches into smaller arteries with their own individual resistances and flow rates. It's a parallel network. The total resistance of a parallel system is always less than the resistance of any single branch. That's how you distribute flow to different organs without needing a massive pressure head at the main pump.
+The branching tree—main inlet into the aorta, then smaller arteries with their own resistances and flows. Parallel network. Total resistance stays below any single branch. That's how you feed a bunch of organs without needing a ridiculous pressure head at the pump.
 
 > [!NOTE]
 > **Parallel Hydraulic Resistance**
-> $$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$$
-> The total resistance of the vascular bed drops as more parallel branches are added.
+> $$\frac{1}{R_{\mathrm{total}}} = \sum_{i} \frac{1}{R_{i}}$$
+> \(R_i\): resistance of branch \(i\). \(R_{\mathrm{total}}\): resistance of the parallel network. More open branches → lower \(R_{\mathrm{total}}\).
 
 **STUART**
-And look at the graph on the right. The total cross-sectional area is tiny in the aorta, but it increases exponentially as the vessels branch into millions of arterioles and capillaries, peaking in the capillary bed. Because of the continuity equation, the mean flow velocity is inversely proportional to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+And once it branches hard enough, total cross-sectional area balloons—tiny in the aorta, huge through the arterioles and capillaries. Continuity: mean velocity falls as area climbs. Fastest leaving the heart, crawl in the capillary bed.
 
 > [!NOTE]
 > **Continuity Equation**
 > $$Q = A \cdot v$$
-> To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease.
+> \(Q\): volumetric flow rate. \(A\): total cross-sectional area. \(v\): mean velocity. Same \(Q\) through a wider bed means slower \(v\)—why capillaries crawl.
 
 **DR. SARAH HAYES**
 [*Nodding in agreement, her hands moving back to the surgical field*]
-Which is perfect for physiology. The blood slows down to a crawl in the capillaries—that minimum-velocity region on your graph—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
+Which is perfect for physiology. The blood slows down to a crawl in the capillaries—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.

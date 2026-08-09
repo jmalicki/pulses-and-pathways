@@ -128,7 +128,7 @@ Right. I've seen that after an eroded choke bean on a surface line. Gauges bounc
 
 **DR. SARAH HAYES**
 [*Cleaning the outer surface of the artery; a glance at Mark's sketch*]
-And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
+And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
 
 [*To Stuart, teaching tone.*]
 

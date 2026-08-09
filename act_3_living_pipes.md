@@ -36,7 +36,7 @@ Like this one. I drew this out earlier when we were talking about transients.
 ![Pulsatile Flow](05_pulsatile_flow.svg)
 
 **MARK**
-Look at the RC circuit analogy at the top—electrical resistance standing in for viscous fluid friction, and capacitance representing the compliance of the elastic walls. If compliance is high, like Curve A, you get a smooth, damp wave with a nice dicrotic notch from the valve closure. But if compliance drops—Curve B—the wave becomes sharp, jagged, and high-amplitude. The peak pressure spikes dramatically.
+RC analogy—resistance for viscous friction, capacitance for wall compliance. High compliance, Curve A: smooth damp wave, nice dicrotic notch when the valve closes. Compliance drops, Curve B: sharp, jagged, high-amplitude. Peak pressure spikes.
 
 **DR. SARAH HAYES**
 [*Peering through her surgical loupes, aligning the cut edges of the vessel*]
@@ -82,11 +82,11 @@ Well, it's a yield failure. Hoop stress—the circumferential tension in the pip
 ![Pipe vs Living Vessel](04_pipe_vs_living_vessel.svg)
 
 **MARK**
-Left panel—steel casing under hoop stress, and the split when it yields. Living vessel on the right.
+Steel casing under hoop stress—here's the split when it yields. Living vessel next to it.
 
 **DR. SARAH HAYES**
 [*Stitching a stay suture at the corner of the vessel; a glance at Mark's sketch*]
-That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
+That living vessel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
 A runaway failure under pressure. That's... that's how blowouts happen in our wells, actually. Deepwater Horizon, 2010—it wasn't one wall giving out. It was a stack of barriers. The cement at the bottom failed first, gas leaked into the casing, climbed the well, knocked down the mud weight, and once that hydrostatic column was gone the reservoir just... blew. Uncontrollable. At the surface.
