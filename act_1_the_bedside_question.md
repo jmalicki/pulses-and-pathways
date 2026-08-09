@@ -76,5 +76,3 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 **MARK**: *[Sweat beads forming on his forehead]* Much higher. We call it the Equivalent Circulating Density, or ECD. It's the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We run computer simulations on it, breaking the whole well down into chunks. You can't just calculate it on paper because the mud gets compressed and heated the deeper it goes, changing how it flows at every single foot.
 
 **DR. SARAH HAYES**: *[Locating the lacerated vessel, her movements precise]* There. Ulnar artery. Torn—but the ends look clean enough to work with.
-
-![Exposure Sketch](01a_exposure.svg)

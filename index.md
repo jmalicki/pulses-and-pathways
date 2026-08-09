@@ -150,19 +150,6 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 </div>
 </projections>
 </stage-row>
-<stage-row>
-<play-text>
-<div markdown="1">
-
-</div>
-</play-text>
-<projections>
-<div markdown="1">
-![Exposure Sketch](01a_exposure.svg)
-
-</div>
-</projections>
-</stage-row>
 
 
 <hr>
