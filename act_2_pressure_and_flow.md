@@ -40,11 +40,11 @@ Every few minutes. After a shut-in.
 [*Back to the field*]
 For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn't clear that bar.
 
-![Bruit and Knocking](02b_bruit_and_knock.svg)
+![Shut-In Transients](02b_bruit_and_knock.svg)
 
 > [!NOTE]
-> **Acoustic Signatures of Turbulence**
-> In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
+> **Shut-In Transients**
+> Sudden closure stops the flow and sends a pressure wave back upstream. An **arterial line** upstream of a clamp would show a sharp pressure spike that the elastic vessel quickly damps. A **well shut-in** in stiff steel pipe rings—the same spike, then decaying oscillation heard as well knocking.
 
 **ELENA**
 [*Checking the cuff cycle on the vitals monitor*]

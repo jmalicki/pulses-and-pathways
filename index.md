@@ -277,10 +277,10 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 </play-text>
 <projections>
 <div markdown="1">
-![Bruit and Knocking](02b_bruit_and_knock.svg)
+![Shut-In Transients](02b_bruit_and_knock.svg)
 <div class="note-alert">
-<p><strong>Acoustic Signatures of Turbulence</strong></p>
-<p>In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A <strong>bruit</strong> is a continuous, low-frequency murmur, whereas <strong>well knocking</strong> presents as a sharp, high-amplitude transient spike.</p>
+<p><strong>Shut-In Transients</strong></p>
+<p>Sudden closure stops the flow and sends a pressure wave back upstream. An <strong>arterial line</strong> upstream of a clamp would show a sharp pressure spike that the elastic vessel quickly damps. A <strong>well shut-in</strong> in stiff steel pipe rings—the same spike, then decaying oscillation heard as well knocking.</p>
 </div>
 
 </div>
