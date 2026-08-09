@@ -14,7 +14,7 @@
 
 **DR. SARAH HAYES**: *[Glancing at the clock, then over the screen to Mark]* Block's in. We'll give it another minute before I go further. While we wait—walk me through what happened. Table saw?
 
-**MARK**: *[Staring at the ceiling, swallowing]* Yeah. Garage. Crosscut on a long board. Kickback—arm came forward before I could let go. Felt the blade more than I heard it. Clean line across the ulnar side. A lot of blood. Neighbor drove me in.
+**MARK**: *[Staring at the ceiling, swallowing]* Yeah. Garage. Non-through groove for a shelf—guard had to come off for that, just this once. Goddammit. Board bound, kicked, left arm went in before I could let go. Felt the blade more than I heard it. Clean line across the ulnar side. Neighbor drove me in.
 
 ![Accident Sketch](accident_sketch.png)
 

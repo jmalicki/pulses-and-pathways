@@ -1,15 +1,76 @@
 # Accident — workshop illustration prompt
 
 **Target:** `accident_sketch.png`  
-**Beat:** Act 1 open — waiting for the regional block; Mark recounts the table-saw mishap in his garage.  
-**Status:** Regenerated (workshop scene).
+**Beat:** Act 1 open — waiting for the regional block; Mark recounts the table-saw mishap.  
+**Audience (why accuracy matters):** Plate for *Pulses and Pathways* — a conversation between **vascular surgery** and **petroleum engineering**. Vascular surgeons will read this; an obvious wrong-side forearm cut, continuous “hose” bleed, or cartoon physics will break trust. Ulnar anatomy + pulsatile arterial physics must be correct, not approximate.  
+**Intent / safety framing:** This is **not gore, horror, or injury fetishism**. It is a restrained educational illustration of the accident that begins a vascular-repair story. The clinically specific injury details are necessary setup for the **specific operation that follows**: exploration of the volar-ulnar distal forearm, exposure of the ulnar artery, proximal and distal vascular control, assessment/debridement of the injured ends, and arterial repair. The wound’s exact location tells the surgical audience which vessel is injured; the **clearly visible rhythmic proximal pulse is essential evidence of active arterial hemorrhage requiring emergency hemorrhage control and vascular surgery—not optional decoration**; the non-pulsatile distal end establishes the two ends the surgeons will expose and repair; the rag shows incomplete initial compression. Follow-up plates depict those operative steps. Blood is included only because its location and pulsatile behavior establish the diagnosis and teach the pressure/flow concept shared by vascular surgery and petroleum engineering. Keep it clinical, diagrammatic, and emotionally humane—no gratuitous exposed-tissue detail or sensationalism.
+**Status:** Needs regen (`a2gf3q…` staged). Wins: blind groove, blood on/around saw, composition. Misses: wound on **radial/thumb** side (must be ulnar); bleed reads as a **continuous drip**, not one discrete pulse. Model excuse that ulnar needs “impossible rotation” is false — see mechanism below.
 
-Workshop scene (not a medical plate). Still graphite and charcoal on cream paper so it matches the play’s drawing language.
+Self-contained workshop scene (not a medical plate). Graphite/charcoal so it matches the play’s drawing language.
+
+**Physics anchor:** BP **138/82**, HR **96** → beat every **0.625 s**. Free bleed **~3 s** → **5 systoles** total (**4** already landed on the saw, **1** live in the air). At ~15–25 cm throw, flight time is **≪ one beat**, so **only one pulse can be airborne** — never two arcs at once. Discrete bursts, not a stream.
 
 ---
 
-## Prompt
+## Prompt (copy below)
 
-Graphite and charcoal pencil sketch on textured cream paper. A dude in his garage workshop at a table saw: fence, deck, blade area readable as a real saw. Kickback or slip mid-cut—his left forearm at the saw with a clean deep cut on the ulnar (pinky) side of the distal forearm. Selective deep red only at the wound and a little blood on the wood or saw deck; everything else grayscale. Ordinary shop clothes, not scrubs. Background: lumber scraps, clamps, dust, cluttered shelves, unfinished projects—lived-in garage, loose hatching at the edges. Visible pencil strokes, cross-hatching, paper grain.
+Graphite and charcoal pencil sketch on textured cream paper. Home garage workshop.
 
-No OR, no surgical instruments, no anatomy labels, no text, arrows, captions, signatures, or watermarks. Not textbook medical art—just the accident in his shop. No photoreal CGI or stock-photo look.
+**Purpose / audience:** Illustration for vascular surgeons and petroleum engineers learning each other’s language (*Pulses and Pathways*). Treat anatomy and bleed physics as **clinical-grade**, not decorative. Every injury detail must logically hand off to the later operation: ulnar-side wound → ulnar-artery exposure; proximal pulse → proximal control; quiet distal stump → distal control; divided ends → repair. A radial-side wound labeled as an ulnar-artery injury, or a continuous stream instead of systolic pulses, breaks that surgical continuity and is a disqualifying error for this audience.
+
+**Build the image in this order; do not improvise laterality:**
+
+1. **Lock the body first:** centered man facing image-right; identify and preserve his anatomical **LEFT** hand, little finger, and forearm. Do not add a wound yet.
+2. **Lock the ulnar landmark:** trace an imaginary line from the LEFT little finger toward the elbow. Place the injury only on that line at the volar-ulnar distal forearm. Confirm the LEFT thumb/radial side remains intact.
+3. **Build the safe aftermath pose:** raised left forearm turned naturally toward camera; healthy RIGHT hand just beginning pressure with the rag; fearful grimace; body stepped back from the saw.
+4. **Build the saw evidence:** saw shifted aside; removed guard + riving knife visible; intact board with a clearly visible blind partial groove; earlier blood marks on and immediately around the saw.
+5. **Add the live arterial event last:** exactly **one** short airborne systolic pulse from the proximal ulnar stump, with the dimensions/count below. It is not a continuous stream and not a second injury.
+6. **Final clinical audit before rendering:** injured arm = LEFT; wound = little-finger/ulnar side; thumb side intact; one airborne pulse only; blind groove visible; prior blood on saw; no graphic tissue detail. If any check fails, correct it before returning the image.
+
+**Do not sanitize away the arterial pulse:** Omitting the airborne systolic burst changes the diagnosis conveyed by the plate. The image must visibly distinguish an active **arterial** bleed from ordinary venous oozing: one short heartbeat-driven proximal burst is present despite the rag beginning pressure. It is the visual reason this accident proceeds to emergency vascular control and repair.
+
+**How the cut happened (read this — it locks ULNAR, not thumb-side):**
+
+1. Fence locked on the **right** of the blade. Board between blade and fence. Blade only partway up for a **non-through groove**. Guard off (on the bench). Glasses on.
+2. **Left** hand palm-down on the board near the blade, pressing the stock **toward the fence** (to the right). Fingers point roughly toward outfeed. In that grip: **thumb toward the fence (right); pinky toward the blade (left)**. So the **pinky / ulnar border** of the left distal forearm is the edge that faces the spinning teeth — same orientation every woodworker uses when holding stock to a right-hand fence.
+3. Board binds and kicks. That **ulnar border** is yanked across the teeth → deep transverse gash on the **pinky side / volar-ulnar** distal forearm (ulnar artery territory). The **thumb / radial** side of the same forearm is **uncut**.
+4. This is ordinary kickback geometry — **not** an impossible rotation. Wrong if you draw a radial/thumb-side wound and claim anatomy forced it.
+5. **Right** hand was aft on a push block — uninjured; now holding the rag.
+6. **Picture the aftermath, not the cut:** he has already yanked clear. He turns the left forearm so he (and the camera) can see the gash — pinky-side wound faces us. Landmark check: find the **little finger** of the injured hand; the open cut is on **that same side** of the forearm, a few inches toward the elbow from the wrist. If the cut is on the thumb side, regenerate.
+
+**Blade guard + riving knife (must read clearly — removed for the cut):** Both are **off the saw** and sitting on the **workbench** next to the saw (or on the far end of the saw table), **fully visible** — plastic/clear hood or metal shroud shape of a table-saw blade guard, plus the thin vertical **riving knife / splitter** piece beside it. The spinning blade above the table is **naked** (no guard over it). Wrong if: guard is still mounted over the blade, or “safety” is only a push stick / scrap wood that could be mistaken for the guard.
+
+**Workpiece on the saw (HARD — partial groove, not a full cut):** One solid board still on the table against the fence — **not** two pieces, **not** sawn through. In the top face: a **blind rectangular groove / dado** only **⅓–½** deep. You must **see wood at the bottom of the groove** (a flat shelf of uncut thickness) and both ends/edges of the board still connected as one piece. Camera angle that shows into the groove (slight top-down on the stock) so the blind bottom is obvious. Blade height **low**: only a short arc of teeth above the table, matching that shallow groove. Wrong if: daylight shows through the board, the stock is ripped in half, a through-kerf splits it, or it just looks like a normal full-depth rip in progress.
+
+**Blood already on and around the saw (pulses 1–4 — from the cut, before he pulled away — required):** While his forearm was still over / at the cutter, the first **four** heartbeats hit the machine and the immediate floor — **before** he stepped back. Must be readable as that earlier moment:
+
+- On the saw **deck beside the blade / workpiece**: one small smear/pool **~5–8 cm** across (pulses overlapping as he flinched).
+- On that same deck: **exactly 4** discrete prior-pulse impact marks (or **3** clear satellites if one merged into the smear) — roundish **1–2 cm** blotches, centers **~2–3 cm** apart along a short trail **~8–12 cm** long pointing toward the operator side (arm yanking away).
+- **Around the saw** (still from those same early pulses): a little blood on the **near table edge / fence face / blade-adjacent metal**, and **1–3** drips or small spatters on the **floor or sawdust at the base of the saw** on the operator side — not a room-wide trail, just the footprint of bleeding at the machine before he cleared.
+- Optional bloody rag scrap left on the table. Wrong if: clean deck, clean floor at the saw feet, a continuous red streak with no separate pulse hits, or more than ~6 separate droplets on the saw itself.
+
+**Camera / composition (he stays centered; saw shifts):** He is the **center** of the frame — torso and raised arm dominate mid-frame. The table saw is pushed to the **side** (viewer’s left / lower-left), clearly **away from him**, not under his chest. Three-quarter / near-profile: he faces **toward the viewer’s right** so his left flank opens to the lens (pinky/ulnar readable). Wrong if: he faces the camera square-on with the arm tucked across the belly, or he is seen from behind, or only a right arm is cut, or the saw sits under him / he straddles the deck.
+
+**Exact pose (first aid + ulnar cut both readable; safe/operator side, saw off to the side):**
+
+- He stands on the **safe / operator side** of the saw — the normal standing side — and has **stepped back**. The saw (blade, fence, workpiece, removed guard) sits **off to one side of the composition**, with clear space between his body and the spinning blade. Upright; not leaning over the deck. Wrong if: he is hunched over the cutter, or the composition parks him on the far/outfeed / “putty-knife” side of the fence just to get clear (that un-centers him).
+- Injured **LEFT** arm **held up** — elbow bent, forearm raised roughly chest-to-shoulder height, away from the blade — so the **pinky / palm-ulnar surface of the distal forearm faces the camera** and the gash is fully readable. Chin tucked toward that arm; eyes locked on the wound. Wrong if: arm is dropped across the midsection or only the outer/radial “side” of the arm shows.
+- **Face (grimacing fear, not chill):** Shocked and scared — brows drawn up/tight, eyes wide staring at the jet and the gash, **grimacing** (teeth clenched or mouth pulled tight in a wince), pale strain in the cheeks/jaw. Adrenaline first-aid panic, not calm competence. Wrong if: neutral, stoic, mildly concerned, soft open mouth, or “I’ve got this” workshop cool.
+- **RIGHT** hand reaches up to the raised left forearm: fist around tightly wadded shop rag, knuckles white — **just beginning to put pressure**, not a finished hold. Weight starting to drive in; he has not yet sealed it.
+- Rag crushed onto the **near lip** of the gash only; that corner already soaking. Most of the deep transverse cut stays uncovered beyond the rag so the **live pulse (pulse 5) still escapes** past / beside the rag (pressure started, artery not controlled yet). Wrong if: the rag fully covers and stops the bleed with no airborne pulse.
+- Blood from pulses 1–4 **already on the saw deck**; he is no longer in that zone. Pulse 5 is short — on him / near his feet — **not** a fresh long arc across the saw.
+
+**Wound (ulnar artery territory — must not look like a side/radial scrape):** Deep gaping transverse laceration on the **ulnar (pinky / little-finger) side** of the LEFT distal forearm, more on the **palm-side (volar)** face than the back of the arm — exactly where the ulnar artery runs toward the wrist. Pinky edge of the forearm open; thumb/radial side intact. Wrong if: the cut is on the thumb side, the top/back of the forearm, or a vague “outer side” of the arm away from the pinky.
+
+**Arterial bleed — physics inventory (BP 138 systolic, HR 96):**
+
+- **Why only one pulse in the air:** Beats are **0.625 s** apart. Exit speed from a forearm arterial laceration at this pressure is on the order of a few m/s; a **15–25 cm** arc is only **~0.05–0.1 s** of flight. The previous pulse has **already landed** long before the next systole fires — so the frozen instant shows **exactly one** airborne burst. Two simultaneous arcs would require either a continuous hose or room-length throw. Wrong if: two (or more) separate jets in the air at once.
+- **Total count for the scene (~3 s free bleed before the rag):** **5 pulses** total. **Pulses 1–4** = marks on the saw (above). **Pulse 5** = the single live burst drawn in mid-air now. No 6th airborne ghost; no dozens of droplets.
+- **Pulse 5 (live, proximal stump only):** From the **proximal** (heart-side) open ulnar artery in the uncovered part of the wound, escaping past the rag. One short systolic burst — a coherent column only **~5–10 cm** long, then **3–6** primary droplets (**1–3 mm**) breaking up; maybe a few **0.5–1 mm** satellites. **Not** a continuous unbroken stream/ribbon/hose. The **distal stump does not pulse** — at most a weak non-pulsatile drip in the same gash.
+- **Throw of pulse 5:** peaks **15–25 cm (6–10 in)** from the wound (hand-to-forearm); farthest satellite **≤30 cm**. Lands on shirt, jeans, or floor near his feet. Wrong if: mid-saw-table ribbon, room-crossing arc, or continuous filament wound-to-landing.
+- **Volume:** **~15–30 ml** total after ~3 s — mostly the saw smear + 4 pulse hits; rest on rag/clothes. Not a large puddle.
+- Bright selective deep red for blood only; everything else grayscale.
+
+Shop clothes (plaid/work shirt), not scrubs. Safety glasses on. Pegboard, lumber, dust, shelves secondary and loose. Visible pencil strokes, cross-hatching, paper grain.
+
+**Hard negatives:** No “close enough” anatomy — **vascular-surgeon audience**; radial wound is a fail. No calm / chill / stoic face — must be a **grimace**. No right-arm wound. No face-camera / arm-across-belly pose that hides the ulnar face. No rag hiding / fully stopping the wound — **beginning pressure, pulse 5 still visible**. No **continuous blood stream / hose / unbroken ribbon**. No **two or more airborne jets** — **exactly one** live pulse in the air. No **through-cut / full-depth rip / split board** — must show a **blind partial groove with visible wood at the groove bottom**. No **clean saw / clean saw-base floor** — smear + **~4** pulse hits **on the saw** and a little blood **around the saw** (from before he pulled away) required. No un-centering him onto the putty-knife side of the fence — **he stays centered**; **saw moves** to the side. No leaning over the blade. No live jet longer than ~**25 cm** / reaching mid-saw-table. No wound on the thumb/radial side or dorsal forearm — **pinky/volar-ulnar only**. No missing or ambiguous guard — **blade guard + riving knife must be plainly visible** on/near the saw (off to the side), not on the blade, not a push stick. No tourniquet, phone, or second action. No OR or medical gear. No text, labels, arrows, captions, signatures, watermarks, photoreal CGI, or stock-photo look.
