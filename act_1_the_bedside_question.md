@@ -11,6 +11,8 @@
 
 *[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A sterile drape screen shields his face from the surgical field. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
+
+![Exposure Sketch](exposure_sketch_1786259337787.jpg)
 **DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open. Mark, you're doing great. How is the arm feeling?
 
 **MARK**: *[Staring intently at the ceiling, his knuckles white as he grips the edge of the operating table]* It's... fine. I mean, I don't feel pain, Dr. Hayes. Just this bizarre tugging. Like someone is rooting around in a kitchen drawer, but the drawer is my wrist.
@@ -62,6 +64,8 @@
 
 *[Dr. Hayes preparing to clamp the severed vessel to isolate the bleeding. Stuart is holding the retractor.]*
 
+
+![Exposure Sketch](exposure_sketch_1786259337787.jpg)
 **DR. SARAH HAYES**: Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first. Watch the pressure.
 
 **MARK**: *[Watches the ceiling, sweating, and says]* Clamping the flow. That's a valve shut-in. You're going to see a transient pressure spike upstream of that clamp.

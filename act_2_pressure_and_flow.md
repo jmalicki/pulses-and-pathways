@@ -12,6 +12,8 @@ Clamping the flow. That's a valve shut-in. You're going to see a transient press
 
 **DR. SARAH HAYES**
 *[With a firm but gentle click, she locks the teeth of a vascular clamp across the brachial artery branch. She watches the arterial monitor mounted on the anesthesia pole.]*
+
+![Clamping Sketch](clamping_sketch_1786259348177.jpg)
 Confirmed. There's the upward deflection on the arterial line pressure transducer. The pressure waveform just spiked upstream.
 
 **STUART**
