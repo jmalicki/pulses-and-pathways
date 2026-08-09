@@ -98,11 +98,13 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Hydrostatic Pressure**
-$P_h = \rho g z$
-Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).
+<p><strong>Hydrostatic Pressure</strong></p>
+
+<p>$P_h = \rho g z$</p>
+
+<p>Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).</p>
 
 </div>
 
@@ -238,10 +240,11 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 
 ![Bruit and Knocking](02b_bruit_and_knock.svg)
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Acoustic Signatures of Turbulence**
-In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
+<p><strong>Acoustic Signatures of Turbulence</strong></p>
+
+<p>In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A <strong>bruit</strong> is a continuous, low-frequency murmur, whereas <strong>well knocking</strong> presents as a sharp, high-amplitude transient spike.</p>
 
 </div>
 
@@ -268,13 +271,17 @@ It's all about diameter. Even a tiny reduction in the vessel's radius drasticall
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Poiseuille's Law Derivation**
-$Q \propto r^4 \implies R \propto 1/r^4$
-**1.** Area scales with $r^2$ ($\pi r^2$)
-**2.** Velocity profile scales with $r^2$ (wall friction)
-**3.** Flow ($Q$) = Area $\times$ Velocity $\propto r^2 \times r^2 = r^4$
+<p><strong>Poiseuille's Law Derivation</strong></p>
+
+<p>$Q \propto r^4 \implies R \propto 1/r^4$</p>
+
+<p><strong>1.</strong> Area scales with $r^2$ ($\pi r^2$)</p>
+
+<p><strong>2.</strong> Velocity profile scales with $r^2$ (wall friction)</p>
+
+<p><strong>3.</strong> Flow ($Q$) = Area $\times$ Velocity $\propto r^2 \times r^2 = r^4$</p>
 
 </div>
 
@@ -339,15 +346,21 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**The Reynolds Number ($Re$)**
-$Re = \frac{\rho v d}{\mu}$
-Always positive, ranging from 0 to ∞.
-**Re < 2,300**: Laminar (smooth, predictable flow)
-**2,300 < Re < 4,000**: Transition zone (intermittent flickering)
-**Re > 4,000**: Fully turbulent (chaotic eddies)
-The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.
+<p><strong>The Reynolds Number ($Re$)</strong></p>
+
+<p>$Re = \frac{\rho v d}{\mu}$</p>
+
+<p>Always positive, ranging from 0 to ∞.</p>
+
+<p><strong>Re < 2,300</strong>: Laminar (smooth, predictable flow)</p>
+
+<p><strong>2,300 < Re < 4,000</strong>: Transition zone (intermittent flickering)</p>
+
+<p><strong>Re > 4,000</strong>: Fully turbulent (chaotic eddies)</p>
+
+<p>The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.</p>
 
 </div>
 
@@ -410,11 +423,13 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet main 
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Parallel Hydraulic Resistance**
-$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
-The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.
+<p><strong>Parallel Hydraulic Resistance</strong></p>
+
+<p>$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$</p>
+
+<p>The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.</p>
 
 </div>
 
@@ -434,11 +449,13 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Continuity Equation**
-$Q = A \cdot v$
-To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+<p><strong>Continuity Equation</strong></p>
+
+<p>$Q = A \cdot v$</p>
+
+<p>To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.</p>
 
 </div>
 
@@ -656,11 +673,13 @@ Well, we can't actually go down into the reservoir. It's two miles beneath the s
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Darcy's Law for Porous Media**
-$Q = -\frac{kA}{\mu} \frac{dP}{dx}$
-Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
+<p><strong>Darcy's Law for Porous Media</strong></p>
+
+<p>$Q = -\frac{kA}{\mu} \frac{dP}{dx}$</p>
+
+<p>Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.</p>
 
 </div>
 
@@ -685,11 +704,13 @@ Exactly. We compare the calculated pressure against our observed pressure. Then 
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Objective Cost Function (Error Minimization)**
-$J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
-The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
+<p><strong>Objective Cost Function (Error Minimization)</strong></p>
+
+<p>$J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$</p>
+
+<p>The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.</p>
 
 </div>
 
@@ -714,11 +735,13 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 <projections>
 <div markdown="1">
 
-<div class="note-alert" markdown="1">
+<div class="note-alert">
 
-**Simplified Bernoulli Equation (Clinical)**
-$\Delta P \approx 4v^2$
-A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
+<p><strong>Simplified Bernoulli Equation (Clinical)</strong></p>
+
+<p>$\Delta P \approx 4v^2$</p>
+
+<p>A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.</p>
 
 </div>
 

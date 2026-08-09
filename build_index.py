@@ -67,15 +67,18 @@ def parse_chapter_to_rows(markdown_content):
                 in_text = False
                 in_proj = True
             
-            html_output.append('<div class="note-alert" markdown="1">\n')
+            html_output.append('<div class="note-alert">\n')
             i += 1 # Skip the > [!NOTE] line
             while i < len(lines) and lines[i].startswith('>'):
                 content = lines[i][1:]
                 if content.startswith(' '):
                     content = content[1:]
-                html_output.append(content)
+                # Convert **bold** to <strong>
+                import re
+                content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+                html_output.append(f'<p>{content}</p>\n')
                 i += 1
-            html_output.append('\n</div>\n')
+            html_output.append('</div>\n')
             continue
             
         # If it's normal text but we are in projections, we need a new row
