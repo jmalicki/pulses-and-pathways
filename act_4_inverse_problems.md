@@ -3,7 +3,7 @@
 ## Act 5: Inverse Problems
 
 **SETTING:**
-An operating room. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
 
 ---
 
@@ -13,13 +13,18 @@ Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the
 *[Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.]*
 
 **DR. SARAH HAYES**
-I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
+*[Eyes on the vessel, voice flat]*
+Starting the anastomosis. Stuart—don't let me purse these bites. We narrow this lumen, resistance climbs. Hard.
+
+*[She places the first stitch. A beat. She looks over the screen to Mark—softer—then her eyes drop back to the vessel.]*
+
+We won't see the flow in here until we're done. Not until Doppler.
 
 **MARK**
 Inferring the unseen. That's my entire job.
 
 **DR. SARAH HAYES**
-*[Without looking up, looping the fine suture with steady precision]*
+*[Still not looking up, looping the fine suture with steady precision]*
 How so, Mark?
 
 **MARK**
@@ -44,8 +49,8 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 > Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.
 
 **DR. SARAH HAYES**
-*[Taking scissors from Elena to cut the suture end]*
-We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
+*[Taking scissors from Elena to cut the suture end; then looks over the screen to Mark]*
+We do something close, Mark. Outside measurements. We can't open every vessel just to check flow or resistance. Doppler ultrasound. Non-invasive diagnostics.
 
 **STUART**
 *[Nodding eagerly]*
@@ -70,7 +75,8 @@ And if we need velocity data without contrast or radiation?
 Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
 
 **DR. SARAH HAYES**
-Exactly. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
+*[To Stuart]*
+Exactly. Mapping the inside from signals at the edge.
 
 <!-- stage-break -->
 
@@ -93,8 +99,12 @@ And below that—the mathematical convergence.
 Right. The upper plot shows how our guesses for permeability and compliance start blind and converge toward the values that actually fit the well. The lower plot is the pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
 
 **DR. SARAH HAYES**
-*[Gently grasping the needle holder]*
-Let's hope my physical model matches the math. I've just placed the final micro-suture. Elena, saline irrigator.
+*[Looks over the screen to Mark, softer]*
+Let's hope my physical model matches the math.
+
+*[She places the final micro-suture. Voice flat again, to the table.]*
+
+Elena, saline irrigator.
 
 *[Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.]*
 
@@ -109,6 +119,8 @@ The vessel is filling...
 
 *[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
 
+<!-- stage-break -->
+
 **DR. SARAH HAYES**
 Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe.
 
@@ -120,15 +132,18 @@ Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Dopp
 *[Smiling widely]*
 Strong triphasic flow. The waveform is beautiful.
 
+<!-- stage-break -->
+
 **DR. SARAH HAYES**
 *[Removing the probe and handing it back to Stuart]*
 Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
-*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
-
 ![Closure Sketch](closure_sketch_1786259427073.jpg)
 
+*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
+
 **DR. SARAH HAYES**
+*[Looks over the screen to Mark, gloves still on]*
 All done, Mark. Joined and sealed—no leaks.
 
 **MARK**

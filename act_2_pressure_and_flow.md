@@ -3,7 +3,7 @@
 ## Act 2: The Narrowing
 
 **SETTING:**
-An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
 
 ---
 
@@ -102,8 +102,12 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 > The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.
 
 **DR. SARAH HAYES**
-*[Cleaning the outer surface of the artery]*
-And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Stuart, what do platelets do when they're exposed to high shear and turbulence?
+*[Cleaning the outer surface of the artery; a glance at Mark's sketch]*
+And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
+
+*[To Stuart, teaching tone.]*
+
+Stuart, what do platelets do when they're exposed to high shear and turbulence?
 
 **STUART**
 They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.
@@ -136,5 +140,9 @@ Occlusion — you mean a total blockage? So the turbulence tricks the body into 
 
 **DR. SARAH HAYES**
 *[Quietly, returning her focus to the wound]*
-Which is exactly why we're here tonight. Stuart, let's irrigate this field. I need it pristine before we go any further.
+Which is exactly why we're here tonight.
+
+*[Flat, to Stuart.]*
+
+Stuart, let's irrigate this field. I need it pristine before we go any further.
 

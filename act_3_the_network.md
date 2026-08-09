@@ -3,7 +3,7 @@
 ## Act 3: The Network
 
 **SETTING:**
-An operating room. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table under a regional block.
 
 ---
 
@@ -57,10 +57,10 @@ Which is perfect for physiology. The blood slows down to a crawl in the capillar
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
 **DR. SARAH HAYES**
-*[Taking a saline syringe from Elena]*
+*[Taking a saline syringe from Elena; still half in the conversation]*
 Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
 
-*[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood.]*
+*[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.]*
 
 **DR. SARAH HAYES**
 Stuart, irrigate here. Let's clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren't steel.

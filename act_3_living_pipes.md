@@ -3,7 +3,7 @@
 ## Act 4: Living Pipes
 
 **SETTING:**
-An operating room. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
 
 ---
 
@@ -24,7 +24,11 @@ In my world, we call that fluid-structure interaction, or FSI. We use gas-charge
 
 **DR. SARAH HAYES**
 *[Gently irrigating the exposed artery with saline to keep the field clear]*
-That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity. Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
+That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity.
+
+*[Without looking up, clipped.]*
+
+Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
 
 **STUART**
 *[Nods, stabilizing his hand and clearing a small pool of saline]*
@@ -63,8 +67,12 @@ It has a yield stress—it gels up. That's part of why stagnant blood clots.
 Yield stress and shear-thinning? You're describing drilling muds. When we drill a well, we pump bentonite slurries or thixotropic polymer fluids down the drill string. When circulation stops, we need the mud to gel up—that's the yield stress—so the heavy rock cuttings don't settle back down and pack off the drill bit. But the second we restart the pumps, the shear stresses break the gel, the viscosity thins out, and it flows easily. You're telling me my body is pumping a thixotropic slurry through self-damping, elastic hoses?
 
 **DR. SARAH HAYES**
-*[A warm smile visible behind her mask]*
-Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit still for too long, which is why we have to keep these clamps temporary. Elena, pass the micro-forceps.
+*[Looks over the screen to Mark, a warm smile visible behind her mask]*
+Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit still for too long, which is why we have to keep these clamps temporary.
+
+*[Eyes back to the field, flatter.]*
+
+Elena, pass the micro-forceps.
 
 *[Elena places the fine jeweler's forceps into Dr. Hayes's hand. Dr. Hayes gently handles the vessel wall.]*
 
@@ -84,13 +92,13 @@ Well, it's a yield failure. Hoop stress—the circumferential tension in the pip
 Left panel—steel casing under hoop stress, and the split when it yields. Living vessel on the right.
 
 **DR. SARAH HAYES**
-*[Stitching a stay suture at the corner of the vessel]*
+*[Stitching a stay suture at the corner of the vessel; a glance at Mark's sketch]*
 That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
 A runaway failure under pressure. That's... that's how blowouts happen in our wells, actually. Deepwater Horizon, 2010—it wasn't one wall giving out. It was a stack of barriers. The cement at the bottom failed first, gas leaked into the casing, climbed the well, knocked down the mud weight, and once that hydrostatic column was gone the reservoir just... blew. Uncontrollable. At the surface.
 
-*[He glances at the vessel under Hayes's hands, uncertain.]*
+*[He stares at the ceiling tiles, uncertain.]*
 
 I don't know your anatomy well enough. Is that anything like what you're looking at?
 

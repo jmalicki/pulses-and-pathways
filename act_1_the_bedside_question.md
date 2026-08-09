@@ -9,11 +9,16 @@
 
 ---
 
-*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A sterile drape screen shields his face from the surgical field. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
+*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
 ![Exposure Sketch](01a_exposure.svg)
-**DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open. Mark, you're doing great. How is the arm feeling?
+
+**DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open.
+
+*[She straightens just enough to look over the screen to Mark; voice warmer.]*
+
+Mark, you're doing great. How is the arm feeling?
 
 **MARK**: *[Staring intently at the ceiling, his knuckles white as he grips the edge of the operating table]* It's... fine. I mean, I don't feel pain, Dr. Hayes. Just this bizarre tugging. Like someone is rooting around in a kitchen drawer, but the drawer is my wrist.
 
@@ -21,7 +26,7 @@
 
 **ELENA**: *[Checking the vitals monitor]* Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he's running a little fast.
 
-**DR. SARAH HAYES**: *[To Mark]* Completely normal under the circumstances. So, what is it you do, Mark?
+**DR. SARAH HAYES**: *[Looks over the screen to Mark]* Completely normal under the circumstances. So, what is it you do, Mark?
 
 **MARK**: *[Taking a shallow, rapid breath]* I'm an engineer. Reservoir and downhole hydraulics, offshore. We design the flow loops for drilling deep wells. Wellbore stability, hydrostatic balance, transient pressure modeling. It's... it's mostly math and physics, keeping the fluid columns from either collapsing the rock or blowing out the top.
 

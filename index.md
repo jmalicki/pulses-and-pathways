@@ -53,10 +53,15 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <play-text>
 <div markdown="1">
 
-*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A sterile drape screen shields his face from the surgical field. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
+*[Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. DR. SARAH HAYES is bent over the arm, exploring the deep laceration. STUART stands beside her, holding a retractor and observing. ELENA stands near the vitals monitor, adjusting the IV line.]*
 
 
-**DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open. Mark, you're doing great. How is the arm feeling?
+
+**DR. SARAH HAYES**: *[Without looking up, adjusting the focus of the surgical light]* Elena, let's keep the saline running wide open.
+
+*[She straightens just enough to look over the screen to Mark; voice warmer.]*
+
+Mark, you're doing great. How is the arm feeling?
 
 **MARK**: *[Staring intently at the ceiling, his knuckles white as he grips the edge of the operating table]* It's... fine. I mean, I don't feel pain, Dr. Hayes. Just this bizarre tugging. Like someone is rooting around in a kitchen drawer, but the drawer is my wrist.
 
@@ -64,7 +69,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 **ELENA**: *[Checking the vitals monitor]* Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he's running a little fast.
 
-**DR. SARAH HAYES**: *[To Mark]* Completely normal under the circumstances. So, what is it you do, Mark?
+**DR. SARAH HAYES**: *[Looks over the screen to Mark]* Completely normal under the circumstances. So, what is it you do, Mark?
 
 **MARK**: *[Taking a shallow, rapid breath]* I'm an engineer. Reservoir and downhole hydraulics, offshore. We design the flow loops for drilling deep wells. Wellbore stability, hydrostatic balance, transient pressure modeling. It's... it's mostly math and physics, keeping the fluid columns from either collapsing the rock or blowing out the top.
 
@@ -176,7 +181,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <div markdown="1">
 
 **SETTING:**
-An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
 
 </div>
 </play-text>
@@ -306,8 +311,12 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 
 
 **DR. SARAH HAYES**
-*[Cleaning the outer surface of the artery]*
-And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop, $\Delta P$, on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel. Stuart, what do platelets do when they're exposed to high shear and turbulence?
+*[Cleaning the outer surface of the artery; a glance at Mark's sketch]*
+And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
+
+*[To Stuart, teaching tone.]*
+
+Stuart, what do platelets do when they're exposed to high shear and turbulence?
 
 **STUART**
 They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.
@@ -340,7 +349,11 @@ Occlusion — you mean a total blockage? So the turbulence tricks the body into 
 
 **DR. SARAH HAYES**
 *[Quietly, returning her focus to the wound]*
-Which is exactly why we're here tonight. Stuart, let's irrigate this field. I need it pristine before we go any further.
+Which is exactly why we're here tonight.
+
+*[Flat, to Stuart.]*
+
+Stuart, let's irrigate this field. I need it pristine before we go any further.
 
 
 </div>
@@ -375,7 +388,7 @@ Which is exactly why we're here tonight. Stuart, let's irrigate this field. I ne
 <div markdown="1">
 
 **SETTING:**
-An operating room. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is irrigating the wound. Stuart assists with suction. Elena passes instruments. Mark lies on the operating table under a regional block.
 
 </div>
 </play-text>
@@ -435,10 +448,10 @@ Which is perfect for physiology. The blood slows down to a crawl in the capillar
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
 **DR. SARAH HAYES**
-*[Taking a saline syringe from Elena]*
+*[Taking a saline syringe from Elena; still half in the conversation]*
 Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
 
-*[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood.]*
+*[Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.]*
 
 **DR. SARAH HAYES**
 Stuart, irrigate here. Let's clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren't steel.
@@ -479,7 +492,7 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 <div markdown="1">
 
 **SETTING:**
-An operating room. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Hayes is preparing sutures for the arterial repair. Stuart holds the suction and assists. Elena is preparing the suture. Mark lies on the operating table under a regional block.
 
 </div>
 </play-text>
@@ -508,7 +521,11 @@ In my world, we call that fluid-structure interaction, or FSI. We use gas-charge
 
 **DR. SARAH HAYES**
 *[Gently irrigating the exposed artery with saline to keep the field clear]*
-That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity. Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
+That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity.
+
+*[Without looking up, clipped.]*
+
+Stuart, hold that suction tip right at the adventitial edge. Don't touch the intima.
 
 **STUART**
 *[Nods, stabilizing his hand and clearing a small pool of saline]*
@@ -546,8 +563,12 @@ It has a yield stress—it gels up. That's part of why stagnant blood clots.
 Yield stress and shear-thinning? You're describing drilling muds. When we drill a well, we pump bentonite slurries or thixotropic polymer fluids down the drill string. When circulation stops, we need the mud to gel up—that's the yield stress—so the heavy rock cuttings don't settle back down and pack off the drill bit. But the second we restart the pumps, the shear stresses break the gel, the viscosity thins out, and it flows easily. You're telling me my body is pumping a thixotropic slurry through self-damping, elastic hoses?
 
 **DR. SARAH HAYES**
-*[A warm smile visible behind her mask]*
-Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit still for too long, which is why we have to keep these clamps temporary. Elena, pass the micro-forceps.
+*[Looks over the screen to Mark, a warm smile visible behind her mask]*
+Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit still for too long, which is why we have to keep these clamps temporary.
+
+*[Eyes back to the field, flatter.]*
+
+Elena, pass the micro-forceps.
 
 *[Elena places the fine jeweler's forceps into Dr. Hayes's hand. Dr. Hayes gently handles the vessel wall.]*
 
@@ -577,13 +598,13 @@ Well, it's a yield failure. Hoop stress—the circumferential tension in the pip
 Left panel—steel casing under hoop stress, and the split when it yields. Living vessel on the right.
 
 **DR. SARAH HAYES**
-*[Stitching a stay suture at the corner of the vessel]*
+*[Stitching a stay suture at the corner of the vessel; a glance at Mark's sketch]*
 That right panel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn't change. It's a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.
 
 **MARK**
 A runaway failure under pressure. That's... that's how blowouts happen in our wells, actually. Deepwater Horizon, 2010—it wasn't one wall giving out. It was a stack of barriers. The cement at the bottom failed first, gas leaked into the casing, climbed the well, knocked down the mud weight, and once that hydrostatic column was gone the reservoir just... blew. Uncontrollable. At the surface.
 
-*[He glances at the vessel under Hayes's hands, uncertain.]*
+*[He stares at the ceiling tiles, uncertain.]*
 
 I don't know your anatomy well enough. Is that anything like what you're looking at?
 
@@ -629,7 +650,7 @@ That's the idea. While there's still a wall to hold. Which is why we respect the
 <div markdown="1">
 
 **SETTING:**
-An operating room. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
+An operating room. A screen at Mark's shoulder hides the field from him; Dr. Hayes can look over it to meet his eyes. Dr. Sarah Hayes is beginning the arterial repair. Stuart holds suction at the vessel edge. Elena prepares the fine suture. Mark lies on the operating table under a regional block.
 
 </div>
 </play-text>
@@ -647,13 +668,18 @@ Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the
 *[Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.]*
 
 **DR. SARAH HAYES**
-I'm starting the anastomosis now. Micro-sutures. We have to stitch this without narrowing the lumen too much, or we'll trigger the fourth-power resistance drop Stuart mentioned. But we can't see the flow inside yet. We'll have to infer it.
+*[Eyes on the vessel, voice flat]*
+Starting the anastomosis. Stuart—don't let me purse these bites. We narrow this lumen, resistance climbs. Hard.
+
+*[She places the first stitch. A beat. She looks over the screen to Mark—softer—then her eyes drop back to the vessel.]*
+
+We won't see the flow in here until we're done. Not until Doppler.
 
 **MARK**
 Inferring the unseen. That's my entire job.
 
 **DR. SARAH HAYES**
-*[Without looking up, looping the fine suture with steady precision]*
+*[Still not looking up, looping the fine suture with steady precision]*
 How so, Mark?
 
 **MARK**
@@ -671,8 +697,8 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 
 
 **DR. SARAH HAYES**
-*[Taking scissors from Elena to cut the suture end]*
-We do the exact same thing, Mark. In medicine, we call our boundary measurements non-invasive diagnostics. We can't slice open your carotid artery just to check if a plaque is obstructing flow or to measure the local vascular resistance. Instead, we use boundary measurements like Doppler ultrasound.
+*[Taking scissors from Elena to cut the suture end; then looks over the screen to Mark]*
+We do something close, Mark. Outside measurements. We can't open every vessel just to check flow or resistance. Doppler ultrasound. Non-invasive diagnostics.
 
 **STUART**
 *[Nodding eagerly]*
@@ -693,7 +719,8 @@ And if we need velocity data without contrast or radiation?
 Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
 
 **DR. SARAH HAYES**
-Exactly. We are mapping the invisible internals using only the signals that reach our sensors at the boundary.
+*[To Stuart]*
+Exactly. Mapping the inside from signals at the edge.
 
 </div>
 </play-text>
@@ -738,8 +765,12 @@ And below that—the mathematical convergence.
 Right. The upper plot shows how our guesses for permeability and compliance start blind and converge toward the values that actually fit the well. The lower plot is the pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
 
 **DR. SARAH HAYES**
-*[Gently grasping the needle holder]*
-Let's hope my physical model matches the math. I've just placed the final micro-suture. Elena, saline irrigator.
+*[Looks over the screen to Mark, softer]*
+Let's hope my physical model matches the math.
+
+*[She places the final micro-suture. Voice flat again, to the table.]*
+
+Elena, saline irrigator.
 
 *[Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.]*
 
@@ -754,9 +785,6 @@ The vessel is filling...
 
 *[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
 
-**DR. SARAH HAYES**
-Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe.
-
 </div>
 </play-text>
 <projections>
@@ -770,17 +798,15 @@ Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Dopp
 <play-text>
 <div markdown="1">
 
+**DR. SARAH HAYES**
+Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe.
+
+
 *[Stuart hands the probe to Dr. Hayes. She places the tip against the pulsing artery. A loud, rhythmic swoosh fills the room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
 
 **STUART**
 *[Smiling widely]*
 Strong triphasic flow. The waveform is beautiful.
-
-**DR. SARAH HAYES**
-*[Removing the probe and handing it back to Stuart]*
-Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
-
-*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
 
 </div>
 </play-text>
@@ -796,6 +822,14 @@ Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous laye
 <div markdown="1">
 
 **DR. SARAH HAYES**
+*[Removing the probe and handing it back to Stuart]*
+Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
+
+
+*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
+
+**DR. SARAH HAYES**
+*[Looks over the screen to Mark, gloves still on]*
 All done, Mark. Joined and sealed—no leaks.
 
 **MARK**
