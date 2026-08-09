@@ -88,6 +88,10 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 ## Chapter 2: Pressure and Flow
 
+![Clamping Sketch](clamping_sketch_1786259348177.jpg)
+
+
+
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
@@ -223,6 +227,10 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 
 ## Chapter 3: Living Pipes
 
+![Suturing Sketch](suturing_sketch_1786259361282.jpg)
+
+
+
 **CHARACTERS:**
 
 * **MARK** – The Patient; a petroleum engineer, talkative when anxious.
@@ -334,6 +342,10 @@ Inferring the unseen. That's my entire job.
 # The Hydraulic Conversation
 
 ## Chapter 4: Inverse Problems
+
+![Doppler Sketch](doppler_sketch_1786259371250.jpg)
+
+
 
 **CHARACTERS:**
 
@@ -448,5 +460,7 @@ I'll make sure to mention that to our reservoir modeling team. They could use a 
 *[The team laughs softly as Elena begins clearing the surgical trays.]*
 
 
-<hr>
+![Closure Sketch](closure_sketch_1786259427073.jpg)
+
+
 
