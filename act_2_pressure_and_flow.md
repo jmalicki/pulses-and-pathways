@@ -90,7 +90,11 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 > [!NOTE]
 > **The Reynolds Number ($Re$)**
 > $Re = \frac{\rho v d}{\mu}$
-> A dimensionless quantity used to predict fluid flow patterns. High values indicate turbulence (chaotic eddies), while low values indicate laminar (smooth) flow.
+> Always positive, ranging from 0 to ∞.
+> **Re < 2,300**: Laminar (smooth, predictable flow)
+> **2,300 < Re < 4,000**: Transition zone (intermittent flickering)
+> **Re > 4,000**: Fully turbulent (chaotic eddies)
+> The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.
 
 **DR. SARAH HAYES**
 *[Using a cotton-tipped applicator to clean the arterial adventitia]*

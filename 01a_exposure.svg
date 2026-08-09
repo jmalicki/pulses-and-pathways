@@ -48,10 +48,4 @@
   <!-- Hand holding suction -->
   <path d="M 430 150 C 480 180 500 120 460 80" fill="none" stroke="#5a5a5a" stroke-width="1.5" filter="url(#pencil)"/>
 
-  <!-- Labels -->
-  <text x="350" y="470" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Hematoma / Bleeding Vessel</text>
-  <line x1="380" y1="430" x2="380" y2="455" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
-  
-  <text x="630" y="360" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Retractor</text>
-  <line x1="640" y1="380" x2="640" y2="365" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
 </svg>
