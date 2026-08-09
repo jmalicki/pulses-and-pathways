@@ -60,14 +60,22 @@ def parse_chapter_to_rows(markdown_content):
             continue
             
         # Check for Note / Lookaside
-        if line.startswith('> [!NOTE]') or (line.startswith('>') and in_proj):
+        if line.startswith('> [!NOTE]'):
             start_row()
             if in_text:
                 html_output.append('</div>\n</play-text>\n<projections>\n<div markdown="1">\n')
                 in_text = False
                 in_proj = True
-            html_output.append(line)
-            i += 1
+            
+            html_output.append('<div class="note-alert" markdown="1">\n')
+            i += 1 # Skip the > [!NOTE] line
+            while i < len(lines) and lines[i].startswith('>'):
+                content = lines[i][1:]
+                if content.startswith(' '):
+                    content = content[1:]
+                html_output.append(content)
+                i += 1
+            html_output.append('\n</div>\n')
             continue
             
         # If it's normal text but we are in projections, we need a new row

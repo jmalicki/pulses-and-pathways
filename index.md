@@ -98,10 +98,14 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Hydrostatic Pressure**
-> $P_h = \rho g z$
-> Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).
+<div class="note-alert" markdown="1">
+
+**Hydrostatic Pressure**
+$P_h = \rho g z$
+Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).
+
+</div>
+
 
 </div>
 </projections>
@@ -234,9 +238,13 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 
 ![Bruit and Knocking](02b_bruit_and_knock.svg)
 
-> [!NOTE]
-> **Acoustic Signatures of Turbulence**
-> In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
+<div class="note-alert" markdown="1">
+
+**Acoustic Signatures of Turbulence**
+In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
+
+</div>
+
 
 </div>
 </projections>
@@ -260,12 +268,16 @@ It's all about diameter. Even a tiny reduction in the vessel's radius drasticall
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Poiseuille's Law Derivation**
-> $Q \propto r^4 \implies R \propto 1/r^4$
-> **1.** Area scales with $r^2$ ($\pi r^2$)
-> **2.** Velocity profile scales with $r^2$ (wall friction)
-> **3.** Flow ($Q$) = Area $\times$ Velocity $\propto r^2 \times r^2 = r^4$
+<div class="note-alert" markdown="1">
+
+**Poiseuille's Law Derivation**
+$Q \propto r^4 \implies R \propto 1/r^4$
+**1.** Area scales with $r^2$ ($\pi r^2$)
+**2.** Velocity profile scales with $r^2$ (wall friction)
+**3.** Flow ($Q$) = Area $\times$ Velocity $\propto r^2 \times r^2 = r^4$
+
+</div>
+
 
 </div>
 </projections>
@@ -327,10 +339,14 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **The Reynolds Number ($Re$)**
-> $Re = \frac{\rho v d}{\mu}$
-> A dimensionless quantity used to predict fluid flow patterns. High values indicate turbulence (chaotic eddies), while low values indicate laminar (smooth) flow.
+<div class="note-alert" markdown="1">
+
+**The Reynolds Number ($Re$)**
+$Re = \frac{\rho v d}{\mu}$
+A dimensionless quantity used to predict fluid flow patterns. High values indicate turbulence (chaotic eddies), while low values indicate laminar (smooth) flow.
+
+</div>
+
 
 </div>
 </projections>
@@ -390,10 +406,14 @@ Look at the left panel, the Vascular Branching Tree. You have a main inlet main 
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Parallel Hydraulic Resistance**
-> $\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
-> The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.
+<div class="note-alert" markdown="1">
+
+**Parallel Hydraulic Resistance**
+$\frac{1}{R_{total}} = \sum \frac{1}{R_i}$
+The total resistance of the vascular bed drops as more parallel branches are added. you distribute flow to different organs without needing a massive pressure head at the main pump.
+
+</div>
+
 
 </div>
 </projections>
@@ -410,10 +430,14 @@ And look at the graph on the right. The total cross-sectional area is tiny in th
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Continuity Equation**
-> $Q = A \cdot v$
-> To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+<div class="note-alert" markdown="1">
+
+**Continuity Equation**
+$Q = A \cdot v$
+To maintain a constant flow rate $Q$, if the area $A$ increases, the velocity $v$ must decrease. to the total area. So, velocity is highest in the aorta and drops to an absolute minimum in the capillaries.
+
+</div>
+
 
 </div>
 </projections>
@@ -628,10 +652,14 @@ Well, we can't actually go down into the reservoir. It's two miles beneath the s
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Darcy's Law for Porous Media**
-> $Q = -\frac{kA}{\mu} \frac{dP}{dx}$
-> Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
+<div class="note-alert" markdown="1">
+
+**Darcy's Law for Porous Media**
+$Q = -\frac{kA}{\mu} \frac{dP}{dx}$
+Flow $Q$ is driven by the pressure gradient $dP/dx$ and permeability $k$, and hindered by fluid viscosity $\mu$.
+
+</div>
+
 
 </div>
 </projections>
@@ -653,10 +681,14 @@ Exactly. We compare the calculated pressure against our observed pressure. Then 
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Objective Cost Function (Error Minimization)**
-> $J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
-> The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
+<div class="note-alert" markdown="1">
+
+**Objective Cost Function (Error Minimization)**
+$J(x) = \sum [ y_{obs} - y_{calc}(x) ]^2$
+The algorithm iteratively tweaks model parameters $x$ to minimize the squared difference between observed reality and simulated predictions.
+
+</div>
+
 
 </div>
 </projections>
@@ -678,10 +710,14 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 <projections>
 <div markdown="1">
 
-> [!NOTE]
-> **Simplified Bernoulli Equation (Clinical)**
-> $\Delta P \approx 4v^2$
-> A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
+<div class="note-alert" markdown="1">
+
+**Simplified Bernoulli Equation (Clinical)**
+$\Delta P \approx 4v^2$
+A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
+
+</div>
+
 
 </div>
 </projections>
