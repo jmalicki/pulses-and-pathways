@@ -91,7 +91,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 
 **STUART**: *[Leaning closer to the wound]* So the mud just sits there?
 
-**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's P-h equals rho gee zee. Density rho of the mud, gravity gee, and vertical depth zee. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. It's a very tight window.
+**MARK**: *[Shaking his head, staring at the ceiling]* No, it's constantly circulating. But the static base of it is pure hydrostatic pressure. It's P-h equals rho gee zee. Density rho of the mud, gravity gee, and vertical depth zee. If we don't control the density, the whole system destabilizes. If the mud is too light, the well kicks—sorry—formation fluid pushes into the wellbore. If it's too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It's a very tight window.
 
 
 **DR. SARAH HAYES**: *[Using a suction tip to clear the surgical field]* And how do you model the flow along the well? If it's circulating, it's not static anymore.
@@ -568,13 +568,13 @@ Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit
 Look at the structural difference here. When your steel pipes fail under too much pressure, how does it look?
 
 **MARK**
-Well, it's a yield failure. Hoop stress—the circumferential tension in the pipe wall—is defined by the pressure times the radius divided by the wall thickness: $\sigma_\theta = \frac{Pr}{t}$. If the pressure exceeds the ultimate tensile strength of the steel, the pipe undergoes plastic deformation, thins out, and splits. It's a sudden, localized rupture.
+Well, it's a yield failure. Hoop stress—the circumferential tension in the pipe wall. Pressure times radius, over thickness. If that exceeds the strength of the steel, it deforms permanently, thins, and splits. Sudden. Localized.
 
 *[Mark flips the page on his notepad to show another drawing]*
 
 
 **MARK**
-Left panel shows the steel casing under hoop stress, and the split failure when it yields. But look at the living vessel on the right.
+Left panel—steel casing under hoop stress, and the split when it yields. Living vessel on the right.
 
 **DR. SARAH HAYES**
 *[Stitching a stay suture at the corner of the vessel]*
@@ -667,7 +667,7 @@ So you calculate what the wellhead pressure *should* be, and compare it to the a
 
 **MARK**
 *[Tapping his fingers as much as the sterile drapes allow]*
-Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down $P_{\mathrm{obs}}$ over time. The calculation is the hard part: we guess a permeability map, run Darcy's law forward through every grid cell, and the model tells us what the wellhead pressure *ought* to be, $P_{\mathrm{calc}}$. Then we keep adjusting those guesses until the calculated wellhead pressure tracks the transducer record.
+Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down what they actually see over time. The calculation is the hard part: we guess a permeability map, run Darcy's law forward through every grid cell, and the model tells us what the wellhead pressure *ought* to be. Then we keep adjusting those guesses until the calculated pressure tracks the transducer record.
 
 
 **DR. SARAH HAYES**
@@ -755,7 +755,7 @@ The vessel is filling...
 *[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
 
 **DR. SARAH HAYES**
-Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe. Let's get our boundary measurement.
+Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe.
 
 </div>
 </play-text>
@@ -778,7 +778,7 @@ Strong triphasic flow. The waveform is beautiful.
 
 **DR. SARAH HAYES**
 *[Removing the probe and handing it back to Stuart]*
-The pressure gradients are restored. The boundary measurements look perfect. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
+Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
 *[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
 
@@ -796,7 +796,7 @@ The pressure gradients are restored. The boundary measurements look perfect. Ele
 <div markdown="1">
 
 **DR. SARAH HAYES**
-All done, Mark. You have a brand new, watertight anastomosis.
+All done, Mark. Joined and sealed—no leaks.
 
 **MARK**
 *[Sighing with relief, his shoulders finally relaxing on the table]*

@@ -74,14 +74,14 @@ Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit
 Look at the structural difference here. When your steel pipes fail under too much pressure, how does it look?
 
 **MARK**
-Well, it's a yield failure. Hoop stress—the circumferential tension in the pipe wall—is defined by the pressure times the radius divided by the wall thickness: $\sigma_\theta = \frac{Pr}{t}$. If the pressure exceeds the ultimate tensile strength of the steel, the pipe undergoes plastic deformation, thins out, and splits. It's a sudden, localized rupture.
+Well, it's a yield failure. Hoop stress—the circumferential tension in the pipe wall. Pressure times radius, over thickness. If that exceeds the strength of the steel, it deforms permanently, thins, and splits. Sudden. Localized.
 
 *[Mark flips the page on his notepad to show another drawing]*
 
 ![Pipe vs Living Vessel](04_pipe_vs_living_vessel.svg)
 
 **MARK**
-Left panel shows the steel casing under hoop stress, and the split failure when it yields. But look at the living vessel on the right.
+Left panel—steel casing under hoop stress, and the split when it yields. Living vessel on the right.
 
 **DR. SARAH HAYES**
 *[Stitching a stay suture at the corner of the vessel]*

@@ -34,7 +34,7 @@ So you calculate what the wellhead pressure *should* be, and compare it to the a
 
 **MARK**
 *[Tapping his fingers as much as the sterile drapes allow]*
-Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down $P_{\mathrm{obs}}$ over time. The calculation is the hard part: we guess a permeability map, run Darcy's law forward through every grid cell, and the model tells us what the wellhead pressure *ought* to be, $P_{\mathrm{calc}}$. Then we keep adjusting those guesses until the calculated wellhead pressure tracks the transducer record.
+Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down what they actually see over time. The calculation is the hard part: we guess a permeability map, run Darcy's law forward through every grid cell, and the model tells us what the wellhead pressure *ought* to be. Then we keep adjusting those guesses until the calculated pressure tracks the transducer record.
 
 > [!NOTE]
 > **Measurement vs Calculation (History Matching)**
@@ -110,7 +110,7 @@ The vessel is filling...
 *[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
 
 **DR. SARAH HAYES**
-Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe. Let's get our boundary measurement.
+Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Doppler probe.
 
 ![Doppler Sketch](doppler_sketch_1786259371250.jpg)
 
@@ -122,14 +122,14 @@ Strong triphasic flow. The waveform is beautiful.
 
 **DR. SARAH HAYES**
 *[Removing the probe and handing it back to Stuart]*
-The pressure gradients are restored. The boundary measurements look perfect. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
+Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
 *[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
 
 ![Closure Sketch](closure_sketch_1786259427073.jpg)
 
 **DR. SARAH HAYES**
-All done, Mark. You have a brand new, watertight anastomosis.
+All done, Mark. Joined and sealed—no leaks.
 
 **MARK**
 *[Sighing with relief, his shoulders finally relaxing on the table]*
