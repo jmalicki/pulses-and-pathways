@@ -1,170 +1,244 @@
 # Accident pass 0 — clean pose and saw base
 
 **Output:** `accident_pass_0_base.png`  
-**Next step:** Use this exact output as the input image for
+**Next:** Edit this exact image with
 [`accident_pass_1_anatomy.md`](accident_pass_1_anatomy.md).  
-**Style references:** Attach `clamping_sketch_1786259348177.jpg` and
-`suturing_sketch_1786259361282.jpg` as **style-only** references. Do not copy
-their OR content.  
-**Pass boundary:** Lock the person, camera-visible forearm surface, rag
-location, saw, and groove. Show **no wound and no blood**.
+**Style references:** `clamping_sketch_1786259348177.jpg` and
+`suturing_sketch_1786259361282.jpg`, used only for drawing style.  
+**Pass boundary:** Establish the pose, rag, saw, groove, and workshop. Show no
+wound, blood, or red.
 
 ---
 
-## Prompt (copy below)
+## Prompt
 
-Create a detailed graphite-and-charcoal narrative illustration on textured
-cream paper. Home garage workshop. This is a clean base for an educational
-plate in *Pulses and Pathways*, read by vascular surgeons and petroleum
-engineers. No injury, wound, blood, red, or graphic content in this pass.
+Create a grayscale graphite-and-charcoal courtroom sketch on cream paper. The
+scene is a well-equipped home garage workshop. Mark is standing immediately
+after recoiling from a table saw and is moving a clean shop rag toward a
+specific area of his anatomical LEFT forearm.
 
-## Style lock — skilled courtroom sketch, not photographic rendering
+Resolve the image in this order. A lower priority must move, simplify, crop, or
+disappear before compromising a higher priority.
 
-Draw this as if a highly skilled courtroom sketch artist observed the moment
-live and had limited time to capture it. Match the supplied project plates:
+## 1. The LEFT ventral forearm is the star
 
-- assertive, slightly broken contour lines rather than polished perfect edges;
-- quick gestural construction lines still visible beneath resolved forms;
-- selective cross-hatching and parallel pencil strokes that describe planes;
-- occasional broad charcoal blocks for the deepest shadows;
-- large areas of cream paper left open as light;
-- strongest detail at the raised hands, forearm, face, saw blade, and groove;
-- workshop background reduced to economical marks and partial silhouettes;
-- edges loosen and dissolve toward the perimeter;
-- expressive, readable face without portrait-level skin, pore, beard-hair, or
-  fabric-weave detail;
-- plaid suggested with a few irregular crossing strokes, not rendered thread by
-  thread;
-- believable anatomy and tools conveyed by line economy, not photographic
-  surface simulation.
+The entire compositional point is a clear shared view of the broad
+**ventral-ulnar / little-finger-side surface of Mark’s anatomical LEFT
+mid-to-distal forearm**:
 
-Treat light **symbolically, not optically**:
+- the camera clearly sees that surface as a broad plane, not as a thin edge;
+- Mark visibly looks directly at the same surface;
+- his LEFT arm is bent **upward** at the elbow: the proximal/elbow end is lower
+  and the distal/wrist end is visibly higher, rising toward his face;
+- the clean rag and healthy RIGHT hand approach from the proximal/elbow side
+  without blocking either Mark’s view or the camera’s view;
+- this forearm, Mark’s sightline, the exposed target patch, and the advancing
+  rag occupy the visual center and receive the strongest contours.
 
-- cream paper itself supplies most highlights;
-- use two or three broad value families (paper light, hatched midtone, charcoal
-  dark), not continuous photographic tonal gradients;
-- shadows may simplify or break rather than track every reflected-light source;
-- glasses get a few contour strokes, not convincing lens glare/refraction;
-- metal gets sparse edge accents, not accurate specular reflections;
-- skin and cloth get directional hatching, not lifelike subsurface glow,
-  bounce light, or polished three-dimensional rendering;
-- no realistic reflected light under the chin, around the nose, between
-  fingers, or across the saw deck merely because a camera would capture it.
+Everything else—including Mark’s chest and face, the saw, wood, room, and
+tools—is supporting context.
 
-The finished image must look unmistakably **drawn from observation**, not like
-a high-resolution photograph converted through a graphite/charcoal filter.
-Avoid smooth airbrushed gradients, glossy tonal modeling, hyperreal pencil
-portraiture, physically accurate reflections, lens-like depth of field,
-perfect digital perspective, uniformly finished detail, or photographic
-realism disguised as monochrome drawing.
+### Absolute arm identity — no crossed limbs
 
-## Lock the person and camera
+Before any other pose choice, solve continuous limb identity:
 
-A startled middle-aged woodworker is centered, shown three-quarter /
-near-profile facing image-right. Plaid work clothes, clear safety glasses, and
-a fearful clenched-teeth grimace. He stands upright on the normal operator side
-and has stepped back from the table saw.
+- anatomical **LEFT** upper arm leaves the LEFT shoulder, continues through the
+  LEFT elbow, and becomes the raised LEFT forearm and LEFT hand;
+- anatomical **RIGHT** upper arm leaves the RIGHT shoulder and ends in the
+  RIGHT hand that holds the rag;
+- the raised forearm under inspection is attached only to the LEFT shoulder;
+- the rag-holding hand is attached only to the RIGHT shoulder;
+- draw an unbroken contour from LEFT shoulder → LEFT upper arm → LEFT elbow →
+  LEFT forearm → LEFT hand, and a separate unbroken contour from RIGHT shoulder
+  → RIGHT upper arm → RIGHT elbow → RIGHT hand → rag.
 
-His anatomical **LEFT** arm is raised to chest-to-shoulder height, elbow bent.
-The LEFT palm faces the camera enough that all five digits are identifiable:
+Wrong if the inspected forearm appears attached to the right upper arm; wrong
+if the rag hand is continuous with the left shoulder; wrong if elbows swap
+sides, arms cross into each other’s sockets, or laterality is ambiguous.
 
-- LEFT thumb appears on the image-left / man-facing side of the raised palm.
-- LEFT little finger appears on the image-right / outer side.
-- The exposed camera-facing forearm surface is the **volar-ulnar surface**,
-  continuous with that little-finger side.
+### Body and camera relationship
 
-Do not show only the dorsal/top forearm or the thumb/radial border. The camera
-must have an unobstructed view of the palm-ulnar mid-to-distal forearm where a later
-vascular injury will be added.
+Use “dextral” anatomically: Mark’s **anatomical RIGHT lateral / dextral body
+plane is nearly square to the camera**. The camera looks straight onto his
+right flank/rib cage, not onto his chest front. His sternum, shirt placket,
+belt buckle, fly, and front pockets point **image-right** (or are hidden /
+strongly foreshortened), not toward the lens. Wrong if the camera mainly sees
+a frontal torso or pelvis.
 
-## Lock the rag independently of any wound
+Bring the far-side anatomical LEFT arm into the central foreground **without
+detaching it from the LEFT shoulder**. Keep the LEFT upper arm close to the
+torso and the LEFT elbow flexed. Independently rotate the raised LEFT forearm
+until its ventral-ulnar surface opens broadly toward the camera while remaining
+plainly visible to Mark as he looks down its length. The RIGHT arm reaches
+across only as far as needed to place the rag; it never becomes the limb that
+owns the inspected forearm.
 
-His healthy anatomical **RIGHT** hand holds a clean folded shop rag against a
-specific anatomical landmark on the raised LEFT arm:
+These body-position suggestions exist only to produce the required shared
+forearm view. Do not preserve a perfect profile, exact foot direction, or
+specific torso angle if it makes the ventral forearm edge-on or hides it from
+Mark. Do not solve camera visibility by straightening or lowering the LEFT arm,
+and do not invent a crossed-limb shortcut.
 
-- rag contacts the **image-right / little-finger border** of the LEFT distal
-  forearm;
-- rag’s leading edge is on the **volar-ulnar surface**, approximately **13–16
-  cm proximal to the wrist crease**;
-- his RIGHT index finger guides that leading edge and points toward an exposed
-  patch immediately **distal / wristward (image-above)** the rag;
-- leave a clearly visible **3–4 cm-long patch of volar-ulnar forearm immediately
-  distal/image-above the rag**, centered around **10–14 cm proximal to the
-  wrist crease**; this mid-to-distal forearm patch is where the wound will be
-  added in Pass 1;
-- the rag is being lifted/slid toward that exposed patch but has **not reached
-  or covered the future wound site yet**;
-- the RIGHT hand reaches naturally across but does not obscure the LEFT hand,
-  little finger, wrist landmarks, or exposed forearm surface.
+Mark remains unmistakably standing with both legs bearing weight and one foot
+stepped back. Frame him from head to at least mid-shin. His shoulders hunch
+protectively; his sparse expression is fearful and focused on his forearm.
 
-The rag location is the anchor for the later laceration. Do not place it on the
-thumb/radial side, dorsal/top surface, elbow, or mid-forearm. Do not park it
-directly at the wrist.
+### Clean target patch and rag path
 
-## Lock the composition and saw
+Keep a clean, unmarked **3–4 cm-long target patch** fully visible on the
+ventral-ulnar / little-finger-side LEFT forearm. Center it **10–14 cm proximal
+to the wrist crease**, away from the thumb/radial side and away from the wrist
+joint.
 
-The man remains centered. The table saw is shifted to image-left / lower-left,
-with clear space between his torso and the blade. He is not leaning over the
-cutter.
+The healthy anatomical RIGHT hand holds a clean folded shop rag:
 
-The project is a **glass-front display cabinet with sliding glass doors**. He
-was cutting the deeper upper track in a thick hardwood top rail so a thin glass
-door could lift into the track during installation. A matching lower rail with
-a shallower track, a few frame pieces, and one thin glass pane may appear
-loosely in the background so the workpiece has a clear purpose, but they remain
-secondary.
+- place the rag at the proximal/elbow-side end of the visible ventral forearm
+  segment, immediately proximal to the target patch;
+- place its advancing edge **13–16 cm proximal to the wrist crease**;
+- choose positions within those ranges so the rag edge remains approximately
+  **2–3 cm proximal to the patch center**;
+- show the RIGHT hand pushing the rag up and inward, from proximal toward
+  distal/wristward, for direct pressure;
+- use a stretched leading edge and slight trailing bunching to make that motion
+  visible;
+- keep the rag, RIGHT hand, fingers, and distal LEFT hand below or beside
+  Mark’s eye-to-patch sightline throughout the motion;
+- do not let the rag reach or cover the target patch in this pass.
 
-Fence is on the right of a narrow **dado stack**. Make the cutter visibly
-different from an ordinary single thin blade but not excessively broad:
-approximately **6–7 mm (¼ in) wide across the arbor**, using the two outer dado
-blades / minimal spacer arrangement. A slightly top-down view must show the
-stack’s modest width and the flat-bottomed kerf it produces. Wrong if it looks
-like one ordinary kerf blade or a huge ¾-inch cutter.
+## 2. The dado stack must visibly match the groove
 
-The stock blade guard and riving knife are removed because they do not fit this
-non-through dado setup, and both are plainly visible resting near the saw:
-recognizable guard hood plus thin splitter/riving-knife piece. A push block
-remains nearby.
+The saw is subordinate to the forearm but mechanically mandatory. Place it
+lower-left and give the cutter/workpiece junction enough clear line detail to
+audit.
 
-One continuous piece of **thick hardwood stock (approximately 30–38 mm /
-1¼–1½ in)** rests lengthwise against the fence. Its top face contains an
-unmistakable **through-running track** that continues along the rail and exits
-both ends, approximately **6–7 mm (¼ in) wide** and **12–14 mm (about ½ in)
-deep**. It is through-running in length but **non-through in depth**: the bottom
-of the rail remains solid. This is the deeper upper track for a sliding **6 mm
-/ ¼-inch glass door**; the matching lower track is shallower. A slightly
-top-down angle reveals the narrow flat wooden floor and substantial uncut wood
-beneath. No stopped router pocket, separate blocks, split board, daylight
-through the bottom, or full-depth cut. Approximately 12–14 mm of dado teeth are
-exposed above the table—deep enough for a localized penetrating forearm injury
-while remaining a non-through-depth groove.
+He was cutting the deeper upper track for a cabinet with sliding glass doors.
+Show one continuous hardwood upper rail, **30–38 mm / 1¼–1½ inches thick**,
+lengthwise against the fence. Its top face contains one unmistakable,
+full-length, flat-bottomed groove that exits both ends:
 
-Workshop pegboard, lumber, shelves, dust, and sawdust remain secondary,
-abbreviated with courtroom-sketch economy. Visible pencil strokes,
-cross-hatching, charcoal accents, cream paper, grayscale only.
+- groove width: **6.35 mm / ¼ inch**;
+- groove depth: **12–14 mm / about ½ inch**;
+- solid wood remains beneath it;
+- its opening is only about one-sixth to one-fifth of the stock thickness;
+- it reads as a narrow deep track, never a broad notch, trench, missing strip,
+  stopped pocket, split board, or through-depth cut.
 
-## Pass 0 final audit
+Show a conventional **8-inch-diameter dado stack** configured to the same
+**6.35 mm / ¼-inch width** using two approximately **⅛-inch outer dado plates**
+with no intermediate chipper. Use a slightly top-down, slightly along-arbor
+view so the exposed crown shows **two distinct parallel serrated tooth rows**
+and a visible axial span—not one ordinary thin circular blade.
 
-- Raised arm is anatomical LEFT.
-- LEFT palm and all five digits are identifiable.
-- Thumb is image-left; little finger is image-right.
-- Camera clearly sees the volar-ulnar / little-finger-side mid-to-distal
-  forearm.
-- Clean rag’s leading edge sits 13–16 cm above the wrist; RIGHT index finger
-  guides it toward a 3–4 cm exposed patch immediately distal/image-above.
-- Rag has not yet covered the future wound site.
-- Man centered and stepped back; saw shifted aside.
-- Guard and riving knife visibly removed beside the dado setup.
-- Cutter visibly reads as a narrow ¼-inch dado stack, not one thin blade and
-  not a broad ¾-inch stack.
-- One thick display-cabinet upper rail has a narrow, deep, flat-bottomed track
-  running its full length for a sliding glass door, with solid wood remaining
-  below.
-- Style reads as a skilled live courtroom sketch: gestural lines, selective
-  hatching, open paper, loose edges, simplified value blocks, and no realistic
-  reflected light—not a filtered photograph.
-- No wound, blood, or red appears anywhere.
+Align the completed groove directly behind the cutter under the same
+perspective:
 
-No text, labels, arrows, captions, signatures, watermarks, photorealism,
-extra limbs, mirrored anatomy, rag on radial side, hidden ulnar surface,
-separate wood blocks, through-cut board, or mounted guard.
+- the distance between the two outer tooth faces exactly equals the distance
+  between the two groove sidewalls;
+- each groove wall visually projects from its corresponding outer tooth face;
+- cutter width and groove width must match exactly;
+- show a dado throat opening wide enough for the stack.
+
+Almost the entire 4-inch cutter radius remains below the deck. Only **12–14 mm
+/ about ½ inch** of the toothed crown rises above the table.
+
+### Removed safety assembly
+
+Use the mechanically accurate causal chain. The wider cutter requires the dado
+setup, and the groove is non-through: intact wood remains above the cut.
+Therefore the regular over-blade guard and protruding splitter/riving-knife
+assembly cannot travel through the work and has been removed only for this cut.
+
+Show these separate parts beside the saw:
+
+- a recognizable broad guard hood;
+- a thin splitter/riving-knife plate;
+- a nearby push block.
+
+The thin splitter/riving-knife plate must be visibly narrower than the
+¼-inch dado stack. Do not inaccurately make the entire broad guard hood narrower
+than the stack.
+
+## 3. Coherent garage workshop
+
+Use a simple rectangular room:
+
+- one uninterrupted back wall;
+- one perpendicular right wall;
+- exactly one visible floor-to-ceiling corner where they meet;
+- one continuous back-wall/floor seam meeting the right-wall/floor seam at that
+  corner;
+- consistent vanishing points for walls, cabinets, saw, and floor.
+
+No unexplained setback, jog, missing return corner, alcove, or conflicting
+horizon.
+
+On the back wall, lightly draw a premium modular steel garage-storage system:
+a rolling lower drawer cabinet/workbench with casters and a solid top, two or
+three matching upper metal cabinets, and a sparse pegboard or slotted panel
+with five to seven tool silhouettes. Add only a few cans, boxes, and clean shop
+rags. Place two leaning boards and one cord or dust-hose coil against the right
+wall. Keep broad wall areas open and omit logos, labels, tiny hardware, and
+dense clutter.
+
+## 4. Courtroom-sketch finish
+
+Draw as a skilled courtroom artist working quickly from observation:
+
+- accurate, slightly broken contours with visible gestural construction;
+- approximately **50–55 percent clean cream paper**;
+- four to six broad, broken midtone masses rather than uniform shading;
+- strongest detail on the LEFT ventral forearm, sightline, target patch, and
+  rag;
+- enough precise linework to distinguish the two dado plates and matching
+  groove, but less emphasis than the forearm;
+- saw tabletop mostly light, with more value on its vertical apron;
+- clothing described by a few structural folds and incomplete plaid marks, not
+  realistic wrinkle mapping;
+- face described by an accurate sparse silhouette and a few expression marks,
+  not pores, hairs, wrinkles, facial folds, or portrait modeling;
+- if teeth show, use two pale ridges with only a few separator ticks;
+- background lines lighter and looser than the focal forearm.
+
+No all-over pencil grain, dense cross-hatching, smooth gradients, realistic
+reflections, photographic lighting, depth-of-field effects, text, labels,
+arrows, signatures, watermarks, or extra limbs.
+
+## Ordered audit
+
+Reject the image immediately when a higher gate fails.
+
+### Gate 1 — shared forearm view
+
+- Raised arm is anatomical LEFT and continuous with the LEFT shoulder/upper
+  arm; rag hand is anatomical RIGHT and continuous with the RIGHT shoulder.
+- No crossed-limb attachment: inspected forearm is not attached to the right
+  upper arm.
+- Proximal elbow end is lower; distal wrist end is higher.
+- LEFT arm is bent upward, not straight, horizontal, or hanging.
+- Camera sees a broad ventral-ulnar plane, and Mark looks at that same plane.
+- Target patch is 10–14 cm above the wrist and remains fully exposed.
+- Rag edge is 13–16 cm above the wrist, remains proximal to the patch, and
+  visibly advances distal/wristward.
+- Rag and RIGHT hand block neither sightline.
+- Forearm is the central dominant anatomical plane; Mark’s right lateral side
+  is nearly square to the camera, and frontal chest does not become the
+  composition.
+- Mark is standing.
+- No wound, blood, or red appears.
+
+### Gate 2 — saw mechanics
+
+- A full-length narrow groove is visibly present.
+- Groove and two-plate dado stack are both ¼ inch wide and visibly match.
+- Cutter does not read as one thin blade.
+- Groove does not read as a broad trench.
+- Cutter is 8 inches in diameter with only about ½ inch exposed.
+- Groove is about ½ inch deep in 1¼–1½-inch stock with solid wood beneath.
+- Broad hood and separate thin splitter plate are removed and visible.
+- Thin splitter plate is narrower than the dado stack.
+
+### Gate 3 — room and style
+
+- One back wall and one right wall meet at one coherent corner.
+- Premium steel storage reads clearly without dense detail.
+- Style remains a moderately shaded, open-paper courtroom sketch.

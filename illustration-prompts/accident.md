@@ -1,114 +1,126 @@
 # Accident — repeatable three-pass workflow
 
 **Final target:** `accident_sketch.png`  
-**Beat:** Act 1 open—while the regional block sets, Mark recounts the table-saw
-accident that divided his left ulnar artery.  
+**Beat:** Mark recounts the table-saw accident that divided his left ulnar
+artery.  
 **Audience:** Vascular surgeons and petroleum engineers reading *Pulses and
-Pathways*. Anatomy and arterial physics must withstand clinical scrutiny.  
-**Status:** Needs regeneration using the three passes below.
+Pathways*.  
+**Status:** Needs regeneration.
 
-This plate is not gore, horror, or injury fetishism. It is the restrained
-diagnostic setup for the operation shown in the following plates: exploration
-of the left volar-ulnar mid-to-distal forearm, proximal and distal vascular control,
-assessment of the divided ends, and arterial repair. The wound location and
-pulsatile blood are necessary clinical facts, not decorative violence.
+This is a restrained clinical narrative, not gore. The wound location and
+pulsatile blood establish the emergency that leads to left ulnar-artery
+exploration, proximal and distal control, and repair.
 
 ## Why three passes
 
-Single-pass generations repeatedly traded one requirement for another:
-mirrored/right-arm anatomy, radial rather than ulnar injury, continuous streams
-instead of systolic pulses, or incorrect saw geometry. The split workflow locks
-the difficult spatial facts before adding the wound or blood:
+Later passes edit the exact approved output of the prior pass:
 
-1. [`accident_pass_0_base.md`](accident_pass_0_base.md) creates a clean
-   grayscale scene with **no wound or blood**. It locks the camera-visible
-   volar-ulnar surface and anchors the clean rag at the future injury site.
-2. [`accident_pass_1_anatomy.md`](accident_pass_1_anatomy.md) edits that exact
-   image to add the non-bloody laceration immediately distal/image-above the
-   fixed rag and guiding RIGHT index finger.
-3. [`accident_pass_2_blood.md`](accident_pass_2_blood.md) edits Pass 1 and adds
-   only the earlier saw evidence and one live arterial pulse.
+1. [`accident_pass_0_base.md`](accident_pass_0_base.md) locks the clean pose,
+   shared forearm view, rag path, saw mechanics, room, and style.
+2. [`accident_pass_1_anatomy.md`](accident_pass_1_anatomy.md) adds only the
+   non-bloody laceration.
+3. [`accident_pass_2_blood.md`](accident_pass_2_blood.md) adds only the landed
+   blood evidence and one live arterial pulse.
 
-Do not combine the prompts. Each later pass edits the exact approved output of
-the prior pass and may not regenerate the scene.
+Do not combine the prompts or regenerate the scene in Pass 1 or Pass 2.
 
-## Repeatable procedure
+## Pass 0 — clean base
 
-### Pass 0: clean pose, rag anchor, and saw
-
-1. Copy the prompt from
+1. Run the prompt in
    [`accident_pass_0_base.md`](accident_pass_0_base.md).
 2. Attach `clamping_sketch_1786259348177.jpg` and
    `suturing_sketch_1786259361282.jpg` as style-only references.
-3. Save the unmodified result as `accident_pass_0_base.png`.
-4. Reject and rerun Pass 0 unless all are true:
-   - raised arm is anatomical LEFT;
-   - left palm and all five digits are identifiable;
-   - thumb is image-left and little finger is image-right;
-   - camera clearly sees the volar-ulnar mid-to-distal forearm;
-   - clean rag’s leading edge sits on that little-finger-side surface 13–16 cm
-     above the wrist;
-   - RIGHT index finger guides it toward an exposed distal/image-above patch;
-   - subject is centered, arm raised, and stepped back;
-   - guard and riving knife are visibly removed;
-   - cutter visibly reads as a narrow ¼-inch dado stack, not one thin blade or
-     a broad ¾-inch stack;
-   - display-cabinet upper rail has a full-length deep glass track with a
-     visible flat bottom and solid wood remaining beneath;
-   - style reads as a skilled live courtroom sketch with gestural contours,
-     selective hatching, open paper, and loose edges—not photorealistic
-     graphite rendering;
-   - no wound, blood, or red appears anywhere.
+3. Save the untouched result as `accident_pass_0_base.png`.
+4. Audit in this order:
 
-Do not proceed with a mirrored arm, radial-side rag, hidden ulnar surface, or
-incorrect saw.
+### Gate 1 — the forearm
 
-### Pass 1: add the laceration
+- Raised arm is anatomical LEFT and continuous with the LEFT shoulder/upper
+  arm; rag hand is anatomical RIGHT and continuous with the RIGHT shoulder.
+- No crossed-limb attachment: the inspected forearm is not joined to the right
+  upper arm.
+- The arm bends upward: proximal elbow end lower, distal wrist end higher.
+- Camera sees a broad ventral-ulnar surface rather than its edge.
+- Mark visibly looks at that same surface.
+- Forearm is the central dominant anatomical plane.
+- Mark’s anatomical RIGHT lateral / dextral body plane is nearly square to the
+  camera; sternum and belt buckle point image-right, not toward the lens;
+  frontal chest and pelvis do not dominate.
+- Clean target patch is 3–4 cm long and 10–14 cm above the wrist.
+- Rag is at the proximal/elbow-side end of the visible segment, with its edge
+  13–16 cm above the wrist and approximately 2–3 cm proximal to the patch
+  center.
+- RIGHT hand visibly moves the rag distal/wristward.
+- Rag and hands block neither Mark’s view nor the camera’s view.
+- Mark is standing.
+- No wound, blood, or red appears.
 
-1. Copy the prompt from
+Reject immediately if Gate 1 fails. A good saw, room, or style cannot compensate
+for a hidden, edge-on, straight, or lowered ventral forearm.
+
+### Gate 2 — the saw
+
+- One full-length narrow groove is visible in one continuous rail.
+- Groove and dado stack are both ¼ inch / 6.35 mm wide and visibly match.
+- Exposed crown shows two parallel dado plates, not one thin saw blade.
+- Groove is 12–14 mm deep in 30–38 mm stock with solid wood beneath.
+- Cutter is 8 inches in diameter with only 12–14 mm exposed.
+- Broad guard hood and separate thin splitter/riving-knife plate are removed
+  and visible.
+- Thin splitter plate is visibly narrower than the dado stack.
+
+### Gate 3 — room and style
+
+- One back wall and one right wall meet at exactly one coherent corner.
+- Premium steel storage reads clearly without dense clutter.
+- Drawing is a moderately shaded courtroom sketch with 50–55 percent open
+  cream paper, not a filtered photograph.
+
+Do not continue until all three gates pass.
+
+## Pass 1 — non-bloody laceration
+
+1. Attach `accident_pass_0_base.png`.
+2. Run the prompt in
    [`accident_pass_1_anatomy.md`](accident_pass_1_anatomy.md).
-2. Attach `accident_pass_0_base.png` as the image to edit.
-3. Save the unmodified result as `accident_pass_1_anatomy.png`.
-4. Reject and rerun pass 1 unless all are true:
-   - Pass 0 geometry remains unchanged;
-   - injured arm is anatomical LEFT;
-   - the left little finger is identifiable;
-   - rag has not moved;
-   - wound is immediately distal/image-above that rag and guiding index finger
-     on the same volar-ulnar border;
-   - wound sits 10–14 cm above wrist on the camera-facing mid-to-distal
-     forearm, not at the wrist joint;
-   - rag is moving into place but does not yet cover the wound;
-   - wound is irregular and slightly oblique, deepest at the ulnar border and
-     tapering in the pull-away direction—not a smooth knife incision;
-   - no blood or red appears anywhere.
+3. Save the untouched result as `accident_pass_1_anatomy.png`.
+4. Reject unless:
 
-Do not proceed to Pass 2 with a laterality, rag-anchor, or wound-placement
-error. Pass 2 is not allowed to move the rag or wound.
+- Pass 0 geometry remains unchanged.
+- One 3–4 cm irregular laceration appears 10–14 cm above the wrist on the LEFT
+  ventral-ulnar / little-finger-side surface.
+- Wound is immediately distal to the fixed rag and remains visible to both Mark
+  and camera.
+- Deepest segment is at the ulnar border and tapers in the pull-away direction.
+- Radial/thumb side remains intact.
+- No blood or red appears.
 
-### Pass 2: blood and pulse physics
+## Pass 2 — arterial evidence
 
-1. Attach `accident_pass_1_anatomy.png` as the image to edit.
-2. Copy the prompt from
+1. Attach `accident_pass_1_anatomy.png`.
+2. Run the prompt in
    [`accident_pass_2_blood.md`](accident_pass_2_blood.md).
 3. Save the untouched result as `accident_pass_2_blood.png`.
-4. Reject and rerun pass 2 unless all are true:
-   - pass 1 geometry and anatomy remain unchanged;
-   - a modest smear and four landed pulse marks appear on/around the saw;
-   - exactly one live proximal systolic pulse is airborne;
-   - coherent column is 5–10 cm; total throw is 15–25 cm;
-   - distal stump has no pulse;
-   - rag is visibly moving into pressure position but has not seated or hidden
-     the wound;
-   - no continuous stream, second jet, giant pool, or graphic tissue detail.
+4. Reject unless:
 
-### Promote the approved image
+- Pass 1 geometry and wound remain unchanged.
+- Mark and camera still see the wound; rag remains proximal and unseated.
+- Four prior pulse marks and one modest smear appear on or around the saw.
+- Exactly one live proximal systolic pulse travels toward camera approximately
+  20–30 degrees off-axis.
+- Live column is 5–10 cm; total throw is 15–25 cm.
+- Distal stump does not pulse.
+- Total blood remains 15–30 ml and visually restrained.
+- No continuous stream, second jet, giant pool, or graphic tissue detail
+  appears.
 
-Only after both quality gates pass:
+## Promote the approved image
+
+After all gates pass:
 
 1. Copy `accident_pass_2_blood.png` to `accident_sketch.png`.
-2. Keep all numbered pass files so the generation can be audited or repeated.
-3. Record the generator/model and date here:
+2. Keep all numbered pass files for audit and repetition.
+3. Record generator, model, and date:
 
    - Pass 0: pending
    - Pass 1: pending
@@ -117,12 +129,12 @@ Only after both quality gates pass:
 
 ## Clinical continuity
 
-- Left volar-ulnar wound → left ulnar-artery exposure.
-- Deepest irregular saw segment → complete ulnar-artery transection.
-- Proximal systolic pulse → emergency proximal hemorrhage control.
+- LEFT ventral-ulnar wound → left ulnar-artery exposure.
+- Deepest focal segment → complete ulnar-artery transection.
+- Proximal live pulse → emergency proximal control.
 - Non-pulsatile distal end → distal control.
 - Two divided ends → assessment and arterial repair.
-- Rag moving into pressure position → wound and active bleed still visible just
-  before compression seats.
-- BP 138/82 and HR 96 → 0.625-second beat interval; four earlier landed pulses
-  plus exactly one live airborne pulse in the chosen frozen instant.
+- Rag approaching from proximal side → direct pressure is beginning but has
+  not hidden the diagnostic wound.
+- BP 138/82 and HR 96 → 0.625-second beat interval; four landed pulses plus one
+  live airborne pulse.
