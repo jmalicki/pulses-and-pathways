@@ -431,7 +431,17 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 
 </div>
 </play-text>
-<projections></projections>
+<projections>
+<div markdown="1">
+
+![Bruit and Knocking](02b_bruit_and_knock.svg)
+
+> [!NOTE]
+> **Acoustic Signatures of Turbulence**
+> In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
+
+</div>
+</projections>
 </stage-row>
 <stage-row>
 <play-text>

@@ -28,6 +28,12 @@ Ten points for quoting the physiology textbook verbatim, Stuart. But yes, exactl
 *[Nervously tapping his free left hand against the arm board]*
 We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
 
+![Bruit and Knocking](02b_bruit_and_knock.svg)
+
+> [!NOTE]
+> **Acoustic Signatures of Turbulence**
+> In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
+
 **DR. SARAH HAYES**
 *[Gently dab-drying the tissue with a gauze sponge]*
 And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.
