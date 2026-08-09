@@ -6,53 +6,39 @@
 Okay, we're ready to control the flow. Stuart, hold this retractor right there. Let's clamp the proximal end first.
 
 **MARK**
-*[Watches the ceiling, sweating]*
+[*Watches the ceiling, sweating*]
 Clamping the flow. That's a valve shut-in.
 
 **DR. SARAH HAYES**
-*[With a firm but gentle click, she locks a vascular clamp across the artery. She watches the field go quiet.]*
+[*With a firm but gentle click, she locks a vascular clamp across the artery. She watches the field go quiet.*]
 
 ![Clamping Sketch](clamping_sketch_1786259348177.jpg)
 Good. Proximal control. Field's dry.
 
 **MARK**
-*[A small flinch at the click; eyes still on the ceiling]*
+[*A small flinch at the click; eyes still on the ceiling*]
 That's it? You just closed it?
 
 **DR. SARAH HAYES**
-*[Looks over the screen to Mark]*
+[*Looks over the screen to Mark*]
 Proximal clamp's on. Bleeding's stopped on this side.
 
 **MARK**
-*[Trying to map it to something he knows]*
+[*Trying to map it to something he knows*]
 On a well, you'd see that shut-in on the gauges—pressure jumps upstream the second the valve closes. That's why we hang transducers. Early warning. So… you saw the spike?
 
 **DR. SARAH HAYES**
 I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.
 
 **MARK**
-*[A short, incredulous laugh]*
+[*A short, incredulous laugh*]
 Every few minutes. After a shut-in.
 
+<!-- stage-break -->
+
 **DR. SARAH HAYES**
-*[Back to the field]*
+[*Back to the field*]
 For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn't clear that bar.
-
-**ELENA**
-*[Checking the cuff cycle on the vitals monitor]*
-We don't instrument for sport.
-
-**STUART**
-*[Still holding retractors, thinking out loud]*
-But if we *did* have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.
-
-**DR. SARAH HAYES**
-*[Without looking up, she steadies the clamped vessel with forceps]*
-Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
-
-**MARK**
-*[Nervously tapping his free hand against the arm board]*
-We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
 
 ![Bruit and Knocking](02b_bruit_and_knock.svg)
 
@@ -60,24 +46,40 @@ We listen for the same thing in wells and pipelines. When a valve shuts in, it g
 > **Acoustic Signatures of Turbulence**
 > In both systems, a downstream restriction causes upstream flow turbulence that creates audible acoustic vibrations. A **bruit** is a continuous, low-frequency murmur, whereas **well knocking** presents as a sharp, high-amplitude transient spike.
 
+**ELENA**
+[*Checking the cuff cycle on the vitals monitor*]
+We don't instrument for sport.
+
+**STUART**
+[*Still holding retractors, thinking out loud*]
+But if we *did* have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.
+
 **DR. SARAH HAYES**
-*[Gently dabbing the tissue with gauze]*
+[*Without looking up, she steadies the clamped vessel with forceps*]
+Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
+
+**MARK**
+[*Nervously tapping his free hand against the arm board*]
+We listen for the same thing in wells and pipelines. When a valve shuts in, it generates a transient shock wave—a water hammer—that bounces back and forth. We hear it as 'well knocking' or metallic pinging. The frequency and amplitude of the acoustic reflection tell us where the blockage or restriction is.
+
+**DR. SARAH HAYES**
+[*Gently dabbing the tissue with gauze*]
 And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.
 
-*[Elena hands Dr. Hayes a syringe of saline. Dr. Hayes washes the wound. Stuart takes the retractor, holding the exposure.]*
+[*Elena hands Dr. Hayes a syringe of saline. Dr. Hayes washes the wound. Stuart takes the retractor, holding the exposure.*]
 
 <!-- stage-break -->
 
 **STUART**
-*[Adjusting his grip]*
+[*Adjusting his grip*]
 It's all about diameter. Even a tiny reduction in the vessel's radius drastically increases resistance. In physiology, we learn Poiseuille's law. Resistance to flow is inversely proportional to the fourth power of the radius.
 
 **MARK**
-*[Shifting his head to look at Stuart]*
+[*Shifting his head to look at Stuart*]
 Hold on, Stuart. You're talking about the Hagen-Poiseuille equation. Do they teach you *why* it's to the fourth power in medical school?
 
 **STUART**
-*[Blinking, momentarily caught off guard]*
+[*Blinking, momentarily caught off guard*]
 Well, it's just the formula for resistance.
 
 **MARK**
@@ -86,7 +88,7 @@ It's just geometry! Flow is velocity times area. The cross-sectional area of a p
 ![Laminar velocity profile](02c_velocity_profile.svg)
 
 **DR. SARAH HAYES**
-*[Chuckling softly behind her mask]*
+[*Chuckling softly behind her mask*]
 Hardly. Blood vessels are curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it's shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.
 
 **MARK**
@@ -103,12 +105,12 @@ Right, a stenosis.
 **MARK**
 Elena, can you hand me my notepad? The clean page.
 
-*[Elena reaches for the metal-backed clipboard on Mark's side table, flipping to his fresh sketch.]*
+[*Elena reaches for the metal-backed clipboard on Mark's side table, flipping to his fresh sketch.*]
 
 **MARK**
 Look at this sketch here.
 
-*[Elena holds the clipboard up under the bright surgical lights. Stuart leans in slightly while keeping the suction tip steady in his left hand.]*
+[*Elena holds the clipboard up under the bright surgical lights. Stuart leans in slightly while keeping the suction tip steady in his left hand.*]
 
 ![The Narrowing](02_the_narrowing.svg)
 
@@ -119,7 +121,7 @@ Look at Profile A, the healthy vessel with a normal radius and smooth, parabolic
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
 
 **MARK**
-*[Points to the chaotic swirls in Profile B]* Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity.
+[*Points to the chaotic swirls in Profile B*] Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity.
 
 > [!NOTE]
 > **The Reynolds Number ($Re$)**
@@ -131,10 +133,10 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 > The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.
 
 **DR. SARAH HAYES**
-*[Cleaning the outer surface of the artery; a glance at Mark's sketch]*
+[*Cleaning the outer surface of the artery; a glance at Mark's sketch*]
 And in a blood vessel, that downstream turbulence isn't just an energy loss—which shows up as that permanent pressure drop on your graph. It's biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.
 
-*[To Stuart, teaching tone.]*
+[*To Stuart, teaching tone.*]
 
 Stuart, what do platelets do when they're exposed to high shear and turbulence?
 
@@ -145,7 +147,7 @@ They activate, change shape, release dense granules, and aggregate. It triggers 
 Good. So now think it through. You've got a minor plaque narrowing. It accelerates the flow. The turbulence activates platelets. What happens next?
 
 **STUART**
-*[Pausing, then his eyes widening]*
+[*Pausing, then his eyes widening*]
 The clot narrows it further... which accelerates the flow even more... which activates more platelets...
 
 **DR. SARAH HAYES**
@@ -158,20 +160,20 @@ It's a positive feedback loop. It runs away until you get total occlusion.
 And if that vessel feeds the myocardium?
 
 **STUART**
-*[Quietly]*
+[*Quietly*]
 Myocardial infarction. A heart attack.
 
 **MARK**
-*[Frowning at the ceiling]*
+[*Frowning at the ceiling*]
 Occlusion — you mean a total blockage? So the turbulence tricks the body into thinking it's injured, and the repair response plugs it off completely? That's a runaway blowout.
 
-*[A brief silence falls over the room. The steady beep of the heart monitor fills the space.]*
+[*A brief silence falls over the room. The steady beep of the heart monitor fills the space.*]
 
 **DR. SARAH HAYES**
-*[Quietly, returning her focus to the wound]*
+[*Quietly, returning her focus to the wound*]
 Which is exactly why we're here tonight.
 
-*[Flat, to Stuart.]*
+[*Flat, to Stuart.*]
 
 Stuart, let's irrigate this field. I need it pristine before we go any further.
 

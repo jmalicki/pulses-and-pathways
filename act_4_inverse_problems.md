@@ -5,44 +5,44 @@
 **DR. SARAH HAYES**
 Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.
 
-*[Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.]*
+[*Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.*]
 
 **DR. SARAH HAYES**
-*[Eyes on the vessel, voice flat]*
+[*Eyes on the vessel, voice flat*]
 Starting the anastomosis. Stuart—don't let me purse these bites. We narrow this lumen, resistance climbs. Hard.
 
-*[She places the first stitch. A beat. She looks over the screen to Mark—softer.]*
+[*She places the first stitch. A beat. She looks over the screen to Mark—softer.*]
 
 Mark—I'm sewing the artery back together now. You won't feel it. When we're done we'll check the flow with a Doppler probe. Until then I'm watching the wall, not blood moving through it.
 
 **MARK**
-*[Eyes on the ceiling lights, free fingers twitching against the drape]*
+[*Eyes on the ceiling lights, free fingers twitching against the drape*]
 I can't see any of that. Arm's just… blank. You're sewing it without watching the flow?
 
 **DR. SARAH HAYES**
-*[Already back to the field]*
+[*Already back to the field*]
 The join, yes. The flow comes after.
 
 **MARK**
-*[A thin breath]*
+[*A thin breath*]
 Then we're the same. I never see inside the reservoir either. That's my entire job—working from the outside.
 
 **DR. SARAH HAYES**
-*[Still not looking up, looping the fine suture with steady precision]*
+[*Still not looking up, looping the fine suture with steady precision*]
 How so?
 
 **MARK**
-*[Nervously twitching his fingers, his eyes tracking the surgical light]*
+[*Nervously twitching his fingers, his eyes tracking the surgical light*]
 Well, we can't actually go down into the reservoir. It's two miles beneath the seabed. We have no eyes down there. We can't see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation: how much fluid a pressure gradient can push through the rock against viscosity. Same idea as resistance in a pipe, except the "pipe" is a tangled pore network—what we call Darcy's law.
 
 ![Darcy's Law](07_darcys_law.svg)
 
 **STUART**
-*[Gently retracting the wound edge, squinting under the bright overhead light]*
+[*Gently retracting the wound edge, squinting under the bright overhead light*]
 So you calculate what the wellhead pressure *should* be, and compare it to the actual sensor data?
 
 **MARK**
-*[Tapping his fingers as much as the sterile drapes allow]*
+[*Tapping his fingers as much as the sterile drapes allow*]
 Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down what they actually see over time. The calculation is the hard part: we guess a permeability map, run Darcy's law forward through every grid cell, and the model tells us what the wellhead pressure *ought* to be. Then we keep adjusting those guesses until the calculated pressure tracks the transducer record.
 
 > [!NOTE]
@@ -53,11 +53,11 @@ Exactly. The measurement is the easy part—pressure transducers at the wellhead
 > Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.
 
 **DR. SARAH HAYES**
-*[Taking scissors from Elena to cut the suture end; then looks over the screen to Mark]*
+[*Taking scissors from Elena to cut the suture end; then looks over the screen to Mark*]
 We do something close, Mark. Outside measurements. We can't open every vessel just to check flow or resistance. Doppler ultrasound. Non-invasive diagnostics.
 
 **STUART**
-*[Nodding eagerly]*
+[*Nodding eagerly*]
 Right. The Doppler probe measures the frequency shift of the sound waves bouncing off the moving red blood cells, which gives us the fluid velocity. From that velocity, we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.
 
 > [!NOTE]
@@ -66,7 +66,7 @@ Right. The Doppler probe measures the frequency shift of the sound waves bouncin
 > A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
 
 **DR. SARAH HAYES**
-*[Adjusting the angle of her surgical loupes]*
+[*Adjusting the angle of her surgical loupes*]
 And if we need a more detailed map of the geometry, Stuart, what do we use?
 
 **STUART**
@@ -79,16 +79,16 @@ And if we need velocity data without contrast or radiation?
 Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
 
 **DR. SARAH HAYES**
-*[To Stuart]*
+[*To Stuart*]
 Exactly. Mapping the inside from signals at the edge.
 
 <!-- stage-break -->
 
 **MARK**
-*[Gesturing with his free left hand]*
+[*Gesturing with his free left hand*]
 Elena, could you flip to the next page of my notepad? The one I drew during the pre-op.
 
-*[Elena carefully turns the page of the notepad and holds it up so Dr. Hayes and Stuart can see the diagram under the surgical lights.]*
+[*Elena carefully turns the page of the notepad and holds it up so Dr. Hayes and Stuart can see the diagram under the surgical lights.*]
 
 ![The Shared Model](06_the_shared_model.svg)
 
@@ -96,13 +96,13 @@ Elena, could you flip to the next page of my notepad? The one I drew during the 
 Look at this. One circuit. Your names on top, mine underneath. Heart over the pump, arterial stretch over the surge tank, stenosis over the choke—same slots on the page, not the same hardware. Arterial line over the transducer—when either side actually instruments the pressure. Then it splits: capillary bed above, fracture network below. Not synonyms. Just the same shape.
 
 **DR. SARAH HAYES**
-*[Peering at the diagram, nodding in approval]*
+[*Peering at the diagram, nodding in approval*]
 And the matching—the convergence you were talking about?
 
 **MARK**
 Different page. Elena—next sheet.
 
-*[Elena flips to the following page and holds it up.]*
+[*Elena flips to the following page and holds it up.*]
 
 <!-- stage-break -->
 
@@ -112,25 +112,25 @@ Different page. Elena—next sheet.
 Right. Upper plot: guesses for permeability and compliance start blind and converge toward what actually fits the well. Lower plot: pressure mismatch collapsing—transducer record versus Darcy prediction, iteration by iteration, until they agree. If the math works, the model matches what the sensors saw.
 
 **DR. SARAH HAYES**
-*[Looks over the screen to Mark, softer]*
+[*Looks over the screen to Mark, softer*]
 Let's hope my physical model matches the math.
 
-*[She places the final micro-suture. Voice flat again, to the table.]*
+[*She places the final micro-suture. Voice flat again, to the table.*]
 
 Elena, saline irrigator.
 
-*[Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.]*
+[*Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.*]
 
 **DR. SARAH HAYES**
 Ready to restore flow. Stuart, get the suction ready. Elena, micro-forceps.
 
-*[Dr. Hayes positions her fingers over the clamps. She releases the far clamp first, letting blood flush back through the repair, then releases the near clamp.]*
+[*Dr. Hayes positions her fingers over the clamps. She releases the far clamp first, letting blood flush back through the repair, then releases the near clamp.*]
 
 **STUART**
-*[Leaning forward, his breath catching]*
+[*Leaning forward, his breath catching*]
 The vessel is filling...
 
-*[The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.]*
+[*The repaired artery begins to swell, its walls pulsing in time with Mark's heartbeat.*]
 
 <!-- stage-break -->
 
@@ -139,36 +139,36 @@ Anastomosis is patent. No suture line bleeding. Stuart, pass me the sterile Dopp
 
 ![Doppler Sketch](doppler_sketch_1786259371250.jpg)
 
-*[Stuart hands the probe to Dr. Hayes. She places the tip against the pulsing artery. A loud, rhythmic swoosh fills the room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.]*
+[*Stuart hands the probe to Dr. Hayes. She places the tip against the pulsing artery. A loud, rhythmic swoosh fills the room: WHOOSH-chhh, WHOOSH-chhh, WHOOSH-chhh.*]
 
 **STUART**
-*[Smiling widely]*
+[*Smiling widely*]
 Strong triphasic flow. The waveform is beautiful.
 
 <!-- stage-break -->
 
 **DR. SARAH HAYES**
-*[Removing the probe and handing it back to Stuart]*
+[*Removing the probe and handing it back to Stuart*]
 Looks good. Elena, let's close. We'll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.
 
 ![Closure Sketch](closure_sketch_1786259427073.jpg)
 
-*[Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.]*
+[*Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark's arm.*]
 
 **DR. SARAH HAYES**
-*[Looks over the screen to Mark, gloves still on]*
+[*Looks over the screen to Mark, gloves still on*]
 All done, Mark. Joined and sealed—no leaks.
 
 **MARK**
-*[Sighing with relief, his shoulders finally relaxing on the table]*
+[*Sighing with relief, his shoulders finally relaxing on the table*]
 Thanks, Doc. I have to say, the pressure drop in my arm was a lot easier to fix than a pressure leak in a deepwater well. We don't have the luxury of putting sutures on a reservoir two miles down.
 
 **DR. SARAH HAYES**
-*[Pulling off her surgical gloves with a sharp snap and smiling warmly]*
+[*Pulling off her surgical gloves with a sharp snap and smiling warmly*]
 Yes, well, you have to remember that I've had the benefit of several billion years of biological R&D to refine my vascular pipes. Evolution is a very patient engineer. Your steel casings have only had about a century.
 
 **MARK**
-*[Dryly]*
+[*Dryly*]
 I'll make sure to mention that to our reservoir modeling team. They could use a few million years of R&D.
 
-*[The team laughs softly as Elena begins clearing the surgical trays.]*
+[*The team laughs softly as Elena begins clearing the surgical trays.*]

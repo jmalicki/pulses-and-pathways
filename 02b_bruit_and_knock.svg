@@ -1,4 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 920" width="100%" height="100%">
+  <defs>
+    <marker id="flow-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#1c1c1c" />
+    </marker>
+    <marker id="flow-arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#1e3d59" />
+    </marker>
+  </defs>
+
   <!-- Background -->
   <rect width="100%" height="100%" fill="#f2efe3" />
   
@@ -13,12 +22,19 @@
     <path d="M 50 170 C 200 170, 230 210, 250 210 C 270 210, 300 170, 450 170" fill="none" stroke="#5a5a5a" stroke-width="4" />
     <path d="M 50 250 C 200 250, 230 220, 250 220 C 270 220, 300 250, 450 250" fill="none" stroke="#5a5a5a" stroke-width="4" />
     
+    <!-- Primary flow direction (left → right through stenosis) -->
+    <path d="M 70 210 L 130 210" stroke="#1c1c1c" stroke-width="2" marker-end="url(#flow-arrow)" />
+    <path d="M 145 210 L 200 210" stroke="#1c1c1c" stroke-width="2" marker-end="url(#flow-arrow)" />
+    <path d="M 310 210 L 370 210" stroke="#1c1c1c" stroke-width="2" marker-end="url(#flow-arrow)" />
+    <path d="M 385 210 L 430 210" stroke="#1c1c1c" stroke-width="2" marker-end="url(#flow-arrow)" />
+    <text x="100" y="198" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#1c1c1c">flow</text>
+
     <!-- Stethoscope bell (below panel title) -->
     <path d="M 230 150 L 270 150 L 260 130 L 240 130 Z" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="2" />
     <path d="M 250 130 L 250 90 C 250 70, 270 60, 290 60 L 400 60" fill="none" stroke="#3a3a3a" stroke-width="2.5" />
     <text x="410" y="65" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Stethoscope</text>
 
-    <!-- Turbulence Waves -->
+    <!-- Turbulence Waves (downstream of stenosis) -->
     <path d="M 260 235 C 290 200, 330 250, 360 210 C 390 180, 420 230, 440 220" fill="none" stroke="#c94a4a" stroke-width="2" stroke-dasharray="4,4" />
 
     <!-- Waveform Box -->
@@ -41,6 +57,13 @@
     <path d="M 230 150 L 270 150 L 270 180 L 230 180 Z" fill="#1e3d59" />
     <path d="M 230 230 L 270 230 L 270 200 L 230 200 Z" fill="#1e3d59" />
     
+    <!-- Primary flow direction (left → right toward choke) -->
+    <path d="M 70 190 L 130 190" stroke="#1e3d59" stroke-width="2.2" marker-end="url(#flow-arrow-blue)" />
+    <path d="M 145 190 L 210 190" stroke="#1e3d59" stroke-width="2.2" marker-end="url(#flow-arrow-blue)" />
+    <path d="M 290 190 L 350 190" stroke="#1e3d59" stroke-width="2.2" marker-end="url(#flow-arrow-blue)" />
+    <path d="M 365 190 L 425 190" stroke="#1e3d59" stroke-width="2.2" marker-end="url(#flow-arrow-blue)" />
+    <text x="100" y="178" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#1e3d59">flow</text>
+
     <!-- Acoustic Sensor / Geophone -->
     <rect x="180" y="120" width="30" height="30" fill="#1c1c1c" />
     <line x1="195" y1="120" x2="195" y2="70" stroke="#1c1c1c" stroke-width="3" />
