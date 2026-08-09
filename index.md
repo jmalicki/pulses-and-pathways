@@ -225,7 +225,7 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**MARK**: *[Sweat beads forming on his forehead]* Much higher. We call it the Equivalent Circulating Density, or ECD. It's the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We model it using a one-dimensional hydraulic network, but we have to solve it numerically because the fluid properties change with temperature and pressure as you go down.
+**MARK**: *[Sweat beads forming on his forehead]* Much higher. We call it the Equivalent Circulating Density, or ECD. It's the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We run computer simulations on it, breaking the whole well down into chunks. You can't just calculate it on paper because the mud gets compressed and heated the deeper it goes, changing how it flows at every single foot.
 
 </div>
 <div class="projections" markdown="1"></div>
