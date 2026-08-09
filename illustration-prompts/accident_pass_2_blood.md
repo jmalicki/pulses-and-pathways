@@ -81,8 +81,7 @@ Pulse 5 emerges only from the proximal side of the still-uncovered wound:
 - direct it **toward the camera/viewer**, approximately **20–30 degrees off the
   optical axis**, so its length remains readable rather than collapsing into a
   foreshortened dot;
-- one coherent heartbeat-driven column **5–10 cm long**;
-- breakup into **3–6 primary droplets**, each approximately **1–3 mm**;
+- one coherent heartbeat-driven column **5–10 cm long** consisting of  **3–6 primary droplets**, each approximately **1–3 mm**;
 - optional few satellite droplets approximately **0.5–1 mm**;
 - total three-dimensional throw from wound to main landing **15–25 cm /
   6–10 inches**;

@@ -5,7 +5,7 @@
 artery.  
 **Audience:** Vascular surgeons and petroleum engineers reading *Pulses and
 Pathways*.  
-**Status:** Needs regeneration.
+**Status:** Final Pass 2 promoted to `accident_sketch.png` for Act 1.
 
 This is a restrained clinical narrative, not gore. The wound location and
 pulsatile blood establish the emergency that leads to left ulnar-artery
@@ -122,10 +122,10 @@ After all gates pass:
 2. Keep all numbered pass files for audit and repetition.
 3. Record generator, model, and date:
 
-   - Pass 0: pending
-   - Pass 1: pending
-   - Pass 2: pending
-   - Final approval: pending
+   - Pass 0: approved Gemini base `accident_pass_0_base.png` / `v11`
+   - Pass 1: approved Gemini edit `accident_pass_1_anatomy.png`
+   - Pass 2: approved Gemini edit `accident_pass_2_blood.png`
+   - Final approval: promoted to `accident_sketch.png` for Act 1 opening
 
 ## Clinical continuity
 
