@@ -386,7 +386,14 @@ And in a blood vessel, that downstream turbulence isn't just an energy loss—wh
 They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.
 
 **DR. SARAH HAYES**
-Yes. The body tries to plug what it perceives as a tear, but instead, it creates a total occlusion. That's how a minor plaque narrowing suddenly becomes an acute myocardial infarction or a stroke.
+Yes. The body tries to plug what it perceives as a tear.
+
+**MARK**
+*[Frowning at the ceiling]*
+So the turbulence tricks the body into thinking it's injured? And then the repair response makes it worse?
+
+**DR. SARAH HAYES**
+Exactly. The clot builds on itself and creates a total occlusion. That's how a minor plaque narrowing suddenly becomes an acute myocardial infarction or a stroke.
 
 **MARK**
 *[His eyes wide, staring at the ceiling tiles]*
