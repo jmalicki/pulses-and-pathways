@@ -2,17 +2,8 @@
 
 ## Act 4: Inverse Problems
 
-**CHARACTERS:**
-
-* **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
-* **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
-* **ELENA** – The Nurse; keeps the surgical field running smoothly.
-
----
-
 **SETTING:**
-An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the arterial repair. Stuart and Elena are assisting. Mark lies on the operating table under local anesthetic.
+An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the arterial repair. Stuart and Elena are assisting. Mark lies on the operating table under a regional block.
 
 ---
 

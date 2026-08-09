@@ -131,17 +131,8 @@ This project is dedicated to the Reddit user [enquicity](https://www.reddit.com/
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**CHARACTERS:**
-
-* **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
-* **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
-* **ELENA** – The Nurse; keeps the surgical field running smoothly.
-
----
-
 **SETTING:**
-An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under local anesthetic.
+An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
 
 ---
 
@@ -337,17 +328,8 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**CHARACTERS:**
-
-* **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
-* **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
-* **ELENA** – The Nurse; keeps the surgical field running smoothly.
-
----
-
 **SETTING:**
-An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial anastomosis. Stuart holds the suction and assists. Elena is preparing the suture line. Mark lies on the operating table under local anesthetic.
+An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial anastomosis. Stuart holds the suction and assists. Elena is preparing the suture line. Mark lies on the operating table under a regional block.
 
 ---
 
@@ -476,17 +458,8 @@ Inferring the unseen. That's my entire job.
 </div>
 <div class="stage-row" markdown="1">
 <div class="play-text" markdown="1">
-**CHARACTERS:**
-
-* **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
-* **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
-* **ELENA** – The Nurse; keeps the surgical field running smoothly.
-
----
-
 **SETTING:**
-An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the arterial repair. Stuart and Elena are assisting. Mark lies on the operating table under local anesthetic.
+An operating room. Dr. Sarah Hayes is completing the final micro-sutures of the arterial repair. Stuart and Elena are assisting. Mark lies on the operating table under a regional block.
 
 ---
 

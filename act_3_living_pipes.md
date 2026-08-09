@@ -2,17 +2,8 @@
 
 ## Act 3: Living Pipes
 
-**CHARACTERS:**
-
-* **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
-* **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
-* **ELENA** – The Nurse; keeps the surgical field running smoothly.
-
----
-
 **SETTING:**
-An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial anastomosis. Stuart holds the suction and assists. Elena is preparing the suture line. Mark lies on the operating table under local anesthetic.
+An operating room. Dr. Hayes is preparing the Prolene sutures for the arterial anastomosis. Stuart holds the suction and assists. Elena is preparing the suture line. Mark lies on the operating table under a regional block.
 
 ---
 

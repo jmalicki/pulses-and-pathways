@@ -2,17 +2,8 @@
 
 ## Act 2: Pressure and Flow
 
-**CHARACTERS:**
-
-* **MARK** – The Patient; a petroleum engineer, talkative when anxious.
-* **DR. SARAH HAYES** – The Surgeon; calm, experienced, and observant.
-* **STUART** – The Medical Student; competent, remembers coursework, lacks clinical intuition.
-* **ELENA** – The Nurse; keeps the surgical field running smoothly.
-
----
-
 **SETTING:**
-An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under local anesthetic.
+An operating room. Dr. Hayes is clamping the artery. Stuart is retracting and assisting with suction. Elena is passing instruments. Mark lies on the operating table under a regional block.
 
 ---
 
