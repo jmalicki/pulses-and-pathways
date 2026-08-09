@@ -131,7 +131,7 @@ Myocardial infarction. A heart attack.
 
 **MARK**
 *[Frowning at the ceiling]*
-So the turbulence tricks the body into thinking it's injured, and the repair response makes it worse? That's a runaway blowout.
+Occlusion — you mean a total blockage? So the turbulence tricks the body into thinking it's injured, and the repair response plugs it off completely? That's a runaway blowout.
 
 **MARK**
 *[His eyes wide, staring at the ceiling tiles]*
