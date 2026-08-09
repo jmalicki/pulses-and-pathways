@@ -162,7 +162,12 @@ Look at Profile A, the healthy vessel with a radius $r_1$ and smooth, parabolic 
 And the pressure curve does the opposite—it drops dramatically at the throat. It's the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.
 
 **MARK**
-Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number: $Re = \frac{\rho v d}{\mu}$.
+*[Points to the chaotic swirls in Profile B]* Right. But look at what happens downstream of the throat in Profile B. The velocity jet exits the constriction, and the sudden expansion causes flow separation. The fluid can't decelerate smoothly, so it sheds its kinetic energy into chaotic, recirculating eddies and vortices. That's turbulence. It's governed by the Reynolds number—which is basically just the fluid's density times its velocity times the pipe diameter, all divided by the fluid's viscosity. 
+
+> [!NOTE]
+> **The Reynolds Number ($Re$)**
+> $Re = \frac{\rho v d}{\mu}$
+> A dimensionless quantity used to predict fluid flow patterns. High values indicate turbulence (chaotic eddies), while low values indicate laminar (smooth) flow.
 
 **DR. SARAH HAYES**
 *[Using a cotton-tipped applicator to clean the arterial adventitia]*

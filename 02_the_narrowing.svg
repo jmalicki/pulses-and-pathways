@@ -63,7 +63,7 @@
     <text x="30" y="70" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Profile B: Severe Stenosis (Turbulence &amp; Jet)</text>
 
     <!-- Sketchy Vessel Walls with Narrowing (Embedded AI Sketch) -->
-    <image href="stenosis_cutaway.jpg" x="20" y="80" width="330" height="90" preserveAspectRatio="xMidYMid slice" opacity="0.85" />
+    <image href="stenosis_cutaway.jpg" x="20" y="80" width="330" height="90" preserveAspectRatio="xMidYMid slice" opacity="0.45" />
     <path d="M 30 80 L 350 80 L 350 170 L 30 170 Z" fill="none" stroke="#3a3a3a" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4" />
 
     <!-- Flow lines showing high velocity jet and eddies -->
