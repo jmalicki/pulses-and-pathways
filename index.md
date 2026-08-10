@@ -330,7 +330,7 @@ And keeping that flow path clear is everything. Elena, pass the irrigation syrin
 ![Shut-In Transients](02b_bruit_and_knock.svg)
 <div class="note-alert">
 <p><strong>Shut-In Transients</strong></p>
-<p>Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking). An <strong>arterial line</strong> (or a well transducer) does not cause that — it is how you would *measure* the waveform if you had continuous pressure monitoring.</p>
+<p>Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking).</p>
 </div>
 
 </div>

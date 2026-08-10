@@ -42,7 +42,7 @@ For a case like this, yes. Continuous means an arterial line—a thin catheter i
 
 > [!NOTE]
 > **Shut-In Transients**
-> Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike **damps** quickly; in stiff steel pipe the same spike **rings** (well knocking). An **arterial line** (or a well transducer) does not cause that — it is how you would *measure* the waveform if you had continuous pressure monitoring.
+> Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike **damps** quickly; in stiff steel pipe the same spike **rings** (well knocking).
 
 **ELENA**
 [*Checking the cuff cycle on the vitals monitor*]
