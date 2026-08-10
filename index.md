@@ -502,7 +502,7 @@ Yeah—Boyle's law, or the ideal gas law if you like: all else equal, drop the p
 
 
 **STUART**
-[*A short blank — forgot the milk — then back in*]
+[*A short blank — then back in*]
 Right.
 
 </div>

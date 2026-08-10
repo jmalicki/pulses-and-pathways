@@ -7,18 +7,18 @@
 
   <rect width="100%" height="100%" fill="#f2efe3"/>
   <text x="28" y="32" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 7a &#8212; Cavity at vapor pressure</text>
-  <text x="28" y="52" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Pocket exists &#8212; not collapsing yet</text>
+  <text x="28" y="52" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">Pocket exists &#8212; not collapsing yet</text>
 
   <!-- liquid continuum -->
   <rect x="80" y="90" width="560" height="280" rx="4" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1"/>
-  <text x="100" y="120" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#5a5a5a">liquid</text>
-  <text x="100" y="140" font-family="Georgia, serif" font-size="12" fill="#3a3a3a">higher P outside</text>
+  <text x="100" y="124" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#5a5a5a">liquid</text>
+  <text x="100" y="148" font-family="Georgia, serif" font-size="15" fill="#3a3a3a">higher <tspan font-style="italic">P</tspan> outside</text>
 
   <!-- vapor cavity -->
   <circle cx="360" cy="230" r="88" fill="url(#vapor-hatch)" stroke="#3a3a3a" stroke-width="2" stroke-dasharray="5,3"/>
-  <text x="360" y="218" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c" text-anchor="middle">vapor</text>
-  <text x="360" y="240" font-family="Georgia, serif" font-size="12" fill="#3a3a3a" text-anchor="middle">P &#8776; P_vapor</text>
-  <text x="360" y="258" font-family="Georgia, serif" font-size="12" fill="#5a5a5a" text-anchor="middle">(low)</text>
+  <text x="360" y="210" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#1c1c1c" text-anchor="middle">vapor</text>
+  <text x="360" y="236" font-family="Georgia, serif" font-size="15" fill="#3a3a3a" text-anchor="middle"><tspan font-style="italic">P</tspan> &#8776; <tspan font-style="italic">P</tspan><tspan font-size="11" dy="4">vapor</tspan></text>
+  <text x="360" y="258" font-family="Georgia, serif" font-size="14" fill="#5a5a5a" text-anchor="middle">(low)</text>
 
-  <text x="28" y="410" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Same T as the liquid &#8212; flashed by pressure drop, not boiling by heat</text>
+  <text x="28" y="410" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">Same <tspan font-style="italic">T</tspan> as the liquid &#8212; flashed by pressure drop, not boiling by heat</text>
 </svg>
