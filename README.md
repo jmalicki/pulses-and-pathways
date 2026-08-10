@@ -11,6 +11,11 @@ A 4-part medical and engineering play script exploring the underlying analogies 
 3. [Chapter 3: Living Pipes](chapter_3_living_pipes.md)
 4. [Chapter 4: Inverse Problems](chapter_4_inverse_problems.md)
 
+### Writer notes
+
+- [Characters](characters.md) — voice guidelines (not script)
+- [Case](case.md) — ops / pacing bible (not script)
+
 ### Dedication
 
 Please see the [Dedication](00_dedication.md).
