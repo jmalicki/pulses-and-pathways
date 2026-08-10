@@ -171,7 +171,9 @@ These are the handful of places where an ops fact has to be true for the spoken 
 
 6. **Closure only after a good duplex** (Act 5). “Elena, let’s close” follows the open repair and Mark’s choke recognition. Closing over a known purse breaks the case logic.
 
-Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitation, Windkessel / mud rheology, stay sutures while talking compliance — can drift within its act window as long as those locks stay honest. Cross-check [science-arc.md](science-arc.md) before sliding a teach node across a sync.
+7. **Vessel-end prep underway (trim / flush / spatulate — field High) before / concurrent with Mark’s spaced cavitation-collapse solo** (Act 3). Boyle / Stuart’s “Right.” can sit just upstream while intensity is still Med. Do not run the full collapse cascade as Med chatty hold, and do not start anastomosis to “earn” this talk (that stays Sync 4). Think-aloud in a quiet room — not ignored-lecturer comedy. Network teach after Hayes’s sideways land eases back to Med.
+
+Everything else — sketch pages, Poiseuille / stenosis chat, Act 3 network after cavitation, Windkessel / mud rheology, stay sutures while talking compliance — can drift within its act window as long as those locks stay honest. Cross-check [science-arc.md](science-arc.md) before sliding a teach node across a sync.
 
 ---
 
@@ -182,7 +184,7 @@ Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitati
 | Act 0 — The Handoff | `act_0_ed_handoff.md` | ED bay: Okonkwo handoff, Hayes accept (paged), Priya regional plan; cut to OR. |
 | Act 1 — The Bedside Question | `act_1_the_bedside_question.md` | Block waiting; history; hydrostatic / well sketch; dissect and **find** the ulnar ends. |
 | Act 2 — The Narrowing | `act_2_pressure_and_flow.md` | **Clamp** / proximal control; shut-in & monitoring; clear/expose; stenosis–flow teaching; field pristine before going further. |
-| Act 3 — The Network | `act_3_the_network.md` | Holding / maintenance after control: sponges, irrigation, delicate tissue; network & cavitation talk; no sew yet. |
+| Act 3 — The Network | `act_3_the_network.md` | Prepare ends after control: valve/Boyle (Med) → heads-down trim/flush/spatulate while Mark cavitation solo (Sync 7 High) → network after Hayes land; no sew yet. |
 | Act 4 — Living Pipes | `act_3_living_pipes.md` | Compliance / FSI / rheology while preparing and **starting stay sutures**; hoop-stress / aneurysm sideways map. |
 | Act 5 — Inverse Problems | `act_4_inverse_problems.md` | **7-0 anastomosis**, unclamp, duplex, revise if pursed, close. |
 
@@ -213,7 +215,9 @@ Who is heads-down vs who has air to talk. Complements holding vs sewing above; v
 | **Block onset + prep (Act 1 open)** | Med (wait, can look over screen) | Med (observe) | Med (IV, setup) | Med (watch onset) | Med (anxious → talking) | **Best early teach window.** Hayes↔Mark science OK; Elena numbers OK; Priya mostly quiet unless density/sharp. |
 | **Expose / find ends** | Med–High (dissecting) | Med (retract/suction) | Med (pass, irrigate) | **Low** (bored-ish at head) | Med (can narrate) | Hayes can talk while hands work but shorter; Mark fills air. Priya idle ≠ oil seminar — one comfort line max. Elena↔Priya ribbing only if true lull. |
 | **Clamp** | **High** (brief) | High (hold) | Med | Low | Med (flinch/map) | Lean: click, dry field, then shut-in talk as intensity drops to Med. |
-| **Prepare ends / hold (Acts 2–3 teach)** | Med (irrigation, sponges, exposure) | Med | Med | **Low** | Med–Low chill | **Main science hold.** Hayes chatty enough for maps; not TED-talking. Elena can dry-line with Hayes. |
+| **Prepare ends — Med (Act 3 open)** | Med (irrigation, exposure) | Med | Med | **Low** | Med–Low chill | Valve map + Boyle / “Right.” Interlocutors can nod. |
+| **Prepare ends — High / Sync 7 (Act 3 collapse)** | **High** (trim / flush / spatulate) | High (hold / irrigate) | Med (pass) | **Low** | Med think-aloud | **Cavitation collapse solo.** Field lean / clipped task only; Mark to ceiling; plates carry movie. Not ignored-lecturer. |
+| **Prepare ends — ease (Act 3 network)** | Med | Med | Med | **Low** | Med–Low | After Hayes sideways land; branching network / continuity. Elena can dry-line with Hayes. |
 | **Stays / start sew (Act 4)** | Med → rising | Med | Med | Low | Med | Compliance/rheology while stays; talk thinning as bites begin. |
 | **Anastomosis mid-sew (Act 5)** | **High** (flat, field-first) | High (steady tools) | Med–High (hands) | Low | Med (think-aloud OK) | Hayes not chatty at peak — one-beat confirms only. Mark may still run inverse problems (already in play). No Elena–Priya comedy. |
 | **Unclamp / first duplex** | **High** (read field/waveform) | High | Med | Med (vitals matter) | Med | Lean until result lands. |

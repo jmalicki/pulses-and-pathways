@@ -116,10 +116,11 @@ Science nodes that **lock** to medical sync points / ops facts:
 | `inverse_history_matching`, `darcys_law` (as “sewing without watching flow”) | Sync 4 — anastomosis underway |
 | `duplex_doppler_velocity`, `triphasic_vs_stenotic_spectrum`, `pursed_anastomosis_choke_map` | Syncs 5–6 — duplex → revise → good waveform → close |
 | Block-wait teaching (`hydrostatic_*`, early mud/ECD) | Sync 1 — may breathe during block onset; not after cutting deeper without the sensation check |
+| `cavitation_collapse` (spaced Mark solo + Fig. 7a/7b/7e) | Sync 7 — vessel-end prep High (trim/flush/spatulate); Boyle/“Right.” just upstream at Med |
 
-**Free to drift** inside a holding / maintenance window (no sew): most of Act 3 network + cavitation cluster; much of Act 2 stenosis physics *after* clamp; Act 4 compliance/rheology/hoop while stays/prep — subject to hard edges above.
+**Free to drift** inside a holding / maintenance window (no sew): Act 3 **network** after Hayes’s cavitation land; much of Act 2 stenosis physics *after* clamp; Act 4 compliance/rheology/hoop while stays/prep — subject to hard edges above. Cavitation collapse is **not** free to drift off Sync 7.
 
-**Pacing baseline:** see [Pacing (case vs play)](#pacing-case-vs-play) below. Phase 2b concluded **no reorder**; Act 3 has spare hold air (cavitation expand home); if Act 5 still feels stuffed after that, trim imaging sidebar (`cta_cfd_geometry`, `pc_mri_wall_shear`) before breaking syncs 4–6.
+**Pacing baseline:** see [Pacing (case vs play)](#pacing-case-vs-play) below. Phase 2b concluded **no reorder**; Phase 3 expands cavitation under Sync 7. If Act 5 still feels stuffed, trim imaging sidebar (`cta_cfd_geometry`, `pc_mri_wall_shear`) before breaking syncs 4–6.
 
 ---
 
@@ -142,16 +143,16 @@ Script size = source lines + dialogue cues (speaker labels). Cumulatives = midpo
 | **0** Handoff | ED accept minutes | ~15 min | ~32 lines, ~7 cues | none (story) | Brief prologue | **Good** |
 | **1** Bedside | Block onset∥prep; find ends | ~45→60 min | ~94 lines, ~27 cues | hydrostatic / mud / ECD | **Hold** then find | **Good** — early teach window |
 | **2** Narrowing | Clamp minutes + clear/expose | ~65→~80 | ~173 lines, ~35 cues | shut-in → stenosis / Bernoulli / thrombus | Clamp locked; talk rides exposure | **Dense but OK** |
-| **3** Network | Prepare-ends hold; **no sew** | ~80 | ~63 lines, ~12 cues — **shortest** science act | cavitation + network / continuity | Pure **hold** | **Under-filled vs idle OR** — spare room for cavitation expand |
+| **3** Network | Prepare-ends; Sync 7 High mid-act | ~80 | expanded (Phase 3) | cavitation molecule runaway + network | Med → **High** Sync 7 → Med | **Matched** to Sync 7 |
 | **4** Living pipes | Stays / start sew | ~80→~110 | ~115 lines, ~25 cues | Windkessel / FSI / rheology / hoop | Hold → rising | **Good** |
 | **5** Inverse | Anastomosis + duplex/revise/close | ~110→~130 | ~193 lines, ~34 cues — **longest** | inverse + Darcy + duplex + purse (+ imaging sidebar) | **Critical path** | **Dense and matched** to long sew |
 
-### Conclusion (Phase 2b)
+### Conclusion (Phase 2b + Phase 3)
 
 - **No science reorder.** Sync points and hard DAG edges already honored.
-- Act 3 is surgically idle but script-short — prefer **expanding cavitation there** over pulling Act 5 content earlier.
+- Phase 3: Act 3 cavitation expanded under **Sync 7** (prepare-ends High ↔ Mark collapse solo); network stays free after Hayes land.
 - Act 5 density matches the longest wall-clock critical window; do not move inverse/duplex off the sew.
-- Chat intensity is gated in `case.md` (Hayes flat at clamp / mid-sew / duplex; Priya idle ≠ seminar).
+- Chat intensity is gated in `case.md` (Hayes flat at clamp / mid-sew / duplex / Sync 7 prep; Priya idle ≠ seminar).
 
 ### If we rewrite later — impact checklist
 

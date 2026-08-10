@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#c94a4a"/>
+    </marker>
+    <pattern id="vap" patternUnits="userSpaceOnUse" width="7" height="7">
+      <path d="M0,7 L7,0" stroke="#c4b8a0" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3"/>
+  <text x="24" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 7b &#8212; Molecule runaway collapse</text>
+  <text x="24" y="48" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Condense at the edge, bit by bit &#8212; each almost sits higher; late liquid hits steel</text>
+
+  <!-- steel wall -->
+  <rect x="40" y="70" width="28" height="400" fill="#d8d2c8" stroke="#3a3a3a" stroke-width="1.5"/>
+  <text x="54" y="480" font-family="Georgia, serif" font-size="11" fill="#3a3a3a" text-anchor="middle">steel</text>
+
+  <!-- ===== Step 1 early ===== -->
+  <g transform="translate(100, 80)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#1c1c1c">1 &#8212; early</text>
+    <text x="0" y="16" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">kick &#8594; settle</text>
+    <rect x="0" y="28" width="150" height="110" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1"/>
+    <circle cx="85" cy="85" r="42" fill="url(#vap)" stroke="#3a3a3a" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <!-- molecule tick -->
+    <circle cx="125" cy="70" r="7" fill="#f2efe3" stroke="#c94a4a" stroke-width="1.5"/>
+    <text x="125" y="73" font-family="Georgia, serif" font-size="9" fill="#c94a4a" text-anchor="middle">&#8595;</text>
+    <text x="8" y="130" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">quiet almost</text>
+  </g>
+
+  <!-- ===== Step 2 mid ===== -->
+  <g transform="translate(290, 80)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#1c1c1c">2 &#8212; mid</text>
+    <text x="0" y="16" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">faster &#183; hotter almost</text>
+    <rect x="0" y="28" width="150" height="110" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1"/>
+    <circle cx="85" cy="85" r="30" fill="url(#vap)" stroke="#3a3a3a" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <circle cx="112" cy="68" r="6" fill="#f2efe3" stroke="#c94a4a" stroke-width="1.5"/>
+    <text x="112" y="71" font-family="Georgia, serif" font-size="8" fill="#c94a4a" text-anchor="middle">&#8595;</text>
+    <!-- rising drive -->
+    <line x1="20" y1="90" x2="52" y2="90" stroke="#c94a4a" stroke-width="1.2" marker-end="url(#arr)" opacity="0.6"/>
+    <text x="8" y="130" font-family="Georgia, serif" font-size="10" fill="#c94a4a">almost works harder</text>
+  </g>
+
+  <!-- ===== Step 3 late punch ===== -->
+  <g transform="translate(480, 80)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#1c1c1c">3 &#8212; late punch</text>
+    <text x="0" y="16" font-family="Georgia, serif" font-size="10" fill="#5a5a5a">liquid &#8594; steel</text>
+    <rect x="0" y="28" width="150" height="110" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1"/>
+    <!-- wall edge of panel echoes steel -->
+    <rect x="0" y="28" width="14" height="110" fill="#d8d2c8" stroke="#3a3a3a" stroke-width="1"/>
+    <circle cx="70" cy="85" r="16" fill="url(#vap)" stroke="#c94a4a" stroke-width="1.6"/>
+    <line x1="130" y1="85" x2="92" y2="85" stroke="#c94a4a" stroke-width="2" marker-end="url(#arr)"/>
+    <line x1="70" y1="50" x2="70" y2="66" stroke="#c94a4a" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="70" y1="120" x2="70" y2="104" stroke="#c94a4a" stroke-width="1.5" marker-end="url(#arr)"/>
+    <path d="M 55 75 L 14 85 L 55 95" fill="none" stroke="#c94a4a" stroke-width="1.8"/>
+    <text x="20" y="130" font-family="Georgia, serif" font-size="10" fill="#c94a4a">jet hits metal</text>
+  </g>
+
+  <!-- volume callout -->
+  <g transform="translate(100, 250)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Same bit of mass</text>
+    <ellipse cx="70" cy="70" rx="55" ry="40" fill="url(#vap)" stroke="#3a3a3a" stroke-width="1.4" stroke-dasharray="4,2"/>
+    <text x="70" y="74" font-family="Georgia, serif" font-size="11" fill="#3a3a3a" text-anchor="middle">vapor &#8212; huge V</text>
+    <text x="160" y="74" font-family="Georgia, serif" font-size="18" fill="#5a5a5a">&#8594;</text>
+    <circle cx="220" cy="70" r="8" fill="#c94a4a" stroke="#3a3a3a" stroke-width="1"/>
+    <text x="220" y="100" font-family="Georgia, serif" font-size="11" fill="#3a3a3a" text-anchor="middle">liquid &#8212; almost nothing</text>
+    <text x="0" y="130" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Hole has nothing left to be &#8212; not a closed gas bubble crushed</text>
+  </g>
+
+  <!-- runaway note -->
+  <g transform="translate(420, 260)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1c1c1c">Runaway</text>
+    <text x="0" y="24" font-family="Georgia, serif" font-size="12" fill="#3a3a3a">Each condensation: kick &#8594; almost-eq</text>
+    <text x="0" y="44" font-family="Georgia, serif" font-size="12" fill="#3a3a3a">Next almost sits on a higher drive floor</text>
+    <text x="0" y="64" font-family="Georgia, serif" font-size="12" fill="#3a3a3a">Steps get faster &#183; liquid inrush climbs</text>
+    <text x="0" y="92" font-family="Georgia, serif" font-size="12" fill="#c94a4a">Damage = late liquid hitting steel</text>
+    <text x="0" y="112" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">(not the early molecule ticks)</text>
+  </g>
+
+  <text x="24" y="540" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Schematic: a few circles stand for ~10&#8310; vapor molecules &#8212; continuum pocket, not a single-molecule cavity</text>
+</svg>

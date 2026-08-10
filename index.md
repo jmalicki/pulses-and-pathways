@@ -485,15 +485,36 @@ Stuart, let's irrigate this field. I need it pristine before we go any further.
 <div markdown="1">
 
 **MARK**
-[*His eyes wide, staring at the ceiling tiles*]
-That pressure drop at the throat Stuart walked through—we've seen it go further. Speed up hard enough, static pressure falls below the vapor pressure, and the liquid turns to vapor—little cavities, still at ambient temperature. Cavitation. I've seen centrifugal pump impellers pitted through from it. Downstream the flow slows, pressure comes back up. Above vapor pressure that vapor isn't stable anymore, so it condenses—liquid again, tiny volume. While the cavity was there, pressure inside was low and pressure outside was higher, so as it disappears the surrounding liquid is driven in by that difference. Out in the middle of the flow that mostly just churns liquid. Against a wall—pipe wall, impeller face, same idea—the cavity collapses onto the surface, so the punch hits steel. Enough times and it pits through. I couldn't imagine what that could do to tissue. Do you guys ever see that?
+[*Eyes on the ceiling, settled — shop talk, not panic*]
+That pressure drop at the throat Stuart walked through—we've seen it go further. You speed the flow up hard enough, static pressure falls below vapor pressure, and you get little vapor cavities sitting in liquid that's still ambient temperature. Cavitation. I've seen centrifugal pump impellers pitted through from it. I couldn't imagine what that could do to tissue. Do you guys ever see that?
 
+
+**DR. SARAH HAYES**
+[*Adjusting loupes, damp sponge at the clamp — field-first*]
+We do—mechanical heart valves. Leaflets slam shut, local pressure drops below blood's vapor pressure, micro-bubbles form and collapse on the valve or on red cells. That rupture is hemolysis; it also activates platelets. That's why mechanical-valve patients stay on warfarin—clots from that mechanical trauma.
+
+**STUART**
+So blood vaporizes?
+
+**MARK**
+[*Still on the ceiling*]
+Yeah—Boyle's law, or the ideal gas law if you like: all else equal, drop the pressure and liquid can flash to vapor.
+
+
+**STUART**
+[*A short blank — forgot the milk — then back in*]
+Right.
 
 </div>
 </play-text>
 <projections>
 <div markdown="1">
 ![Vapor pressure](11_vapor_pressure.svg)
+<div class="note-alert">
+<p><strong>Ideal gas / Boyle (shortcut)</strong></p>
+<div class="note-math">$$PV = nRT$$</div>
+<p>Lower \(P\) favors vapor at fixed \(T\). Later, when pressure recovers, condensation <strong>removes</strong> vapor from the cavity — not a closed gas bubble being crushed.</p>
+</div>
 
 </div>
 </projections>
@@ -502,21 +523,60 @@ That pressure drop at the throat Stuart walked through—we've seen it go furthe
 <play-text>
 <div markdown="1">
 
-**DR. SARAH HAYES**
-[*Adjusting her loupes, placing a damp sponge around the clamp*]
-We do—mechanical heart valves. Leaflets slam shut, local pressure drops below blood's vapor pressure, micro-bubbles form and collapse on the valve or on red cells. That rupture is hemolysis; it also activates platelets. That's why mechanical-valve patients stay on warfarin—clots from that mechanical trauma.
+[*Hayes and Stuart go heads-down on the vessel ends — trim, irrigate, flush. Clipped field only. Mark keeps talking to the ceiling — think-aloud, not waiting for nods.*]
 
-**STUART**
-So blood vaporizes?
+**DR. SARAH HAYES**
+[*Without looking up*]
+Irrigate.
 
 **MARK**
-So the whole system is a balance of pressure gradients and local geometries.
+Not the whole arm turning to steam—just little cavities when you dip under vapor pressure at the same temperature, so you've got a pocket sitting there at that low pressure.
+
 
 </div>
 </play-text>
 <projections>
 <div markdown="1">
-![Cavitation collapse](12_cavitation_collapse.svg)
+![Cavity at vapor pressure](12a_cavity_at_vapor_p.svg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
+
+**MARK**
+Downstream the flow slows, pressure comes back up, and that vapor isn't happy being vapor anymore. It leaves at the edge—bit by bit, a molecule joins the liquid, kicks the boundary, settles almost quiet… but never as quiet as before. Each bit makes the next come harder and faster. As vapor that little bit claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid's still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit through.
+
+
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![Molecule runaway collapse](12b_molecule_runaway_collapse.svg)
+
+</div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div markdown="1">
+
+**MARK**
+[*Still ceiling; field still busy*]
+Mid-stream it mostly churns fluid. Against a wall—impeller, pipe, choke bean—same collapse, but the liquid slams metal.
+
+
+**DR. SARAH HAYES**
+[*A beat; still in the field, not looking up*]
+I knew the damage. I hadn't put the vanishing that cleanly. Same punch on a leaflet—or a red cell.
+
+</div>
+</play-text>
+<projections>
+<div markdown="1">
+![Bulk vs wall pit](12e_bulk_vs_wall_pit.svg)
 
 </div>
 </projections>
@@ -540,7 +600,7 @@ And once it branches hard enough, total cross-sectional area balloons—tiny in 
 
 
 **DR. SARAH HAYES**
-[*Nodding in agreement, her hands moving back to the surgical field*]
+[*Nodding; hands still in the field, intensity eased*]
 Which is perfect for physiology. The blood slows down to a crawl in the capillaries—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
 
 **MARK**
