@@ -2,6 +2,9 @@
 
 Pointers into [`characters.md`](../../characters.md). Read that file for full Voice DNA — do not invent axes here.
 
+Scanner smells are **candidates** (FPs expected). Judge per character; marks DB remembers checks.
+
+
 ## House-AI (kill on sight)
 
 From **Anti–house-AI** in `characters.md`:
