@@ -73,19 +73,20 @@ Not a leisurely elective block-bay afternoon. Not a scrubbed all-hands idle hour
 
 Play time ≠ wall clock. Use these to judge whether an ops beat can carry a lecture.
 
-| Step | Wall clock | Who |
-| --- | --- | --- |
-| ED / Hayes consult & **accept** (± **Okonkwo** handoff) | minutes–tens of min | Mark, ED RN, ±Okonkwo, Hayes not scrubbed, ±Stuart, Priya for plan |
-| Block — ED/holding or OR | 10–20 min | Priya (+/− help); Mark; monitors. Hayes often scrubbing if ED path |
-| Block onset | ~10–20+ min overlapping other work | Parallel OR prep or on-table prep; Priya at head |
-| Prep/drape | folded in | Elena, scrub, Hayes/Stuart as field up; Priya monitoring |
-| Expose / find ends | 10–20 min | Full OR team |
-| Clamp | few min | Same |
-| Prepare ends | 10–20 min | Same |
-| Anastomosis | ~20–40+ min if straightforward | Same; lean talk |
-| Unclamp / duplex / revise / close | as before | Same |
+**Clock:** cumulative is **from door / ED arrival** on the play-default pathway (isolated ulnar, block on table, same-campus OR). Midpoints of the ranges; not a stopwatch.
 
-**Totals:** skin-to-skin often ~1–2 h if clean/isolated; door-to-close longer with emergency setup but tighter than elective.
+| Step | This step | Cumulative from door | Who |
+| --- | --- | --- | --- |
+| ED / Hayes consult & **accept** (± **Okonkwo** handoff) | ~10–20 min | ~15 min | Mark, ED RN, ±Okonkwo, Hayes not scrubbed, ±Stuart, Priya for plan |
+| Block placement (OR) | 10–20 min | ~30 min | Priya (+/− help); Mark; monitors. Hayes often scrubbing |
+| Block onset + prep/drape | ~10–20 min **overlapping** | ~45 min | Parallel: Priya at head; Elena/scrub/Hayes/Stuart bring field up. *Do not add onset and prep as separate serial blocks.* |
+| Expose / find ends | 10–20 min | ~60 min | Full OR team |
+| Clamp | ~2–5 min | ~65 min | Same |
+| Prepare ends | 10–20 min | ~80 min | Same |
+| Anastomosis | ~20–40+ min if straightforward | ~110 min | Same; lean talk |
+| Unclamp / duplex / revise / close | ~15–25 min | ~130 min (~2 h) | Same |
+
+**Totals:** door-to-close often ~**1.5–2.5 h** on this pathway; skin-to-skin (knife → close) often ~**1–2 h** if clean/isolated. Cumulatives above use midpoints; real evenings slide.
 
 ---
 
@@ -194,6 +195,32 @@ Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitati
 **Active sewing / critical path (keep talk lean):** placing the anastomosis, cutting a cinching bite, unclamp sequence, reading duplex. Sarah goes flat and field-first; Elena answers with hands; Priya stays background unless vitals/block need a word. Mark may still think aloud (inverse problems during the sew is already in play), but do not pile new comic business or extra lectures on top. Stuart’s job is steady suction/retraction, not a second seminar. Save chumminess for after the waveform clears or for true lulls.
 
 **Wrong business:** inventing interruptions so someone can finish a physics paragraph; long sermons during the first stitch; continuous arterial-line theater on a case that already refused it; closing or celebrating flow before the duplex story resolves; sitcom banter mid-purse; double-calling the same cuff number from Elena and Priya without reason.
+
+---
+
+## Team intensity by phase
+
+Who is heads-down vs who has air to talk. Complements holding vs sewing above; voice stays in [characters.md](characters.md).
+
+**Intensity:** **High** = lean talk / procedural only · **Med** = can carry science or patient chat while working · **Low** = spare attention (short lines OK, not a new seminar host).
+
+| Phase (ops) | Hayes | Stuart | Elena | Priya | Mark | Chat story |
+| --- | --- | --- | --- | --- | --- | --- |
+| **ED accept (Act 0)** | Med (exam/accept) | — (not in bay) | — | Med (plan line) | Med–High anxiety | Okonkwo High then **exit**. Hayes patient-facing brief; no physics. |
+| **Block placement** | Low–Med (often scrubbing / not in light) | — or Low | Low–Med if helping roll | **High** | High (pokes, stillness) | Priya owns the beat; others quiet. |
+| **Block onset + prep (Act 1 open)** | Med (wait, can look over screen) | Med (observe) | Med (IV, setup) | Med (watch onset) | Med (anxious → talking) | **Best early teach window.** Hayes↔Mark science OK; Elena numbers OK; Priya mostly quiet unless density/sharp. |
+| **Expose / find ends** | Med–High (dissecting) | Med (retract/suction) | Med (pass, irrigate) | **Low** (bored-ish at head) | Med (can narrate) | Hayes can talk while hands work but shorter; Mark fills air. Priya idle ≠ oil seminar — one comfort line max. Elena↔Priya ribbing only if true lull. |
+| **Clamp** | **High** (brief) | High (hold) | Med | Low | Med (flinch/map) | Lean: click, dry field, then shut-in talk as intensity drops to Med. |
+| **Prepare ends / hold (Acts 2–3 teach)** | Med (irrigation, sponges, exposure) | Med | Med | **Low** | Med–Low chill | **Main science hold.** Hayes chatty enough for maps; not TED-talking. Elena can dry-line with Hayes. |
+| **Stays / start sew (Act 4)** | Med → rising | Med | Med | Low | Med | Compliance/rheology while stays; talk thinning as bites begin. |
+| **Anastomosis mid-sew (Act 5)** | **High** (flat, field-first) | High (steady tools) | Med–High (hands) | Low | Med (think-aloud OK) | Hayes not chatty at peak — one-beat confirms only. Mark may still run inverse problems (already in play). No Elena–Priya comedy. |
+| **Unclamp / first duplex** | **High** (read field/waveform) | High | Med | Med (vitals matter) | Med | Lean until result lands. |
+| **Revise if pursed** | **High** | High | Med–High | Low–Med | Med | Same as sew peak. |
+| **Good duplex → close** | Med → Low | Med → Low | Med | Low | Low–Med relief | Ease returns; light Hayes–Elena chumminess OK; Mark choke recognition; Priya still background. |
+
+**Hayes:** Conversational on holds and while exposing; **flat** at clamp click, mid-anastomosis, and duplex/revise — intensity-gated, not mute all night.
+
+**Priya idle:** Low intensity at the head ≠ invitation into Darcy. Spare attention → monitor glance, one calm patient line, or Elena ribbing in a lull.
 
 ---
 

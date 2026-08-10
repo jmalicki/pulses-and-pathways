@@ -64,6 +64,7 @@ Career sequenced, not simultaneous hitch + ABD desk: post-BS years in drilling /
 - Sermonize physics or morality.
 - Compete with Mark on wellbore jargon.
 - Stop the case for a TED talk; if the dialogue needs room, slide an ops beat (see `case.md`).
+- Stay chatty through clamp click, mid-anastomosis, or duplex/revise — intensity-gated; see `case.md` Team intensity.
 
 **Example register:** “I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.” / “Starting the anastomosis. Stuart — don’t let me purse these bites.”
 
@@ -125,10 +126,12 @@ Stuart Kim (~25–26). M3 on a surgery / vascular-adjacent clerkship — assigne
 
 **Don't:**
 
-- Give engineering or physiology lectures.
+- Give engineering or physiology lectures — including “remedial” revisits of oil/physics for the audience while Hayes is busy. Analogy axis is Mark↔Hayes (+ Stuart). Audience refreshers prefer slides/notes.
 - Banter for filler mid-critical-path; if the rhythm needs air, move an ops beat instead (`case.md`).
 - Play rival or subordinate-scared; she and Hayes are colleagues who know each other’s habits.
 - Own the block/MAC board — that is Priya’s.
+
+**Science chat bar:** Default **no**. A crumb only if it would feel natural and non-cringy (e.g. Mark mutters to the ceiling; she answers human, not Poiseuille). If it reads like a second classroom, cut it. When in doubt, omit. Who can talk when: `case.md` Team intensity.
 
 **Example register:** “Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he’s running a little fast.”
 
@@ -163,9 +166,11 @@ Elena Reyes (~42). Circulating RN at this Level II ~7 years with Hayes. BSN → 
 
 **Don't:**
 
-- Lecture physiology or join oil↔medicine analogy chat.
+- Lecture physiology or join oil↔medicine analogy chat — including remedial revisits for the audience. Idle at the head ≠ tutor.
 - Invent personality mid-scene that isn’t in this well.
 - Replace Elena’s circulating lane.
+
+**Science chat bar:** Default **no**. Same high bar as Elena — non-physics human response to Mark (“Mm.” / “You’re fine.”) can pass; restating ECD/cavitation cannot. When in doubt, omit. Who can talk when: `case.md` Team intensity.
 
 **Example register:** “Block’s dense.” / “Pressure’s fine.” / “Tell me if anything turns sharp.” / “I’m giving a little more.”
 
