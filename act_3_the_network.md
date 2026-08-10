@@ -20,7 +20,7 @@ Yeah—Boyle's law, or the ideal gas law if you like: all else equal, drop the p
 > [!NOTE]
 > **Ideal gas / Boyle (shortcut)**
 > $$PV = nRT$$
-> Lower \(P\) favors vapor at fixed \(T\). Later, when pressure recovers, condensation **removes** vapor from the cavity — not a closed gas bubble being crushed.
+> Lower $P$ favors vapor at fixed $T$. Later, when pressure recovers, condensation **removes** vapor from the cavity — not a closed gas bubble being crushed.
 
 **STUART**
 [*A short blank — then back in*]
@@ -73,7 +73,7 @@ The branching tree—main inlet into the aorta, then smaller arteries with their
 > [!NOTE]
 > **Parallel Hydraulic Resistance**
 > $$\frac{1}{R_{\mathrm{total}}} = \sum_{i} \frac{1}{R_{i}}$$
-> \(R_i\): resistance of branch \(i\). \(R_{\mathrm{total}}\): resistance of the parallel network. More open branches → lower \(R_{\mathrm{total}}\).
+> $R_i$: resistance of branch $i$. $R_{\mathrm{total}}$: resistance of the parallel network. More open branches → lower $R_{\mathrm{total}}$.
 
 **STUART**
 And once it branches hard enough, total cross-sectional area balloons—tiny in the aorta, huge through the arterioles and capillaries. Continuity: mean velocity falls as area climbs. Fastest leaving the heart, crawl in the capillary bed.
@@ -81,7 +81,7 @@ And once it branches hard enough, total cross-sectional area balloons—tiny in 
 > [!NOTE]
 > **Continuity Equation**
 > $$Q = A \cdot v$$
-> \(Q\): volumetric flow rate. \(A\): total cross-sectional area. \(v\): mean velocity. Same \(Q\) through a wider bed means slower \(v\)—why capillaries crawl.
+> $Q$: volumetric flow rate. $A$: total cross-sectional area. $v$: mean velocity. Same $Q$ through a wider bed means slower $v$—why capillaries crawl.
 
 **DR. SARAH HAYES**
 [*Nodding; hands still in the field, intensity eased*]

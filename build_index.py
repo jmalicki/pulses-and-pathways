@@ -57,6 +57,8 @@ def parse_chapter_to_rows(markdown_content):
             if content.startswith(' '):
                 content = content[1:]
             content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+            # Normalize \(...\) → $...$ so inline math matches MathJax $ delimiters.
+            content = re.sub(r'\\\((.+?)\\\)', r'$\1$', content)
             eq = content.strip()
             if re.fullmatch(r'\$\$[^$]+\$\$', eq):
                 parts.append(f'<div class="note-math">{eq}</div>\n')

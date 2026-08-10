@@ -513,7 +513,7 @@ Right.
 <div class="note-alert">
 <p><strong>Ideal gas / Boyle (shortcut)</strong></p>
 <div class="note-math">$$PV = nRT$$</div>
-<p>Lower \(P\) favors vapor at fixed \(T\). Later, when pressure recovers, condensation <strong>removes</strong> vapor from the cavity — not a closed gas bubble being crushed.</p>
+<p>Lower $P$ favors vapor at fixed $T$. Later, when pressure recovers, condensation <strong>removes</strong> vapor from the cavity — not a closed gas bubble being crushed.</p>
 </div>
 
 </div>
@@ -626,12 +626,12 @@ No. Steel pipes don't breathe. They just sit there and take the pressure until t
 <div class="note-alert">
 <p><strong>Parallel Hydraulic Resistance</strong></p>
 <div class="note-math">$$\frac{1}{R_{\mathrm{total}}} = \sum_{i} \frac{1}{R_{i}}$$</div>
-<p>\(R_i\): resistance of branch \(i\). \(R_{\mathrm{total}}\): resistance of the parallel network. More open branches → lower \(R_{\mathrm{total}}\).</p>
+<p>$R_i$: resistance of branch $i$. $R_{\mathrm{total}}$: resistance of the parallel network. More open branches → lower $R_{\mathrm{total}}$.</p>
 </div>
 <div class="note-alert">
 <p><strong>Continuity Equation</strong></p>
 <div class="note-math">$$Q = A \cdot v$$</div>
-<p>\(Q\): volumetric flow rate. \(A\): total cross-sectional area. \(v\): mean velocity. Same \(Q\) through a wider bed means slower \(v\)—why capillaries crawl.</p>
+<p>$Q$: volumetric flow rate. $A$: total cross-sectional area. $v$: mean velocity. Same $Q$ through a wider bed means slower $v$—why capillaries crawl.</p>
 </div>
 
 </div>
