@@ -9,6 +9,7 @@ from pathlib import Path
 
 VERDICTS = frozenset({"leave-as-is", "needs-fix", "fixed", "wont-fix"})
 SUPPRESS_VERDICTS = frozenset({"leave-as-is", "fixed", "wont-fix"})
+MIN_REASON_LEN = 12
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS users (
@@ -26,7 +27,7 @@ CREATE TABLE IF NOT EXISTS marks (
   heuristic_id TEXT NOT NULL,
   user_id INTEGER NOT NULL REFERENCES users(id),
   verdict TEXT NOT NULL,
-  note TEXT NOT NULL DEFAULT '',
+  reason TEXT NOT NULL,
   marked_at TEXT NOT NULL,
   UNIQUE (file, speaker, quote_hash, heuristic_id, user_id)
 );
@@ -60,7 +61,7 @@ class Mark:
     user_name: str
     user_priority: int
     verdict: str
-    note: str
+    reason: str
     marked_at: str
 
 
@@ -73,7 +74,7 @@ class EffectiveMark:
     verdict: str
     user_name: str
     user_priority: int
-    note: str
+    reason: str
     marked_at: str
 
 
@@ -90,8 +91,22 @@ def connect(db_path: Path | None = None) -> sqlite3.Connection:
     return conn
 
 
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Rename legacy marks.note → reason if needed."""
+    tables = {
+        r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()
+    }
+    if "marks" not in tables:
+        return
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(marks)").fetchall()}
+    if "note" in cols and "reason" not in cols:
+        conn.execute("ALTER TABLE marks RENAME COLUMN note TO reason")
+        conn.commit()
+
+
 def init_db(conn: sqlite3.Connection) -> None:
     conn.executescript(SCHEMA)
+    _migrate(conn)
     for name, priority in DEFAULT_USERS:
         conn.execute(
             """
@@ -132,6 +147,20 @@ def set_user_priority(conn: sqlite3.Connection, name: str, priority: int) -> Use
     return get_user(conn, name)
 
 
+def normalize_reason(reason: str) -> str:
+    return " ".join(reason.split()).strip()
+
+
+def require_reason(reason: str) -> str:
+    text = normalize_reason(reason)
+    if len(text) < MIN_REASON_LEN:
+        raise ValueError(
+            f"Mark requires textual reasoning (≥{MIN_REASON_LEN} chars after trim); "
+            f"got {len(text)} chars."
+        )
+    return text
+
+
 def upsert_mark(
     conn: sqlite3.Connection,
     *,
@@ -142,22 +171,23 @@ def upsert_mark(
     heuristic_id: str,
     user_name: str,
     verdict: str,
-    note: str = "",
+    reason: str,
 ) -> Mark:
     if verdict not in VERDICTS:
         raise ValueError(f"Invalid verdict {verdict!r}; expected one of {sorted(VERDICTS)}")
+    reason = require_reason(reason)
     user = get_user(conn, user_name)
     now = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
     conn.execute(
         """
         INSERT INTO marks (
           file, speaker, quote_norm, quote_hash, heuristic_id,
-          user_id, verdict, note, marked_at
+          user_id, verdict, reason, marked_at
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(file, speaker, quote_hash, heuristic_id, user_id) DO UPDATE SET
           quote_norm = excluded.quote_norm,
           verdict = excluded.verdict,
-          note = excluded.note,
+          reason = excluded.reason,
           marked_at = excluded.marked_at
         """,
         (
@@ -168,7 +198,7 @@ def upsert_mark(
             heuristic_id,
             user.id,
             verdict,
-            note,
+            reason,
             now,
         ),
     )
@@ -185,6 +215,13 @@ def upsert_mark(
     return _row_to_mark(row)
 
 
+def _row_reason(row: sqlite3.Row) -> str:
+    keys = row.keys()
+    if "reason" in keys:
+        return row["reason"]
+    return row["note"]
+
+
 def _row_to_mark(row: sqlite3.Row) -> Mark:
     return Mark(
         id=row["id"],
@@ -197,7 +234,7 @@ def _row_to_mark(row: sqlite3.Row) -> Mark:
         user_name=row["user_name"],
         user_priority=row["user_priority"],
         verdict=row["verdict"],
-        note=row["note"],
+        reason=_row_reason(row),
         marked_at=row["marked_at"],
     )
 
@@ -225,7 +262,7 @@ def effective_marks(conn: sqlite3.Connection) -> dict[tuple[str, str, str, str],
             verdict=row["verdict"],
             user_name=row["user_name"],
             user_priority=row["user_priority"],
-            note=row["note"],
+            reason=_row_reason(row),
             marked_at=row["marked_at"],
         )
     return out
@@ -253,7 +290,7 @@ def list_disagreements(conn: sqlite3.Connection) -> list[dict]:
     for row in rows:
         marks = conn.execute(
             """
-            SELECT m.verdict, m.note, m.marked_at, u.name AS user_name, u.priority
+            SELECT m.*, u.name AS user_name, u.priority
             FROM marks m JOIN users u ON u.id = m.user_id
             WHERE m.file = ? AND m.speaker = ? AND m.quote_hash = ? AND m.heuristic_id = ?
             ORDER BY u.priority DESC, m.marked_at DESC
@@ -280,7 +317,7 @@ def list_disagreements(conn: sqlite3.Connection) -> list[dict]:
                         "user": m["user_name"],
                         "priority": m["priority"],
                         "verdict": m["verdict"],
-                        "note": m["note"],
+                        "reason": _row_reason(m),
                         "marked_at": m["marked_at"],
                     }
                     for m in marks

@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
 from voice_audit import db
 from voice_audit.extract import extract_file
 from voice_audit.normalize import quote_hash
@@ -27,6 +29,11 @@ def test_scan_mark_quiz_candidate():
     assert "mark-quiz" in ids
 
 
+def test_require_reason_rejects_short():
+    with pytest.raises(ValueError, match="textual reasoning"):
+        db.require_reason("too short")
+
+
 def test_priority_override(tmp_path: Path):
     path = tmp_path / "marks.sqlite"
     conn = db.connect(path)
@@ -42,7 +49,7 @@ def test_priority_override(tmp_path: Path):
         heuristic_id="orphan-profundity",
         user_name="ai-voice-audit",
         verdict="needs-fix",
-        note="AI thinks short",
+        reason="AI flags short turn as possible profundity",
     )
     db.upsert_mark(
         conn,
@@ -53,12 +60,13 @@ def test_priority_override(tmp_path: Path):
         heuristic_id="orphan-profundity",
         user_name="joseph",
         verdict="leave-as-is",
-        note="ops crumb",
+        reason="Ops crumb to Stuart; flat field voice, not profundity",
     )
     eff = db.effective_marks(conn)
     key = ("act_0.md", "HAYES", qh, "orphan-profundity")
     assert eff[key].verdict == "leave-as-is"
     assert eff[key].user_name == "joseph"
+    assert "Ops crumb" in eff[key].reason
     disag = db.list_disagreements(conn)
     assert len(disag) == 1
     conn.close()
@@ -79,6 +87,7 @@ def test_annotate_suppresses(tmp_path: Path):
         heuristic_id="fascinating",
         user_name="joseph",
         verdict="leave-as-is",
+        reason="Checked: intentional clinical interest, not TED warmth here",
     )
     docs = [{"file": "a.md", "lines": [{"n": 1, "speaker": "HAYES", "text": text}]}]
     annotate(docs, effective=db.effective_marks(conn))

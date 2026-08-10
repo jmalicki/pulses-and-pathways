@@ -86,17 +86,22 @@ def cmd_mark(args: argparse.Namespace) -> int:
     conn, _ = _db(args)
     qn = normalize_quote(args.quote)
     qh = quote_hash(args.quote)
-    mark = db.upsert_mark(
-        conn,
-        file=args.file,
-        speaker=args.speaker.upper(),
-        quote_norm=qn,
-        quote_hash=qh,
-        heuristic_id=args.heuristic,
-        user_name=args.user,
-        verdict=args.verdict,
-        note=args.note or "",
-    )
+    try:
+        mark = db.upsert_mark(
+            conn,
+            file=args.file,
+            speaker=args.speaker.upper(),
+            quote_norm=qn,
+            quote_hash=qh,
+            heuristic_id=args.heuristic,
+            user_name=args.user,
+            verdict=args.verdict,
+            reason=args.reason,
+        )
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        conn.close()
+        return 1
     print(
         json.dumps(
             {
@@ -107,7 +112,7 @@ def cmd_mark(args: argparse.Namespace) -> int:
                 "user": mark.user_name,
                 "priority": mark.user_priority,
                 "verdict": mark.verdict,
-                "note": mark.note,
+                "reason": mark.reason,
                 "marked_at": mark.marked_at,
             },
             indent=2,
@@ -156,7 +161,7 @@ def cmd_history(args: argparse.Namespace) -> int:
             "user": m.user_name,
             "priority": m.user_priority,
             "verdict": m.verdict,
-            "note": m.note,
+            "reason": m.reason,
             "marked_at": m.marked_at,
             "quote_norm": m.quote_norm,
         }
@@ -239,7 +244,11 @@ def build_parser() -> argparse.ArgumentParser:
         required=True,
         choices=sorted(db.VERDICTS),
     )
-    mk.add_argument("--note", default="")
+    mk.add_argument(
+        "--reason",
+        required=True,
+        help=f"Required textual reasoning (≥{db.MIN_REASON_LEN} chars)",
+    )
     mk.set_defaults(func=cmd_mark)
 
     us = sub.add_parser("users", help="Manage marker users / priorities")

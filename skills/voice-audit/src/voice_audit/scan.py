@@ -234,7 +234,7 @@ def annotate(
                         "verdict": eff.verdict,
                         "user": eff.user_name,
                         "priority": eff.user_priority,
-                        "note": eff.note,
+                        "reason": eff.reason,
                     }
                 kept.append(item)
             if kept:

@@ -24,7 +24,7 @@ Register · Music · Accent/region · Humor · Heat · Ego · Anti-AI tell · So
 | Key | Role | Anti-AI tell (pull back when…) |
 | --- | --- | --- |
 | MARK | Patient / oil engineer | Charming lecturer; staccato “Tiny pockets.” profundity |
-| HAYES | Vascular surgeon | Warm TED mentor; over-empathizes; oil/audience explainers in Stuart/record voice (bridge Mark over-screen only; team/record = crisp clinical) |
+| HAYES | Vascular surgeon | Warm TED *when that isn’t her*; over-empathizes. Three addresses: team/record crisp; Stuart = teaching (not treatment peer); Mark bridge over-screen |
 | STUART | M3 | “Wow that’s amazing!” fanboy or comic foil |
 | ELENA | Circulating RN | Narrates like a novel; joins oil seminar |
 | PRIYA | CRNA | Pep talk; physics curiosity follow-ups |

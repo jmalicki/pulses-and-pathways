@@ -47,7 +47,8 @@ uv run --project skills/voice-audit voice-audit scan act_*.md --summary
 uv run --project skills/voice-audit voice-audit mark \
   --file act_2_pressure_and_flow.md --speaker HAYES \
   --quote "Good. Let's roll." --heuristic orphan-profundity \
-  --user joseph --verdict leave-as-is --note "ops crumb"
+  --user joseph --verdict leave-as-is \
+  --reason "Ops crumb to Stuart; flat field voice, not profundity"
 
 uv run --project skills/voice-audit voice-audit disagreements
 uv run --project skills/voice-audit voice-audit users list
@@ -58,16 +59,18 @@ DB default: `skills/voice-audit/data/marks.sqlite` (gitignored).
 **Verdicts:** `leave-as-is` | `needs-fix` | `fixed` | `wont-fix`  
 **Suppress from open queue when effective mark is:** leave-as-is, fixed, wont-fix.
 
-Do **not** auto-whitelist AI `leave-as-is` unless the user asks to mark this pass.
+`--reason` is required on every mark (≥12 chars). Heuristic id for judgments not tied to a scanner hit: `holistic`.
 
 ## Workflow
 
 1. Confirm target acts.
-2. Read Voice DNA for speakers present.
-3. `voice-audit scan … --hits-only` (candidates; FPs OK).
-4. Holistic judgment on candidates + sample clean turns per speaker.
-5. Report findings; optional rewrites. **Do not** patch acts unless asked.
-6. If user wants, `mark` leave-as-is / fixed for checked items (user `joseph` or `ai-voice-audit`).
+2. Read Voice DNA for speakers present (Hayes three addresses; Stuart = observer not treatment team).
+3. `voice-audit scan … --hits-only` (candidates; FPs expected).
+4. Holistic judgment on candidates **and** sample clean turns per speaker.
+5. **Before reporting to the user:** for each judgment, `voice-audit mark` as `ai-voice-audit` (or `joseph` if the user is dictating) with verdict + `--reason`. Do not skip the DB.
+6. Then report findings (and optional rewrite suggestions). **Do not** patch acts unless asked.
+
+Joseph’s marks (priority 100) override AI marks (priority 10) on disagreement.
 
 ## Report schema
 
@@ -82,4 +85,5 @@ End with per-character summary.
 - Stage directions / illustration prompts / science notes as “voice”
 - Mechanical regex “fixes”
 - Silent in-place rewrites
-- Auto-filling the marks DB without user ask
+- Reporting judgments without writing marks first
+- Mechanical regex “fixes” as substitutes for Voice DNA judgment

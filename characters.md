@@ -81,28 +81,37 @@ Career sequenced, not simultaneous hitch + ABD desk: post-BS years in drilling /
 - **Humor:** Dry crumbs with Elena in lulls only; almost never jokes for the room.
 - **Heat:** Essentially no cursing on stage; pressure shows as fewer words.
 - **Ego:** Calm authority without swagger; can admit a sideways learn without a self-effacement speech.
-- **Anti-AI tell:** Turns into warm TED mentor or over-empathizes. Keep craft-short.
+- **Anti-AI tell:** Turns into warm TED mentor or over-empathizes — *when that isn’t her*. AI-shaped phrasing that still sounds like Hayes in the wound can stay; don’t twist lines awkward just to dodge a pattern an LLM might also use.
 - **Sounds like:** A surgeon teaching in the wound. **Never:** A podcast host or life-coach.
+
+**Three addresses** (don’t collapse these):
+
+| Address | Who | Stakes | Voice |
+| --- | --- | --- | --- |
+| Clinical team | Elena, Priya, ops crumbs | Procedure; record; unambiguous direction (malpractice / no-mistakes English) | Crisp medical |
+| Stuart | M3 observer / student — **not** treatment team | Teaching; patient’s acute management isn’t riding on this talk | Can explain, digress, use “his/Mark’s” map while teaching; still not Mark’s peer |
+| Mark | Awake patient | Calm, consent-ish clarity; oil↔medicine bridge when earned | Soften over the screen; then back to field |
 
 **With Elena:** Trusted OR pair. On the critical path she is clipped and task-first (“Elena, saline irrigator.”); Elena answers with hands, not chatter. In holding windows and after a good duplex, they can be **cordial / lightly chummy** — shared dry humor, a soft laugh while trays clear — without turning into sitcom banter. Sarah does not undercut Elena’s lane (e.g. Elena’s “We don’t instrument for sport” stands).
 
 **With Priya:** Parallel professional trust on a different axis (wound vs block/MAC/hemodynamics). Coordinate block density, sedation, BP/HR that affect the case, unclamp readiness, Mark’s comfort. Not oil-physics. Cordial in lulls; flat mid-sew. Neither undercuts the other in front of the patient.
 
+**With Stuart:** He holds retractors and learns; he does not share Elena/Priya’s clinical lane. Teach with real questions and confirmations; longer physiology/craft explanation is allowed when intensity allows — this is pedagogy, not operative direction. Do not treat him as co-surgeon or dump oil seminar on him as if he were Mark; do not use team-record voice at him.
+
 **Do:**
 
-- Keep her lines short when hands are busy; longer when irrigating, waiting, or checking sensation.
-- Teach Stuart with real questions and one-beat confirmations (“Good. Keep going.”), not speeches.
-- Team talk and recordable observations (operative narration / voice for the record) stay crisp clinical English.
+- Keep her lines short when hands are busy; longer when irrigating, waiting, checking sensation, or teaching Stuart in a holding window.
+- Team talk and recordable observations (operative narration / voice for the record) stay crisp clinical English — Elena/Priya/ops.
 - If Mark needs a bridge from what was just said, look over the screen and say it **to him** — then back to the field.
 - Keep the pre-deeper-work “sharp, or just pressure?” beat in her lane when she is about to cut (Priya may also check density as the block sets — see `case.md`).
 
 **Don't:**
 
-- Sermonize physics or morality.
+- Sermonize morality or stop the case for a TED talk; if the dialogue needs room, slide an ops beat (see `case.md`).
 - Compete with Mark on wellbore jargon.
-- Put oil analogies or audience explainers into Stuart-facing or record voice.
-- Stop the case for a TED talk; if the dialogue needs room, slide an ops beat (see `case.md`).
+- Put oil analogies into **team-record** voice, or make Stuart the treatment-team peer.
 - Stay chatty through clamp click, mid-anastomosis, or duplex/revise — intensity-gated; see `case.md` Team intensity.
+- Twist natural Hayes lines solely to avoid “AI-sounding” phrasing.
 
 **Example register:** “I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.” / “Starting the anastomosis. Stuart — don’t let me purse these bites.”
 
@@ -118,7 +127,7 @@ Secure enough to borrow Mark’s maps without winning physics — translates to 
 
 ## Stuart
 
-**Role:** M3. Earnest learner. Holds retractors, suction, duplex probe. Asks real questions; sometimes quotes the textbook because that is how he still thinks.
+**Role:** M3. Earnest learner / **observer** — not part of the treatment team providing care. Holds retractors, suction, duplex probe. Asks real questions; sometimes quotes the textbook because that is how he still thinks.
 
 **Voice:** Observing, not performing. Quiet asides early (“Mid-forearm… ulnar artery territory.”). Physiology when invited (Poiseuille, Bernoulli, Windkessel, shear-thinning). Not a foil, not a quiz victim, not comic relief.
 
