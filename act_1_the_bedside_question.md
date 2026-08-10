@@ -62,7 +62,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **DR. SARAH HAYES**: [*Using a suction tip to clear the surgical field*] And how do you model the flow along the well? If it's circulating, it's not static anymore.
 
-**MARK**: [*Wiggling his uninjured right hand*] Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
+**MARK**: [*Wiggling his uninjured right hand*] Right. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. Hard to talk through without a sketch. If I don't draw, I just keep thinking about what you're doing over there.
 
 <!-- stage-break -->
 
@@ -79,13 +79,13 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 <!-- stage-break -->
 <!-- projections-end -->
 
-**DR. SARAH HAYES**: [*Carefully dissecting around the ulnar artery*] Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
+**DR. SARAH HAYES**: [*Carefully dissecting around the ulnar artery*] So it doesn't move like water in a hose.
 
 ![Exposure Sketch](exposure_sketch.png)
 
 <!-- stage-break -->
 
-**MARK**: [*Nodding nervously*] Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
+**MARK**: [*Nodding nervously*] Right. It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
 
 **STUART**: [*Holding the retractor, eyes wide*] So the pressure is higher when you're pumping?
 

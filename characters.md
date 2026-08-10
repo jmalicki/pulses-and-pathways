@@ -92,13 +92,15 @@ Career sequenced, not simultaneous hitch + ABD desk: post-BS years in drilling /
 
 - Keep her lines short when hands are busy; longer when irrigating, waiting, or checking sensation.
 - Teach Stuart with real questions and one-beat confirmations (“Good. Keep going.”), not speeches.
-- Translate Mark’s oil talk into clinical equivalents only when it serves the case or Stuart.
+- Team talk and recordable observations (operative narration / voice for the record) stay crisp clinical English.
+- If Mark needs a bridge from what was just said, look over the screen and say it **to him** — then back to the field.
 - Keep the pre-deeper-work “sharp, or just pressure?” beat in her lane when she is about to cut (Priya may also check density as the block sets — see `case.md`).
 
 **Don't:**
 
 - Sermonize physics or morality.
 - Compete with Mark on wellbore jargon.
+- Put oil analogies or audience explainers into Stuart-facing or record voice.
 - Stop the case for a TED talk; if the dialogue needs room, slide an ops beat (see `case.md`).
 - Stay chatty through clamp click, mid-anastomosis, or duplex/revise — intensity-gated; see `case.md` Team intensity.
 

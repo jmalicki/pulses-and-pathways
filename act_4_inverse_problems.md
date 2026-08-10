@@ -62,24 +62,9 @@ Right. The duplex probe measures the frequency shift of the sound waves bouncing
 > **Simplified Bernoulli Equation (Clinical)**
 > $\Delta P \approx 4v^2$
 > A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
+> Other outside maps (when needed, not tonight): CT angiography for lumen geometry; phase-contrast MRI for velocity fields without contrast.
 
 **DR. SARAH HAYES**
-[*Adjusting the angle of her surgical loupes*]
-And if we need a more detailed map of the geometry, Stuart, what do we use?
-
-**STUART**
-CT angiography—inject contrast and take a CT scan so we can reconstruct the three-dimensional lumen. Then we can feed that geometry into a computational fluid dynamics model.
-
-**DR. SARAH HAYES**
-And if we need velocity data without contrast or radiation?
-
-**STUART**
-Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
-
-**DR. SARAH HAYES**
-[*To Stuart*]
-Exactly. Mapping the inside from signals at the edge.
-
 [*Looks over the screen to Mark, softer*]
 Let's hope my physical model matches the math.
 
@@ -135,7 +120,7 @@ Unclamp. Duplex again.
 
 **STUART**
 [*Breathing out*]
-Strong triphasic flow. The waveform is beautiful.
+Strong triphasic. Peak's back down.
 
 <!-- stage-break -->
 
@@ -183,11 +168,11 @@ All done, Mark. Joined and sealed—no leaks.
 Thanks, Doc. I have to say, the pressure drop in my arm was a lot easier to fix than a pressure leak in a deepwater well. We don't have the luxury of putting sutures on a reservoir two miles down.
 
 **DR. SARAH HAYES**
-[*Pulling off her surgical gloves with a sharp snap and smiling warmly*]
-Yes, well, you have to remember that I've had the benefit of several billion years of biological R&D to refine my vascular pipes. Evolution is a very patient engineer. Your steel casings have only had about a century.
+[*Pulling off her surgical gloves with a sharp snap; looks over the screen to Mark*]
+I've got living wall to sew. You don't get that two miles down.
 
 **MARK**
 [*Dryly*]
-I'll make sure to mention that to our reservoir modeling team. They could use a few million years of R&D.
+Yeah. Tell that to the modeling team next time the history match won't close.
 
-[*The team laughs softly as Elena begins clearing the surgical trays.*]
+[*Elena begins clearing the surgical trays.*]

@@ -85,19 +85,19 @@ And once it branches hard enough, total cross-sectional area balloons—tiny in 
 
 **DR. SARAH HAYES**
 [*Nodding; hands still in the field, intensity eased*]
-Which is perfect for physiology. The blood slows down to a crawl in the capillaries—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
+That's what you want in the capillary bed. Blood slows enough for oxygen and nutrients to diffuse across the endothelium. At aortic speed through capillaries, tissue would starve.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
 **DR. SARAH HAYES**
-[*Taking a saline syringe from Elena; still half in the conversation*]
-Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
+[*Taking a saline syringe from Elena; a glance over the screen to Mark*]
+We're doing it with tissue, not gravel.
 
-[*Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.*]
+[*She gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.*]
 
 **DR. SARAH HAYES**
 Stuart, irrigate here. Let's clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren't steel.
 
 **MARK**
-No. Steel pipes don't breathe. They just sit there and take the pressure until they don't.
+Yeah — casing doesn't flex with every stroke. It just sits under load until something yields.

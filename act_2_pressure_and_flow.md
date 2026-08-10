@@ -54,7 +54,7 @@ But if we *did* have an arterial line upstream of the clamp—the waveform would
 
 **DR. SARAH HAYES**
 [*Without looking up, she steadies the clamped vessel with forceps*]
-Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
+Good. That's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 **MARK**
 [*Nervously tapping his free hand against the arm board*]
@@ -106,7 +106,7 @@ Look at this sketch here.
 ![The Narrowing](02_the_narrowing.svg)
 
 **MARK**
-A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and you don't get that pressure back clean on the other side. Same idea as your stenosis.
+A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and the far-side pressure stays lower than it should. Same idea as your stenosis.
 
 ![Wellhead choke](05_wellhead_choke.svg)
 
@@ -115,7 +115,7 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 
 **MARK**
 [*Points to the chaotic swirls in Profile B*]
-Right. I've seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn't explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can't decelerate smoothly, so the kinetic energy goes into recirculating eddies. That's turbulence. Stuart: Reynolds number. Density times velocity times diameter, over viscosity. Once that climbs, laminar is gone and you're burning pressure for nothing.
+Right. I've seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn't explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can't decelerate smoothly, so that energy goes into recirculating eddies. That's turbulence. Past a throat like that, you're spending that energy on churn downstream — so the far-side pressure stays lower than it should.
 
 > [!NOTE]
 > **The Reynolds Number ($Re$)**
@@ -164,10 +164,6 @@ Occlusion — you mean a total blockage? So the turbulence tricks the body into 
 [*A brief silence falls over the room. The steady beep of the heart monitor fills the space.*]
 
 **DR. SARAH HAYES**
-[*Quietly, returning her focus to the wound*]
-Which is exactly why we're here tonight.
-
-[*Flat, to Stuart.*]
-
-Stuart, let's irrigate this field. I need it pristine before we go any further.
+[*Quietly, back to the wound; flat, to Stuart*]
+Stuart — irrigate. I need it pristine before we go further.
 
