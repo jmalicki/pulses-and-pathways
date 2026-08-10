@@ -1,5 +1,8 @@
-data/*.sqlite
+# Track marks.sqlite in-repo (shared audit memory). Ignore journals only.
 data/*.sqlite-*
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
 .venv/
 __pycache__/
 *.py[cod]
