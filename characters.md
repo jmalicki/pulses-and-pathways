@@ -2,7 +2,11 @@
 
 This file is **writer meta**, not script. Do not perform it, paste it into stage directions, or drop voice essays into the acts. Use it when drafting or revising dialogue so each person stays in register.
 
+See also: [case.md](case.md) (ops / who is present / monitoring) · [science-arc.md](science-arc.md) (teaching DAG).
+
 Seeded from the Act 1 cast and how they actually speak across Acts 1–5. Where the live script drifts from these guidelines, prefer this catalog for new lines.
+
+**Cast rule:** Core speaking leads are Mark / Hayes / Stuart / Elena. **Priya Nazari** (CRNA) is on stage for the OR as **background**. **Dr. Amara Okonkwo** is **cameo only**. No anonymous “CRNA:” labels in new dialogue.
 
 ---
 
@@ -38,11 +42,14 @@ Among science-literate people (Sarah, Stuart), he **names** shared undergrad phy
 
 **With Elena:** Trusted OR pair. On the critical path she is clipped and task-first (“Elena, saline irrigator.”); Elena answers with hands, not chatter. In holding windows and after a good duplex, they can be **cordial / lightly chummy** — shared dry humor, a soft laugh while trays clear — without turning into sitcom banter. Sarah does not undercut Elena’s lane (e.g. Elena’s “We don’t instrument for sport” stands).
 
+**With Priya:** Parallel professional trust on a different axis (wound vs block/MAC/hemodynamics). Coordinate block density, sedation, BP/HR that affect the case, unclamp readiness, Mark’s comfort. Not oil-physics. Cordial in lulls; flat mid-sew. Neither undercuts the other in front of the patient.
+
 **Do:**
 
 - Keep her lines short when hands are busy; longer when irrigating, waiting, or checking sensation.
 - Teach Stuart with real questions and one-beat confirmations (“Good. Keep going.”), not speeches.
 - Translate Mark’s oil talk into clinical equivalents only when it serves the case or Stuart.
+- Keep the pre-deeper-work “sharp, or just pressure?” beat in her lane when she is about to cut (Priya may also check density as the block sets — see `case.md`).
 
 **Don't:**
 
@@ -73,6 +80,7 @@ When someone names a shared basic he already had and briefly forgot, react like 
 - Make him the butt of Mark’s cleverness.
 - Turn every oil term into a confused medical false friend unless the script already earned that beat (annulus once is enough).
 - Narrate his own embarrassment at length.
+- Bounce physiology essays off Elena or Priya.
 
 **Example register:** “So you calculate what the wellhead pressure *should* be, and compare it to the actual sensor data?” / [*Quietly*] “So clamping is… trying to get containment back before it’s gone?”
 
@@ -80,23 +88,97 @@ When someone names a shared basic he already had and briefly forgot, react like 
 
 ## Elena
 
-**Role:** Circulating nurse. IV, vitals, instruments, notepad/clipboard for Mark’s sketches, dressings.
+**Role:** Circulating nurse. IV, instruments, notepad/clipboard for Mark’s sketches, dressings; may glance at the shared vitals monitor or start a cuff cycle. Not the anesthesia provider.
 
-**Voice:** Mostly working. Speaks rarely and in her lane — vitals numbers, instrument passes, and hard limits on unnecessary monitoring. Not a physics lecturer and not a third student.
+**Voice:** Mostly working. Speaks rarely and in her lane — vitals callouts when useful, instrument passes, and hard limits on unnecessary monitoring. Not a physics lecturer and not a third student.
 
 **With Sarah:** Long working relationship, not strangers. Anticipates passes; dry competence reads as trust. When the case is tense or mid-stitch, she is economical — present, not chatty. When things are **not** tense (block wait, irrigation lull, good duplex, closing/trays), she can be warm and lightly chummy with Hayes — a shared look, a dry line, a soft laugh with the team — without becoming a comic sidekick or joining the physics seminar.
 
+**With Priya:** Equals who share the room all night. Logistics (IV, meds from cart, “I’m cycling BP” on the monitor). Dry mutual ribbing OK; a **one-line tension break** when the room needs air, then back to work. Not at Mark’s expense; not mid-sew; not competing for Hayes’s ear.
+
 **Do:**
 
-- Report vitals cleanly when the room needs the number.
+- Report vitals cleanly when the room needs the number (same monitor Priya watches — don’t double-call without reason).
 - One dry boundary line when instrumentation is on the table (“We don’t instrument for sport.”).
 - Stay present in stage business: saline, forceps, flipping sketch pages, closing trays.
-- Let ease with Hayes show in low-stakes windows; keep it brief and earned.
+- Let ease with Hayes (and occasional ribbing with Priya) show in low-stakes windows; keep it brief and earned.
 
 **Don't:**
 
 - Give engineering or physiology lectures.
 - Banter for filler mid-critical-path; if the rhythm needs air, move an ops beat instead (`case.md`).
 - Play rival or subordinate-scared; she and Hayes are colleagues who know each other’s habits.
+- Own the block/MAC board — that is Priya’s.
 
 **Example register:** “Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he’s running a little fast.”
+
+---
+
+## Priya Nazari
+
+**Role:** CRNA. Block + MAC; at the head of the table for the **entire** operation. Script label: **PRIYA**.
+
+**Staging:** On stage whenever the OR is up, usually **background** — head of table / monitors, not in the light with Hayes–Mark–Stuart. Focus only when a procedural beat needs her (block, vitals blip, sedation). Clinical board (what she monitors): see `case.md`.
+
+**Voice when she speaks:** Elena-quiet procedurally — short, clear, no seminar.
+
+**Optional personality well** (catalog even if most nights she has almost no lines — draw from this when a beat wants color):
+
+- Dry, competent warmth — not chipper, not icy.
+- Notices Mark’s anxiety early; prefers one calm factual line over pep talk.
+- Slightly protective of her lane (block quality, sedation ceiling) without turf wars; will gently correct if someone assumes “just put him out.”
+- Shares Elena’s dry humor; they can rib each other — including a one-line tension break — then both go flat when hands are critical.
+- Curious enough to *overhear* the oil talk without joining it — a half-smile or one-word “huh” max if we ever use it; never a physics follow-up.
+- Easy shorthand with Hayes; collegial with Elena; patient with Stuart’s learning without teaching him anesthesia.
+
+**Do:**
+
+- Own block/MAC lane in dialogue when a word is needed.
+- Patient-facing: poke, sharp vs pressure (density check), sedation check — brief and calming.
+- Coordinate with Hayes on density, fade, unclamp readiness.
+
+**Don't:**
+
+- Lecture physiology or join oil↔medicine analogy chat.
+- Invent personality mid-scene that isn’t in this well.
+- Replace Elena’s circulating lane.
+
+**Example register:** “Block’s dense.” / “Pressure’s fine.” / “Tell me if anything turns sharp.” / “I’m giving a little more.”
+
+---
+
+## Dr. Amara Okonkwo
+
+**Role:** ED physician. Cameo — handoff only. Ran initial workup / bleed control; hands Mark off to Hayes.
+
+**When:** Brief beat at the top of the evening (ED bay or as Hayes arrives). Not in the OR for Acts 2–5.
+
+**Voice:** Terse clinical handoff — mechanism, vitals, what was tried for hemostasis, hand perfusion / pulses, tetanus/antibiotics if relevant. Not a physics interlocutor. Not competing with Hayes for ownership once she accepts.
+
+**Do:**
+
+- One clean handoff speech or two short exchanges; then exit.
+
+**Don't:**
+
+- Linger into the OR lecture; become a third science voice; undercut Hayes’s acceptance of the patient.
+
+**Example register:** “Table-saw, ulnar territory, pressure’s held. Hand pink, radial Doppler intact. He’s yours.”
+
+---
+
+## OR ensemble — dialogue lanes
+
+Catalog appropriate talk, not forced banter. Analogy seminar stays Mark / Hayes / Stuart. Quiet pair stay in lane unless an ops interrupt lands.
+
+| Pair | Appropriate | Avoid |
+| --- | --- | --- |
+| Hayes ↔ Elena | Task talk on critical path; light chumminess in lulls | Sitcom mid-purse; undercutting Elena’s lane |
+| Hayes ↔ Priya | Block density, sedation, hemodynamics, unclamp, Mark comfort | Oil-physics; turf wars in front of Mark |
+| Elena ↔ Priya | Logistics; dry ribbing; one-line tension valve | Running bit on critical path; jokes at Mark |
+| Hayes ↔ Stuart | Craft teaching, retractors/suction | Making him Priya’s or Elena’s student |
+| Stuart ↔ Elena / Priya | Functional passes / brief pause for block | Physiology essays at them |
+| Mark ↔ Priya | Poke, sharp vs pressure, sedation | Three-way science seminar |
+| Group (Hayes + Elena + Priya ± Stuart) | Unclamp, vitals blip, block fade, close | Committee on Darcy / cavitation |
+
+See `case.md` for who is present at each ops step and `science-arc.md` for what teaching can slide.

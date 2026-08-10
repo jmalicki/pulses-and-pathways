@@ -13,8 +13,9 @@ A 4-part medical and engineering play script exploring the underlying analogies 
 
 ### Writer notes
 
-- [Characters](characters.md) — voice guidelines (not script)
+- [Characters](characters.md) — voice / relationships (not script)
 - [Case](case.md) — ops / pacing bible (not script)
+- [Science arc](science-arc.md) — teaching DAG + case syncs (not script)
 
 ### Dedication
 

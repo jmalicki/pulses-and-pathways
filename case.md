@@ -2,14 +2,30 @@
 
 This file is **writer meta**, not script. Do not perform it or paste it into stage directions. It is the ops / case bible for pacing dialogue against real surgical business.
 
+See also: [characters.md](characters.md) (voice / relationships) · [science-arc.md](science-arc.md) (teaching DAG).
+
+---
+
+## Acronym crib
+
+| Term | Meaning |
+| --- | --- |
+| **MAC** | Monitored anesthesia care — sedation + monitoring with the patient breathing on their own (typical with regional). |
+| **NIBP** | Non-invasive blood pressure — the automatic arm cuff; readings appear on the shared monitor on a timed cycle. |
+| **SpO2** | Pulse oximetry — oxygen saturation from a finger/earlobe probe. |
+| **EtCO2** | End-tidal CO₂ — breath CO₂ if capnography is used under sedation. |
+| **LAST** | Local anesthetic systemic toxicity — overdose / intravascular local; watched clinically (symptoms + monitors), not a real-time blood test. |
+| **US** | Ultrasound (for block guidance). |
+
 ---
 
 ## Injury and setup
 
-- Mid-forearm **ulnar artery** laceration from a table-saw kickback (dado cut; guard off).
-- **Regional block**; patient awake; can feel pressure/movement, not sharp cutting pain.
+- **Emergency** case: mid-forearm **ulnar artery** laceration from a table-saw kickback (dado cut; guard off) → ED → OR. Not an elective booked repair.
+- Hand typically still **well-perfused** via radial / arch unless the script adds hard ischemic signs.
+- **Regional block** + MAC; patient awake; can feel pressure/movement, not sharp cutting pain when the block is dense.
 - Screen at the shoulder between Mark and the field; Sarah looks over it when she speaks to him.
-- Cast at table: Sarah operating, Stuart retracting/suction, Elena circulating (vitals, instruments, Mark’s notepad).
+- Cast at table: Sarah operating, Stuart retracting/suction, Elena circulating, **Priya** at the head (block/MAC, background). Scrub tech unnamed. **Dr. Okonkwo** ED cameo only (handoff), not in the OR acts.
 
 ---
 
@@ -27,19 +43,109 @@ This file is **writer meta**, not script. Do not perform it or paste it into sta
 
 ---
 
+## Emergency pathway and block
+
+**Default story:** ED control/pressure → consent → OR.
+
+**Hayes’s first meet** is often the **ED surgical consult**: examine, decide repair, consent/site, **accept him as her patient**. Short and urgent. “What do you do?” may land there or spill into the OR onset window. Play’s OR-open (“Block’s in… another minute”) is a valid compression of the same relationship.
+
+**Block placement — two honest paths:**
+
+1. **Block in OR:** roll in; Priya blocks on the table; onset overlaps prep/drape + sensation checks.
+2. **Block in ED/holding while OR is prepped:** Priya blocks in bay under monitoring; onset runs parallel with OR turnover and Hayes scrubbing; then roll for final check and cut. Needs anesthesia available off-OR, LAST vigilance, and a **controlled** bleed (pressure/dressing OK — not crashing hemorrhage).
+
+Not a leisurely elective block-bay afternoon. Not a scrubbed all-hands idle hour.
+
+---
+
+## Who / duration (ballpark)
+
+Play time ≠ wall clock. Use these to judge whether an ops beat can carry a lecture.
+
+| Step | Wall clock | Who |
+| --- | --- | --- |
+| ED / Hayes consult & **accept** (± **Okonkwo** handoff) | minutes–tens of min | Mark, ED RN, ±Okonkwo, Hayes not scrubbed, ±Stuart, Priya for plan |
+| Block — ED/holding or OR | 10–20 min | Priya (+/− help); Mark; monitors. Hayes often scrubbing if ED path |
+| Block onset | ~10–20+ min overlapping other work | Parallel OR prep or on-table prep; Priya at head |
+| Prep/drape | folded in | Elena, scrub, Hayes/Stuart as field up; Priya monitoring |
+| Expose / find ends | 10–20 min | Full OR team |
+| Clamp | few min | Same |
+| Prepare ends | 10–20 min | Same |
+| Anastomosis | ~20–40+ min if straightforward | Same; lean talk |
+| Unclamp / duplex / revise / close | as before | Same |
+
+**Totals:** skin-to-skin often ~1–2 h if clean/isolated; door-to-close longer with emergency setup but tighter than elective.
+
+---
+
+## Target timelines (good / better / best)
+
+Clock starts at **injury**; hospitals also track **door-to-OR** / **consult-to-incision**.
+
+### A. Hand ischemic / both vessels / uncontrolled bleed / incomplete arch
+
+| Tier | Target | Meaning |
+| --- | --- | --- |
+| **Good** | Restore flow **\<6 h** of ischemia (classic ceiling) | Old limb-salvage slogan; don’t plan to this if you can do better |
+| **Better** | ~**1–1.5 h** from injury when ischemia is the problem; ~**1 h from arrival** in tight systems | Contemporary push; temporary shunt if definitive repair must wait |
+| **Best** | Immediate control + earliest possible restoration of flow | Crash pathway |
+
+### B. Isolated ulnar, hand well-perfused, bleeding controlled — **play default**
+
+| Tier | Target | Meaning |
+| --- | --- | --- |
+| **Good** | **Same-day / same-evening** repair after ED consult | Not “send home and book next week” if repair is the plan |
+| **Better** | **Door-to-OR ~1–3 h** (consult, consent, room, block) | Typical emergency evening for this injury class |
+| **Best** | ED accept → block while OR preps → knife soon after roll-in | Tightest non-ischemic pathway |
+
+Don’t invent a ticking 6-hour bomb for an isolated well-perfused ulnar unless the script establishes ischemia.
+
+---
+
+## Priya’s board (block / MAC)
+
+Ops detail — personality lives in `characters.md`.
+
+**During block placement:**
+
+- US-guided injection; aspiration / incremental dosing.
+- **LAST** vigilance — **not a lab test**: clinical signs (metallic taste, tinnitus, agitation/confusion, seizures) plus continuous monitors.
+- Continuous **ECG** = typical **3- or 5-lead** OR leads (rate/rhythm), **not** a diagnostic 12-lead. SpO2, NIBP.
+- Talking to Mark during injection doubles as neuro check.
+- Prevention is technique; treatment if LAST occurs is emergency care + IV lipid emulsion.
+
+**Whole case (MAC + regional):**
+
+- Continuous SpO2, ECG/HR.
+- Intermittent **NIBP** — automatic cuff; numbers appear on the **shared vitals/anesthesia monitor** on a timed cycle. Nobody walks over to read the cuff as a gauge. Elena may glance, start a STAT cycle, or call a number; Priya sees the same display and owns interpretation.
+- Respiration / EtCO2 if sedated with capnography; sedation depth; O2; IV/fluids/meds in her lane.
+- **Block density and fade.**
+
+**How they know the block is failing / inadequate:**
+
+- **Patient report:** sharp (vs pressure) on pinch, incision, or deeper work — main signal.
+- **Who asks “sharp or pressure?”:** **Shared.** Priya often checks density as the block sets (head of table). Hayes keeps the **pre-deeper-work** check in the field (play’s existing beat). Both should hear a “sharp.”
+- Behavior: flinch, withdrawal, breath-hold, tight voice.
+- Physiology: HR/BP jump under surgical stimulus.
+- Spotty map or later fade → top-up, field local, more sedation, or (rare) convert.
+
+**Not her primary board:** field instruments (Elena), teaching Stuart, oil analogies.
+
+---
+
 ## Timing lever
 
-The medical sequence can slide **forward or backward** relative to the teaching dialogue to control pacing.
+The medical sequence can slide **forward or backward** relative to the teaching dialogue to control pacing. Prefer moving an ops beat over inventing filler talk. Most business can drift for rhythm. Only the sync points below must lock.
 
-Prefer moving an ops beat (irrigate again, adjust retractors, wait on the block, dab, pass instruments) over inventing filler talk or absurdist interruptions. Most business can drift for rhythm. Only the sync points below must lock.
+Science teaching deps and which nodes can slide: see [science-arc.md](science-arc.md).
 
 ---
 
 ## Sync points (medicine and dialogue must lock)
 
-These are the handful of places where an ops fact has to be true for the spoken beat to land. Infered from Acts 1–5 as written.
+These are the handful of places where an ops fact has to be true for the spoken beat to land. Inferred from Acts 1–5 as written.
 
-1. **Block set before deeper work / sensation check** (Act 1). Sarah waits on the block, presses for sharp vs pressure, gets Mark’s “weird / kitchen drawer” answer, then goes further. Accident story and hydrostatic intro can breathe in that wait; cutting deeper before the check breaks the setup.
+1. **Block set before deeper work / sensation check** (Act 1). Sarah waits on the block, presses for sharp vs pressure, gets Mark’s “weird / kitchen drawer” answer, then goes further. Accident story and hydrostatic intro can breathe in that wait; cutting deeper before the check breaks the setup. Priya may have already checked density at the head.
 
 2. **Vessel located before clamp talk owns the room** (Act 1 → Act 2). Act 1 ends on “Ulnar artery. Torn—but the ends look clean enough.” Act 2 opens ready to take proximal control. Do not run full shut-in / reflection dialogue before they have something to clamp.
 
@@ -51,7 +157,7 @@ These are the handful of places where an ops fact has to be true for the spoken 
 
 6. **Closure only after a good duplex** (Act 5). “Elena, let’s close” follows the open repair and Mark’s choke recognition. Closing over a known purse breaks the case logic.
 
-Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitation, Windkessel / mud rheology, stay sutures while talking compliance — can drift within its act window as long as those locks stay honest.
+Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitation, Windkessel / mud rheology, stay sutures while talking compliance — can drift within its act window as long as those locks stay honest. Cross-check [science-arc.md](science-arc.md) before sliding a teach node across a sync.
 
 ---
 
@@ -71,11 +177,11 @@ Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitati
 
 ## Stage business: holding windows vs active sewing
 
-**Holding / maintenance (good for longer teaching):** waiting on the block; irrigation and suction; dabbing; retractor adjustments; Elena flipping Mark’s notepad; sterile marker sketch on drape backing; Sarah’s soft check-ins over the screen. Hands are busy but the critical path is not mid-bite. **Elena↔Hayes can be lightly chummy here** (dry humor, easy passes, shared ease) — still brief; see `characters.md`.
+**Holding / maintenance (good for longer teaching):** waiting on the block; irrigation and suction; dabbing; retractor adjustments; Elena flipping Mark’s notepad; sterile marker sketch on drape backing; Sarah’s soft check-ins over the screen; Priya quiet at the head. Hands are busy but the critical path is not mid-bite. **Elena↔Hayes** (and Elena↔Priya) can be lightly chummy here — still brief; see `characters.md`.
 
-**Active sewing / critical path (keep talk lean):** placing the anastomosis, cutting a cinching bite, unclamp sequence, reading duplex. Sarah goes flat and field-first; Elena answers with hands. Mark may still think aloud (inverse problems during the sew is already in play), but do not pile new comic business or extra lectures on top. Stuart’s job is steady suction/retraction, not a second seminar. Save chumminess for after the waveform clears or for true lulls.
+**Active sewing / critical path (keep talk lean):** placing the anastomosis, cutting a cinching bite, unclamp sequence, reading duplex. Sarah goes flat and field-first; Elena answers with hands; Priya stays background unless vitals/block need a word. Mark may still think aloud (inverse problems during the sew is already in play), but do not pile new comic business or extra lectures on top. Stuart’s job is steady suction/retraction, not a second seminar. Save chumminess for after the waveform clears or for true lulls.
 
-**Wrong business:** inventing interruptions so someone can finish a physics paragraph; long sermons during the first stitch; continuous arterial-line theater on a case that already refused it; closing or celebrating flow before the duplex story resolves; sitcom banter between Elena and Hayes mid-purse.
+**Wrong business:** inventing interruptions so someone can finish a physics paragraph; long sermons during the first stitch; continuous arterial-line theater on a case that already refused it; closing or celebrating flow before the duplex story resolves; sitcom banter mid-purse; double-calling the same cuff number from Elena and Priya without reason.
 
 ---
 
@@ -98,4 +204,5 @@ Available if pacing needs a turn without new plot:
 - One more notepad page Mark already “drew earlier.”
 - Sarah looking over the screen for a one-line patient check, then back to flat field voice.
 - Stuart’s short assent or tool adjustment as a breath — not a new lecture.
-- A beat of Elena–Hayes ease in a true lull or after a good duplex (already seeded by the soft team laugh at close) — not mid-stitch comedy.
+- A beat of Elena–Hayes or Elena–Priya ease in a true lull or after a good duplex — not mid-stitch comedy.
+- Silent Priya presence / one procedural line when the board needs it.
