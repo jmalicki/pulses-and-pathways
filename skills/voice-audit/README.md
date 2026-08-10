@@ -16,4 +16,4 @@ From repo root:
 uv run --project skills/voice-audit voice-audit scan act_*.md
 ```
 
-SQLite DB defaults to `data/marks.sqlite` (gitignored). See `SKILL.md` for the agent workflow.
+SQLite DB defaults to `data/marks.sqlite` (tracked in git). See `SKILL.md` for the agent workflow.

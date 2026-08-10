@@ -54,7 +54,7 @@ uv run --project skills/voice-audit voice-audit disagreements
 uv run --project skills/voice-audit voice-audit users list
 ```
 
-DB default: `skills/voice-audit/data/marks.sqlite` (gitignored).
+DB default: `skills/voice-audit/data/marks.sqlite` (tracked in git for shared audit memory).
 
 **Verdicts:** `leave-as-is` | `needs-fix` | `fixed` | `wont-fix`  
 **Suppress from open queue when effective mark is:** leave-as-is, fixed, wont-fix.
