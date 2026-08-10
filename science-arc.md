@@ -119,13 +119,56 @@ Science nodes that **lock** to medical sync points / ops facts:
 
 **Free to drift** inside a holding / maintenance window (no sew): most of Act 3 network + cavitation cluster; much of Act 2 stenosis physics *after* clamp; Act 4 compliance/rheology/hoop while stays/prep — subject to hard edges above.
 
-**Crowding note (for Phase 2):** Act 3 is surgically idle (hold) while teaching continues; Act 5 piles inverse + imaging on the sew. Candidates to slide earlier if deps allow: parts of compliance/rheology; trim Act 5 imaging sidebar (`cta_cfd_geometry`, `pc_mri_wall_shear`). Do not break sync 4–6.
+**Pacing baseline:** see [Pacing (case vs play)](#pacing-case-vs-play) below. Phase 2b concluded **no reorder**; Act 3 has spare hold air (cavitation expand home); if Act 5 still feels stuffed after that, trim imaging sidebar (`cta_cfd_geometry`, `pc_mri_wall_shear`) before breaking syncs 4–6.
+
+---
+
+## Pacing (case vs play)
+
+Writer archive from Phase 2b. **Purpose:** baseline so future rewrites can see impact. Play time ≠ wall clock. Durations and who-can-talk: [case.md](case.md). Who speaks science: [characters.md](characters.md).
+
+### Evening shape
+
+- **Door-to-close** ~1.5–2.5 h (play-default midpoints ~**2 h**). That length can *be* the theatrical evening.
+- First ~**30+ min from door** (Act 0 ED + block placement / early onset) sit mostly **outside full stage time** or as short prologue; Act 1 opens on “Block’s in.”
+- On-stage Acts 1–5 ride roughly **dense-block / knife onward → close**, with theatrical stretch on holds for teaching (intentional, not a bug).
+
+### Act snapshot (as of Phase 2b close)
+
+Script size = source lines + dialogue cues (speaker labels). Cumulatives = midpoints from `case.md` door clock.
+
+| Act | Ops window (wall) | Cum from door (mid) | Script size | Teach load | Hold vs critical | Fit |
+| --- | --- | --- | --- | --- | --- | --- |
+| **0** Handoff | ED accept minutes | ~15 min | ~32 lines, ~7 cues | none (story) | Brief prologue | **Good** |
+| **1** Bedside | Block onset∥prep; find ends | ~45→60 min | ~94 lines, ~27 cues | hydrostatic / mud / ECD | **Hold** then find | **Good** — early teach window |
+| **2** Narrowing | Clamp minutes + clear/expose | ~65→~80 | ~173 lines, ~35 cues | shut-in → stenosis / Bernoulli / thrombus | Clamp locked; talk rides exposure | **Dense but OK** |
+| **3** Network | Prepare-ends hold; **no sew** | ~80 | ~63 lines, ~12 cues — **shortest** science act | cavitation + network / continuity | Pure **hold** | **Under-filled vs idle OR** — spare room for cavitation expand |
+| **4** Living pipes | Stays / start sew | ~80→~110 | ~115 lines, ~25 cues | Windkessel / FSI / rheology / hoop | Hold → rising | **Good** |
+| **5** Inverse | Anastomosis + duplex/revise/close | ~110→~130 | ~193 lines, ~34 cues — **longest** | inverse + Darcy + duplex + purse (+ imaging sidebar) | **Critical path** | **Dense and matched** to long sew |
+
+### Conclusion (Phase 2b)
+
+- **No science reorder.** Sync points and hard DAG edges already honored.
+- Act 3 is surgically idle but script-short — prefer **expanding cavitation there** over pulling Act 5 content earlier.
+- Act 5 density matches the longest wall-clock critical window; do not move inverse/duplex off the sew.
+- Chat intensity is gated in `case.md` (Hayes flat at clamp / mid-sew / duplex; Priya idle ≠ seminar).
+
+### If we rewrite later — impact checklist
+
+Before moving or lengthening a teach beat:
+
+1. **Hard DAG edges** (above) — do not reverse parent → child.
+2. **Case syncs** (`case.md`) — especially clamp-before-shut-in; sew-before-inverse; duplex-before-revise/close.
+3. **Intensity phase** (`case.md` Team intensity) — will Hayes be High (lean only) or Med (can carry maps)?
+4. **Lengthening Act 5** — trim `cta_cfd_geometry` / `pc_mri_wall_shear` sidebar first.
+5. **Empty hold on stage** — ops beat / notepad / screen check; not a new lecture; not Elena/Priya science chat.
+6. **Update this snapshot** (line/cue counts and fit notes) if acts grow or shrink materially.
 
 ---
 
 ## Independent clusters (reorder freedom)
 
-These clusters are mostly internally ordered but **weakly coupled** to each other — Phase 2 may slide whole clusters relative to each other if case syncs stay honest:
+These clusters are mostly internally ordered but **weakly coupled** to each other — may slide whole clusters relative to each other if case syncs stay honest (Phase 2b left order as-is):
 
 1. **Well control / hydrostatic** (Act 1) — early; natural on block wait.
 2. **Shut-in / reflection** (Act 2) — locked after clamp.

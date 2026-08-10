@@ -88,6 +88,8 @@ Play time ≠ wall clock. Use these to judge whether an ops beat can carry a lec
 
 **Totals:** door-to-close often ~**1.5–2.5 h** on this pathway; skin-to-skin (knife → close) often ~**1–2 h** if clean/isolated. Cumulatives above use midpoints; real evenings slide.
 
+**Play vs case pacing archive:** [science-arc.md — Pacing (case vs play)](science-arc.md#pacing-case-vs-play) (act teach load vs these windows; rewrite impact checklist).
+
 ---
 
 ## Target timelines (good / better / best)
