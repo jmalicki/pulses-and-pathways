@@ -32,6 +32,14 @@ Among science-literate people (Sarah, Stuart), he **names** shared undergrad phy
 
 **Example register:** “Same rule as undergrad physics — pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. Tight window either side.” Not: “Let me explain Boyle’s law to you…”
 
+**Offstage backstory** (never performed — self-consistency only):
+
+Mid-50s (~54). Lives in a Houston metro suburb (Katy-class) with wife Diane; two kids in their early twenties (college / just out). Neighbor Steve drove him in after the table-saw — see [case.md](case.md) for the hospital path.
+
+All Texas A&M: BS Petroleum Engineering, MS Reservoir Engineering, PhD ABD in computational porous-media / inverse problems. Left ABD when deepwater modeling work pulled him into industry — explains history matching, Darcy grids, ECD sims, cavitation fluency without anyone calling him Doctor. A&M is a top petroleum pipeline school; his “senior” status is late-career principal depth on real assets, not a prestige-PhD brand.
+
+Career sequenced, not simultaneous hitch + ABD desk: post-BS years in drilling / downhole hydraulics / production support with real platform time (water-hammer gasket story, ECD/mud talk, “offshore”). MS → PhD start shifted him into computational reservoir / wellbore modeling. Now principal / senior at a major (or large independent with a GOM deepwater book) — Houston modeling + asset support with peers (“our reservoir modeling team”); rare offshore for a campaign or well test, not a hitch rat. Early Permian/land seasoning possible; he is not a current West Texas derrick hand. Platform scars are earned earlier; modeling is the present tense.
+
 ---
 
 ## Dr. Sarah Hayes
@@ -59,6 +67,14 @@ Among science-literate people (Sarah, Stuart), he **names** shared undergrad phy
 
 **Example register:** “I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.” / “Starting the anastomosis. Stuart — don’t let me purse these bites.”
 
+**Offstage backstory** (never performed — self-consistency only):
+
+Mid-40s (~45). Staff vascular at the local Level II; on call tonight — Okonkwo’s consult → accept → same-campus OR ([case.md](case.md)). Lives in the suburb belt for call response. Partner/kids unspoken unless a crumb earns it.
+
+MD → general surgery → vascular fellowship. Fellowship was craft-heavy (volume; mentor who taught in the wound) — field-first teaching style with Stuart. Med school / residency Texas or in-metro; don’t brand-name unless needed. Same OR with Elena ~6–8 years; regularly takes students on call cases and prefers useful retractors over performative ones.
+
+Secure enough to borrow Mark’s maps without winning physics — translates to vessels and keeps sewing. Knows clinical jet/valve damage (and may know the word cavitation) without owning Mark’s pump picture of vapor → condensation → vanishing punch; that gap is normal. Act 3 land: knew the damage, hadn’t put the vanishing that cleanly.
+
 ---
 
 ## Stuart
@@ -83,6 +99,10 @@ When someone names a shared basic he already had and briefly forgot, react like 
 - Bounce physiology essays off Elena or Priya.
 
 **Example register:** “So you calculate what the wellhead pressure *should* be, and compare it to the actual sensor data?” / [*Quietly*] “So clamping is… trying to get containment back before it’s gone?”
+
+**Offstage backstory** (never performed — self-consistency only):
+
+Stuart Kim (~25–26). M3 on a surgery / vascular-adjacent clerkship — assigned to Hayes’s call tonight, not a VIP invite. Texas med school in-system or nearby is enough; undergrad science-capable but not an engineer. Preclinical physiology still loud (why he quotes the book once, then needs Sarah to push him forward). “Right.” / milk-forgot blank = normal M3, not comic stupidity. Earnest because he wants to be good; stays quiet and useful mid-sew. Elena/Priya keep him functional; they don’t teach him anesthesia. Home/family unspoken.
 
 ---
 
@@ -111,6 +131,10 @@ When someone names a shared basic he already had and briefly forgot, react like 
 - Own the block/MAC board — that is Priya’s.
 
 **Example register:** “Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he’s running a little fast.”
+
+**Offstage backstory** (never performed — self-consistency only):
+
+Elena Reyes (~42). Circulating RN at this Level II ~7 years with Hayes. BSN → floor → OR (CNOR-seasoned); learned to anticipate the next pass, not narrate. “We don’t instrument for sport” is earned habit from watching extras waste time and risk — not a gag. With Hayes: old muscle memory and mutual respect, not a soap-opera friendship. With Priya: ~5+ years in the same rooms; equals; dry ribbing and rare tension-valve lines when the room can breathe. Overhears Mark’s science; never joins. Local; partner/kids unspoken.
 
 ---
 
@@ -145,11 +169,15 @@ When someone names a shared basic he already had and briefly forgot, react like 
 
 **Example register:** “Block’s dense.” / “Pressure’s fine.” / “Tell me if anything turns sharp.” / “I’m giving a little more.”
 
+**Offstage backstory** (never performed — self-consistency only):
+
+Early 30s (~33). CRNA at this Level II; ~5+ years overlapping Elena. Path: RN → ICU or OR seasoning → CRNA program → staff here — chose anesthesia for airway/hemodynamics and awake-patient craft. Prefers one calm factual line for anxious patients over pep talk. Gently protects regional + MAC when someone assumes “just put him out.” Equals with Elena (dry ribbing); professional shorthand with Hayes on density / sedation / unclamp — not a friendship plot. May half-hear the oil talk; never joins. Local; otherwise unspoken.
+
 ---
 
 ## Dr. Amara Okonkwo
 
-**Role:** ED physician. Cameo — handoff only. Ran initial workup / bleed control; hands Mark off to Hayes.
+**Role:** ED physician. Cameo — handoff only. Ran initial workup / bleed control; hands Mark off to Hayes. No Offstage backstory — voice notes below are enough.
 
 **When:** Brief beat at the top of the evening (ED bay or as Hayes arrives). Not in the OR for Acts 2–5.
 

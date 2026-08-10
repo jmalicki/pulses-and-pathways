@@ -29,6 +29,17 @@ See also: [characters.md](characters.md) (voice / relationships) · [science-arc
 
 ---
 
+## Hospital / setting (silent framing)
+
+Writer framing only — never name trauma level, ACS designation, or a real hospital on stage. Enough so the pathway stays self-consistent.
+
+- **Place:** Houston metro suburb (Katy-class). Mark’s garage + neighbor Steve driving him in land here.
+- **Facility:** The **local ED is Level II** (or Level II–equivalent with continuous vascular call). Isolated well-perfused ulnar does not require downtown Level I transfer; Hayes is **on call**, consult/accept → OR **same campus** same night.
+- **Vascular coverage (ACS I/II shape):** Continuous 24/7 vascular expertise via **call schedule** and bedside response — not telemedicine-only, not “we transfer for vascular.” Vascular is almost never sitting in-house 24/7 the way ED often is; Hayes comes in when consulted. Level III would stabilize and transfer — not this story’s path.
+- **Anesthesia:** Available for OR roll-in on the Level I/II timescale — fits Priya for block + MAC.
+
+---
+
 ## Usual operative arc
 
 1. Find the vessel (expose, identify ulnar ends).
