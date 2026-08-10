@@ -8,6 +8,20 @@ Seeded from the Act 1 cast and how they actually speak across Acts 1–5. Where 
 
 **Cast rule:** Core speaking leads are Mark / Hayes / Stuart / Elena. **Priya Nazari** (CRNA) is on stage for the OR as **background**. **Dr. Amara Okonkwo** is **cameo only**. No anonymous “CRNA:” labels in new dialogue.
 
+## Anti–house-AI (kill on sight)
+
+Generic polish that makes everyone sound the same. Cut or rewrite when it shows up:
+
+- Perfect parallel threes; “Let me explain…”; “Great question!”
+- TED warmth; therapy-speak; emoji energy
+- Everyone equally witty or equally profound
+- Staccato orphan profundity as standalone lines
+- Over-clarifying for the audience *inside* dialogue (slides/notes own that job)
+
+Each character has a **Voice DNA** block below — same axes, different settings. Use it to pull a line back into *their* mouth.
+
+**Voice DNA axes:** Register · Music · Accent/region · Humor · Heat (curse / pressure) · Ego · Anti-AI tell (their specific drift) · Sounds like / Never
+
 ---
 
 ## Mark
@@ -17,6 +31,17 @@ Seeded from the Act 1 cast and how they actually speak across Acts 1–5. Where 
 **Voice:** Oil-patch South. Talks slow — partly region, partly secure, nothing to prove. Long easy clauses that unroll like shop talk. Anxious early (Act 1: shallow breath, ceiling-staring, high-pitched ramble while the block settles); settles into chill case-side conversation as the op goes on. Likes science; boredom and worry keep him awake and talking. Oil vocabulary when it is natural (annulus, ECD, choke, shut-in, well knocking, Darcy, history matching) — not as a flex.
 
 Among science-literate people (Sarah, Stuart), he **names** shared undergrad physics as a **shortcut** — ideal gas / Boyle, hydrostatic \(P = \rho g z\), Reynolds — then states the corollary and moves on. He never teaches the undergrad bit; he assumes they had it.
+
+**Voice DNA:**
+
+- **Register:** Informal shop-talk — oil floor and model room, not lecture hall.
+- **Music:** Slow, secure; long easy clauses that unroll. Early anxiety can pitch up and ramble; then settles chill.
+- **Accent / region:** Texas Gulf / oil-patch color in word choice and rhythm. Suggest on the page — **do not** write phonetic dialect.
+- **Humor:** Dry, rare; usually at the *problem*, not at the room. Wry when settled.
+- **Heat:** Mild damn/hell OK when startled or amused; no performance swearing.
+- **Ego:** Secure in oil; openly out of his depth in medicine — curious, not a clown.
+- **Anti-AI tell:** Becomes a charming lecturer, or drops into staccato “Tiny pockets.” profundity. Pull back to long shop clauses.
+- **Sounds like:** A principal engineer talking through a well over coffee. **Never:** A TED explainer or a comic foil quizmaster.
 
 **Do:**
 
@@ -47,6 +72,17 @@ Career sequenced, not simultaneous hitch + ABD desk: post-BS years in drilling /
 **Role:** Vascular surgeon. Running the case; talking over the screen to Mark when she needs his eyes or his calm; teaching Stuart in craft, not sermons.
 
 **Voice:** Calm, competent, field-first. Clinical depth — vessels, clamps, duplex, platelets, Windkessel, Laplace — without Mark’s pump-thermodynamics depth. She can learn sideways from him without being lectured; she answers with what she does in the wound. Softens when she looks over the screen to Mark; flatter and clipped when eyes are on the field or she is placing stitches.
+
+**Voice DNA:**
+
+- **Register:** Clinical / craft — field-first English, not seminar English.
+- **Music:** Short when hands are busy; a beat longer when irrigating, waiting, or looking over the screen. Softens to Mark; flat mid-stitch.
+- **Accent / region:** Professional neutral / light Texas medical — **not** Mark’s oil-patch South.
+- **Humor:** Dry crumbs with Elena in lulls only; almost never jokes for the room.
+- **Heat:** Essentially no cursing on stage; pressure shows as fewer words.
+- **Ego:** Calm authority without swagger; can admit a sideways learn without a self-effacement speech.
+- **Anti-AI tell:** Turns into warm TED mentor or over-empathizes. Keep craft-short.
+- **Sounds like:** A surgeon teaching in the wound. **Never:** A podcast host or life-coach.
 
 **With Elena:** Trusted OR pair. On the critical path she is clipped and task-first (“Elena, saline irrigator.”); Elena answers with hands, not chatter. In holding windows and after a good duplex, they can be **cordial / lightly chummy** — shared dry humor, a soft laugh while trays clear — without turning into sitcom banter. Sarah does not undercut Elena’s lane (e.g. Elena’s “We don’t instrument for sport” stands).
 
@@ -86,6 +122,17 @@ Secure enough to borrow Mark’s maps without winning physics — translates to 
 
 When someone names a shared basic he already had and briefly forgot, react like forgetting milk at the store — a short embarrassed blank, then back in. A mid-speech assent (“Right.” / “Understood.”) as a head nod is enough. Do not interrupt the speaker’s flow or over-explain the embarrassment.
 
+**Voice DNA:**
+
+- **Register:** Careful student English; slightly formal; textbook still loud in his head.
+- **Music:** Quiet asides; questions that trail into thought; short assents. Not loud.
+- **Accent / region:** Unmarked American student.
+- **Humor:** Almost none; earnest, not ironic.
+- **Heat:** No cursing.
+- **Ego:** Lightly self-effacing when blank (“Right.”); wants to be useful, not impressive.
+- **Anti-AI tell:** “Wow that’s amazing!” fanboy or comic foil. Keep wonder small and useful.
+- **Sounds like:** An M3 thinking aloud while holding a retractor. **Never:** A sitcom intern or a second lecturer.
+
 **Do:**
 
 - Let him hold tools and stay useful while he thinks aloud.
@@ -112,6 +159,17 @@ Stuart Kim (~25–26). M3 on a surgery / vascular-adjacent clerkship — assigne
 **Role:** Circulating nurse. IV, instruments, notepad/clipboard for Mark’s sketches, dressings; may glance at the shared vitals monitor or start a cuff cycle. Not the anesthesia provider.
 
 **Voice:** Mostly working. Speaks rarely and in her lane — vitals callouts when useful, instrument passes, and hard limits on unnecessary monitoring. Not a physics lecturer and not a third student.
+
+**Voice DNA:**
+
+- **Register:** Spare circulating English — task and numbers, then stop.
+- **Music:** Economical; flat when busy; a dry beat of warmth only in true lulls.
+- **Accent / region:** Local Houston practical (Reyes). No forced Spanglish unless a future crumb earns it.
+- **Humor:** Dry one-liners with Hayes/Priya in lulls; flat affect — never sitcom.
+- **Heat:** Default clean; rare under-breath mild curse only off critical path.
+- **Ego:** Peer competence; not subordinate-scared, not chatty host.
+- **Anti-AI tell:** Narrates the room like a novel or joins the oil seminar. Stay in-lane.
+- **Sounds like:** An OR nurse who already knows the next pass. **Never:** A narrator or a third science student.
 
 **With Sarah:** Long working relationship, not strangers. Anticipates passes; dry competence reads as trust. When the case is tense or mid-stitch, she is economical — present, not chatty. When things are **not** tense (block wait, irrigation lull, good duplex, closing/trays), she can be warm and lightly chummy with Hayes — a shared look, a dry line, a soft laugh with the team — without becoming a comic sidekick or joining the physics seminar.
 
@@ -148,6 +206,17 @@ Elena Reyes (~42). Circulating RN at this Level II ~7 years with Hayes. BSN → 
 **Staging:** On stage whenever the OR is up, usually **background** — head of table / monitors, not in the light with Hayes–Mark–Stuart. Focus only when a procedural beat needs her (block, vitals blip, sedation). Clinical board (what she monitors): see `case.md`.
 
 **Voice when she speaks:** Elena-quiet procedurally — short, clear, no seminar.
+
+**Voice DNA:**
+
+- **Register:** Soft-precise clinical fragments — block/MAC board, not small talk.
+- **Music:** Calm, short; warmth lives in tone, not pep words.
+- **Accent / region:** Standard American clinical (Nazari); **no** caricature accent.
+- **Humor:** Dry with Elena only; never at Mark.
+- **Heat:** No cursing.
+- **Ego:** Lane-secure; not self-effacing, not chipper.
+- **Anti-AI tell:** Pep talk (“You’ve got this”) or physics curiosity follow-ups. One comfort fact, then quiet.
+- **Sounds like:** A CRNA keeping an awake patient steady. **Never:** A cheerleader or a Darcy student.
 
 **Optional personality well** (catalog even if most nights she has almost no lines — draw from this when a beat wants color):
 
@@ -187,6 +256,17 @@ Early 30s (~33). CRNA at this Level II; ~5+ years overlapping Elena. Path: RN �
 **When:** Brief beat at the top of the evening — **Act 0** (`act_0_ed_handoff.md`). Not in the OR for Acts 1–5.
 
 **Voice:** Terse clinical handoff — mechanism, vitals, what was tried for hemostasis, hand perfusion / pulses, tetanus/antibiotics if relevant. Not a physics interlocutor. Not competing with Hayes for ownership once she accepts.
+
+**Voice DNA:**
+
+- **Register:** Telegraphic ED handoff — checklist speech.
+- **Music:** Clipped; one clean packet, then gone.
+- **Accent / region:** Unmarked professional; no accent bit for the cameo.
+- **Humor:** None in this beat.
+- **Heat:** No cursing; urgency is speed, not volume.
+- **Ego:** Flat ownership until Hayes accepts; then exits clean.
+- **Anti-AI tell:** Bedside-manner paragraph or lingering into the OR story. Keep checklist, then exit.
+- **Sounds like:** A busy ED attending handing off. **Never:** A third science voice or a warm-up act.
 
 **Do:**
 
