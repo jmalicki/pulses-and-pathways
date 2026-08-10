@@ -144,6 +144,9 @@ title_page_md = """
 with open("00_dedication.md", "r") as f:
     dedication = f'<div class="title-page" markdown="1">\n\n{f.read()}\n\n</div>'
 
+with open("act_0_ed_handoff.md", "r") as f:
+    ch0_html = parse_chapter_to_rows(f.read())
+
 with open("act_1_the_bedside_question.md", "r") as f:
     ch1_html = parse_chapter_to_rows(f.read())
 
@@ -163,10 +166,11 @@ with open("index.md", "w") as out:
     out.write("---\nlayout: default\n---\n")
     out.write(title_page_md + "\n\n")
     out.write(dedication + "\n\n<hr>\n\n")
+    out.write(ch0_html + "\n\n<hr>\n\n")
     out.write(ch1_html + "\n\n<hr>\n\n")
     out.write(ch2_html + "\n\n<hr>\n\n")
     out.write(ch3_html + "\n\n<hr>\n\n")
     out.write(ch4_html + "\n\n<hr>\n\n")
     out.write(ch5_html + "\n\n")
 
-print("Built five-act index.md")
+print("Built index.md (Act 0–5)")

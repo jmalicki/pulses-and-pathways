@@ -56,7 +56,7 @@ Writer framing only — never name trauma level, ACS designation, or a real hosp
 
 ## Emergency pathway and block
 
-**Default story:** ED control/pressure → consent → OR.
+**Default story:** ED control/pressure → **Act 0** Okonkwo handoff / Hayes accept / Priya plan → OR (block on table) → Acts 1–5.
 
 **Hayes’s first meet** is often the **ED surgical consult**: examine, decide repair, consent/site, **accept him as her patient**. Short and urgent. “What do you do?” may land there or spill into the OR onset window. Play’s OR-open (“Block’s in… another minute”) is a valid compression of the same relationship.
 
@@ -176,6 +176,7 @@ Everything else — sketch pages, Poiseuille / stenosis chat, network / cavitati
 
 | Script act | File | Ops window |
 | --- | --- | --- |
+| Act 0 — The Handoff | `act_0_ed_handoff.md` | ED bay: Okonkwo handoff, Hayes accept (paged), Priya regional plan; cut to OR. |
 | Act 1 — The Bedside Question | `act_1_the_bedside_question.md` | Block waiting; history; hydrostatic / well sketch; dissect and **find** the ulnar ends. |
 | Act 2 — The Narrowing | `act_2_pressure_and_flow.md` | **Clamp** / proximal control; shut-in & monitoring; clear/expose; stenosis–flow teaching; field pristine before going further. |
 | Act 3 — The Network | `act_3_the_network.md` | Holding / maintenance after control: sponges, irrigation, delicate tissue; network & cavitation talk; no sew yet. |

@@ -179,7 +179,7 @@ Early 30s (~33). CRNA at this Level II; ~5+ years overlapping Elena. Path: RN �
 
 **Role:** ED physician. Cameo — handoff only. Ran initial workup / bleed control; hands Mark off to Hayes. No Offstage backstory — voice notes below are enough.
 
-**When:** Brief beat at the top of the evening (ED bay or as Hayes arrives). Not in the OR for Acts 2–5.
+**When:** Brief beat at the top of the evening — **Act 0** (`act_0_ed_handoff.md`). Not in the OR for Acts 1–5.
 
 **Voice:** Terse clinical handoff — mechanism, vitals, what was tried for hemostasis, hand perfusion / pulses, tetanus/antibiotics if relevant. Not a physics interlocutor. Not competing with Hayes for ownership once she accepts.
 
