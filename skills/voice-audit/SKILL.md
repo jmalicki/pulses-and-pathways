@@ -42,6 +42,9 @@ uv run --project skills/voice-audit voice-audit init-db
 # Noisy candidates; suppresses leave-as-is/fixed/wont-fix via effective marks
 uv run --project skills/voice-audit voice-audit scan act_*.md --hits-only
 uv run --project skills/voice-audit voice-audit scan act_*.md --summary
+uv run --project skills/voice-audit voice-audit scan act_*.md --text
+# CI: --fail-on-hits exits 1 when open hits remain (optional job uses continue-on-error)
+uv run --project skills/voice-audit voice-audit scan act_*.md --text --fail-on-hits
 
 # Record a mark (human or AI). Same key + different users → history; priority wins.
 uv run --project skills/voice-audit voice-audit mark \

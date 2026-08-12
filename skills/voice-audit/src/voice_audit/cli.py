@@ -13,6 +13,33 @@ from voice_audit.normalize import normalize_quote, quote_hash
 from voice_audit.scan import annotate, hits_only, summary
 
 
+def _print_hits_text(hit_docs: list) -> None:
+    """Human-readable open hits for CI logs / terminals."""
+    total = 0
+    for doc in hit_docs:
+        file = doc.get("file", "?")
+        for line in doc.get("lines", []):
+            speaker = line.get("speaker", "?")
+            n = line.get("n", "?")
+            text = line.get("text", "")
+            for hit in line.get("heuristics", []):
+                total += 1
+                hid = hit.get("id", "?")
+                note = hit.get("note", "")
+                print(f"--- hit {total} ---")
+                print(f"file:      {file}:{n}")
+                print(f"speaker:   {speaker}")
+                print(f"heuristic: {hid}")
+                if note:
+                    print(f"note:      {note}")
+                print(f"quote:     {text}")
+                print()
+    if total == 0:
+        print("No open voice-audit hits.")
+    else:
+        print(f"Total open hits: {total}")
+
+
 def _repo_root(args: argparse.Namespace) -> Path:
     return args.repo_root.resolve() if args.repo_root else Path.cwd()
 
@@ -67,15 +94,26 @@ def cmd_scan(args: argparse.Namespace) -> int:
         docs = extract_paths(paths, repo_root=root, by_speaker=args.by_speaker)
 
     annotate(docs, effective=effective, include_suppressed=args.include_suppressed)
-    out = hits_only(docs) if args.hits_only else docs
+    hit_docs = hits_only(docs)
+    stats = summary(hit_docs)
+    out = hit_docs if args.hits_only else docs
 
     if args.summary:
-        json.dump(summary(out if args.hits_only else docs), sys.stdout, indent=2)
+        json.dump(stats, sys.stdout, indent=2)
         sys.stdout.write("\n")
+    elif args.text:
+        _print_hits_text(hit_docs)
     else:
         json.dump(out, sys.stdout, indent=2, ensure_ascii=False)
         sys.stdout.write("\n")
+    sys.stdout.flush()
     conn.close()
+    if args.fail_on_hits and stats.get("total_hits", 0) > 0:
+        print(
+            f"voice-audit: {stats['total_hits']} open hit(s) (see above)",
+            file=sys.stderr,
+        )
+        return 1
     return 0
 
 
@@ -217,6 +255,16 @@ def build_parser() -> argparse.ArgumentParser:
     sc.add_argument("--by-speaker", metavar="KEY")
     sc.add_argument("--hits-only", action="store_true")
     sc.add_argument("--summary", action="store_true", help="Counts only")
+    sc.add_argument(
+        "--text",
+        action="store_true",
+        help="Print open hits as plain text (good for CI logs)",
+    )
+    sc.add_argument(
+        "--fail-on-hits",
+        action="store_true",
+        help="Exit 1 when open hits remain (after mark suppression)",
+    )
     sc.add_argument(
         "--ignore-marks",
         action="store_true",

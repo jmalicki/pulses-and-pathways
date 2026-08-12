@@ -14,3 +14,23 @@ jobs:
           node-version: 20
       - run: npx -y markdownlint-cli "**/*.md"
       - run: npx -y svglint "**/*.svg"
+
+  # Optional: job may go red on open scanner hits; workflow stays green.
+  voice-audit:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Voice audit scan (open hits)
+        run: |
+          set -euo pipefail
+          echo "=== voice-audit summary ==="
+          uv run --project skills/voice-audit voice-audit scan act_*.md --summary
+          echo
+          echo "=== voice-audit open hits (readable) ==="
+          # Plain text stays visible in the job log (not inside a collapsed group).
+          # --fail-on-hits makes this step/job red; continue-on-error keeps the workflow green.
+          uv run --project skills/voice-audit voice-audit scan act_*.md --text --fail-on-hits
