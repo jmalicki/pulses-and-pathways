@@ -1,12 +1,20 @@
 name: Deploy Pages
 
+# Stable (tagged):  https://jmalicki.github.io/pulses-and-pathways/
+# Tip of main:      https://jmalicki.github.io/pulses-and-pathways/main/
+#
+# Every push updates /main/. Tags also refresh site root.
+# A gh-pages branch mirrors the last publish so non-tag pushes keep the prior stable root.
+# Bootstrap: if root has no index.html yet, seed it from the current build.
+
 on:
   push:
     branches: ["main"]
+    tags: ["v*"]
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,15 +28,96 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve version stamp
+        id: ver
+        run: |
+          set -euo pipefail
+          REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+          if TAG=$(git describe --exact-match HEAD 2>/dev/null); then
+            echo "version=${TAG}" >> "$GITHUB_OUTPUT"
+            echo "version_url=${REPO_URL}/releases/tag/${TAG}" >> "$GITHUB_OUTPUT"
+          else
+            VERSION=$(git describe --always --tags)
+            SHA=$(git rev-parse HEAD)
+            echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+            echo "version_url=${REPO_URL}/commit/${SHA}" >> "$GITHUB_OUTPUT"
+          fi
+          if [[ "${{ github.ref }}" == refs/tags/v* ]]; then
+            echo "is_tag=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "is_tag=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Inject version into Jekyll config
+        run: |
+          {
+            echo ""
+            echo "version: \"${{ steps.ver.outputs.version }}\""
+            echo "version_url: \"${{ steps.ver.outputs.version_url }}\""
+          } >> _config.yml
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
+
+      - name: Assemble publish tree
+        run: |
+          set -euo pipefail
+          mkdir -p publish
+
+          # Restore previous publish (keeps stable root across tip-only deploys)
+          if git fetch origin gh-pages:gh-pages 2>/dev/null; then
+            git archive gh-pages | tar -x -C publish
+          fi
+
+          # Always refresh tip-of-main
+          rm -rf publish/main
+          mkdir -p publish/main
+          cp -a _site/. publish/main/
+
+          update_root=false
+          if [[ "${{ steps.ver.outputs.is_tag }}" == "true" ]]; then
+            update_root=true
+          elif [[ ! -f publish/index.html ]]; then
+            # First dual-deploy bootstrap: seed stable from current build
+            update_root=true
+          fi
+
+          if [[ "$update_root" == "true" ]]; then
+            # Copy root site files without clobbering /main/
+            rsync -a --delete --exclude main/ _site/ publish/
+            # rsync --delete with exclude can leave main/; re-ensure tip is current
+            rm -rf publish/main
+            mkdir -p publish/main
+            cp -a _site/. publish/main/
+          fi
+
+          # No Jekyll on the published artifact
+          touch publish/.nojekyll
+          touch publish/main/.nojekyll
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: publish
+
+      - name: Mirror publish tree to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          force_orphan: true
+          user_name: github-pages[bot]
+          user_email: github-pages[bot]@users.noreply.github.com
+
   deploy:
     environment:
       name: github-pages

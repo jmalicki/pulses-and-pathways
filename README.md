@@ -21,5 +21,14 @@ A 4-part medical and engineering play script exploring the underlying analogies 
 
 Please see the [Dedication](00_dedication.md).
 
+### Deployed site
+
+- **Stable (latest tag):** [jmalicki.github.io/pulses-and-pathways](https://jmalicki.github.io/pulses-and-pathways/)
+- **Tip of `main`:** [jmalicki.github.io/pulses-and-pathways/main](https://jmalicki.github.io/pulses-and-pathways/main/)
+
+CI (`.github/workflows/deploy.yml`) rebuilds `/main/` on every push. Tagged releases (`v*`) also refresh the site root. The footer shows the tag when HEAD is tagged, otherwise `git describe`.
+
+Pages must publish from **GitHub Actions** (not the legacy branch source).
+
 ---
 *Generated with the aid of Google Gemini.*

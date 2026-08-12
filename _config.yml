@@ -1,1 +1,7 @@
 theme: null
+# Overridden in CI deploy (tag, or git describe). Local default:
+version: "dev"
+version_url: ""
+# Overridden in CI (_config_ci.yml). Local builds show this placeholder.
+version: "dev"
+version_url: ""

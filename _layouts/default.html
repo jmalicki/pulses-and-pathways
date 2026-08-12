@@ -170,12 +170,37 @@
         gap: 2rem;
       }
     }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     {{ content }}
   </div>
+  {% if site.version and site.version != "" %}
+  <p class="site-version">
+    {% if site.version_url and site.version_url != "" %}
+    <a href="{{ site.version_url }}">{{ site.version }}</a>
+    {% else %}
+    {{ site.version }}
+    {% endif %}
+  </p>
+  {% endif %}
   <script>
     MathJax = {
       tex: {
