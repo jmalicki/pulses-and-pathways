@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 720" width="100%" height="100%">
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e3d59" />
+    </marker>
+    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3" />
+
+  <!-- Title -->
+  <text x="28" y="34" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#1c1c1c">Fig. 9 — Transient Pulsatile Flow &amp; Windkessel Compliance</text>
+
+  <!-- SECTION 1: WINDKESSEL -->
+  <text x="28" y="62" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Windkessel R-C Circuit Model</text>
+
+  <!-- Circuit strictly below Windkessel; Q(t) left-justified -->
+  <g transform="translate(28, 90)">
+    <text x="0" y="48" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#1e3d59">Q(t)</text>
+    <text x="0" y="66" font-family="Georgia, serif" font-size="13" fill="#1e3d59">(Inflow)</text>
+
+    <path d="M 58 44 L 94 44" stroke="#1e3d59" stroke-width="2.5" marker-end="url(#arrow-blue)" />
+
+    <line x1="94" y1="44" x2="170" y2="44" stroke="#1e3d59" stroke-width="2.5" />
+    <circle cx="170" cy="44" r="3.5" fill="#1e3d59" />
+    <text x="162" y="30" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#1e3d59">P(t)</text>
+
+    <!-- Capacitor -->
+    <line x1="170" y1="44" x2="170" y2="82" stroke="#1e3d59" stroke-width="2.5" />
+    <line x1="148" y1="82" x2="192" y2="82" stroke="#1e3d59" stroke-width="3.5" />
+    <line x1="148" y1="92" x2="192" y2="92" stroke="#1e3d59" stroke-width="3.5" />
+    <line x1="170" y1="92" x2="170" y2="130" stroke="#1e3d59" stroke-width="2.5" />
+    <text x="200" y="92" font-family="Georgia, serif" font-size="17" font-style="italic" fill="#1e3d59">C</text>
+    <text x="200" y="110" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">(Compliance)</text>
+
+    <!-- Resistor -->
+    <line x1="170" y1="44" x2="220" y2="44" stroke="#1e3d59" stroke-width="2.5" />
+    <path d="M 220 44
+             L 226 32
+             L 238 56
+             L 250 32
+             L 262 56
+             L 274 32
+             L 286 56
+             L 298 32
+             L 304 44"
+          fill="none" stroke="#1e3d59" stroke-width="2.5" stroke-linejoin="round" />
+    <text x="240" y="24" font-family="Georgia, serif" font-size="17" font-style="italic" fill="#1e3d59">R</text>
+    <text x="222" y="12" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">(Resistance)</text>
+    <line x1="304" y1="44" x2="360" y2="44" stroke="#1e3d59" stroke-width="2.5" />
+    <line x1="360" y1="44" x2="360" y2="130" stroke="#1e3d59" stroke-width="2.5" />
+
+    <line x1="170" y1="130" x2="360" y2="130" stroke="#1e3d59" stroke-width="2.5" />
+    <line x1="265" y1="130" x2="265" y2="148" stroke="#1e3d59" stroke-width="2.5" />
+    <line x1="247" y1="148" x2="283" y2="148" stroke="#1e3d59" stroke-width="2.5" />
+    <line x1="253" y1="155" x2="277" y2="155" stroke="#1e3d59" stroke-width="1.8" />
+    <line x1="259" y1="162" x2="271" y2="162" stroke="#1e3d59" stroke-width="1.2" />
+  </g>
+
+  <!-- Description below circuit -->
+  <g transform="translate(28, 272)">
+    <rect x="0" y="0" width="464" height="98" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="4" />
+    <text x="14" y="26" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Description:</text>
+    <text x="14" y="48" font-family="Georgia, serif" font-size="14" fill="#3a3a3a">The Windkessel model demonstrates how arterial compliance (C)</text>
+    <text x="14" y="68" font-family="Georgia, serif" font-size="14" fill="#3a3a3a">dampens pulsatile flow. A stiff, calcified vessel causes</text>
+    <text x="14" y="88" font-family="Georgia, serif" font-size="14" fill="#3a3a3a">massive pressure spikes.</text>
+  </g>
+
+  <!-- SECTION 2: WAVEFORM — horizontally compressed -->
+  <g transform="translate(0, 380)">
+    <text x="28" y="28" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Arterial Pressure Waveform Over Time</text>
+
+    <!-- Plot group: squish x ~0.78 from left axis at 68 -->
+    <g transform="translate(68, 0) scale(0.78, 1) translate(-68, 0)">
+      <line x1="68" y1="220" x2="520" y2="220" stroke="#1c1c1c" stroke-width="1.8" marker-end="url(#arrow-charcoal)" />
+      <line x1="68" y1="42" x2="68" y2="220" stroke="#1c1c1c" stroke-width="1.8" marker-end="url(#arrow-charcoal)" />
+
+      <line x1="63" y1="182" x2="68" y2="182" stroke="#1c1c1c" stroke-width="1.2" />
+      <line x1="63" y1="154" x2="68" y2="154" stroke="#1c1c1c" stroke-width="1.2" />
+      <line x1="63" y1="106" x2="68" y2="106" stroke="#1c1c1c" stroke-width="1.2" />
+      <line x1="63" y1="52" x2="68" y2="52" stroke="#1c1c1c" stroke-width="1.2" />
+
+      <!-- Curve A -->
+      <path d="M 88 154
+               C 100 154, 116 106, 128 106
+               C 140 106, 156 140, 164 140
+               C 166 140, 170 136, 172 135
+               C 176 134, 182 138, 188 142
+               C 204 150, 220 154, 232 154
+               C 244 154, 260 106, 272 106
+               C 284 106, 300 140, 308 140
+               C 310 140, 314 136, 316 135
+               C 320 134, 326 138, 332 142
+               C 348 150, 364 154, 376 154
+               C 388 154, 404 106, 416 106
+               C 428 106, 444 140, 452 140
+               C 454 140, 458 136, 460 135
+               C 464 134, 470 138, 476 142
+               C 488 150, 500 154, 510 154"
+            fill="none" stroke="#3a3a3a" stroke-width="3.2" />
+
+      <!-- Curve B -->
+      <path d="M 88 182
+               L 112 52
+               L 140 168
+               C 164 180, 204 182, 232 182
+               L 256 52
+               L 284 168
+               C 308 180, 348 182, 376 182
+               L 400 52
+               L 428 168
+               C 452 180, 484 182, 510 182"
+            fill="none" stroke="#1e3d59" stroke-width="2.4" stroke-dasharray="6,3" />
+
+      <line x1="68" y1="154" x2="510" y2="154" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+      <line x1="68" y1="106" x2="510" y2="106" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+
+      <path d="M 176 135 L 188 128" stroke="#3a3a3a" stroke-width="1" />
+      <text x="192" y="126" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#3a3a3a">dicrotic notch</text>
+
+      <text x="460" y="210" font-family="Georgia, serif" font-size="14" fill="#1c1c1c" text-anchor="middle">Time <tspan font-style="italic">t</tspan></text>
+    </g>
+
+    <!-- Axis labels outside the x-scale so they stay readable -->
+    <text x="30" y="132" font-family="Georgia, serif" font-size="14" fill="#1c1c1c" transform="rotate(-90 30 132)" text-anchor="middle">Pressure <tspan font-style="italic">P(t)</tspan></text>
+    <text x="48" y="186" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">60</text>
+    <text x="48" y="158" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">80</text>
+    <text x="42" y="110" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">120</text>
+    <text x="42" y="56" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">170</text>
+
+    <!-- Legend stacked under plot -->
+    <line x1="80" y1="248" x2="112" y2="248" stroke="#3a3a3a" stroke-width="3.2" />
+    <text x="120" y="252" font-family="Georgia, serif" font-size="13" fill="#3a3a3a">Curve A: Healthy (High Compliance)</text>
+    <line x1="80" y1="272" x2="112" y2="272" stroke="#1e3d59" stroke-width="2.4" stroke-dasharray="6,3" />
+    <text x="120" y="276" font-family="Georgia, serif" font-size="13" fill="#1e3d59">Curve B: Calcified (Low Compliance)</text>
+  </g>
+
+  <!-- Equation -->
+  <g transform="translate(28, 670)">
+    <rect x="0" y="0" width="464" height="40" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
+    <text x="12" y="26" font-family="Georgia, Times New Roman, serif" font-size="13" fill="#1c1c1c">
+      Flow (<tspan font-style="italic">Q</tspan>) = <tspan font-style="italic">P</tspan>/<tspan font-style="italic">R</tspan> + <tspan font-style="italic">C</tspan> × d<tspan font-style="italic">P</tspan>/d<tspan font-style="italic">t</tspan>
+    </text>
+  </g>
+</svg>

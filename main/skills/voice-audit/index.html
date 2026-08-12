@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="voice-audit-tooling-uv">Voice audit tooling (UV)</h1>
+
+<p>Python package for extract → noisy heuristic scan → SQLite marks (priority override).</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>skills/voice-audit
+uv <span class="nb">sync
+</span>uv run voice-audit <span class="nt">--help</span>
+uv run ruff check src tests
+uv run ruff format src tests
+</code></pre></div></div>
+
+<p>From repo root:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uv run <span class="nt">--project</span> skills/voice-audit voice-audit scan act_<span class="k">*</span>.md
+</code></pre></div></div>
+
+<p>SQLite DB defaults to <code class="language-plaintext highlighter-rouge">data/marks.sqlite</code> (tracked in git). See <code class="language-plaintext highlighter-rouge">SKILL.md</code> for the agent workflow.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

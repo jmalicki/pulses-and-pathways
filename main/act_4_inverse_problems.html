@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="act-5-inverse-problems">Act 5: Inverse Problems</h1>
+
+<p><strong>DR. SARAH HAYES</strong>
+Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.</p>
+
+<p>[<em>Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Eyes on the vessel, voice flat</em>]
+Starting the anastomosis. Stuart—don’t let me purse these bites. We narrow this lumen, resistance climbs. Hard.</p>
+
+<p>[<em>She places the first stitch. A beat. She looks over the screen to Mark—softer.</em>]</p>
+
+<p>Mark—I’m sewing the artery back together now. You won’t feel it. When we’re done we’ll check the flow with duplex Doppler—probe and screen. Until then I’m watching the wall, not blood moving through it.</p>
+
+<p><strong>MARK</strong>
+[<em>Eyes on the ceiling lights, free fingers twitching against the drape</em>]
+I can’t see any of that. Arm’s just… blank. You’re sewing it without watching the flow?</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Already back to the field</em>]
+The join, yes. The flow comes after.</p>
+
+<p><strong>MARK</strong>
+[<em>A thin breath</em>]
+Then we’re the same. I never see inside the reservoir either. That’s my entire job—working from the outside.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Still not looking up, looping the fine suture with steady precision</em>]
+How so?</p>
+
+<p><strong>MARK</strong>
+[<em>Nervously twitching his fingers, his eyes tracking the surgical light</em>]
+Well, we can’t actually go down into the reservoir. It’s two miles beneath the seabed. We have no eyes down there. We can’t see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation: how much fluid a pressure gradient can push through the rock against viscosity. Same idea as resistance in a pipe, except the “pipe” is a tangled pore network—what we call Darcy’s law.</p>
+
+<p><img src="/pulses-and-pathways/07_darcys_law.svg" alt="Darcy's Law" /></p>
+
+<p><strong>STUART</strong>
+[<em>Gently retracting the wound edge, squinting under the bright overhead light</em>]
+So you calculate what the wellhead pressure <em>should</em> be, and compare it to the actual sensor data?</p>
+
+<p><strong>MARK</strong>
+[<em>Tapping his fingers as much as the sterile drapes allow</em>]
+Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down what they actually see over time. The calculation is the hard part: we guess a permeability map, run Darcy’s law forward through every grid cell, and the model tells us what the wellhead pressure <em>ought</em> to be. Then we keep adjusting those guesses until the calculated pressure tracks the transducer record.</p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Measurement vs Calculation (History Matching)</strong>
+<strong>Measurement</strong> $P_{\mathrm{obs}}(t)$: wellhead pressure from the transducers
+<strong>Calculation</strong> $P_{\mathrm{calc}}(t)$: wellhead pressure predicted by the Darcy forward model
+$J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$
+Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.</p>
+</blockquote>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Taking scissors from Elena to cut the suture end; then looks over the screen to Mark</em>]
+We do something close, Mark. Outside measurements. We can’t open every vessel just to check flow or resistance. Duplex ultrasound—image plus spectral Doppler. Non-invasive diagnostics.</p>
+
+<p><strong>STUART</strong>
+[<em>Nodding eagerly</em>]
+Right. The duplex probe measures the frequency shift of the sound waves bouncing off the moving red blood cells. Velocity shows up on the spectral display. From that peak velocity we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.</p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Simplified Bernoulli Equation (Clinical)</strong>
+$\Delta P \approx 4v^2$
+A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.
+Other outside maps (when needed, not tonight): CT angiography for lumen geometry; phase-contrast MRI for velocity fields without contrast.</p>
+</blockquote>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark, softer</em>]
+Let’s hope my physical model matches the math.</p>
+
+<p>[<em>She places the final micro-suture. Voice flat again, to the table.</em>]</p>
+
+<p>Elena, saline irrigator.</p>
+
+<p>[<em>Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+Ready to restore flow. Stuart, get the suction ready. Elena, micro-forceps.</p>
+
+<p>[<em>Dr. Hayes positions her fingers over the clamps. She releases the far clamp first, letting blood flush back through the repair, then releases the near clamp.</em>]</p>
+
+<p><strong>STUART</strong>
+[<em>Leaning forward, his breath catching</em>]
+The vessel is filling…</p>
+
+<p>[<em>The repaired artery begins to swell, its walls pulsing in time with Mark’s heartbeat.</em>]</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>
+Anastomosis is patent. No suture line bleeding. Stuart, roll up the duplex.</p>
+
+<p>[<em>Stuart brings the sterile probe and the small screen to the field. Dr. Hayes gels the tip, seats it on the pulsing artery, glances at the display—then thumbs the speaker on.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+Speaker on. I still like hearing it. You watch the screen.</p>
+
+<p><img src="/pulses-and-pathways/09a_doppler_stenotic.svg" alt="Duplex — First Check" /></p>
+
+<p>[<em>A harsh, high-pitched rasp fills the room—wrong. On the screen the spectrum spikes tall and ugly.</em>]</p>
+
+<p><strong>STUART</strong>
+[<em>Smile gone</em>]
+That’s not triphasic. Peak velocity’s through the roof.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Voice flat</em>]
+Pursed. Clamp back on. We’re revising.</p>
+
+<p>[<em>Elena and Stuart go still. Dr. Hayes re-clamps, cuts out the cinching bite, and replaces it—quiet, fast, no teaching.</em>]</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>
+Unclamp. Duplex again.</p>
+
+<p><img src="/pulses-and-pathways/09b_doppler_triphasic.svg" alt="Duplex — Second Check" /></p>
+
+<p>[<em>Speaker still on: a clean rhythmic WHOOSH-chhh, WHOOSH-chhh. On the screen the spectrum opens into a clean triphasic trace.</em>]</p>
+
+<p><strong>STUART</strong>
+[<em>Breathing out</em>]
+Strong triphasic. Peak’s back down.</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Handing the probe back</em>]
+That first join had cinched a little throat. Leave a throat like that and it clots—or it fails downstream. So we cut it and put it back open.</p>
+
+<p><img src="/pulses-and-pathways/09c_pursed_vs_open.svg" alt="Pursed vs Revised" /></p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Duplex spectral Doppler</strong>
+<strong>Triphasic</strong> (good): sharp systolic forward peak, brief early-diastolic reverse, low late-diastolic forward — open runoff.
+<strong>Stenotic / pursed</strong> (bad): high peak velocity through the throat and loss of the normal triphasic shape — same idea as Act 2: velocity up at a restriction, pressure drop by simplified Bernoulli $\Delta P \approx 4v^2$.</p>
+</blockquote>
+
+<p><strong>MARK</strong>
+[<em>Quiet, then</em>]
+Oh—like a choke. You’d never leave a bean that tight in a flowline. Same throat.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>A short nod</em>]
+Same physics.</p>
+
+<p><strong>MARK</strong>
+Difference is you can open the pipe and sew it again. I get a bad gauge signature two miles down and I don’t get to climb in with a needle.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Almost a smile</em>]
+Lucky me.</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>
+Elena, let’s close. We’ll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.</p>
+
+<p><img src="/pulses-and-pathways/closure_sketch_1786259427073.jpg" alt="Closure Sketch" /></p>
+
+<p>[<em>Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark’s arm.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark, gloves still on</em>]
+All done, Mark. Joined and sealed—no leaks.</p>
+
+<p><strong>MARK</strong>
+[<em>Sighing with relief, his shoulders finally relaxing on the table</em>]
+Thanks, Doc. I have to say, the pressure drop in my arm was a lot easier to fix than a pressure leak in a deepwater well. We don’t have the luxury of putting sutures on a reservoir two miles down.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Pulling off her surgical gloves with a sharp snap; looks over the screen to Mark</em>]
+I’ve got living wall to sew. You don’t get that two miles down.</p>
+
+<p><strong>MARK</strong>
+[<em>Dryly</em>]
+Yeah. Tell that to the modeling team next time the history match won’t close.</p>
+
+<p>[<em>Elena begins clearing the surgical trays.</em>]</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

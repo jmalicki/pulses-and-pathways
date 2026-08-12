@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title-page">
+
+  <h1 id="pulses-and-pathways">Pulses and Pathways</h1>
+
+  <h2 id="a-vascular-surgeon-meets-a-petroleum-engineer">a Vascular Surgeon meets a Petroleum Engineer</h2>
+
+  <div class="preferred-presentation">
+  Preferred Presentation: This play is designed to be experienced with the script on center stage, and educational technical slides projected to the right.
+</div>
+
+  <p><img src="/pulses-and-pathways/title_page_sketch_1786259325961.jpg" alt="Title Page" /></p>
+
+</div>
+
+<div class="title-page">
+
+  <h1 id="dedication">Dedication</h1>
+
+  <p>This project is dedicated to the Reddit user <a href="https://www.reddit.com/user/enquicity/">enquicity</a>, whose brief recount of their surgery inspired this entire story.</p>
+
+  <p><em>A special note from the author: I used Google Gemini to teach me in depth about both petroleum engineering and vascular surgery concepts so I could learn exactly how they’re related, as I initially had only a shallow understanding of each—just enough to know there were underlying analogies waiting to be uncovered.</em></p>
+
+</div>
+
+<hr />
+
+<h1 id="act-0-the-handoff">Act 0: The Handoff</h1>
+
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>Characters:</strong></p>
+
+      <ul>
+        <li><strong>DR. AMARA OKONKWO</strong>: ED physician. Cameo — handoff only.</li>
+        <li><strong>DR. SARAH HAYES</strong>: Vascular surgeon. On call; just arrived.</li>
+        <li><strong>MARK</strong>: Patient. Forearm pressure dressing; awake, anxious.</li>
+        <li><strong>PRIYA NAZARI</strong>: CRNA. Brief plan line; will meet them in the OR.</li>
+      </ul>
+
+    </div>
+</play-text>
+<projections>
+</projections>
+</stage-row>
+<hr />
+<stage-row>
+<play-text>
+<div>
+
+      <p>[<em>Scene Setting: ED bay, evening. MARK sits on a stretcher, left forearm wrapped under steady pressure. Monitor leads on; the room is bright and busy beyond the curtain. DR. OKONKWO stands at the foot of the bed with a chart. DR. SARAH HAYES enters still in street clothes under a white coat — paged in — badge clipped, not scrubbed. PRIYA is at the bedside machine, checking the cuff cycle.</em>]</p>
+
+      <p><strong>DR. AMARA OKONKWO</strong>: [<em>To Hayes, clipped</em>] Table-saw, mid-forearm, ulnar territory. Pressure’s held since arrival. Hand pink, radial Doppler intact. Tetanus updated; antibiotics started. He’s yours.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>A short nod; to Mark, softer</em>] Mark? I’m Dr. Hayes — vascular. I’m going to look, and then we’ll talk about fixing it tonight.</p>
+
+      <p>[<em>She examines the hand and the dressing edges — brief, clinical — then looks back to Okonkwo.</em>]</p>
+
+      <p>We’ll take him. Thank you.</p>
+
+      <p><strong>DR. AMARA OKONKWO</strong>: [<em>Already turning</em>] Good. He’s yours.</p>
+
+      <p>[<em>She exits. The bay noise dips for a beat.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>To Mark</em>] Isolated vessel, hand still getting blood the other way. We’ll repair the ulnar in the OR this evening.</p>
+
+      <p><strong>PRIYA</strong>: [<em>Calm, factual; to Mark and Hayes</em>] Regional block and MAC — he’ll stay awake. I’ll place it on the table; meet you upstairs.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>A nod</em>] Good. Let’s roll.</p>
+
+    </div>
+</play-text>
+<projections>
+</projections>
+</stage-row>
+
+<hr />
+
+<h1 id="act-1-the-bedside-question">Act 1: The Bedside Question</h1>
+
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>Characters:</strong></p>
+
+      <ul>
+        <li><strong>DR. SARAH HAYES</strong>: Vascular Surgeon. Calm, experienced, and observant.</li>
+        <li><strong>MARK</strong>: Patient. Anxious oil engineer, awake, arm numb from regional anesthesia.</li>
+        <li><strong>STUART</strong>: Third-year medical student, observing the surgery.</li>
+        <li><strong>ELENA</strong>: Circulating nurse, managing IV and instruments; may call numbers from the shared vitals monitor.</li>
+        <li><strong>PRIYA NAZARI</strong>: CRNA. At the head of the table (block / MAC); usually background.</li>
+      </ul>
+
+    </div>
+</play-text>
+<projections>
+</projections>
+</stage-row>
+<hr />
+<stage-row>
+<play-text>
+<div>
+
+      <p>[<em>Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. A regional block has just been placed; they are waiting for it to set before going deeper. STUART stands beside her, observing. ELENA stands near the shared vitals monitor, adjusting the IV line. PRIYA is at the head of the table with the anesthesia machine — present, not in the light.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Glancing at the clock, then over the screen to Mark</em>] Block’s in. We’ll give it another minute before I go further. Okonkwo briefed me downstairs, but I want to hear it from you. While we wait—tell me what happened to your arm.</p>
+
+      <p><strong>MARK</strong>: [<em>Staring at the ceiling, swallowing</em>] I was in the garage, using the table saw to make a cabinet with sliding glass doors. The glass was a quarter-inch thick, so I put in a quarter-inch dado set—two blades together, wide enough to cut the groove in one pass. The groove didn’t go through the board. The regular guard rides on a metal fin behind the blade, and that fin had nowhere to pass, so I took the assembly off. Just for that cut. I had the wood against the guide and was using a block to push it through. It twisted; the blade threw it back. My left hand slipped, and when I jerked away, the underside of my forearm caught the cutter. I pressed the first shop rag I could reach over it and ran next door to Steve’s. He drove me in.</p>
+
+      <p><strong>STUART</strong>: [<em>Quiet, almost to himself</em>] Mid-forearm… ulnar artery territory.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>A short nod</em>] We’ll see when we’re in. Elena, saline ready when I ask for it.</p>
+
+      <p>[<em>She looks over the screen to Mark.</em>]</p>
+
+      <p>Mark—before I go further. I’m going to press here. Tell me: sharp, or just pressure?</p>
+
+      <p>[<em>A firm press on the forearm below the field.</em>]</p>
+
+      <p><strong>MARK</strong>: [<em>Knuckles white on the table edge</em>] Not sharp. Just… weird. Like someone’s rooting around in a kitchen drawer, but the drawer is my wrist.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>A small nod; back to the field</em>] Good. That’s what we want. The numbing’s holding—you can feel pressure and movement, but cutting pain shouldn’t get through. If anything turns sharp, say so.</p>
+
+      <p><strong>ELENA</strong>: [<em>Checking the vitals monitor</em>] Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he’s running a little fast.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Looks over the screen to Mark</em>] Completely normal under the circumstances. So, what is it you do, Mark?</p>
+
+      <p><strong>MARK</strong>: [<em>Taking a shallow, rapid breath</em>] I’m an oil engineer. Reservoir and downhole hydraulics, offshore. Mostly keeping fluid columns from collapsing the rock or blowing out the top—wellbore stability, hydrostatic balance, transient pressure modeling. Math that has to work on a real well.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/accident_sketch.png" alt="Accident Sketch" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Gently irrigating the wound with saline</em>] Hydrostatic balance. How does that work when you’re drilling thousands of feet down?</p>
+
+      <p><strong>MARK</strong>: [<em>Rambling quickly, his voice high-pitched</em>] It’s all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don’t counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus…</p>
+
+      <p><strong>STUART</strong>: [<em>Frowning behind his mask</em>] The annulus? Like the mitral valve annulus?</p>
+
+      <p><strong>MARK</strong>: Mitral—? I don’t know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It’s the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.</p>
+
+      <p><strong>STUART</strong>: [<em>Leaning closer to the wound</em>] So the mud just sits there?</p>
+
+      <p><strong>MARK</strong>: [<em>Shaking his head, staring at the ceiling</em>] No, it’s constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don’t control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it’s too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It’s a very tight window.</p>
+
+    </div>
+</play-text>
+<projections>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Using a suction tip to clear the surgical field</em>] And how do you model the flow along the well? If it’s circulating, it’s not static anymore.</p>
+
+      <p><strong>MARK</strong>: [<em>Wiggling his uninjured right hand</em>] Right. Once it’s moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. Hard to talk through without a sketch. If I don’t draw, I just keep thinking about what you’re doing over there.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <div class="note-alert">
+<p><strong>Hydrostatic Pressure</strong></p>
+<div class="note-math">$$P_h = \rho g z$$</div>
+<p>Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Chuckles</em>] Stuart, let’s help him out. Is there a sterile marker and a clean drape packet backing?</p>
+
+      <p><strong>STUART</strong>: [<em>Retrieves a sterile skin marker and grabs a clean, stiff paper backing from a drape pack, holding it up in front of Mark’s face</em>] Here you go, Mark. Draw it out. I’ll hold it steady for you.</p>
+
+      <p><strong>MARK</strong>: [<em>Takes the marker with his right hand and begins sketching rapidly on the paper backing, his hand trembling slightly but drawing clean, precise lines. He draws a concentric pipe diagram with arrows indicating flow direction</em>] Okay, look. This is how we visualize the system.</p>
+
+      <p><strong>MARK</strong>: [<em>Pointing with the marker</em>] Here’s the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It’s not like water. It’s basically a clay slurry. It won’t even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/01_the_well.svg" alt="The Well" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row class="projections-end">
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Carefully dissecting around the ulnar artery</em>] So it doesn’t move like water in a hose.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/exposure_sketch.png" alt="Exposure Sketch" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>MARK</strong>: [<em>Nodding nervously</em>] Right. It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.</p>
+
+      <p><strong>STUART</strong>: [<em>Holding the retractor, eyes wide</em>] So the pressure is higher when you’re pumping?</p>
+
+      <p><strong>MARK</strong>: [<em>Sweat beads forming on his forehead</em>] Much higher. We call it the Equivalent Circulating Density, or ECD. It’s the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We run computer simulations on it, breaking the whole well down into chunks. You can’t just calculate it on paper because the mud gets compressed and heated the deeper it goes, changing how it flows at every single foot.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>: [<em>Locating the lacerated vessel, her movements precise</em>] There. Ulnar artery. Torn—but the ends look clean enough to work with.</p>
+
+    </div>
+</play-text>
+<projections>
+</projections>
+</stage-row>
+
+<hr />
+
+<h1 id="act-2-the-narrowing">Act 2: The Narrowing</h1>
+
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Okay, we’re ready to control the flow. Stuart, hold this retractor right there. Let’s clamp the proximal end first.</p>
+
+      <p><strong>MARK</strong>
+[<em>Watches the ceiling, sweating</em>]
+Clamping the flow. That’s a valve shut-in.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>With a firm but gentle click, she locks a vascular clamp across the artery. She watches the field go quiet.</em>]</p>
+
+      <p>Good. Proximal control. Field’s dry.</p>
+
+      <p><strong>MARK</strong>
+[<em>A small flinch at the click; eyes still on the ceiling</em>]
+That’s it? You just closed it?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark</em>]
+Proximal clamp’s on. Bleeding’s stopped on this side.</p>
+
+      <p><strong>MARK</strong>
+[<em>Trying to map it to something he knows</em>]
+On a well, you’d see that shut-in on the gauges—pressure jumps upstream the second the valve closes. That’s why we hang transducers. Early warning. So… you saw the spike?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.</p>
+
+      <p><strong>MARK</strong>
+[<em>A short, incredulous laugh</em>]
+Every few minutes. After a shut-in.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/clamping_sketch_1786259348177.jpg" alt="Clamping Sketch" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Back to the field</em>]
+For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn’t clear that bar.</p>
+
+      <p><strong>ELENA</strong>
+[<em>Checking the cuff cycle on the vitals monitor</em>]
+We don’t instrument for sport.</p>
+
+      <p><strong>STUART</strong>
+[<em>Still holding retractors, thinking out loud</em>]
+But if we <em>did</em> have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Without looking up, she steadies the clamped vessel with forceps</em>]
+Good. That’s what you’d see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there’s a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.</p>
+
+      <p><strong>MARK</strong>
+[<em>Nervously tapping his free hand against the arm board</em>]
+The first time I realized what water hammer could do, a valve slammed on a platform and blew a gasket on the discharge flange. We were down most of the shift fixing it. After that we were a little more careful to open valves slowly on restart. It’s a transient shock wave in the line, what we call well knocking. We listen for it the same way you listen for a bruit.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Gently dabbing the tissue with gauze</em>]
+And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.</p>
+
+      <p>[<em>Elena hands Dr. Hayes a syringe of saline. Dr. Hayes washes the wound. Stuart takes the retractor, holding the exposure.</em>]</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/02b_bruit_and_knock.svg" alt="Shut-In Transients" /></p>
+      <div class="note-alert">
+<p><strong>Shut-In Transients</strong></p>
+<p>Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking).</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>STUART</strong>
+[<em>Adjusting his grip</em>]
+It’s all about diameter. Even a tiny reduction in the vessel’s radius drastically increases resistance. In physiology, we learn Poiseuille’s law. Resistance to flow is inversely proportional to the fourth power of the radius.</p>
+
+      <p><strong>MARK</strong>
+[<em>Shifting his head toward Stuart</em>]
+Yeah. We see that in oil too. You close a choke down a little and you give up a lot of pressure. Same if scale narrows a line—small change in diameter, big hit on what you can push through.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Chuckling softly behind her mask</em>]
+And blood vessels aren’t straight rigid pipes. They’re curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it’s shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.</p>
+
+      <p><strong>MARK</strong>
+Exactly. And when you have a narrowing—a restriction in a vessel, or a choke valve in a wellbore—those ideal assumptions break down completely.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+We call that a stenosis.</p>
+
+      <p><strong>MARK</strong>
+Right, a stenosis.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/02c_velocity_profile.svg" alt="Laminar velocity profile" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>MARK</strong>
+Elena, can you hand me my notepad? The clean page.</p>
+
+      <p>[<em>Elena reaches for the metal-backed clipboard on Mark’s side table, flipping to his fresh sketch.</em>]</p>
+
+      <p><strong>MARK</strong>
+Look at this sketch here.</p>
+
+      <p>[<em>Elena holds the clipboard up under the bright surgical lights. Stuart leans in slightly while keeping the suction tip steady in his left hand.</em>]</p>
+
+      <p><strong>MARK</strong>
+A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and the far-side pressure stays lower than it should. Same idea as your stenosis.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/02_the_narrowing.svg" alt="The Narrowing" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>STUART</strong>
+And the pressure curve does the opposite—it drops dramatically at the throat. It’s the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.</p>
+
+      <p><strong>MARK</strong>
+[<em>Points to the chaotic swirls in Profile B</em>]
+Right. I’ve seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn’t explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can’t decelerate smoothly, so that energy goes into recirculating eddies. That’s turbulence. Past a throat like that, you’re spending that energy on churn downstream — so the far-side pressure stays lower than it should.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Cleaning the outer surface of the artery; a glance at Mark’s sketch</em>]
+And in a blood vessel, that downstream turbulence isn’t just an energy loss—which shows up as that permanent pressure drop. It’s biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.</p>
+
+      <p>[<em>To Stuart, teaching tone.</em>]</p>
+
+      <p>Stuart, what do platelets do when they’re exposed to high shear and turbulence?</p>
+
+      <p><strong>STUART</strong>
+They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Good. So now think it through. You’ve got a minor plaque narrowing. It accelerates the flow. The turbulence activates platelets. What happens next?</p>
+
+      <p><strong>STUART</strong>
+[<em>Pausing, then his eyes widening</em>]
+The clot narrows it further… which accelerates the flow even more… which activates more platelets…</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Keep going.</p>
+
+      <p><strong>STUART</strong>
+It’s a positive feedback loop. It runs away until you get total occlusion.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+And if that vessel feeds the myocardium?</p>
+
+      <p><strong>STUART</strong>
+[<em>Quietly</em>]
+Myocardial infarction. A heart attack.</p>
+
+      <p><strong>MARK</strong>
+[<em>Frowning at the ceiling</em>]
+Occlusion — you mean a total blockage? So the turbulence tricks the body into thinking it’s injured, and the repair response plugs it off completely? That’s a runaway blowout.</p>
+
+      <p>[<em>A brief silence falls over the room. The steady beep of the heart monitor fills the space.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Quietly, back to the wound; flat, to Stuart</em>]
+Stuart — irrigate. I need it pristine before we go further.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/05_wellhead_choke.svg" alt="Wellhead choke" /></p>
+      <div class="note-alert">
+<p><strong>The Reynolds Number ($Re$)</strong></p>
+<div class="note-math">$$Re = \frac{\rho v d}{\mu}$$</div>
+<p>Always positive, ranging from 0 to ∞.</p>
+<p><strong>Re &lt; 2,300</strong>: Laminar (smooth, predictable flow)</p>
+<p><strong>2,300 &lt; Re &lt; 4,000</strong>: Transition zone (intermittent flickering)</p>
+<p><strong>Re &gt; 4,000</strong>: Fully turbulent (chaotic eddies)</p>
+<p>The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+
+<hr />
+
+<h1 id="act-3-the-network">Act 3: The Network</h1>
+
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>MARK</strong>
+[<em>Eyes on the ceiling, settled — shop talk, not panic</em>]
+That pressure drop at the throat Stuart walked through—we’ve seen it go further. You speed the flow up hard enough, static pressure falls below vapor pressure, and you get little vapor cavities sitting in liquid that’s still ambient temperature. Cavitation. I’ve seen centrifugal pump impellers pitted through from it. I couldn’t imagine what that could do to tissue. Do you guys ever see that?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Adjusting loupes, damp sponge at the clamp — field-first</em>]
+We do—mechanical heart valves. Leaflets slam shut, local pressure drops below blood’s vapor pressure, micro-bubbles form and collapse on the valve or on red cells. That rupture is hemolysis; it also activates platelets. That’s why mechanical-valve patients stay on warfarin—clots from that mechanical trauma.</p>
+
+      <p><strong>STUART</strong>
+So blood vaporizes?</p>
+
+      <p><strong>MARK</strong>
+[<em>Still on the ceiling</em>]
+Yeah—Boyle’s law, or the ideal gas law if you like: all else equal, drop the pressure and liquid can flash to vapor.</p>
+
+      <p><strong>STUART</strong>
+[<em>A short blank — then back in</em>]
+Right.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/11_vapor_pressure.svg" alt="Vapor pressure" /></p>
+      <div class="note-alert">
+<p><strong>Ideal gas / Boyle (shortcut)</strong></p>
+<div class="note-math">$$PV = nRT$$</div>
+<p>Lower $P$ favors vapor at fixed $T$. Later, when pressure recovers, condensation <strong>removes</strong> vapor from the cavity — not a closed gas bubble being crushed.</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p>[<em>Hayes and Stuart go heads-down on the vessel ends — trim, irrigate, flush. Clipped field only. Mark keeps talking to the ceiling — think-aloud, not waiting for nods.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Without looking up</em>]
+Irrigate.</p>
+
+      <p><strong>MARK</strong>
+Not the whole arm turning to steam—just little cavities when you dip under vapor pressure at the same temperature, so you’ve got a pocket sitting there at that low pressure.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/12a_cavity_at_vapor_p.svg" alt="Cavity at vapor pressure" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>MARK</strong>
+Downstream the flow slows, pressure comes back up, and that vapor isn’t happy being vapor anymore. It leaves at the edge—joins the liquid—and as vapor it claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid’s still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit right through that steel.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/12b_molecule_runaway_collapse.svg" alt="Collapse — vanishing punch" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>MARK</strong>
+[<em>Still ceiling; field still busy</em>]
+Mid-stream it mostly churns fluid. Against a wall—impeller, pipe, choke bean—same collapse, but the liquid slams metal.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>A beat; still in the field, not looking up</em>]
+I knew the damage. I hadn’t put the vanishing that cleanly. Same punch on a leaflet—or a red cell.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/12e_bulk_vs_wall_pit.svg" alt="Bulk vs wall pit" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>MARK</strong>
+Let’s look at the next page of my sketch.</p>
+
+      <p>[<em>Elena carefully flips the clipboard page to reveal the next diagram.</em>]</p>
+
+      <p><strong>MARK</strong>
+The branching tree—main inlet into the aorta, then smaller arteries with their own resistances and flows. Parallel network. Total resistance stays below any single branch. That’s how you feed a bunch of organs without needing a ridiculous pressure head at the pump.</p>
+
+      <p><strong>STUART</strong>
+And once it branches hard enough, total cross-sectional area balloons—tiny in the aorta, huge through the arterioles and capillaries. Continuity: mean velocity falls as area climbs. Fastest leaving the heart, crawl in the capillary bed.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Nodding; hands still in the field, intensity eased</em>]
+That’s what you want in the capillary bed. Blood slows enough for oxygen and nutrients to diffuse across the endothelium. At aortic speed through capillaries, tissue would starve.</p>
+
+      <p><strong>MARK</strong>
+It’s the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Taking a saline syringe from Elena; a glance over the screen to Mark</em>]
+We’re doing it with tissue, not gravel.</p>
+
+      <p>[<em>She gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Stuart, irrigate here. Let’s clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren’t steel.</p>
+
+      <p><strong>MARK</strong>
+Yeah — casing doesn’t flex with every stroke. It just sits under load until something yields.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/03_the_vascular_network.svg" alt="The Vascular Network" /></p>
+      <div class="note-alert">
+<p><strong>Parallel Hydraulic Resistance</strong></p>
+<div class="note-math">$$\frac{1}{R_{\mathrm{total}}} = \sum_{i} \frac{1}{R_{i}}$$</div>
+<p>$R_i$: resistance of branch $i$. $R_{\mathrm{total}}$: resistance of the parallel network. More open branches → lower $R_{\mathrm{total}}$.</p>
+</div>
+      <div class="note-alert">
+<p><strong>Continuity Equation</strong></p>
+<div class="note-math">$$Q = A \cdot v$$</div>
+<p>$Q$: volumetric flow rate. $A$: total cross-sectional area. $v$: mean velocity. Same $Q$ through a wider bed means slower $v$—why capillaries crawl.</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+
+<hr />
+
+<h1 id="act-4-living-pipes">Act 4: Living Pipes</h1>
+
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Without looking up, she takes the needle holder from Elena</em>]
+Which is exactly why biology doesn’t use steel. Living blood vessels are compliant. They expand during systole to accommodate the bolus of blood ejected by the heart, and contract during diastole.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Stuart, what do we call the mechanism that smooths out the pulsatile flow from the heart?</p>
+
+      <p><strong>STUART</strong>
+[<em>Carefully adjusting the retractor to keep the artery exposed</em>]
+The Windkessel effect. The aorta acts as a temporary elastic reservoir, storing energy during systole and releasing it during diastole to maintain continuous perfusion.</p>
+
+      <p><strong>MARK</strong>
+[<em>Nervously shifting his head, his left hand tapping the side table</em>]
+In my world, we call that fluid-structure interaction, or FSI. We use gas-charged accumulators or surge tanks in pipeline networks to damp out pressure transients. Without that compliance, every stroke of a reciprocating pump would send a massive hammer wave through the line. The pressure spikes would fatigue the welds and blow out the flanges.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Gently irrigating the exposed artery with saline to keep the field clear</em>]
+That’s exactly what happens when vessels stiffen with age or atherosclerosis. The compliance drops, and the system loses its damping capacity.</p>
+
+      <p>[<em>Without looking up, clipped.</em>]</p>
+
+      <p>Stuart, hold that suction tip right at the adventitial edge. Don’t touch the intima.</p>
+
+      <p><strong>STUART</strong>
+[<em>Nods, stabilizing his hand and clearing a small pool of saline</em>]
+Understood. If the wall is rigid, the pressure waveform changes.</p>
+
+      <p><strong>MARK</strong>
+[<em>Reaching for his notepad with his free left hand, Elena holds the page steady as he points to a pre-existing sketch</em>]
+Like this one. I drew this out earlier when we were talking about transients.</p>
+
+      <p>[<em>Elena holds the notepad up so Dr. Hayes and Stuart can see the sketch under the surgical lights.</em>]</p>
+
+      <p><strong>MARK</strong>
+RC analogy—resistance for viscous friction, capacitance for wall compliance. High compliance, Curve A: smooth damp wave, nice dicrotic notch when the valve closes. Compliance drops, Curve B: sharp, jagged, high-amplitude. Peak pressure spikes.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Peering through her surgical loupes, aligning the cut edges of the vessel</em>]
+Yes, and that high-amplitude pressure wave travels downstream, damaging the delicate micro-circulation. But the physics is even more complex because the fluid itself isn’t simple water.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Stuart, is blood a Newtonian fluid?</p>
+
+      <p><strong>STUART</strong>
+[<em>Shaking his head</em>]
+No, it’s shear-thinning. Under high shear rates in major arteries, the viscosity drops. But at low shear rates, the red cells aggregate into rouleaux formations and the viscosity climbs.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Good. And what happens when circulation stops completely?</p>
+
+      <p><strong>STUART</strong>
+It has a yield stress—it gels up. That’s part of why stagnant blood clots.</p>
+
+      <p><strong>MARK</strong>
+[<em>His eyes widening</em>]
+Yield stress and shear-thinning? You’re describing drilling muds. When we drill a well, we pump bentonite slurries or thixotropic polymer fluids down the drill string. When circulation stops, we need the mud to gel up—that’s the yield stress—so the heavy rock cuttings don’t settle back down and pack off the drill bit. But the second we restart the pumps, the shear stresses break the gel, the viscosity thins out, and it flows easily. You’re telling me my body is pumping a thixotropic slurry through self-damping, elastic hoses?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark, a warm smile visible behind her mask</em>]
+Essentially, yes. Though our thixotropic slurry will clot solid if we let it sit still for too long, which is why we have to keep these clamps temporary.</p>
+
+      <p>[<em>Eyes back to the field, flatter.</em>]</p>
+
+      <p>Elena, pass the micro-forceps.</p>
+
+      <p>[<em>Elena places the fine jeweler’s forceps into Dr. Hayes’s hand. Dr. Hayes gently handles the vessel wall.</em>]</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/05_pulsatile_flow.svg" alt="Pulsatile Flow" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Look at the structural difference here. When your steel pipes fail under too much pressure, how does it look?</p>
+
+      <p><strong>MARK</strong>
+Well, it’s a yield failure. Hoop stress—the circumferential tension in the pipe wall. Pressure times radius, over thickness. If that exceeds the strength of the steel, it deforms permanently, thins, and splits. Sudden. Localized.</p>
+
+      <p>[<em>Mark flips the page on his notepad to show another drawing</em>]</p>
+
+      <p><strong>MARK</strong>
+Steel casing under hoop stress—here’s the split when it yields. Living vessel next to it.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Stitching a stay suture at the corner of the vessel; a glance at Mark’s sketch</em>]
+That living vessel is the perfect model of an abdominal aortic aneurysm. As the arterial wall degenerates and loses its elastic fibers, the radius ballooning outwards increases, and the wall thickness decreases. By Laplace’s law, that balloon-like expansion drives the hoop stress up exponentially, even if the systemic pressure doesn’t change. It’s a runaway loop: more expansion leads to more stress, which causes more expansion, until the tissue simply tears.</p>
+
+      <p><strong>MARK</strong>
+A runaway failure under pressure. That’s… that’s how blowouts happen in our wells, actually. Deepwater Horizon, 2010—it wasn’t one wall giving out. It was a stack of barriers. The cement at the bottom failed first, gas leaked into the casing, climbed the well, knocked down the mud weight, and once that hydrostatic column was gone the reservoir just… blew. Uncontrollable. At the surface.</p>
+
+      <p>[<em>He stares at the ceiling tiles, uncertain.</em>]</p>
+
+      <p>I don’t know your anatomy well enough. Is that anything like what you’re looking at?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>To Stuart, still stitching</em>]
+Maybe. Sort of. Stuart—layers. Intima on the inside, media in the middle, adventitia outside. I’m not sure his cement is our intima. Cement’s a plug. Intima’s a lining.</p>
+
+      <p><strong>MARK</strong>
+Yeah, that part feels wrong. The steel casing though—hoop stress, thickness, radius—that <em>sounds</em> like what you were saying about the middle layer?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Nodding toward Stuart</em>]
+The media. That’s the one that carries the load. When it thins in an aneurysm, that’s the runaway. And if the whole wall gives, blood tears through into the retroperitoneal or abdominal cavity. Same ending he just described. I wouldn’t swear the pieces map. The cascade does.</p>
+
+      <p><strong>STUART</strong>
+[<em>Quietly</em>]
+So clamping is… trying to get containment back before it’s gone?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Adjusting the tension on the first stay suture</em>]
+That’s the idea. While there’s still a wall to hold. Which is why we respect the pressure.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/04_pipe_vs_living_vessel.svg" alt="Pipe vs Living Vessel" /></p>
+
+    </div>
+</projections>
+</stage-row>
+
+<hr />
+
+<h1 id="act-5-inverse-problems">Act 5: Inverse Problems</h1>
+
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Elena, prepare the 7-0 suture line. Stuart, keep the suction steady right on the adventitial margin. I need the lumen completely clear of blood for the first stitch.</p>
+
+      <p>[<em>Elena passes the needle holder. Dr. Hayes adjusts her loupes and leans in close to the wound. Stuart holds the suction tip still, clearing a bead of blood from the vessel edge.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Eyes on the vessel, voice flat</em>]
+Starting the anastomosis. Stuart—don’t let me purse these bites. We narrow this lumen, resistance climbs. Hard.</p>
+
+      <p>[<em>She places the first stitch. A beat. She looks over the screen to Mark—softer.</em>]</p>
+
+      <p>Mark—I’m sewing the artery back together now. You won’t feel it. When we’re done we’ll check the flow with duplex Doppler—probe and screen. Until then I’m watching the wall, not blood moving through it.</p>
+
+      <p><strong>MARK</strong>
+[<em>Eyes on the ceiling lights, free fingers twitching against the drape</em>]
+I can’t see any of that. Arm’s just… blank. You’re sewing it without watching the flow?</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Already back to the field</em>]
+The join, yes. The flow comes after.</p>
+
+      <p><strong>MARK</strong>
+[<em>A thin breath</em>]
+Then we’re the same. I never see inside the reservoir either. That’s my entire job—working from the outside.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Still not looking up, looping the fine suture with steady precision</em>]
+How so?</p>
+
+      <p><strong>MARK</strong>
+[<em>Nervously twitching his fingers, his eyes tracking the surgical light</em>]
+Well, we can’t actually go down into the reservoir. It’s two miles beneath the seabed. We have no eyes down there. We can’t see the spatial distribution of permeability or porosity. All we have are boundary measurements—pressures and flow rates measured at the wellhead over time. So we solve an inverse problem. We call it history matching. We build a numerical grid model of the reservoir, assign initial guesses to the permeability in each grid cell, and then run a forward simulation: how much fluid a pressure gradient can push through the rock against viscosity. Same idea as resistance in a pipe, except the “pipe” is a tangled pore network—what we call Darcy’s law.</p>
+
+      <p><strong>STUART</strong>
+[<em>Gently retracting the wound edge, squinting under the bright overhead light</em>]
+So you calculate what the wellhead pressure <em>should</em> be, and compare it to the actual sensor data?</p>
+
+      <p><strong>MARK</strong>
+[<em>Tapping his fingers as much as the sterile drapes allow</em>]
+Exactly. The measurement is the easy part—pressure transducers at the wellhead, writing down what they actually see over time. The calculation is the hard part: we guess a permeability map, run Darcy’s law forward through every grid cell, and the model tells us what the wellhead pressure <em>ought</em> to be. Then we keep adjusting those guesses until the calculated pressure tracks the transducer record.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Taking scissors from Elena to cut the suture end; then looks over the screen to Mark</em>]
+We do something close, Mark. Outside measurements. We can’t open every vessel just to check flow or resistance. Duplex ultrasound—image plus spectral Doppler. Non-invasive diagnostics.</p>
+
+      <p><strong>STUART</strong>
+[<em>Nodding eagerly</em>]
+Right. The duplex probe measures the frequency shift of the sound waves bouncing off the moving red blood cells. Velocity shows up on the spectral display. From that peak velocity we reconstruct the pressure drop across a stenosis using the simplified Bernoulli equation.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark, softer</em>]
+Let’s hope my physical model matches the math.</p>
+
+      <p>[<em>She places the final micro-suture. Voice flat again, to the table.</em>]</p>
+
+      <p>Elena, saline irrigator.</p>
+
+      <p>[<em>Elena passes the saline syringe. Dr. Hayes flushes the wound, checking that the suture line sits clean and even.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Ready to restore flow. Stuart, get the suction ready. Elena, micro-forceps.</p>
+
+      <p>[<em>Dr. Hayes positions her fingers over the clamps. She releases the far clamp first, letting blood flush back through the repair, then releases the near clamp.</em>]</p>
+
+      <p><strong>STUART</strong>
+[<em>Leaning forward, his breath catching</em>]
+The vessel is filling…</p>
+
+      <p>[<em>The repaired artery begins to swell, its walls pulsing in time with Mark’s heartbeat.</em>]</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/07_darcys_law.svg" alt="Darcy's Law" /></p>
+      <div class="note-alert">
+<p><strong>Measurement vs Calculation (History Matching)</strong></p>
+<p><strong>Measurement</strong> $P_{\mathrm{obs}}(t)$: wellhead pressure from the transducers</p>
+<p><strong>Calculation</strong> $P_{\mathrm{calc}}(t)$: wellhead pressure predicted by the Darcy forward model</p>
+<div class="note-math">$$J = \sum_{t} [ P_{\mathrm{obs}}(t) - P_{\mathrm{calc}}(t) ]^2$$</div>
+<p>Tune the unseen permeability map (and compliance) until the calculated wellhead pressure matches what the sensors recorded.</p>
+</div>
+      <div class="note-alert">
+<p><strong>Simplified Bernoulli Equation (Clinical)</strong></p>
+<div class="note-math">$$\Delta P \approx 4v^2$$</div>
+<p>A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.</p>
+<p>Other outside maps (when needed, not tonight): CT angiography for lumen geometry; phase-contrast MRI for velocity fields without contrast.</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Anastomosis is patent. No suture line bleeding. Stuart, roll up the duplex.</p>
+
+      <p>[<em>Stuart brings the sterile probe and the small screen to the field. Dr. Hayes gels the tip, seats it on the pulsing artery, glances at the display—then thumbs the speaker on.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Speaker on. I still like hearing it. You watch the screen.</p>
+
+      <p>[<em>A harsh, high-pitched rasp fills the room—wrong. On the screen the spectrum spikes tall and ugly.</em>]</p>
+
+      <p><strong>STUART</strong>
+[<em>Smile gone</em>]
+That’s not triphasic. Peak velocity’s through the roof.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Voice flat</em>]
+Pursed. Clamp back on. We’re revising.</p>
+
+      <p>[<em>Elena and Stuart go still. Dr. Hayes re-clamps, cuts out the cinching bite, and replaces it—quiet, fast, no teaching.</em>]</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/09a_doppler_stenotic.svg" alt="Duplex — First Check" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Unclamp. Duplex again.</p>
+
+      <p>[<em>Speaker still on: a clean rhythmic WHOOSH-chhh, WHOOSH-chhh. On the screen the spectrum opens into a clean triphasic trace.</em>]</p>
+
+      <p><strong>STUART</strong>
+[<em>Breathing out</em>]
+Strong triphasic. Peak’s back down.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/09b_doppler_triphasic.svg" alt="Duplex — Second Check" /></p>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Handing the probe back</em>]
+That first join had cinched a little throat. Leave a throat like that and it clots—or it fails downstream. So we cut it and put it back open.</p>
+
+      <p><strong>MARK</strong>
+[<em>Quiet, then</em>]
+Oh—like a choke. You’d never leave a bean that tight in a flowline. Same throat.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>A short nod</em>]
+Same physics.</p>
+
+      <p><strong>MARK</strong>
+Difference is you can open the pipe and sew it again. I get a bad gauge signature two miles down and I don’t get to climb in with a needle.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Almost a smile</em>]
+Lucky me.</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/09c_pursed_vs_open.svg" alt="Pursed vs Revised" /></p>
+      <div class="note-alert">
+<p><strong>Duplex spectral Doppler</strong></p>
+<p><strong>Triphasic</strong> (good): sharp systolic forward peak, brief early-diastolic reverse, low late-diastolic forward — open runoff.</p>
+<p><strong>Stenotic / pursed</strong> (bad): high peak velocity through the throat and loss of the normal triphasic shape — same idea as Act 2: velocity up at a restriction, pressure drop by simplified Bernoulli $\Delta P \approx 4v^2$.</p>
+</div>
+
+    </div>
+</projections>
+</stage-row>
+<stage-row>
+<play-text>
+<div>
+
+      <p><strong>DR. SARAH HAYES</strong>
+Elena, let’s close. We’ll use 4-0 Monocryl for the subcutaneous layer and Dermabond for the skin.</p>
+
+      <p>[<em>Dr. Hayes begins closing the deeper layers while Elena prepares the dressings. Stuart helps with the skin. Within a few minutes, Elena wraps a clean bandage around Mark’s arm.</em>]</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark, gloves still on</em>]
+All done, Mark. Joined and sealed—no leaks.</p>
+
+      <p><strong>MARK</strong>
+[<em>Sighing with relief, his shoulders finally relaxing on the table</em>]
+Thanks, Doc. I have to say, the pressure drop in my arm was a lot easier to fix than a pressure leak in a deepwater well. We don’t have the luxury of putting sutures on a reservoir two miles down.</p>
+
+      <p><strong>DR. SARAH HAYES</strong>
+[<em>Pulling off her surgical gloves with a sharp snap; looks over the screen to Mark</em>]
+I’ve got living wall to sew. You don’t get that two miles down.</p>
+
+      <p><strong>MARK</strong>
+[<em>Dryly</em>]
+Yeah. Tell that to the modeling team next time the history match won’t close.</p>
+
+      <p>[<em>Elena begins clearing the surgical trays.</em>]</p>
+
+    </div>
+</play-text>
+<projections>
+<div>
+      <p><img src="/pulses-and-pathways/closure_sketch_1786259427073.jpg" alt="Closure Sketch" /></p>
+
+    </div>
+</projections>
+</stage-row>
+
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

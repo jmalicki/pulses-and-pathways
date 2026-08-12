@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="science-arc-writer-notes">Science arc (writer notes)</h1>
+
+<p>This file is <strong>writer meta</strong>, not script. The play reads <strong>linear</strong> (Act 1→5), but the <strong>science</strong> is a <strong>DAG</strong>: some beats need prior concepts; many are independent and can slide for timing or story.</p>
+
+<p>See also: <a href="/pulses-and-pathways/case.html">case.md</a> (ops sync points / windows) · <a href="/pulses-and-pathways/characters.html">characters.md</a> (who speaks).</p>
+
+<p><strong>How to use:</strong> Before moving a teaching beat, check (1) hard edges below, (2) case sync points in <code class="language-plaintext highlighter-rouge">case.md</code>, (3) soft preferences. Prefer sliding a free node or an ops beat over inventing filler dialogue.</p>
+
+<hr />
+
+<h2 id="nodes-current-inventory">Nodes (current inventory)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>Claim (one line)</th>
+      <th>Current home</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">hydrostatic_pressure</code></td>
+      <td>Static column: (P_h=\rho g z).</td>
+      <td>Act 1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pore_fracture_mud_window</code></td>
+      <td>Mud weight between pore and fracture pressure.</td>
+      <td>Act 1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">annulus_return_path</code></td>
+      <td>Return flow in the pipe–casing ring (≠ mitral annulus).</td>
+      <td>Act 1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">mud_yield_shear_thinning</code></td>
+      <td>Mud needs a push to start, then thins with shear.</td>
+      <td>Act 1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ecd_hydro_plus_friction</code></td>
+      <td>Circulating pressure = hydrostatic + friction (ECD).</td>
+      <td>Act 1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">depth_pvt_flow_variation</code></td>
+      <td>Depth changes mud properties foot-by-foot.</td>
+      <td>Act 1</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">shut_in_transient</code></td>
+      <td>Sudden closure launches an upstream pressure wave.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">water_hammer_bruit_map</code></td>
+      <td>Well knocking ↔ listening for bruit.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">reflection_boundary_afterload</code></td>
+      <td>Clamp = reflection boundary; waveform / afterload effects.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">poiseuille_r4</code></td>
+      <td>Resistance ~ (1/r^4).</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">choke_stenosis_map</code></td>
+      <td>Wellhead choke ↔ vessel stenosis.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">blood_shear_dependent_viscosity</code></td>
+      <td>High shear thins; low shear viscosity climbs.</td>
+      <td>Act 2 (deepened Act 4)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">bernoulli_throat</code></td>
+      <td>At a constriction, velocity up, static pressure down.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">post_stenotic_separation</code></td>
+      <td>Jet + expansion → recirculation / loss.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">reynolds_number</code></td>
+      <td>(Re=\rho v d/\mu) marks flow regime.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">turbulence_thrombus_feedback</code></td>
+      <td>Turbulent shear → platelets → narrower throat → runaway.</td>
+      <td>Act 2</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">cavitation_collapse</code></td>
+      <td>(P) below vapor pressure → cavities; collapse punches.</td>
+      <td>Act 3</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">valve_cavitation_hemolysis_map</code></td>
+      <td>Mechanical-valve slam ↔ cavitation damage to blood.</td>
+      <td>Act 3</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">parallel_branch_resistance</code></td>
+      <td>(1/R_{\mathrm{tot}}=\sum 1/R_i).</td>
+      <td>Act 3</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">continuity_area_velocity</code></td>
+      <td>(Q=Av); area up → velocity down.</td>
+      <td>Act 3</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">capillary_diffusion_time</code></td>
+      <td>Slow capillary flow buys diffusion time.</td>
+      <td>Act 3</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">gravel_pack_area_map</code></td>
+      <td>Expand area to cut near-wellbore velocity ↔ capillaries.</td>
+      <td>Act 3</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">windkessel_compliance</code></td>
+      <td>Elastic aorta stores/releases → continuous perfusion.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">fsi_accumulator_map</code></td>
+      <td>Accumulators / surge tanks ↔ vessel compliance.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">stiffening_loses_damping</code></td>
+      <td>Less compliance → taller, sharper waves.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rc_waveform_curves</code></td>
+      <td>R–C analogy for pulse shape.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">yield_stress_stasis</code></td>
+      <td>Stopped blood gels → clot risk; clamps temporary.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">thixotropic_mud_blood_map</code></td>
+      <td>Mud gel-on-stop ↔ blood yield + shear-thinning.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">hoop_stress_laplace</code></td>
+      <td>Hoop stress ~ (Pr/t); runaway dilation risk.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">barrier_cascade_blowout_map</code></td>
+      <td>Stacked barriers / layered wall; media carries load.</td>
+      <td>Act 4</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">inverse_history_matching</code></td>
+      <td>Infer interior from boundary (P(t),Q(t)).</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">darcys_law</code></td>
+      <td>Pore flux from ∇P vs viscosity / permeability.</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">duplex_doppler_velocity</code></td>
+      <td>Doppler shift → blood velocity.</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">simplified_bernoulli_clinical</code></td>
+      <td>Clinical (\Delta P\approx 4v^2) heuristic.</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">cta_cfd_geometry</code></td>
+      <td>CTA geometry → CFD of the invisible interior.</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pc_mri_wall_shear</code></td>
+      <td>PC-MRI velocity fields → WSS / gradients.</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">triphasic_vs_stenotic_spectrum</code></td>
+      <td>Open runoff vs pursed high-peak spectrum.</td>
+      <td>Act 5</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pursed_anastomosis_choke_map</code></td>
+      <td>Over-tight suture throat like a choke; revise.</td>
+      <td>Act 5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Audience-only reminders (e.g. ideal-gas note beside cavitation) are not speaking nodes; they may travel with the node they annotate.</p>
+
+<hr />
+
+<h2 id="hard-dependencies-must-not-reverse">Hard dependencies (must not reverse)</h2>
+
+<p>These are <strong>hard</strong> edges: do not put the child before the parent in the spoken evening.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hydrostatic_pressure → pore_fracture_mud_window
+hydrostatic_pressure → ecd_hydro_plus_friction
+ecd_hydro_plus_friction → depth_pvt_flow_variation
+
+shut_in_transient → water_hammer_bruit_map
+shut_in_transient → reflection_boundary_afterload
+
+poiseuille_r4 → choke_stenosis_map
+bernoulli_throat → post_stenotic_separation
+post_stenotic_separation → turbulence_thrombus_feedback
+bernoulli_throat → cavitation_collapse   # throat ΔP / low static P picture
+cavitation_collapse → valve_cavitation_hemolysis_map
+
+continuity_area_velocity → capillary_diffusion_time
+continuity_area_velocity → gravel_pack_area_map
+
+windkessel_compliance → stiffening_loses_damping
+windkessel_compliance → rc_waveform_curves
+shut_in_transient → fsi_accumulator_map   # hammer needs a prior shut-in idea
+windkessel_compliance → fsi_accumulator_map
+
+mud_yield_shear_thinning → thixotropic_mud_blood_map
+blood_shear_dependent_viscosity → yield_stress_stasis
+blood_shear_dependent_viscosity → thixotropic_mud_blood_map
+hoop_stress_laplace → barrier_cascade_blowout_map
+
+duplex_doppler_velocity → triphasic_vs_stenotic_spectrum
+choke_stenosis_map → pursed_anastomosis_choke_map
+triphasic_vs_stenotic_spectrum → pursed_anastomosis_choke_map
+poiseuille_r4 → pursed_anastomosis_choke_map
+bernoulli_throat → simplified_bernoulli_clinical
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="soft-preferences-may-bend">Soft preferences (may bend)</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">annulus_return_path</code> near first well sketch (Act 1) — pedagogical, not physics-forced.</li>
+  <li><code class="language-plaintext highlighter-rouge">reynolds_number</code> near Bernoulli / post-stenotic talk — nice adjacency, not required before cavitation if throat ΔP is already clear.</li>
+  <li><code class="language-plaintext highlighter-rouge">parallel_branch_resistance</code> before or after <code class="language-plaintext highlighter-rouge">continuity_area_velocity</code> — either order OK if both stay in a network window.</li>
+  <li><code class="language-plaintext highlighter-rouge">darcys_law</code> beside <code class="language-plaintext highlighter-rouge">inverse_history_matching</code> — thematic cluster, not a strict prerequisite.</li>
+  <li><code class="language-plaintext highlighter-rouge">cta_cfd_geometry</code> / <code class="language-plaintext highlighter-rouge">pc_mri_wall_shear</code> as optional imaging sidebar off inverse/duplex — can shorten or slide if Act 5 is overcrowded.</li>
+  <li>Re-deepening <code class="language-plaintext highlighter-rouge">blood_shear_dependent_viscosity</code> in Act 4 after a light Act 2 pass — echo OK.</li>
+</ul>
+
+<hr />
+
+<h2 id="sync-with-casemd">Sync with case.md</h2>
+
+<p>Science nodes that <strong>lock</strong> to medical sync points / ops facts:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Science node(s)</th>
+      <th>Case lock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">shut_in_transient</code>, <code class="language-plaintext highlighter-rouge">water_hammer_bruit_map</code>, <code class="language-plaintext highlighter-rouge">reflection_boundary_afterload</code></td>
+      <td>Sync 3 — proximal clamp on / field quiet first</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">inverse_history_matching</code>, <code class="language-plaintext highlighter-rouge">darcys_law</code> (as “sewing without watching flow”)</td>
+      <td>Sync 4 — anastomosis underway</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">duplex_doppler_velocity</code>, <code class="language-plaintext highlighter-rouge">triphasic_vs_stenotic_spectrum</code>, <code class="language-plaintext highlighter-rouge">pursed_anastomosis_choke_map</code></td>
+      <td>Syncs 5–6 — duplex → revise → good waveform → close</td>
+    </tr>
+    <tr>
+      <td>Block-wait teaching (<code class="language-plaintext highlighter-rouge">hydrostatic_*</code>, early mud/ECD)</td>
+      <td>Sync 1 — may breathe during block onset; not after cutting deeper without the sensation check</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">cavitation_collapse</code> (spaced Mark solo + Fig. 7a/7b/7e)</td>
+      <td>Sync 7 — vessel-end prep High (trim/flush/spatulate); Boyle/“Right.” just upstream at Med</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Free to drift</strong> inside a holding / maintenance window (no sew): Act 3 <strong>network</strong> after Hayes’s cavitation land; much of Act 2 stenosis physics <em>after</em> clamp; Act 4 compliance/rheology/hoop while stays/prep — subject to hard edges above. Cavitation collapse is <strong>not</strong> free to drift off Sync 7.</p>
+
+<p><strong>Pacing baseline:</strong> see <a href="#pacing-case-vs-play">Pacing (case vs play)</a> below. Phase 2b concluded <strong>no reorder</strong>; Phase 3 expands cavitation under Sync 7. If Act 5 still feels stuffed, trim imaging sidebar (<code class="language-plaintext highlighter-rouge">cta_cfd_geometry</code>, <code class="language-plaintext highlighter-rouge">pc_mri_wall_shear</code>) before breaking syncs 4–6.</p>
+
+<hr />
+
+<h2 id="pacing-case-vs-play">Pacing (case vs play)</h2>
+
+<p>Writer archive from Phase 2b. <strong>Purpose:</strong> baseline so future rewrites can see impact. Play time ≠ wall clock. Durations and who-can-talk: <a href="/pulses-and-pathways/case.html">case.md</a>. Who speaks science: <a href="/pulses-and-pathways/characters.html">characters.md</a>.</p>
+
+<h3 id="evening-shape">Evening shape</h3>
+
+<ul>
+  <li><strong>Door-to-close</strong> ~1.5–2.5 h (play-default midpoints ~<strong>2 h</strong>). That length can <em>be</em> the theatrical evening.</li>
+  <li>First ~<strong>30+ min from door</strong> (Act 0 ED + block placement / early onset) sit mostly <strong>outside full stage time</strong> or as short prologue; Act 1 opens on “Block’s in.”</li>
+  <li>On-stage Acts 1–5 ride roughly <strong>dense-block / knife onward → close</strong>, with theatrical stretch on holds for teaching (intentional, not a bug).</li>
+</ul>
+
+<h3 id="act-snapshot-as-of-phase-2b-close">Act snapshot (as of Phase 2b close)</h3>
+
+<p>Script size = source lines + dialogue cues (speaker labels). Cumulatives = midpoints from <code class="language-plaintext highlighter-rouge">case.md</code> door clock.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Act</th>
+      <th>Ops window (wall)</th>
+      <th>Cum from door (mid)</th>
+      <th>Script size</th>
+      <th>Teach load</th>
+      <th>Hold vs critical</th>
+      <th>Fit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>0</strong> Handoff</td>
+      <td>ED accept minutes</td>
+      <td>~15 min</td>
+      <td>~32 lines, ~7 cues</td>
+      <td>none (story)</td>
+      <td>Brief prologue</td>
+      <td><strong>Good</strong></td>
+    </tr>
+    <tr>
+      <td><strong>1</strong> Bedside</td>
+      <td>Block onset∥prep; find ends</td>
+      <td>~45→60 min</td>
+      <td>~94 lines, ~27 cues</td>
+      <td>hydrostatic / mud / ECD</td>
+      <td><strong>Hold</strong> then find</td>
+      <td><strong>Good</strong> — early teach window</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong> Narrowing</td>
+      <td>Clamp minutes + clear/expose</td>
+      <td>~65→~80</td>
+      <td>~173 lines, ~35 cues</td>
+      <td>shut-in → stenosis / Bernoulli / thrombus</td>
+      <td>Clamp locked; talk rides exposure</td>
+      <td><strong>Dense but OK</strong></td>
+    </tr>
+    <tr>
+      <td><strong>3</strong> Network</td>
+      <td>Prepare-ends; Sync 7 High mid-act</td>
+      <td>~80</td>
+      <td>expanded (Phase 3)</td>
+      <td>cavitation vanishing punch + network</td>
+      <td>Med → <strong>High</strong> Sync 7 → Med</td>
+      <td><strong>Matched</strong> to Sync 7</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong> Living pipes</td>
+      <td>Stays / start sew</td>
+      <td>~80→~110</td>
+      <td>~115 lines, ~25 cues</td>
+      <td>Windkessel / FSI / rheology / hoop</td>
+      <td>Hold → rising</td>
+      <td><strong>Good</strong></td>
+    </tr>
+    <tr>
+      <td><strong>5</strong> Inverse</td>
+      <td>Anastomosis + duplex/revise/close</td>
+      <td>~110→~130</td>
+      <td>~193 lines, ~34 cues — <strong>longest</strong></td>
+      <td>inverse + Darcy + duplex + purse (+ imaging sidebar)</td>
+      <td><strong>Critical path</strong></td>
+      <td><strong>Dense and matched</strong> to long sew</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="conclusion-phase-2b--phase-3">Conclusion (Phase 2b + Phase 3)</h3>
+
+<ul>
+  <li><strong>No science reorder.</strong> Sync points and hard DAG edges already honored.</li>
+  <li>Phase 3: Act 3 cavitation expanded under <strong>Sync 7</strong> (prepare-ends High ↔ Mark collapse solo); network stays free after Hayes land.</li>
+  <li>Act 5 density matches the longest wall-clock critical window; do not move inverse/duplex off the sew.</li>
+  <li>Chat intensity is gated in <code class="language-plaintext highlighter-rouge">case.md</code> (Hayes flat at clamp / mid-sew / duplex / Sync 7 prep; Priya idle ≠ seminar).</li>
+</ul>
+
+<h3 id="if-we-rewrite-later--impact-checklist">If we rewrite later — impact checklist</h3>
+
+<p>Before moving or lengthening a teach beat:</p>
+
+<ol>
+  <li><strong>Hard DAG edges</strong> (above) — do not reverse parent → child.</li>
+  <li><strong>Case syncs</strong> (<code class="language-plaintext highlighter-rouge">case.md</code>) — especially clamp-before-shut-in; sew-before-inverse; duplex-before-revise/close.</li>
+  <li><strong>Intensity phase</strong> (<code class="language-plaintext highlighter-rouge">case.md</code> Team intensity) — will Hayes be High (lean only) or Med (can carry maps)?</li>
+  <li><strong>Lengthening Act 5</strong> — trim <code class="language-plaintext highlighter-rouge">cta_cfd_geometry</code> / <code class="language-plaintext highlighter-rouge">pc_mri_wall_shear</code> sidebar first.</li>
+  <li><strong>Empty hold on stage</strong> — ops beat / notepad / screen check; not a new lecture; not Elena/Priya science chat.</li>
+  <li><strong>Update this snapshot</strong> (line/cue counts and fit notes) if acts grow or shrink materially.</li>
+</ol>
+
+<hr />
+
+<h2 id="independent-clusters-reorder-freedom">Independent clusters (reorder freedom)</h2>
+
+<p>These clusters are mostly internally ordered but <strong>weakly coupled</strong> to each other — may slide whole clusters relative to each other if case syncs stay honest (Phase 2b left order as-is):</p>
+
+<ol>
+  <li><strong>Well control / hydrostatic</strong> (Act 1) — early; natural on block wait.</li>
+  <li><strong>Shut-in / reflection</strong> (Act 2) — locked after clamp.</li>
+  <li><strong>Stenosis / Bernoulli / thrombus cascade</strong> (Act 2) — after clamp; before or interleaved with exposure.</li>
+  <li><strong>Cavitation + valves</strong> (Act 3) — needs throat ΔP idea; good in hold-before-sew.</li>
+  <li><strong>Network parallel + continuity</strong> (Act 3) — weak coupling to cavitation; either order inside Act 3.</li>
+  <li><strong>Compliance / FSI / rheology / hoop</strong> (Act 4) — needs some shut-in + flow intuition; can borrow hold time from Act 3 if stays move.</li>
+  <li><strong>Inverse / duplex / choke revise</strong> (Act 5) — locked to sew + duplex syncs; imaging sidebar optional.</li>
+</ol>
+
+<hr />
+
+<h2 id="mermaid-hard-edges-only">Mermaid (hard edges only)</h2>
+
+<pre><code class="language-mermaid">flowchart TD
+  hydro[hydrostatic_pressure] --&gt; mudWin[pore_fracture_mud_window]
+  hydro --&gt; ecd[ecd_hydro_plus_friction]
+  ecd --&gt; depthPvt[depth_pvt_flow_variation]
+
+  shutIn[shut_in_transient] --&gt; hammer[water_hammer_bruit_map]
+  shutIn --&gt; reflect[reflection_boundary_afterload]
+  shutIn --&gt; fsi[fsi_accumulator_map]
+
+  poiseuille[poiseuille_r4] --&gt; chokeMap[choke_stenosis_map]
+  poiseuille --&gt; purse[pursed_anastomosis_choke_map]
+  bernoulli[bernoulli_throat] --&gt; separation[post_stenotic_separation]
+  separation --&gt; thrombus[turbulence_thrombus_feedback]
+  bernoulli --&gt; cavit[cavitation_collapse]
+  bernoulli --&gt; clinBern[simplified_bernoulli_clinical]
+  cavit --&gt; valveMap[valve_cavitation_hemolysis_map]
+
+  cont[continuity_area_velocity] --&gt; capillary[capillary_diffusion_time]
+  cont --&gt; gravel[gravel_pack_area_map]
+
+  wind[windkessel_compliance] --&gt; stiff[stiffening_loses_damping]
+  wind --&gt; rc[rc_waveform_curves]
+  wind --&gt; fsi
+
+  mudYield[mud_yield_shear_thinning] --&gt; thixo[thixotropic_mud_blood_map]
+  bloodVisc[blood_shear_dependent_viscosity] --&gt; yieldStasis[yield_stress_stasis]
+  bloodVisc --&gt; thixo
+  hoop[hoop_stress_laplace] --&gt; barrier[barrier_cascade_blowout_map]
+
+  duplex[duplex_doppler_velocity] --&gt; spectrum[triphasic_vs_stenotic_spectrum]
+  spectrum --&gt; purse
+  chokeMap --&gt; purse
+</code></pre>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

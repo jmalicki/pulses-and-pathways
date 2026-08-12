@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="case-writer-notes">Case (writer notes)</h1>
+
+<p>This file is <strong>writer meta</strong>, not script. Do not perform it or paste it into stage directions. It is the ops / case bible for pacing dialogue against real surgical business.</p>
+
+<p>See also: <a href="/pulses-and-pathways/characters.html">characters.md</a> (voice / relationships) · <a href="/pulses-and-pathways/science-arc.html">science-arc.md</a> (teaching DAG).</p>
+
+<hr />
+
+<h2 id="acronym-crib">Acronym crib</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>MAC</strong></td>
+      <td>Monitored anesthesia care — sedation + monitoring with the patient breathing on their own (typical with regional).</td>
+    </tr>
+    <tr>
+      <td><strong>NIBP</strong></td>
+      <td>Non-invasive blood pressure — the automatic arm cuff; readings appear on the shared monitor on a timed cycle.</td>
+    </tr>
+    <tr>
+      <td><strong>SpO2</strong></td>
+      <td>Pulse oximetry — oxygen saturation from a finger/earlobe probe.</td>
+    </tr>
+    <tr>
+      <td><strong>EtCO2</strong></td>
+      <td>End-tidal CO₂ — breath CO₂ if capnography is used under sedation.</td>
+    </tr>
+    <tr>
+      <td><strong>LAST</strong></td>
+      <td>Local anesthetic systemic toxicity — overdose / intravascular local; watched clinically (symptoms + monitors), not a real-time blood test.</td>
+    </tr>
+    <tr>
+      <td><strong>US</strong></td>
+      <td>Ultrasound (for block guidance).</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="injury-and-setup">Injury and setup</h2>
+
+<ul>
+  <li><strong>Emergency</strong> case: mid-forearm <strong>ulnar artery</strong> laceration from a table-saw kickback (dado cut; guard off) → ED → OR. Not an elective booked repair.</li>
+  <li>Hand typically still <strong>well-perfused</strong> via radial / arch unless the script adds hard ischemic signs.</li>
+  <li><strong>Regional block</strong> + MAC; patient awake; can feel pressure/movement, not sharp cutting pain when the block is dense.</li>
+  <li>Screen at the shoulder between Mark and the field; Sarah looks over it when she speaks to him.</li>
+  <li>Cast at table: Sarah operating, Stuart retracting/suction, Elena circulating, <strong>Priya</strong> at the head (block/MAC, background). Scrub tech unnamed. <strong>Dr. Okonkwo</strong> ED cameo only (handoff), not in the OR acts.</li>
+</ul>
+
+<hr />
+
+<h2 id="hospital--setting-silent-framing">Hospital / setting (silent framing)</h2>
+
+<p>Writer framing only — never name trauma level, ACS designation, or a real hospital on stage. Enough so the pathway stays self-consistent.</p>
+
+<ul>
+  <li><strong>Place:</strong> Houston metro suburb (Katy-class). Mark’s garage + neighbor Steve driving him in land here.</li>
+  <li><strong>Facility:</strong> The <strong>local ED is Level II</strong> (or Level II–equivalent with continuous vascular call). Isolated well-perfused ulnar does not require downtown Level I transfer; Hayes is <strong>on call</strong>, consult/accept → OR <strong>same campus</strong> same night.</li>
+  <li><strong>Vascular coverage (ACS I/II shape):</strong> Continuous 24/7 vascular expertise via <strong>call schedule</strong> and bedside response — not telemedicine-only, not “we transfer for vascular.” Vascular is almost never sitting in-house 24/7 the way ED often is; Hayes comes in when consulted. Level III would stabilize and transfer — not this story’s path.</li>
+  <li><strong>Anesthesia:</strong> Available for OR roll-in on the Level I/II timescale — fits Priya for block + MAC.</li>
+</ul>
+
+<hr />
+
+<h2 id="usual-operative-arc">Usual operative arc</h2>
+
+<ol>
+  <li>Find the vessel (expose, identify ulnar ends).</li>
+  <li>Proximal control / clamp.</li>
+  <li>Expose and clear the field (irrigation, retractors, dabbing).</li>
+  <li>Prepare the ends.</li>
+  <li>Anastomosis (7-0).</li>
+  <li>Unclamp; restore flow.</li>
+  <li>Duplex check.</li>
+  <li>If pursed → reclamp, revise, unclamp, duplex again.</li>
+  <li>Close (subcutaneous + skin), dress.</li>
+</ol>
+
+<hr />
+
+<h2 id="emergency-pathway-and-block">Emergency pathway and block</h2>
+
+<p><strong>Default story:</strong> ED control/pressure → <strong>Act 0</strong> Okonkwo handoff / Hayes accept / Priya plan → OR (block on table) → Acts 1–5.</p>
+
+<p><strong>Hayes’s first meet</strong> is often the <strong>ED surgical consult</strong>: examine, decide repair, consent/site, <strong>accept him as her patient</strong>. Short and urgent. “What do you do?” may land there or spill into the OR onset window. Play’s OR-open (“Block’s in… another minute”) is a valid compression of the same relationship.</p>
+
+<p><strong>Block placement — two honest paths:</strong></p>
+
+<ol>
+  <li><strong>Block in OR:</strong> roll in; Priya blocks on the table; onset overlaps prep/drape + sensation checks.</li>
+  <li><strong>Block in ED/holding while OR is prepped:</strong> Priya blocks in bay under monitoring; onset runs parallel with OR turnover and Hayes scrubbing; then roll for final check and cut. Needs anesthesia available off-OR, LAST vigilance, and a <strong>controlled</strong> bleed (pressure/dressing OK — not crashing hemorrhage).</li>
+</ol>
+
+<p>Not a leisurely elective block-bay afternoon. Not a scrubbed all-hands idle hour.</p>
+
+<hr />
+
+<h2 id="who--duration-ballpark">Who / duration (ballpark)</h2>
+
+<p>Play time ≠ wall clock. Use these to judge whether an ops beat can carry a lecture.</p>
+
+<p><strong>Clock:</strong> cumulative is <strong>from door / ED arrival</strong> on the play-default pathway (isolated ulnar, block on table, same-campus OR). Midpoints of the ranges; not a stopwatch.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>This step</th>
+      <th>Cumulative from door</th>
+      <th>Who</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ED / Hayes consult &amp; <strong>accept</strong> (± <strong>Okonkwo</strong> handoff)</td>
+      <td>~10–20 min</td>
+      <td>~15 min</td>
+      <td>Mark, ED RN, ±Okonkwo, Hayes not scrubbed, ±Stuart, Priya for plan</td>
+    </tr>
+    <tr>
+      <td>Block placement (OR)</td>
+      <td>10–20 min</td>
+      <td>~30 min</td>
+      <td>Priya (+/− help); Mark; monitors. Hayes often scrubbing</td>
+    </tr>
+    <tr>
+      <td>Block onset + prep/drape</td>
+      <td>~10–20 min <strong>overlapping</strong></td>
+      <td>~45 min</td>
+      <td>Parallel: Priya at head; Elena/scrub/Hayes/Stuart bring field up. <em>Do not add onset and prep as separate serial blocks.</em></td>
+    </tr>
+    <tr>
+      <td>Expose / find ends</td>
+      <td>10–20 min</td>
+      <td>~60 min</td>
+      <td>Full OR team</td>
+    </tr>
+    <tr>
+      <td>Clamp</td>
+      <td>~2–5 min</td>
+      <td>~65 min</td>
+      <td>Same</td>
+    </tr>
+    <tr>
+      <td>Prepare ends</td>
+      <td>10–20 min</td>
+      <td>~80 min</td>
+      <td>Same</td>
+    </tr>
+    <tr>
+      <td>Anastomosis</td>
+      <td>~20–40+ min if straightforward</td>
+      <td>~110 min</td>
+      <td>Same; lean talk</td>
+    </tr>
+    <tr>
+      <td>Unclamp / duplex / revise / close</td>
+      <td>~15–25 min</td>
+      <td>~130 min (~2 h)</td>
+      <td>Same</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Totals:</strong> door-to-close often ~<strong>1.5–2.5 h</strong> on this pathway; skin-to-skin (knife → close) often ~<strong>1–2 h</strong> if clean/isolated. Cumulatives above use midpoints; real evenings slide.</p>
+
+<p><strong>Play vs case pacing archive:</strong> <a href="/pulses-and-pathways/science-arc.html#pacing-case-vs-play">science-arc.md — Pacing (case vs play)</a> (act teach load vs these windows; rewrite impact checklist).</p>
+
+<hr />
+
+<h2 id="target-timelines-good--better--best">Target timelines (good / better / best)</h2>
+
+<p>Clock starts at <strong>injury</strong>; hospitals also track <strong>door-to-OR</strong> / <strong>consult-to-incision</strong>.</p>
+
+<h3 id="a-hand-ischemic--both-vessels--uncontrolled-bleed--incomplete-arch">A. Hand ischemic / both vessels / uncontrolled bleed / incomplete arch</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tier</th>
+      <th>Target</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Good</strong></td>
+      <td>Restore flow <strong>&lt;6 h</strong> of ischemia (classic ceiling)</td>
+      <td>Old limb-salvage slogan; don’t plan to this if you can do better</td>
+    </tr>
+    <tr>
+      <td><strong>Better</strong></td>
+      <td>~<strong>1–1.5 h</strong> from injury when ischemia is the problem; ~<strong>1 h from arrival</strong> in tight systems</td>
+      <td>Contemporary push; temporary shunt if definitive repair must wait</td>
+    </tr>
+    <tr>
+      <td><strong>Best</strong></td>
+      <td>Immediate control + earliest possible restoration of flow</td>
+      <td>Crash pathway</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="b-isolated-ulnar-hand-well-perfused-bleeding-controlled--play-default">B. Isolated ulnar, hand well-perfused, bleeding controlled — <strong>play default</strong></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tier</th>
+      <th>Target</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Good</strong></td>
+      <td><strong>Same-day / same-evening</strong> repair after ED consult</td>
+      <td>Not “send home and book next week” if repair is the plan</td>
+    </tr>
+    <tr>
+      <td><strong>Better</strong></td>
+      <td><strong>Door-to-OR ~1–3 h</strong> (consult, consent, room, block)</td>
+      <td>Typical emergency evening for this injury class</td>
+    </tr>
+    <tr>
+      <td><strong>Best</strong></td>
+      <td>ED accept → block while OR preps → knife soon after roll-in</td>
+      <td>Tightest non-ischemic pathway</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Don’t invent a ticking 6-hour bomb for an isolated well-perfused ulnar unless the script establishes ischemia.</p>
+
+<hr />
+
+<h2 id="priyas-board-block--mac">Priya’s board (block / MAC)</h2>
+
+<p>Ops detail — personality lives in <code class="language-plaintext highlighter-rouge">characters.md</code>.</p>
+
+<p><strong>During block placement:</strong></p>
+
+<ul>
+  <li>US-guided injection; aspiration / incremental dosing.</li>
+  <li><strong>LAST</strong> vigilance — <strong>not a lab test</strong>: clinical signs (metallic taste, tinnitus, agitation/confusion, seizures) plus continuous monitors.</li>
+  <li>Continuous <strong>ECG</strong> = typical <strong>3- or 5-lead</strong> OR leads (rate/rhythm), <strong>not</strong> a diagnostic 12-lead. SpO2, NIBP.</li>
+  <li>Talking to Mark during injection doubles as neuro check.</li>
+  <li>Prevention is technique; treatment if LAST occurs is emergency care + IV lipid emulsion.</li>
+</ul>
+
+<p><strong>Whole case (MAC + regional):</strong></p>
+
+<ul>
+  <li>Continuous SpO2, ECG/HR.</li>
+  <li>Intermittent <strong>NIBP</strong> — automatic cuff; numbers appear on the <strong>shared vitals/anesthesia monitor</strong> on a timed cycle. Nobody walks over to read the cuff as a gauge. Elena may glance, start a STAT cycle, or call a number; Priya sees the same display and owns interpretation.</li>
+  <li>Respiration / EtCO2 if sedated with capnography; sedation depth; O2; IV/fluids/meds in her lane.</li>
+  <li><strong>Block density and fade.</strong></li>
+</ul>
+
+<p><strong>How they know the block is failing / inadequate:</strong></p>
+
+<ul>
+  <li><strong>Patient report:</strong> sharp (vs pressure) on pinch, incision, or deeper work — main signal.</li>
+  <li><strong>Who asks “sharp or pressure?”:</strong> <strong>Shared.</strong> Priya often checks density as the block sets (head of table). Hayes keeps the <strong>pre-deeper-work</strong> check in the field (play’s existing beat). Both should hear a “sharp.”</li>
+  <li>Behavior: flinch, withdrawal, breath-hold, tight voice.</li>
+  <li>Physiology: HR/BP jump under surgical stimulus.</li>
+  <li>Spotty map or later fade → top-up, field local, more sedation, or (rare) convert.</li>
+</ul>
+
+<p><strong>Not her primary board:</strong> field instruments (Elena), teaching Stuart, oil analogies.</p>
+
+<hr />
+
+<h2 id="timing-lever">Timing lever</h2>
+
+<p>The medical sequence can slide <strong>forward or backward</strong> relative to the teaching dialogue to control pacing. Prefer moving an ops beat over inventing filler talk. Most business can drift for rhythm. Only the sync points below must lock.</p>
+
+<p>Science teaching deps and which nodes can slide: see <a href="/pulses-and-pathways/science-arc.html">science-arc.md</a>.</p>
+
+<hr />
+
+<h2 id="sync-points-medicine-and-dialogue-must-lock">Sync points (medicine and dialogue must lock)</h2>
+
+<p>These are the handful of places where an ops fact has to be true for the spoken beat to land. Inferred from Acts 1–5 as written.</p>
+
+<ol>
+  <li>
+    <p><strong>Block set before deeper work / sensation check</strong> (Act 1). Sarah waits on the block, presses for sharp vs pressure, gets Mark’s “weird / kitchen drawer” answer, then goes further. Accident story and hydrostatic intro can breathe in that wait; cutting deeper before the check breaks the setup. Priya may have already checked density at the head.</p>
+  </li>
+  <li>
+    <p><strong>Vessel located before clamp talk owns the room</strong> (Act 1 → Act 2). Act 1 ends on “Ulnar artery. Torn—but the ends look clean enough.” Act 2 opens ready to take proximal control. Do not run full shut-in / reflection dialogue before they have something to clamp.</p>
+  </li>
+  <li>
+    <p><strong>Proximal clamp on before “field went quiet” / reflection / arterial-line talk</strong> (Act 2). The click, dry field, and Mark’s “you saw the spike?” only work after the clamp. Water-hammer / bruit / “we don’t instrument for sport” sits on that shut-in. Slide irrigation and exposure around the talk; do not reverse clamp and reflection.</p>
+  </li>
+  <li>
+    <p><strong>Anastomosis underway (or clearly starting) before inverse-problem / “sewing without watching flow” talk</strong> (Act 5). Sarah announces the join, warns Stuart about pursing, tells Mark the duplex comes after. Mark’s history-matching speech needs that condition: join now, flow later. Do not duplex-first then invent the sew.</p>
+  </li>
+  <li>
+    <p><strong>Anastomosis complete → unclamp → first duplex before “pursed / revise”</strong> (Act 5). Bad waveform (stenotic rasp, peak velocity up) forces clamp back on and revision. Good triphasic trace only after the revise and second unclamp/duplex. Do not praise a clean waveform before the pursing beat has played, and do not revise without a failed check that motivates it.</p>
+  </li>
+  <li>
+    <p><strong>Closure only after a good duplex</strong> (Act 5). “Elena, let’s close” follows the open repair and Mark’s choke recognition. Closing over a known purse breaks the case logic.</p>
+  </li>
+  <li>
+    <p><strong>Vessel-end prep underway (trim / flush / spatulate — field High) before / concurrent with Mark’s spaced cavitation-collapse solo</strong> (Act 3). Boyle / Stuart’s “Right.” can sit just upstream while intensity is still Med. Do not run the full collapse cascade as Med chatty hold, and do not start anastomosis to “earn” this talk (that stays Sync 4). Think-aloud in a quiet room — not ignored-lecturer comedy. Network teach after Hayes’s sideways land eases back to Med.</p>
+  </li>
+</ol>
+
+<p>Everything else — sketch pages, Poiseuille / stenosis chat, Act 3 network after cavitation, Windkessel / mud rheology, stay sutures while talking compliance — can drift within its act window as long as those locks stay honest. Cross-check <a href="/pulses-and-pathways/science-arc.html">science-arc.md</a> before sliding a teach node across a sync.</p>
+
+<hr />
+
+<h2 id="where-each-act-sits-current-script">Where each act sits (current script)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Script act</th>
+      <th>File</th>
+      <th>Ops window</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Act 0 — The Handoff</td>
+      <td><code class="language-plaintext highlighter-rouge">act_0_ed_handoff.md</code></td>
+      <td>ED bay: Okonkwo handoff, Hayes accept (paged), Priya regional plan; cut to OR.</td>
+    </tr>
+    <tr>
+      <td>Act 1 — The Bedside Question</td>
+      <td><code class="language-plaintext highlighter-rouge">act_1_the_bedside_question.md</code></td>
+      <td>Block waiting; history; hydrostatic / well sketch; dissect and <strong>find</strong> the ulnar ends.</td>
+    </tr>
+    <tr>
+      <td>Act 2 — The Narrowing</td>
+      <td><code class="language-plaintext highlighter-rouge">act_2_pressure_and_flow.md</code></td>
+      <td><strong>Clamp</strong> / proximal control; shut-in &amp; monitoring; clear/expose; stenosis–flow teaching; field pristine before going further.</td>
+    </tr>
+    <tr>
+      <td>Act 3 — The Network</td>
+      <td><code class="language-plaintext highlighter-rouge">act_3_the_network.md</code></td>
+      <td>Prepare ends after control: valve/Boyle (Med) → heads-down trim/flush/spatulate while Mark cavitation solo (Sync 7 High) → network after Hayes land; no sew yet.</td>
+    </tr>
+    <tr>
+      <td>Act 4 — Living Pipes</td>
+      <td><code class="language-plaintext highlighter-rouge">act_3_living_pipes.md</code></td>
+      <td>Compliance / FSI / rheology while preparing and <strong>starting stay sutures</strong>; hoop-stress / aneurysm sideways map.</td>
+    </tr>
+    <tr>
+      <td>Act 5 — Inverse Problems</td>
+      <td><code class="language-plaintext highlighter-rouge">act_4_inverse_problems.md</code></td>
+      <td><strong>7-0 anastomosis</strong>, unclamp, duplex, revise if pursed, close.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>(Filenames lag the on-page act numbers for Acts 4–5; follow the script titles when ordering the evening.)</p>
+
+<hr />
+
+<h2 id="stage-business-holding-windows-vs-active-sewing">Stage business: holding windows vs active sewing</h2>
+
+<p><strong>Holding / maintenance (good for longer teaching):</strong> waiting on the block; irrigation and suction; dabbing; retractor adjustments; Elena flipping Mark’s notepad; sterile marker sketch on drape backing; Sarah’s soft check-ins over the screen; Priya quiet at the head. Hands are busy but the critical path is not mid-bite. <strong>Elena↔Hayes</strong> (and Elena↔Priya) can be lightly chummy here — still brief; see <code class="language-plaintext highlighter-rouge">characters.md</code>.</p>
+
+<p><strong>Active sewing / critical path (keep talk lean):</strong> placing the anastomosis, cutting a cinching bite, unclamp sequence, reading duplex. Sarah goes flat and field-first; Elena answers with hands; Priya stays background unless vitals/block need a word. Mark may still think aloud (inverse problems during the sew is already in play), but do not pile new comic business or extra lectures on top. Stuart’s job is steady suction/retraction, not a second seminar. Save chumminess for after the waveform clears or for true lulls.</p>
+
+<p><strong>Wrong business:</strong> inventing interruptions so someone can finish a physics paragraph; long sermons during the first stitch; continuous arterial-line theater on a case that already refused it; closing or celebrating flow before the duplex story resolves; sitcom banter mid-purse; double-calling the same cuff number from Elena and Priya without reason.</p>
+
+<hr />
+
+<h2 id="team-intensity-by-phase">Team intensity by phase</h2>
+
+<p>Who is heads-down vs who has air to talk. Complements holding vs sewing above; voice stays in <a href="/pulses-and-pathways/characters.html">characters.md</a>.</p>
+
+<p><strong>Intensity:</strong> <strong>High</strong> = lean talk / procedural only · <strong>Med</strong> = can carry science or patient chat while working · <strong>Low</strong> = spare attention (short lines OK, not a new seminar host).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phase (ops)</th>
+      <th>Hayes</th>
+      <th>Stuart</th>
+      <th>Elena</th>
+      <th>Priya</th>
+      <th>Mark</th>
+      <th>Chat story</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ED accept (Act 0)</strong></td>
+      <td>Med (exam/accept)</td>
+      <td>— (not in bay)</td>
+      <td>—</td>
+      <td>Med (plan line)</td>
+      <td>Med–High anxiety</td>
+      <td>Okonkwo High then <strong>exit</strong>. Hayes patient-facing brief; no physics.</td>
+    </tr>
+    <tr>
+      <td><strong>Block placement</strong></td>
+      <td>Low–Med (often scrubbing / not in light)</td>
+      <td>— or Low</td>
+      <td>Low–Med if helping roll</td>
+      <td><strong>High</strong></td>
+      <td>High (pokes, stillness)</td>
+      <td>Priya owns the beat; others quiet.</td>
+    </tr>
+    <tr>
+      <td><strong>Block onset + prep (Act 1 open)</strong></td>
+      <td>Med (wait, can look over screen)</td>
+      <td>Med (observe)</td>
+      <td>Med (IV, setup)</td>
+      <td>Med (watch onset)</td>
+      <td>Med (anxious → talking)</td>
+      <td><strong>Best early teach window.</strong> Hayes↔Mark science OK; Elena numbers OK; Priya mostly quiet unless density/sharp.</td>
+    </tr>
+    <tr>
+      <td><strong>Expose / find ends</strong></td>
+      <td>Med–High (dissecting)</td>
+      <td>Med (retract/suction)</td>
+      <td>Med (pass, irrigate)</td>
+      <td><strong>Low</strong> (bored-ish at head)</td>
+      <td>Med (can narrate)</td>
+      <td>Hayes can talk while hands work but shorter; Mark fills air. Priya idle ≠ oil seminar — one comfort line max. Elena↔Priya ribbing only if true lull.</td>
+    </tr>
+    <tr>
+      <td><strong>Clamp</strong></td>
+      <td><strong>High</strong> (brief)</td>
+      <td>High (hold)</td>
+      <td>Med</td>
+      <td>Low</td>
+      <td>Med (flinch/map)</td>
+      <td>Lean: click, dry field, then shut-in talk as intensity drops to Med.</td>
+    </tr>
+    <tr>
+      <td><strong>Prepare ends — Med (Act 3 open)</strong></td>
+      <td>Med (irrigation, exposure)</td>
+      <td>Med</td>
+      <td>Med</td>
+      <td><strong>Low</strong></td>
+      <td>Med–Low chill</td>
+      <td>Valve map + Boyle / “Right.” Interlocutors can nod.</td>
+    </tr>
+    <tr>
+      <td><strong>Prepare ends — High / Sync 7 (Act 3 collapse)</strong></td>
+      <td><strong>High</strong> (trim / flush / spatulate)</td>
+      <td>High (hold / irrigate)</td>
+      <td>Med (pass)</td>
+      <td><strong>Low</strong></td>
+      <td>Med think-aloud</td>
+      <td><strong>Cavitation collapse solo.</strong> Field lean / clipped task only; Mark to ceiling; plates carry movie. Not ignored-lecturer.</td>
+    </tr>
+    <tr>
+      <td><strong>Prepare ends — ease (Act 3 network)</strong></td>
+      <td>Med</td>
+      <td>Med</td>
+      <td>Med</td>
+      <td><strong>Low</strong></td>
+      <td>Med–Low</td>
+      <td>After Hayes sideways land; branching network / continuity. Elena can dry-line with Hayes.</td>
+    </tr>
+    <tr>
+      <td><strong>Stays / start sew (Act 4)</strong></td>
+      <td>Med → rising</td>
+      <td>Med</td>
+      <td>Med</td>
+      <td>Low</td>
+      <td>Med</td>
+      <td>Compliance/rheology while stays; talk thinning as bites begin.</td>
+    </tr>
+    <tr>
+      <td><strong>Anastomosis mid-sew (Act 5)</strong></td>
+      <td><strong>High</strong> (flat, field-first)</td>
+      <td>High (steady tools)</td>
+      <td>Med–High (hands)</td>
+      <td>Low</td>
+      <td>Med (think-aloud OK)</td>
+      <td>Hayes not chatty at peak — one-beat confirms only. Mark may still run inverse problems (already in play). No Elena–Priya comedy.</td>
+    </tr>
+    <tr>
+      <td><strong>Unclamp / first duplex</strong></td>
+      <td><strong>High</strong> (read field/waveform)</td>
+      <td>High</td>
+      <td>Med</td>
+      <td>Med (vitals matter)</td>
+      <td>Med</td>
+      <td>Lean until result lands.</td>
+    </tr>
+    <tr>
+      <td><strong>Revise if pursed</strong></td>
+      <td><strong>High</strong></td>
+      <td>High</td>
+      <td>Med–High</td>
+      <td>Low–Med</td>
+      <td>Med</td>
+      <td>Same as sew peak.</td>
+    </tr>
+    <tr>
+      <td><strong>Good duplex → close</strong></td>
+      <td>Med → Low</td>
+      <td>Med → Low</td>
+      <td>Med</td>
+      <td>Low</td>
+      <td>Low–Med relief</td>
+      <td>Ease returns; light Hayes–Elena chumminess OK; Mark choke recognition; Priya still background.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Hayes:</strong> Conversational on holds and while exposing; <strong>flat</strong> at clamp click, mid-anastomosis, and duplex/revise — intensity-gated, not mute all night.</p>
+
+<p><strong>Priya idle:</strong> Low intensity at the head ≠ invitation into Darcy. Spare attention → monitor glance, one calm patient line, or Elena ribbing in a lull.</p>
+
+<hr />
+
+<h2 id="sideways-paths-in-play-or-available">Sideways paths (in play or available)</h2>
+
+<p>Already used:</p>
+
+<ul>
+  <li>Accident storytelling while the block sets.</li>
+  <li>Sterile marker + drape-backing sketch (well / annulus).</li>
+  <li>Mark’s clipboard notepad under the lights (narrowing, network, pulsatile curves, pipe vs vessel).</li>
+  <li>Oil↔medicine maps that land (shut-in/clamp, choke/stenosis, ECD/friction, mud ↔ shear-thinning blood, duplex ↔ wellhead gauges).</li>
+  <li>Maps that <strong>fail honestly</strong> (cement plug ≠ intima; cascade still rhymes).</li>
+  <li>Counterfactual monitoring (what an arterial line <em>would</em> show) shut down by Elena’s lane.</li>
+  <li>Cavitation → mechanical valves / hemolysis.</li>
+  <li>Failed anastomosis → revise → choke recognition from Mark.</li>
+</ul>
+
+<p>Available if pacing needs a turn without new plot:</p>
+
+<ul>
+  <li>Another irrigation / exposure beat instead of new dialogue.</li>
+  <li>One more notepad page Mark already “drew earlier.”</li>
+  <li>Sarah looking over the screen for a one-line patient check, then back to flat field voice.</li>
+  <li>Stuart’s short assent or tool adjustment as a breath — not a new lecture.</li>
+  <li>A beat of Elena–Hayes or Elena–Priya ease in a true lull or after a good duplex — not mid-stitch comedy.</li>
+  <li>Silent Priya presence / one procedural line when the board needs it.</li>
+</ul>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

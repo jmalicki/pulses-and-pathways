@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="characters-writer-notes">Characters (writer notes)</h1>
+
+<p>This file is <strong>writer meta</strong>, not script. Do not perform it, paste it into stage directions, or drop voice essays into the acts. Use it when drafting or revising dialogue so each person stays in register.</p>
+
+<p>See also: <a href="/pulses-and-pathways/case.html">case.md</a> (ops / who is present / monitoring) · <a href="/pulses-and-pathways/science-arc.html">science-arc.md</a> (teaching DAG).</p>
+
+<p>Seeded from the Act 1 cast and how they actually speak across Acts 1–5. Where the live script drifts from these guidelines, prefer this catalog for new lines.</p>
+
+<p><strong>Cast rule:</strong> Core speaking leads are Mark / Hayes / Stuart / Elena. <strong>Priya Nazari</strong> (CRNA) is on stage for the OR as <strong>background</strong>. <strong>Dr. Amara Okonkwo</strong> is <strong>cameo only</strong>. No anonymous “CRNA:” labels in new dialogue.</p>
+
+<h2 id="antihouse-ai-kill-on-sight">Anti–house-AI (kill on sight)</h2>
+
+<p>Generic polish that makes everyone sound the same. Cut or rewrite when it shows up:</p>
+
+<ul>
+  <li>Perfect parallel threes; “Let me explain…”; “Great question!”</li>
+  <li>TED warmth; therapy-speak; emoji energy</li>
+  <li>Everyone equally witty or equally profound</li>
+  <li>Staccato orphan profundity as standalone lines</li>
+  <li>Over-clarifying for the audience <em>inside</em> dialogue (slides/notes own that job)</li>
+</ul>
+
+<p>Each character has a <strong>Voice DNA</strong> block below — same axes, different settings. Use it to pull a line back into <em>their</em> mouth.</p>
+
+<p><strong>Voice DNA axes:</strong> Register · Music · Accent/region · Humor · Heat (curse / pressure) · Ego · Anti-AI tell (their specific drift) · Sounds like / Never</p>
+
+<hr />
+
+<h2 id="mark">Mark</h2>
+
+<p><strong>Role:</strong> Patient. Petroleum / reservoir–downhole hydraulics engineer. Awake under regional block; screen hides the field. Left arm numb; right hand free for marker and notepad.</p>
+
+<p><strong>Voice:</strong> Oil-patch South. Talks slow — partly region, partly secure, nothing to prove. Long easy clauses that unroll like shop talk. Anxious early (Act 1: shallow breath, ceiling-staring, high-pitched ramble while the block settles); settles into chill case-side conversation as the op goes on. Likes science; boredom and worry keep him awake and talking. Oil vocabulary when it is natural (annulus, ECD, choke, shut-in, well knocking, Darcy, history matching) — not as a flex.</p>
+
+<p>Among science-literate people (Sarah, Stuart), he <strong>names</strong> shared undergrad physics as a <strong>shortcut</strong> — ideal gas / Boyle, hydrostatic (P = \rho g z), Reynolds — then states the corollary and moves on. He never teaches the undergrad bit; he assumes they had it.</p>
+
+<p><strong>Voice DNA:</strong></p>
+
+<ul>
+  <li><strong>Register:</strong> Informal shop-talk — oil floor and model room, not lecture hall.</li>
+  <li><strong>Music:</strong> Slow, secure; long easy clauses that unroll. Early anxiety can pitch up and ramble; then settles chill.</li>
+  <li><strong>Accent / region:</strong> Texas Gulf / oil-patch color in word choice and rhythm. Suggest on the page — <strong>do not</strong> write phonetic dialect.</li>
+  <li><strong>Humor:</strong> Dry, rare; usually at the <em>problem</em>, not at the room. Wry when settled.</li>
+  <li><strong>Heat:</strong> Mild damn/hell OK when startled or amused; no performance swearing.</li>
+  <li><strong>Ego:</strong> Secure in oil; openly out of his depth in medicine — curious, not a clown.</li>
+  <li><strong>Anti-AI tell:</strong> Becomes a charming lecturer, or drops into staccato “Tiny pockets.” profundity. Pull back to long shop clauses.</li>
+  <li><strong>Sounds like:</strong> A principal engineer talking through a well over coffee. <strong>Never:</strong> A TED explainer or a comic foil quizmaster.</li>
+</ul>
+
+<p><strong>Do:</strong></p>
+
+<ul>
+  <li>Let him map surgery to wells when the analogy is genuine and useful.</li>
+  <li>Keep sentences long and connected; allow one breath of nervousness early without turning him into a comic chatterbox.</li>
+  <li>When an analogy breaks (cement vs intima), let him say so and stay curious.</li>
+</ul>
+
+<p><strong>Don’t:</strong></p>
+
+<ul>
+  <li>Staccato orphan fragments as standalone lines (“Tiny pockets.” / “Same idea.” alone on a beat) unless they are a mid-speech assent.</li>
+  <li>Flex, quiz, or tease Stuart. He is not the classroom authority.</li>
+  <li>Lecture Boyle’s law or undergrad basics as if the room needs a course.</li>
+</ul>
+
+<p><strong>Example register:</strong> “Same rule as undergrad physics — pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. Tight window either side.” Not: “Let me explain Boyle’s law to you…”</p>
+
+<p><strong>Offstage backstory</strong> (never performed — self-consistency only):</p>
+
+<p>Mid-50s (~54). Lives in a Houston metro suburb (Katy-class) with wife Diane; two kids in their early twenties (college / just out). Neighbor Steve drove him in after the table-saw — see <a href="/pulses-and-pathways/case.html">case.md</a> for the hospital path.</p>
+
+<p>All Texas A&amp;M: BS Petroleum Engineering, MS Reservoir Engineering, PhD ABD in computational porous-media / inverse problems. Left ABD when deepwater modeling work pulled him into industry — explains history matching, Darcy grids, ECD sims, cavitation fluency without anyone calling him Doctor. A&amp;M is a top petroleum pipeline school; his “senior” status is late-career principal depth on real assets, not a prestige-PhD brand.</p>
+
+<p>Career sequenced, not simultaneous hitch + ABD desk: post-BS years in drilling / downhole hydraulics / production support with real platform time (water-hammer gasket story, ECD/mud talk, “offshore”). MS → PhD start shifted him into computational reservoir / wellbore modeling. Now principal / senior at a major (or large independent with a GOM deepwater book) — Houston modeling + asset support with peers (“our reservoir modeling team”); rare offshore for a campaign or well test, not a hitch rat. Early Permian/land seasoning possible; he is not a current West Texas derrick hand. Platform scars are earned earlier; modeling is the present tense.</p>
+
+<hr />
+
+<h2 id="dr-sarah-hayes">Dr. Sarah Hayes</h2>
+
+<p><strong>Role:</strong> Vascular surgeon. Running the case; talking over the screen to Mark when she needs his eyes or his calm; teaching Stuart in craft, not sermons.</p>
+
+<p><strong>Voice:</strong> Calm, competent, field-first. Clinical depth — vessels, clamps, duplex, platelets, Windkessel, Laplace — without Mark’s pump-thermodynamics depth. She can learn sideways from him without being lectured; she answers with what she does in the wound. Softens when she looks over the screen to Mark; flatter and clipped when eyes are on the field or she is placing stitches.</p>
+
+<p><strong>Voice DNA:</strong></p>
+
+<ul>
+  <li><strong>Register:</strong> Clinical / craft — field-first English, not seminar English.</li>
+  <li><strong>Music:</strong> Short when hands are busy; a beat longer when irrigating, waiting, or looking over the screen. Softens to Mark; flat mid-stitch.</li>
+  <li><strong>Accent / region:</strong> Professional neutral / light Texas medical — <strong>not</strong> Mark’s oil-patch South.</li>
+  <li><strong>Humor:</strong> Dry crumbs with Elena in lulls only; almost never jokes for the room.</li>
+  <li><strong>Heat:</strong> Essentially no cursing on stage; pressure shows as fewer words.</li>
+  <li><strong>Ego:</strong> Calm authority without swagger; can admit a sideways learn without a self-effacement speech.</li>
+  <li><strong>Anti-AI tell:</strong> Turns into warm TED mentor or over-empathizes — <em>when that isn’t her</em>. AI-shaped phrasing that still sounds like Hayes in the wound can stay; don’t twist lines awkward just to dodge a pattern an LLM might also use.</li>
+  <li><strong>Sounds like:</strong> A surgeon teaching in the wound. <strong>Never:</strong> A podcast host or life-coach.</li>
+</ul>
+
+<p><strong>Three addresses</strong> (don’t collapse these):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Address</th>
+      <th>Who</th>
+      <th>Stakes</th>
+      <th>Voice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clinical team</td>
+      <td>Elena, Priya, ops crumbs</td>
+      <td>Procedure; record; unambiguous direction (malpractice / no-mistakes English)</td>
+      <td>Crisp medical</td>
+    </tr>
+    <tr>
+      <td>Stuart</td>
+      <td>M3 observer / student — <strong>not</strong> treatment team</td>
+      <td>Teaching; patient’s acute management isn’t riding on this talk</td>
+      <td>Can explain, digress, use “his/Mark’s” map while teaching; still not Mark’s peer</td>
+    </tr>
+    <tr>
+      <td>Mark</td>
+      <td>Awake patient</td>
+      <td>Calm, consent-ish clarity; oil↔medicine bridge when earned</td>
+      <td>Soften over the screen; then back to field</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>With Elena:</strong> Trusted OR pair. On the critical path she is clipped and task-first (“Elena, saline irrigator.”); Elena answers with hands, not chatter. In holding windows and after a good duplex, they can be <strong>cordial / lightly chummy</strong> — shared dry humor, a soft laugh while trays clear — without turning into sitcom banter. Sarah does not undercut Elena’s lane (e.g. Elena’s “We don’t instrument for sport” stands).</p>
+
+<p><strong>With Priya:</strong> Parallel professional trust on a different axis (wound vs block/MAC/hemodynamics). Coordinate block density, sedation, BP/HR that affect the case, unclamp readiness, Mark’s comfort. Not oil-physics. Cordial in lulls; flat mid-sew. Neither undercuts the other in front of the patient.</p>
+
+<p><strong>With Stuart:</strong> He holds retractors and learns; he does not share Elena/Priya’s clinical lane. Teach with real questions and confirmations; longer physiology/craft explanation is allowed when intensity allows — this is pedagogy, not operative direction. Do not treat him as co-surgeon or dump oil seminar on him as if he were Mark; do not use team-record voice at him.</p>
+
+<p><strong>Do:</strong></p>
+
+<ul>
+  <li>Keep her lines short when hands are busy; longer when irrigating, waiting, checking sensation, or teaching Stuart in a holding window.</li>
+  <li>Team talk and recordable observations (operative narration / voice for the record) stay crisp clinical English — Elena/Priya/ops.</li>
+  <li>If Mark needs a bridge from what was just said, look over the screen and say it <strong>to him</strong> — then back to the field.</li>
+  <li>Keep the pre-deeper-work “sharp, or just pressure?” beat in her lane when she is about to cut (Priya may also check density as the block sets — see <code class="language-plaintext highlighter-rouge">case.md</code>).</li>
+</ul>
+
+<p><strong>Don’t:</strong></p>
+
+<ul>
+  <li>Sermonize morality or stop the case for a TED talk; if the dialogue needs room, slide an ops beat (see <code class="language-plaintext highlighter-rouge">case.md</code>).</li>
+  <li>Compete with Mark on wellbore jargon.</li>
+  <li>Put oil analogies into <strong>team-record</strong> voice, or make Stuart the treatment-team peer.</li>
+  <li>Stay chatty through clamp click, mid-anastomosis, or duplex/revise — intensity-gated; see <code class="language-plaintext highlighter-rouge">case.md</code> Team intensity.</li>
+  <li>Twist natural Hayes lines solely to avoid “AI-sounding” phrasing.</li>
+</ul>
+
+<p><strong>Example register:</strong> “I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.” / “Starting the anastomosis. Stuart — don’t let me purse these bites.”</p>
+
+<p><strong>Offstage backstory</strong> (never performed — self-consistency only):</p>
+
+<p>Mid-40s (~45). Staff vascular at the local Level II; on call tonight — Okonkwo’s consult → accept → same-campus OR (<a href="/pulses-and-pathways/case.html">case.md</a>). Lives in the suburb belt for call response. Partner/kids unspoken unless a crumb earns it.</p>
+
+<p>MD → general surgery → vascular fellowship. Fellowship was craft-heavy (volume; mentor who taught in the wound) — field-first teaching style with Stuart. Med school / residency Texas or in-metro; don’t brand-name unless needed. Same OR with Elena ~6–8 years; regularly takes students on call cases and prefers useful retractors over performative ones.</p>
+
+<p>Secure enough to borrow Mark’s maps without winning physics — translates to vessels and keeps sewing. Knows clinical jet/valve damage (and may know the word cavitation) without owning Mark’s pump picture of vapor → condensation → vanishing punch; that gap is normal. Act 3 land: knew the damage, hadn’t put the vanishing that cleanly.</p>
+
+<hr />
+
+<h2 id="stuart">Stuart</h2>
+
+<p><strong>Role:</strong> M3. Earnest learner / <strong>observer</strong> — not part of the treatment team providing care. Holds retractors, suction, duplex probe. Asks real questions; sometimes quotes the textbook because that is how he still thinks.</p>
+
+<p><strong>Voice:</strong> Observing, not performing. Quiet asides early (“Mid-forearm… ulnar artery territory.”). Physiology when invited (Poiseuille, Bernoulli, Windkessel, shear-thinning). Not a foil, not a quiz victim, not comic relief.</p>
+
+<p>When someone names a shared basic he already had and briefly forgot, react like forgetting milk at the store — a short embarrassed blank, then back in. A mid-speech assent (“Right.” / “Understood.”) as a head nod is enough. Do not interrupt the speaker’s flow or over-explain the embarrassment.</p>
+
+<p><strong>Voice DNA:</strong></p>
+
+<ul>
+  <li><strong>Register:</strong> Careful student English; slightly formal; textbook still loud in his head.</li>
+  <li><strong>Music:</strong> Quiet asides; questions that trail into thought; short assents. Not loud.</li>
+  <li><strong>Accent / region:</strong> Unmarked American student.</li>
+  <li><strong>Humor:</strong> Almost none; earnest, not ironic.</li>
+  <li><strong>Heat:</strong> No cursing.</li>
+  <li><strong>Ego:</strong> Lightly self-effacing when blank (“Right.”); wants to be useful, not impressive.</li>
+  <li><strong>Anti-AI tell:</strong> “Wow that’s amazing!” fanboy or comic foil. Keep wonder small and useful.</li>
+  <li><strong>Sounds like:</strong> An M3 thinking aloud while holding a retractor. <strong>Never:</strong> A sitcom intern or a second lecturer.</li>
+</ul>
+
+<p><strong>Do:</strong></p>
+
+<ul>
+  <li>Let him hold tools and stay useful while he thinks aloud.</li>
+  <li>Allow one clean textbook line, then push him to reason forward (Sarah’s positive-feedback beat in Act 2).</li>
+  <li>Keep wonder proportional; duplex success is a breath out, not a speech.</li>
+</ul>
+
+<p><strong>Don’t:</strong></p>
+
+<ul>
+  <li>Make him the butt of Mark’s cleverness.</li>
+  <li>Turn every oil term into a confused medical false friend unless the script already earned that beat (annulus once is enough).</li>
+  <li>Narrate his own embarrassment at length.</li>
+  <li>Bounce physiology essays off Elena or Priya.</li>
+</ul>
+
+<p><strong>Example register:</strong> “So you calculate what the wellhead pressure <em>should</em> be, and compare it to the actual sensor data?” / [<em>Quietly</em>] “So clamping is… trying to get containment back before it’s gone?”</p>
+
+<p><strong>Offstage backstory</strong> (never performed — self-consistency only):</p>
+
+<p>Stuart Kim (~25–26). M3 on a surgery / vascular-adjacent clerkship — assigned to Hayes’s call tonight, not a VIP invite. Texas med school in-system or nearby is enough; undergrad science-capable but not an engineer. Preclinical physiology still loud (why he quotes the book once, then needs Sarah to push him forward). “Right.” / milk-forgot blank = normal M3, not comic stupidity. Earnest because he wants to be good; stays quiet and useful mid-sew. Elena/Priya keep him functional; they don’t teach him anesthesia. Home/family unspoken.</p>
+
+<hr />
+
+<h2 id="elena">Elena</h2>
+
+<p><strong>Role:</strong> Circulating nurse. IV, instruments, notepad/clipboard for Mark’s sketches, dressings; may glance at the shared vitals monitor or start a cuff cycle. Not the anesthesia provider.</p>
+
+<p><strong>Voice:</strong> Mostly working. Speaks rarely and in her lane — vitals callouts when useful, instrument passes, and hard limits on unnecessary monitoring. Not a physics lecturer and not a third student.</p>
+
+<p><strong>Voice DNA:</strong></p>
+
+<ul>
+  <li><strong>Register:</strong> Spare circulating English — task and numbers, then stop.</li>
+  <li><strong>Music:</strong> Economical; flat when busy; a dry beat of warmth only in true lulls.</li>
+  <li><strong>Accent / region:</strong> Local Houston practical (Reyes). No forced Spanglish unless a future crumb earns it.</li>
+  <li><strong>Humor:</strong> Dry one-liners with Hayes/Priya in lulls; flat affect — never sitcom.</li>
+  <li><strong>Heat:</strong> Default clean; rare under-breath mild curse only off critical path.</li>
+  <li><strong>Ego:</strong> Peer competence; not subordinate-scared, not chatty host.</li>
+  <li><strong>Anti-AI tell:</strong> Narrates the room like a novel or joins the oil seminar. Stay in-lane.</li>
+  <li><strong>Sounds like:</strong> An OR nurse who already knows the next pass. <strong>Never:</strong> A narrator or a third science student.</li>
+</ul>
+
+<p><strong>With Sarah:</strong> Long working relationship, not strangers. Anticipates passes; dry competence reads as trust. When the case is tense or mid-stitch, she is economical — present, not chatty. When things are <strong>not</strong> tense (block wait, irrigation lull, good duplex, closing/trays), she can be warm and lightly chummy with Hayes — a shared look, a dry line, a soft laugh with the team — without becoming a comic sidekick or joining the physics seminar.</p>
+
+<p><strong>With Priya:</strong> Equals who share the room all night. Logistics (IV, meds from cart, “I’m cycling BP” on the monitor). Dry mutual ribbing OK; a <strong>one-line tension break</strong> when the room needs air, then back to work. Not at Mark’s expense; not mid-sew; not competing for Hayes’s ear.</p>
+
+<p><strong>Do:</strong></p>
+
+<ul>
+  <li>Report vitals cleanly when the room needs the number (same monitor Priya watches — don’t double-call without reason).</li>
+  <li>One dry boundary line when instrumentation is on the table (“We don’t instrument for sport.”).</li>
+  <li>Stay present in stage business: saline, forceps, flipping sketch pages, closing trays.</li>
+  <li>Let ease with Hayes (and occasional ribbing with Priya) show in low-stakes windows; keep it brief and earned.</li>
+</ul>
+
+<p><strong>Don’t:</strong></p>
+
+<ul>
+  <li>Give engineering or physiology lectures — including “remedial” revisits of oil/physics for the audience while Hayes is busy. Analogy axis is Mark↔Hayes (+ Stuart). Audience refreshers prefer slides/notes.</li>
+  <li>Banter for filler mid-critical-path; if the rhythm needs air, move an ops beat instead (<code class="language-plaintext highlighter-rouge">case.md</code>).</li>
+  <li>Play rival or subordinate-scared; she and Hayes are colleagues who know each other’s habits.</li>
+  <li>Own the block/MAC board — that is Priya’s.</li>
+</ul>
+
+<p><strong>Science chat bar:</strong> Default <strong>no</strong>. A crumb only if it would feel natural and non-cringy (e.g. Mark mutters to the ceiling; she answers human, not Poiseuille). If it reads like a second classroom, cut it. When in doubt, omit. Who can talk when: <code class="language-plaintext highlighter-rouge">case.md</code> Team intensity.</p>
+
+<p><strong>Example register:</strong> “Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he’s running a little fast.”</p>
+
+<p><strong>Offstage backstory</strong> (never performed — self-consistency only):</p>
+
+<p>Elena Reyes (~42). Circulating RN at this Level II ~7 years with Hayes. BSN → floor → OR (CNOR-seasoned); learned to anticipate the next pass, not narrate. “We don’t instrument for sport” is earned habit from watching extras waste time and risk — not a gag. With Hayes: old muscle memory and mutual respect, not a soap-opera friendship. With Priya: ~5+ years in the same rooms; equals; dry ribbing and rare tension-valve lines when the room can breathe. Overhears Mark’s science; never joins. Local; partner/kids unspoken.</p>
+
+<hr />
+
+<h2 id="priya-nazari">Priya Nazari</h2>
+
+<p><strong>Role:</strong> CRNA. Block + MAC; at the head of the table for the <strong>entire</strong> operation. Script label: <strong>PRIYA</strong>.</p>
+
+<p><strong>Staging:</strong> On stage whenever the OR is up, usually <strong>background</strong> — head of table / monitors, not in the light with Hayes–Mark–Stuart. Focus only when a procedural beat needs her (block, vitals blip, sedation). Clinical board (what she monitors): see <code class="language-plaintext highlighter-rouge">case.md</code>.</p>
+
+<p><strong>Voice when she speaks:</strong> Elena-quiet procedurally — short, clear, no seminar.</p>
+
+<p><strong>Voice DNA:</strong></p>
+
+<ul>
+  <li><strong>Register:</strong> Soft-precise clinical fragments — block/MAC board, not small talk.</li>
+  <li><strong>Music:</strong> Calm, short; warmth lives in tone, not pep words.</li>
+  <li><strong>Accent / region:</strong> Standard American clinical (Nazari); <strong>no</strong> caricature accent.</li>
+  <li><strong>Humor:</strong> Dry with Elena only; never at Mark.</li>
+  <li><strong>Heat:</strong> No cursing.</li>
+  <li><strong>Ego:</strong> Lane-secure; not self-effacing, not chipper.</li>
+  <li><strong>Anti-AI tell:</strong> Pep talk (“You’ve got this”) or physics curiosity follow-ups. One comfort fact, then quiet.</li>
+  <li><strong>Sounds like:</strong> A CRNA keeping an awake patient steady. <strong>Never:</strong> A cheerleader or a Darcy student.</li>
+</ul>
+
+<p><strong>Optional personality well</strong> (catalog even if most nights she has almost no lines — draw from this when a beat wants color):</p>
+
+<ul>
+  <li>Dry, competent warmth — not chipper, not icy.</li>
+  <li>Notices Mark’s anxiety early; prefers one calm factual line over pep talk.</li>
+  <li>Slightly protective of her lane (block quality, sedation ceiling) without turf wars; will gently correct if someone assumes “just put him out.”</li>
+  <li>Shares Elena’s dry humor; they can rib each other — including a one-line tension break — then both go flat when hands are critical.</li>
+  <li>Curious enough to <em>overhear</em> the oil talk without joining it — a half-smile or one-word “huh” max if we ever use it; never a physics follow-up.</li>
+  <li>Easy shorthand with Hayes; collegial with Elena; patient with Stuart’s learning without teaching him anesthesia.</li>
+</ul>
+
+<p><strong>Do:</strong></p>
+
+<ul>
+  <li>Own block/MAC lane in dialogue when a word is needed.</li>
+  <li>Patient-facing: poke, sharp vs pressure (density check), sedation check — brief and calming.</li>
+  <li>Coordinate with Hayes on density, fade, unclamp readiness.</li>
+</ul>
+
+<p><strong>Don’t:</strong></p>
+
+<ul>
+  <li>Lecture physiology or join oil↔medicine analogy chat — including remedial revisits for the audience. Idle at the head ≠ tutor.</li>
+  <li>Invent personality mid-scene that isn’t in this well.</li>
+  <li>Replace Elena’s circulating lane.</li>
+</ul>
+
+<p><strong>Science chat bar:</strong> Default <strong>no</strong>. Same high bar as Elena — non-physics human response to Mark (“Mm.” / “You’re fine.”) can pass; restating ECD/cavitation cannot. When in doubt, omit. Who can talk when: <code class="language-plaintext highlighter-rouge">case.md</code> Team intensity.</p>
+
+<p><strong>Example register:</strong> “Block’s dense.” / “Pressure’s fine.” / “Tell me if anything turns sharp.” / “I’m giving a little more.”</p>
+
+<p><strong>Offstage backstory</strong> (never performed — self-consistency only):</p>
+
+<p>Early 30s (~33). CRNA at this Level II; ~5+ years overlapping Elena. Path: RN → ICU or OR seasoning → CRNA program → staff here — chose anesthesia for airway/hemodynamics and awake-patient craft. Prefers one calm factual line for anxious patients over pep talk. Gently protects regional + MAC when someone assumes “just put him out.” Equals with Elena (dry ribbing); professional shorthand with Hayes on density / sedation / unclamp — not a friendship plot. May half-hear the oil talk; never joins. Local; otherwise unspoken.</p>
+
+<hr />
+
+<h2 id="dr-amara-okonkwo">Dr. Amara Okonkwo</h2>
+
+<p><strong>Role:</strong> ED physician. Cameo — handoff only. Ran initial workup / bleed control; hands Mark off to Hayes. No Offstage backstory — voice notes below are enough.</p>
+
+<p><strong>When:</strong> Brief beat at the top of the evening — <strong>Act 0</strong> (<code class="language-plaintext highlighter-rouge">act_0_ed_handoff.md</code>). Not in the OR for Acts 1–5.</p>
+
+<p><strong>Voice:</strong> Terse clinical handoff — mechanism, vitals, what was tried for hemostasis, hand perfusion / pulses, tetanus/antibiotics if relevant. Not a physics interlocutor. Not competing with Hayes for ownership once she accepts.</p>
+
+<p><strong>Voice DNA:</strong></p>
+
+<ul>
+  <li><strong>Register:</strong> Telegraphic ED handoff — checklist speech.</li>
+  <li><strong>Music:</strong> Clipped; one clean packet, then gone.</li>
+  <li><strong>Accent / region:</strong> Unmarked professional; no accent bit for the cameo.</li>
+  <li><strong>Humor:</strong> None in this beat.</li>
+  <li><strong>Heat:</strong> No cursing; urgency is speed, not volume.</li>
+  <li><strong>Ego:</strong> Flat ownership until Hayes accepts; then exits clean.</li>
+  <li><strong>Anti-AI tell:</strong> Bedside-manner paragraph or lingering into the OR story. Keep checklist, then exit.</li>
+  <li><strong>Sounds like:</strong> A busy ED attending handing off. <strong>Never:</strong> A third science voice or a warm-up act.</li>
+</ul>
+
+<p><strong>Do:</strong></p>
+
+<ul>
+  <li>One clean handoff speech or two short exchanges; then exit.</li>
+</ul>
+
+<p><strong>Don’t:</strong></p>
+
+<ul>
+  <li>Linger into the OR lecture; become a third science voice; undercut Hayes’s acceptance of the patient.</li>
+</ul>
+
+<p><strong>Example register:</strong> “Table-saw, ulnar territory, pressure’s held. Hand pink, radial Doppler intact. He’s yours.”</p>
+
+<hr />
+
+<h2 id="or-ensemble--dialogue-lanes">OR ensemble — dialogue lanes</h2>
+
+<p>Catalog appropriate talk, not forced banter. Analogy seminar stays Mark / Hayes / Stuart. Quiet pair stay in lane unless an ops interrupt lands.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pair</th>
+      <th>Appropriate</th>
+      <th>Avoid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hayes ↔ Elena</td>
+      <td>Task talk on critical path; light chumminess in lulls</td>
+      <td>Sitcom mid-purse; undercutting Elena’s lane</td>
+    </tr>
+    <tr>
+      <td>Hayes ↔ Priya</td>
+      <td>Block density, sedation, hemodynamics, unclamp, Mark comfort</td>
+      <td>Oil-physics; turf wars in front of Mark</td>
+    </tr>
+    <tr>
+      <td>Elena ↔ Priya</td>
+      <td>Logistics; dry ribbing; one-line tension valve</td>
+      <td>Running bit on critical path; jokes at Mark</td>
+    </tr>
+    <tr>
+      <td>Hayes ↔ Stuart</td>
+      <td>Craft teaching, retractors/suction</td>
+      <td>Making him Priya’s or Elena’s student</td>
+    </tr>
+    <tr>
+      <td>Stuart ↔ Elena / Priya</td>
+      <td>Functional passes / brief pause for block</td>
+      <td>Physiology essays at them</td>
+    </tr>
+    <tr>
+      <td>Mark ↔ Priya</td>
+      <td>Poke, sharp vs pressure, sedation</td>
+      <td>Three-way science seminar</td>
+    </tr>
+    <tr>
+      <td>Group (Hayes + Elena + Priya ± Stuart)</td>
+      <td>Unclamp, vitals blip, block fade, close</td>
+      <td>Committee on Darcy / cavitation</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>See <code class="language-plaintext highlighter-rouge">case.md</code> for who is present at each ops step and <code class="language-plaintext highlighter-rouge">science-arc.md</code> for what teaching can slide.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

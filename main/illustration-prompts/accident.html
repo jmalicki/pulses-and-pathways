@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="accident--repeatable-three-pass-workflow">Accident — repeatable three-pass workflow</h1>
+
+<p><strong>Final target:</strong> <code class="language-plaintext highlighter-rouge">accident_sketch.png</code><br />
+<strong>Beat:</strong> Mark recounts the table-saw accident that divided his left ulnar
+artery.<br />
+<strong>Audience:</strong> Vascular surgeons and petroleum engineers reading <em>Pulses and
+Pathways</em>.<br />
+<strong>Status:</strong> Final Pass 2 promoted to <code class="language-plaintext highlighter-rouge">accident_sketch.png</code> for Act 1.</p>
+
+<p>This is a restrained clinical narrative, not gore. The wound location and
+pulsatile blood establish the emergency that leads to left ulnar-artery
+exploration, proximal and distal control, and repair.</p>
+
+<h2 id="why-three-passes">Why three passes</h2>
+
+<p>Later passes edit the exact approved output of the prior pass:</p>
+
+<ol>
+  <li><a href="/pulses-and-pathways/illustration-prompts/accident_pass_0_base.html"><code class="language-plaintext highlighter-rouge">accident_pass_0_base.md</code></a> locks the clean pose,
+shared forearm view, rag path, saw mechanics, room, and style.</li>
+  <li><a href="/pulses-and-pathways/illustration-prompts/accident_pass_1_anatomy.html"><code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.md</code></a> adds only the
+non-bloody laceration.</li>
+  <li><a href="/pulses-and-pathways/illustration-prompts/accident_pass_2_blood.html"><code class="language-plaintext highlighter-rouge">accident_pass_2_blood.md</code></a> adds only the landed
+blood evidence and one live arterial pulse.</li>
+</ol>
+
+<p>Do not combine the prompts or regenerate the scene in Pass 1 or Pass 2.</p>
+
+<h2 id="pass-0--clean-base">Pass 0 — clean base</h2>
+
+<ol>
+  <li>Run the prompt in
+<a href="/pulses-and-pathways/illustration-prompts/accident_pass_0_base.html"><code class="language-plaintext highlighter-rouge">accident_pass_0_base.md</code></a>.</li>
+  <li>Attach <code class="language-plaintext highlighter-rouge">clamping_sketch_1786259348177.jpg</code> and
+<code class="language-plaintext highlighter-rouge">suturing_sketch_1786259361282.jpg</code> as style-only references.</li>
+  <li>Save the untouched result as <code class="language-plaintext highlighter-rouge">accident_pass_0_base.png</code>.</li>
+  <li>Audit in this order:</li>
+</ol>
+
+<h3 id="gate-1--the-forearm">Gate 1 — the forearm</h3>
+
+<ul>
+  <li>Raised arm is anatomical LEFT and continuous with the LEFT shoulder/upper
+arm; rag hand is anatomical RIGHT and continuous with the RIGHT shoulder.</li>
+  <li>No crossed-limb attachment: the inspected forearm is not joined to the right
+upper arm.</li>
+  <li>The arm bends upward: proximal elbow end lower, distal wrist end higher.</li>
+  <li>Camera sees a broad ventral-ulnar surface rather than its edge.</li>
+  <li>Mark visibly looks at that same surface.</li>
+  <li>Forearm is the central dominant anatomical plane.</li>
+  <li>Mark’s anatomical RIGHT lateral / dextral body plane is nearly square to the
+camera; sternum and belt buckle point image-right, not toward the lens;
+frontal chest and pelvis do not dominate.</li>
+  <li>Clean target patch is 3–4 cm long and 10–14 cm above the wrist.</li>
+  <li>Rag is at the proximal/elbow-side end of the visible segment, with its edge
+13–16 cm above the wrist and approximately 2–3 cm proximal to the patch
+center.</li>
+  <li>RIGHT hand visibly moves the rag distal/wristward.</li>
+  <li>Rag and hands block neither Mark’s view nor the camera’s view.</li>
+  <li>Mark is standing.</li>
+  <li>No wound, blood, or red appears.</li>
+</ul>
+
+<p>Reject immediately if Gate 1 fails. A good saw, room, or style cannot compensate
+for a hidden, edge-on, straight, or lowered ventral forearm.</p>
+
+<h3 id="gate-2--the-saw">Gate 2 — the saw</h3>
+
+<ul>
+  <li>One full-length narrow groove is visible in one continuous rail.</li>
+  <li>Groove and dado stack are both ¼ inch / 6.35 mm wide and visibly match.</li>
+  <li>Exposed crown shows two parallel dado plates, not one thin saw blade.</li>
+  <li>Groove is 12–14 mm deep in 30–38 mm stock with solid wood beneath.</li>
+  <li>Cutter is 8 inches in diameter with only 12–14 mm exposed.</li>
+  <li>Broad guard hood and separate thin splitter/riving-knife plate are removed
+and visible.</li>
+  <li>Thin splitter plate is visibly narrower than the dado stack.</li>
+</ul>
+
+<h3 id="gate-3--room-and-style">Gate 3 — room and style</h3>
+
+<ul>
+  <li>One back wall and one right wall meet at exactly one coherent corner.</li>
+  <li>Premium steel storage reads clearly without dense clutter.</li>
+  <li>Drawing is a moderately shaded courtroom sketch with 50–55 percent open
+cream paper, not a filtered photograph.</li>
+</ul>
+
+<p>Do not continue until all three gates pass.</p>
+
+<h2 id="pass-1--non-bloody-laceration">Pass 1 — non-bloody laceration</h2>
+
+<ol>
+  <li>Attach <code class="language-plaintext highlighter-rouge">accident_pass_0_base.png</code>.</li>
+  <li>Run the prompt in
+<a href="/pulses-and-pathways/illustration-prompts/accident_pass_1_anatomy.html"><code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.md</code></a>.</li>
+  <li>Save the untouched result as <code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.png</code>.</li>
+  <li>Reject unless:</li>
+</ol>
+
+<ul>
+  <li>Pass 0 geometry remains unchanged.</li>
+  <li>One 3–4 cm irregular laceration appears 10–14 cm above the wrist on the LEFT
+ventral-ulnar / little-finger-side surface.</li>
+  <li>Wound is immediately distal to the fixed rag and remains visible to both Mark
+and camera.</li>
+  <li>Deepest segment is at the ulnar border and tapers in the pull-away direction.</li>
+  <li>Radial/thumb side remains intact.</li>
+  <li>No blood or red appears.</li>
+</ul>
+
+<h2 id="pass-2--arterial-evidence">Pass 2 — arterial evidence</h2>
+
+<ol>
+  <li>Attach <code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.png</code>.</li>
+  <li>Run the prompt in
+<a href="/pulses-and-pathways/illustration-prompts/accident_pass_2_blood.html"><code class="language-plaintext highlighter-rouge">accident_pass_2_blood.md</code></a>.</li>
+  <li>Save the untouched result as <code class="language-plaintext highlighter-rouge">accident_pass_2_blood.png</code>.</li>
+  <li>Reject unless:</li>
+</ol>
+
+<ul>
+  <li>Pass 1 geometry and wound remain unchanged.</li>
+  <li>Mark and camera still see the wound; rag remains proximal and unseated.</li>
+  <li>Four prior pulse marks and one modest smear appear on or around the saw.</li>
+  <li>Exactly one live proximal systolic pulse travels toward camera approximately
+20–30 degrees off-axis.</li>
+  <li>Live column is 5–10 cm; total throw is 15–25 cm.</li>
+  <li>Distal stump does not pulse.</li>
+  <li>Total blood remains 15–30 ml and visually restrained.</li>
+  <li>No continuous stream, second jet, giant pool, or graphic tissue detail
+appears.</li>
+</ul>
+
+<h2 id="promote-the-approved-image">Promote the approved image</h2>
+
+<p>After all gates pass:</p>
+
+<ol>
+  <li>Copy <code class="language-plaintext highlighter-rouge">accident_pass_2_blood.png</code> to <code class="language-plaintext highlighter-rouge">accident_sketch.png</code>.</li>
+  <li>Keep all numbered pass files for audit and repetition.</li>
+  <li>
+    <p>Record generator, model, and date:</p>
+
+    <ul>
+      <li>Pass 0: approved Gemini base <code class="language-plaintext highlighter-rouge">accident_pass_0_base.png</code> / <code class="language-plaintext highlighter-rouge">v11</code></li>
+      <li>Pass 1: approved Gemini edit <code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.png</code></li>
+      <li>Pass 2: approved Gemini edit <code class="language-plaintext highlighter-rouge">accident_pass_2_blood.png</code></li>
+      <li>Final approval: promoted to <code class="language-plaintext highlighter-rouge">accident_sketch.png</code> for Act 1 opening</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="clinical-continuity">Clinical continuity</h2>
+
+<ul>
+  <li>LEFT ventral-ulnar wound → left ulnar-artery exposure.</li>
+  <li>Deepest focal segment → complete ulnar-artery transection.</li>
+  <li>Proximal live pulse → emergency proximal control.</li>
+  <li>Non-pulsatile distal end → distal control.</li>
+  <li>Two divided ends → assessment and arterial repair.</li>
+  <li>Rag approaching from proximal side → direct pressure is beginning but has
+not hidden the diagnostic wound.</li>
+  <li>BP 138/82 and HR 96 → 0.625-second beat interval; four landed pulses plus one
+live airborne pulse.</li>
+</ul>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

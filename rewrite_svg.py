@@ -1,0 +1,101 @@
+import sys
+
+svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#c94a4a" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4a90e2" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#faf8f5" />
+  <line x1="40" y1="40" x2="760" y2="40" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="40" y1="470" x2="760" y2="470" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="420" y1="30" x2="420" y2="460" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+
+  <!-- SECTION 1: BRANCHING TREE SKETCH (LEFT) -->
+  <g transform="translate(0, 0)">
+    <text x="50" y="70" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Vascular Branching Tree</text>
+    <image href="vascular_tree.jpg" x="20" y="80" width="380" height="380" preserveAspectRatio="xMidYMid slice" opacity="0.65" />
+    
+    <!-- Flow and Resistance Labels -->
+    <rect x="25" y="235" width="45" height="30" fill="#faf8f5" opacity="0.8" rx="4" />
+    <path d="M 30 250 L 50 250" stroke="#c94a4a" stroke-width="2.0" marker-end="url(#arrow-red)" />
+    <text x="15" y="245" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#c94a4a">Q<tspan font-size="10" dy="4">in</tspan></text>
+
+    <!-- Branch 1 (q1, R1) -->
+    <rect x="165" y="115" width="40" height="40" fill="#faf8f5" opacity="0.8" rx="4" />
+    <text x="170" y="130" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#3a3a3a">R<tspan font-size="9" font-style="normal" dy="3">1</tspan></text>
+    <path d="M 170 152 L 185 150" stroke="#c94a4a" stroke-width="1.2" marker-end="url(#arrow-red)" />
+    <text x="190" y="148" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#c94a4a">q<tspan font-size="8" font-style="normal" dy="3">1</tspan></text>
+
+    <!-- Branch 2 (q2, R2) -->
+    <rect x="155" y="220" width="40" height="40" fill="#faf8f5" opacity="0.8" rx="4" />
+    <text x="160" y="235" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#3a3a3a">R<tspan font-size="9" font-style="normal" dy="3">2</tspan></text>
+    <path d="M 160 250 L 175 250" stroke="#c94a4a" stroke-width="1.2" marker-end="url(#arrow-red)" />
+    <text x="180" y="247" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#c94a4a">q<tspan font-size="8" font-style="normal" dy="3">2</tspan></text>
+
+    <!-- Branch 3 (q3, R3) -->
+    <rect x="165" y="365" width="40" height="40" fill="#faf8f5" opacity="0.8" rx="4" />
+    <text x="170" y="380" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#3a3a3a">R<tspan font-size="9" font-style="normal" dy="3">3</tspan></text>
+    <path d="M 170 348 L 185 350" stroke="#c94a4a" stroke-width="1.2" marker-end="url(#arrow-red)" />
+    <text x="190" y="362" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#c94a4a">q<tspan font-size="8" font-style="normal" dy="3">3</tspan></text>
+  </g>
+
+  <!-- SECTION 2: AREA AND VELOCITY GRAPH (RIGHT) -->
+  <g transform="translate(440, 0)">
+    <text x="20" y="70" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Hemodynamics Across Segment Types</text>
+    <line x1="40" y1="360" x2="330" y2="360" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <line x1="40" y1="100" x2="40" y2="360" stroke="#1c1c1c" stroke-width="1.5" />
+    <text x="15" y="230" font-family="Georgia, serif" font-size="11" fill="#1c1c1c" transform="rotate(-90 15 230)" text-anchor="middle">Relative Area <tspan font-style="italic">A</tspan><tspan font-size="8" dy="3">total</tspan><tspan font-size="11" dy="-3"> &amp; Mean Velocity </tspan><tspan font-style="italic">v</tspan></text>
+    <text x="280" y="340" font-family="Georgia, serif" font-size="11" fill="#1c1c1c" text-anchor="middle">Vessel Segment</text>
+    
+    <text x="45" y="115" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#4a90e2">Total Area <tspan font-style="italic">A</tspan><tspan font-size="8" dy="3">total</tspan></text>
+    <text x="45" y="132" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#c94a4a">Mean Velocity <tspan font-style="italic">v</tspan></text>
+
+    <line x1="70" y1="360" x2="70" y2="365" stroke="#1c1c1c" stroke-width="1.2" />
+    <line x1="120" y1="360" x2="120" y2="365" stroke="#1c1c1c" stroke-width="1.2" />
+    <line x1="170" y1="360" x2="170" y2="365" stroke="#1c1c1c" stroke-width="1.2" />
+    <line x1="220" y1="360" x2="220" y2="365" stroke="#1c1c1c" stroke-width="1.2" />
+    <line x1="270" y1="360" x2="270" y2="365" stroke="#1c1c1c" stroke-width="1.2" />
+    <line x1="310" y1="360" x2="310" y2="365" stroke="#1c1c1c" stroke-width="1.2" />
+
+    <g font-family="Georgia, serif" font-size="11" fill="#1c1c1c" text-anchor="end">
+      <text transform="translate(70, 375) rotate(-45)">Aorta</text>
+      <text transform="translate(120, 375) rotate(-45)">Arteries</text>
+      <text transform="translate(170, 375) rotate(-45)">Arterioles</text>
+      <text transform="translate(220, 375) rotate(-45)">Capillaries</text>
+      <text transform="translate(270, 375) rotate(-45)">Venules</text>
+      <text transform="translate(310, 375) rotate(-45)">Veins</text>
+    </g>
+
+    <path d="M 70 345 C 100 345, 120 330, 170 280 C 195 240, 210 140, 220 140 C 230 140, 245 240, 270 310 C 290 340, 300 342, 310 342" fill="none" stroke="#4a90e2" stroke-width="2.5" stroke-dasharray="6,4" />
+    <path d="M 70 160 C 100 170, 120 190, 170 290 C 195 330, 210 348, 220 348 C 230 348, 245 320, 270 280 C 290 260, 300 240, 310 240" fill="none" stroke="#c94a4a" stroke-width="3" />
+    <path d="M 200 320 L 200 360 M 210 340 L 210 360 M 220 348 L 220 360 M 230 340 L 230 360 M 240 320 L 240 360" stroke="#fbc5c5" stroke-width="1.5" opacity="0.6" />
+    <text x="220" y="335" font-family="Georgia, serif" font-size="9" fill="#c94a4a" text-anchor="middle">Min Vel.</text>
+  </g>
+
+  <!-- SECTION 3: EQUATIONS PANEL (BOTTOM CENTER) -->
+  <g transform="translate(60, 480)">
+    <rect x="0" y="0" width="680" height="55" fill="#faf8f5" stroke="#e8e2d8" stroke-width="1" rx="3" />
+    <text x="20" y="34" font-family="Georgia, Times New Roman, serif" font-size="14" fill="#1c1c1c">
+      Flow (<tspan font-style="italic">Q</tspan>) = Total Area (<tspan font-style="italic">A</tspan>) × Velocity (<tspan font-style="italic">v</tspan>)
+    </text>
+    <line x1="300" y1="10" x2="300" y2="45" stroke="#e8e2d8" stroke-width="1" />
+    <text x="320" y="34" font-family="Georgia, Times New Roman, serif" font-size="14" fill="#1c1c1c">
+      1 / Total Resistance (<tspan font-style="italic">R<tspan font-size="10" dy="4">total</tspan></tspan><tspan dy="-4">)</tspan> = <tspan font-size="18">∑</tspan> [ 1 / Branch Resistance (<tspan font-style="italic">R<tspan font-size="10" dy="4">i</tspan></tspan><tspan dy="-4">) ]</tspan>
+    </text>
+  </g>
+
+  <!-- Title / Figure label -->
+  <text x="50" y="35" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Fig. 3 — Branching Networks &amp; Parallel Resistances</text>
+</svg>
+"""
+
+with open("03_the_vascular_network.svg", "w") as f:
+    f.write(svg_content)
+print("Updated SVG")

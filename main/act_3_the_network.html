@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="act-3-the-network">Act 3: The Network</h1>
+
+<p><strong>MARK</strong>
+[<em>Eyes on the ceiling, settled — shop talk, not panic</em>]
+That pressure drop at the throat Stuart walked through—we’ve seen it go further. You speed the flow up hard enough, static pressure falls below vapor pressure, and you get little vapor cavities sitting in liquid that’s still ambient temperature. Cavitation. I’ve seen centrifugal pump impellers pitted through from it. I couldn’t imagine what that could do to tissue. Do you guys ever see that?</p>
+
+<p><img src="/pulses-and-pathways/11_vapor_pressure.svg" alt="Vapor pressure" /></p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Adjusting loupes, damp sponge at the clamp — field-first</em>]
+We do—mechanical heart valves. Leaflets slam shut, local pressure drops below blood’s vapor pressure, micro-bubbles form and collapse on the valve or on red cells. That rupture is hemolysis; it also activates platelets. That’s why mechanical-valve patients stay on warfarin—clots from that mechanical trauma.</p>
+
+<p><strong>STUART</strong>
+So blood vaporizes?</p>
+
+<p><strong>MARK</strong>
+[<em>Still on the ceiling</em>]
+Yeah—Boyle’s law, or the ideal gas law if you like: all else equal, drop the pressure and liquid can flash to vapor.</p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Ideal gas / Boyle (shortcut)</strong>
+\(PV = nRT\)
+Lower $P$ favors vapor at fixed $T$. Later, when pressure recovers, condensation <strong>removes</strong> vapor from the cavity — not a closed gas bubble being crushed.</p>
+</blockquote>
+
+<p><strong>STUART</strong>
+[<em>A short blank — then back in</em>]
+Right.</p>
+
+<!-- stage-break -->
+
+<p>[<em>Hayes and Stuart go heads-down on the vessel ends — trim, irrigate, flush. Clipped field only. Mark keeps talking to the ceiling — think-aloud, not waiting for nods.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Without looking up</em>]
+Irrigate.</p>
+
+<p><strong>MARK</strong>
+Not the whole arm turning to steam—just little cavities when you dip under vapor pressure at the same temperature, so you’ve got a pocket sitting there at that low pressure.</p>
+
+<p><img src="/pulses-and-pathways/12a_cavity_at_vapor_p.svg" alt="Cavity at vapor pressure" /></p>
+
+<!-- stage-break -->
+
+<p><strong>MARK</strong>
+Downstream the flow slows, pressure comes back up, and that vapor isn’t happy being vapor anymore. It leaves at the edge—joins the liquid—and as vapor it claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid’s still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit right through that steel.</p>
+
+<p><img src="/pulses-and-pathways/12b_molecule_runaway_collapse.svg" alt="Collapse — vanishing punch" /></p>
+
+<!-- stage-break -->
+
+<p><strong>MARK</strong>
+[<em>Still ceiling; field still busy</em>]
+Mid-stream it mostly churns fluid. Against a wall—impeller, pipe, choke bean—same collapse, but the liquid slams metal.</p>
+
+<p><img src="/pulses-and-pathways/12e_bulk_vs_wall_pit.svg" alt="Bulk vs wall pit" /></p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>A beat; still in the field, not looking up</em>]
+I knew the damage. I hadn’t put the vanishing that cleanly. Same punch on a leaflet—or a red cell.</p>
+
+<!-- stage-break -->
+
+<p><strong>MARK</strong>
+Let’s look at the next page of my sketch.</p>
+
+<p>[<em>Elena carefully flips the clipboard page to reveal the next diagram.</em>]</p>
+
+<p><img src="/pulses-and-pathways/03_the_vascular_network.svg" alt="The Vascular Network" /></p>
+
+<p><strong>MARK</strong>
+The branching tree—main inlet into the aorta, then smaller arteries with their own resistances and flows. Parallel network. Total resistance stays below any single branch. That’s how you feed a bunch of organs without needing a ridiculous pressure head at the pump.</p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Parallel Hydraulic Resistance</strong>
+\(\frac{1}{R_{\mathrm{total}}} = \sum_{i} \frac{1}{R_{i}}\)
+$R_i$: resistance of branch $i$. $R_{\mathrm{total}}$: resistance of the parallel network. More open branches → lower $R_{\mathrm{total}}$.</p>
+</blockquote>
+
+<p><strong>STUART</strong>
+And once it branches hard enough, total cross-sectional area balloons—tiny in the aorta, huge through the arterioles and capillaries. Continuity: mean velocity falls as area climbs. Fastest leaving the heart, crawl in the capillary bed.</p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Continuity Equation</strong>
+\(Q = A \cdot v\)
+$Q$: volumetric flow rate. $A$: total cross-sectional area. $v$: mean velocity. Same $Q$ through a wider bed means slower $v$—why capillaries crawl.</p>
+</blockquote>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Nodding; hands still in the field, intensity eased</em>]
+That’s what you want in the capillary bed. Blood slows enough for oxygen and nutrients to diffuse across the endothelium. At aortic speed through capillaries, tissue would starve.</p>
+
+<p><strong>MARK</strong>
+It’s the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Taking a saline syringe from Elena; a glance over the screen to Mark</em>]
+We’re doing it with tissue, not gravel.</p>
+
+<p>[<em>She gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+Stuart, irrigate here. Let’s clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren’t steel.</p>
+
+<p><strong>MARK</strong>
+Yeah — casing doesn’t flex with every stroke. It just sits under load until something yields.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/4269239806c1eff0fdf856ff80c197617ba9a540">v1.0.1-3-g4269239</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

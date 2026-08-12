@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="act-2-the-narrowing">Act 2: The Narrowing</h1>
+
+<p><strong>DR. SARAH HAYES</strong>
+Okay, we’re ready to control the flow. Stuart, hold this retractor right there. Let’s clamp the proximal end first.</p>
+
+<p><strong>MARK</strong>
+[<em>Watches the ceiling, sweating</em>]
+Clamping the flow. That’s a valve shut-in.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>With a firm but gentle click, she locks a vascular clamp across the artery. She watches the field go quiet.</em>]</p>
+
+<p><img src="/pulses-and-pathways/clamping_sketch_1786259348177.jpg" alt="Clamping Sketch" />
+Good. Proximal control. Field’s dry.</p>
+
+<p><strong>MARK</strong>
+[<em>A small flinch at the click; eyes still on the ceiling</em>]
+That’s it? You just closed it?</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Looks over the screen to Mark</em>]
+Proximal clamp’s on. Bleeding’s stopped on this side.</p>
+
+<p><strong>MARK</strong>
+[<em>Trying to map it to something he knows</em>]
+On a well, you’d see that shut-in on the gauges—pressure jumps upstream the second the valve closes. That’s why we hang transducers. Early warning. So… you saw the spike?</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+I saw the field go quiet. Cuff on your other arm reads every few minutes. Not continuous.</p>
+
+<p><strong>MARK</strong>
+[<em>A short, incredulous laugh</em>]
+Every few minutes. After a shut-in.</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Back to the field</em>]
+For a case like this, yes. Continuous means an arterial line—a thin catheter in an artery, live waveform. Infection, clot, hematoma; rare, but you can lose the pulse downstream. We only put one in when not seeing beat-to-beat is the bigger risk—unstable pressure, frequent blood gas draws, big cases. Yours doesn’t clear that bar.</p>
+
+<p><img src="/pulses-and-pathways/02b_bruit_and_knock.svg" alt="Shut-In Transients" /></p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Shut-In Transients</strong>
+Sudden closure stops the flow and sends a pressure wave back upstream. In an elastic vessel the spike <strong>damps</strong> quickly; in stiff steel pipe the same spike <strong>rings</strong> (well knocking).</p>
+</blockquote>
+
+<p><strong>ELENA</strong>
+[<em>Checking the cuff cycle on the vitals monitor</em>]
+We don’t instrument for sport.</p>
+
+<p><strong>STUART</strong>
+[<em>Still holding retractors, thinking out loud</em>]
+But if we <em>did</em> have an arterial line upstream of the clamp—the waveform would spike, and the dicrotic notch would wash out from the reflection.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Without looking up, she steadies the clamped vessel with forceps</em>]
+Good. That’s what you’d see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there’s a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.</p>
+
+<p><strong>MARK</strong>
+[<em>Nervously tapping his free hand against the arm board</em>]
+The first time I realized what water hammer could do, a valve slammed on a platform and blew a gasket on the discharge flange. We were down most of the shift fixing it. After that we were a little more careful to open valves slowly on restart. It’s a transient shock wave in the line, what we call well knocking. We listen for it the same way you listen for a bruit.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Gently dabbing the tissue with gauze</em>]
+And keeping that flow path clear is everything. Elena, pass the irrigation syringe and a fine retractor. Stuart, hold this retracting loop. We need to expose the bifurcation.</p>
+
+<p>[<em>Elena hands Dr. Hayes a syringe of saline. Dr. Hayes washes the wound. Stuart takes the retractor, holding the exposure.</em>]</p>
+
+<!-- stage-break -->
+
+<p><strong>STUART</strong>
+[<em>Adjusting his grip</em>]
+It’s all about diameter. Even a tiny reduction in the vessel’s radius drastically increases resistance. In physiology, we learn Poiseuille’s law. Resistance to flow is inversely proportional to the fourth power of the radius.</p>
+
+<p><strong>MARK</strong>
+[<em>Shifting his head toward Stuart</em>]
+Yeah. We see that in oil too. You close a choke down a little and you give up a lot of pressure. Same if scale narrows a line—small change in diameter, big hit on what you can push through.</p>
+
+<p><img src="/pulses-and-pathways/02c_velocity_profile.svg" alt="Laminar velocity profile" /></p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Chuckling softly behind her mask</em>]
+And blood vessels aren’t straight rigid pipes. They’re curved, tapered, elastic, and branch continuously. And blood is non-Newtonian—it’s shear-thinning. At high shear rates in the large arteries, the red blood cells deform and align, lowering the viscosity. But in the micro-circulation, where the shear rate drops, they clump together, and viscosity climbs.</p>
+
+<p><strong>MARK</strong>
+Exactly. And when you have a narrowing—a restriction in a vessel, or a choke valve in a wellbore—those ideal assumptions break down completely.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+We call that a stenosis.</p>
+
+<p><strong>MARK</strong>
+Right, a stenosis.</p>
+
+<!-- stage-break -->
+
+<p><strong>MARK</strong>
+Elena, can you hand me my notepad? The clean page.</p>
+
+<p>[<em>Elena reaches for the metal-backed clipboard on Mark’s side table, flipping to his fresh sketch.</em>]</p>
+
+<p><strong>MARK</strong>
+Look at this sketch here.</p>
+
+<p>[<em>Elena holds the clipboard up under the bright surgical lights. Stuart leans in slightly while keeping the suction tip steady in his left hand.</em>]</p>
+
+<p><img src="/pulses-and-pathways/02_the_narrowing.svg" alt="The Narrowing" /></p>
+
+<p><strong>MARK</strong>
+A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and the far-side pressure stays lower than it should. Same idea as your stenosis.</p>
+
+<p><img src="/pulses-and-pathways/05_wellhead_choke.svg" alt="Wellhead choke" /></p>
+
+<p><strong>STUART</strong>
+And the pressure curve does the opposite—it drops dramatically at the throat. It’s the Bernoulli principle. The kinetic energy increases, so the static pressure must drop.</p>
+
+<p><strong>MARK</strong>
+[<em>Points to the chaotic swirls in Profile B</em>]
+Right. I’ve seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn’t explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can’t decelerate smoothly, so that energy goes into recirculating eddies. That’s turbulence. Past a throat like that, you’re spending that energy on churn downstream — so the far-side pressure stays lower than it should.</p>
+
+<blockquote>
+  <p>[!NOTE]
+<strong>The Reynolds Number ($Re$)</strong>
+$Re = \frac{\rho v d}{\mu}$
+Always positive, ranging from 0 to ∞.
+<strong>Re &lt; 2,300</strong>: Laminar (smooth, predictable flow)
+<strong>2,300 &lt; Re &lt; 4,000</strong>: Transition zone (intermittent flickering)
+<strong>Re &gt; 4,000</strong>: Fully turbulent (chaotic eddies)
+The ~2,300 threshold was determined experimentally by Osborne Reynolds in 1883 by injecting dye into pipe flow and watching when the smooth streak broke apart.</p>
+</blockquote>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Cleaning the outer surface of the artery; a glance at Mark’s sketch</em>]
+And in a blood vessel, that downstream turbulence isn’t just an energy loss—which shows up as that permanent pressure drop. It’s biologically active. The chaotic flow and high shear stresses physically deform the endothelial cells lining the vessel.</p>
+
+<p>[<em>To Stuart, teaching tone.</em>]</p>
+
+<p>Stuart, what do platelets do when they’re exposed to high shear and turbulence?</p>
+
+<p><strong>STUART</strong>
+They activate, change shape, release dense granules, and aggregate. It triggers the coagulation cascade, forming a thrombus right downstream of the stenosis.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+Good. So now think it through. You’ve got a minor plaque narrowing. It accelerates the flow. The turbulence activates platelets. What happens next?</p>
+
+<p><strong>STUART</strong>
+[<em>Pausing, then his eyes widening</em>]
+The clot narrows it further… which accelerates the flow even more… which activates more platelets…</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+Keep going.</p>
+
+<p><strong>STUART</strong>
+It’s a positive feedback loop. It runs away until you get total occlusion.</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+And if that vessel feeds the myocardium?</p>
+
+<p><strong>STUART</strong>
+[<em>Quietly</em>]
+Myocardial infarction. A heart attack.</p>
+
+<p><strong>MARK</strong>
+[<em>Frowning at the ceiling</em>]
+Occlusion — you mean a total blockage? So the turbulence tricks the body into thinking it’s injured, and the repair response plugs it off completely? That’s a runaway blowout.</p>
+
+<p>[<em>A brief silence falls over the room. The steady beep of the heart monitor fills the space.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>
+[<em>Quietly, back to the wound; flat, to Stuart</em>]
+Stuart — irrigate. I need it pristine before we go further.</p>
+
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/b9e25061bf36e56908e9c7722b4e8b82726a1f89">v1.0.1-1-gb9e2506</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" width="100%" height="100%">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#c94a4a"/>
+    </marker>
+    <pattern id="vap" patternUnits="userSpaceOnUse" width="7" height="7">
+      <path d="M0,7 L7,0" stroke="#c4b8a0" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3"/>
+  <text x="28" y="36" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1c1c1c">Fig. 7b &#8212; Collapse &#8212; vanishing punch</text>
+  <text x="28" y="58" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">Vapor leaves at the edge; the hole vanishes; late liquid hits steel</text>
+
+  <!-- LEFT: steel + three steps stacked -->
+  <rect x="28" y="84" width="32" height="560" fill="#d8d2c8" stroke="#3a3a3a" stroke-width="1.5"/>
+  <text x="44" y="666" font-family="Georgia, serif" font-size="13" fill="#3a3a3a" text-anchor="middle">steel</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(80, 84)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">1 &#8212; pressure recovers</text>
+    <text x="0" y="22" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">vapor leaves at the edge</text>
+    <rect x="0" y="36" width="280" height="150" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1.2"/>
+    <circle cx="140" cy="110" r="58" fill="url(#vap)" stroke="#3a3a3a" stroke-width="1.8" stroke-dasharray="5,3"/>
+    <text x="140" y="106" font-family="Georgia, serif" font-size="14" fill="#3a3a3a" text-anchor="middle">vapor</text>
+    <text x="140" y="128" font-family="Georgia, serif" font-size="13" fill="#5a5a5a" text-anchor="middle">condenses</text>
+    <text x="140" y="168" font-family="Georgia, serif" font-size="13" fill="#5a5a5a" text-anchor="middle">joins the liquid</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(80, 290)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">2 &#8212; hole shrinks</text>
+    <text x="0" y="22" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">liquid piles in</text>
+    <rect x="0" y="36" width="280" height="150" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1.2"/>
+    <circle cx="140" cy="110" r="36" fill="url(#vap)" stroke="#3a3a3a" stroke-width="1.8" stroke-dasharray="5,3"/>
+    <line x1="48" y1="110" x2="96" y2="110" stroke="#c94a4a" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="232" y1="110" x2="184" y2="110" stroke="#c94a4a" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="140" y1="56" x2="140" y2="70" stroke="#c94a4a" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="140" y1="164" x2="140" y2="150" stroke="#c94a4a" stroke-width="1.6" marker-end="url(#arr)"/>
+    <text x="140" y="178" font-family="Georgia, serif" font-size="12" fill="#c94a4a" text-anchor="middle">outside <tspan font-style="italic">P</tspan> still higher</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(80, 496)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">3 &#8212; late punch</text>
+    <text x="0" y="22" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">liquid &#8594; steel</text>
+    <rect x="0" y="36" width="280" height="150" fill="#e8e2d8" stroke="#3a3a3a" stroke-width="1.2"/>
+    <rect x="0" y="36" width="22" height="150" fill="#d8d2c8" stroke="#3a3a3a" stroke-width="1.2"/>
+    <circle cx="120" cy="110" r="22" fill="url(#vap)" stroke="#c94a4a" stroke-width="2"/>
+    <line x1="230" y1="110" x2="152" y2="110" stroke="#c94a4a" stroke-width="2.2" marker-end="url(#arr)"/>
+    <line x1="120" y1="62" x2="120" y2="84" stroke="#c94a4a" stroke-width="1.8" marker-end="url(#arr)"/>
+    <line x1="120" y1="158" x2="120" y2="136" stroke="#c94a4a" stroke-width="1.8" marker-end="url(#arr)"/>
+    <path d="M 100 96 L 22 110 L 100 124" fill="none" stroke="#c94a4a" stroke-width="2"/>
+    <text x="140" y="168" font-family="Georgia, serif" font-size="13" fill="#c94a4a" text-anchor="middle">jet hits steel</text>
+  </g>
+
+  <!-- RIGHT column -->
+  <g transform="translate(400, 84)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Same bit of mass</text>
+    <ellipse cx="100" cy="100" rx="78" ry="56" fill="url(#vap)" stroke="#3a3a3a" stroke-width="1.6" stroke-dasharray="5,3"/>
+    <text x="100" y="106" font-family="Georgia, serif" font-size="14" fill="#3a3a3a" text-anchor="middle">vapor &#8212; huge <tspan font-style="italic">V</tspan></text>
+    <text x="210" y="106" font-family="Georgia, serif" font-size="22" fill="#5a5a5a">&#8594;</text>
+    <circle cx="260" cy="100" r="12" fill="#c94a4a" stroke="#3a3a3a" stroke-width="1.2"/>
+    <text x="260" y="150" font-family="Georgia, serif" font-size="14" fill="#3a3a3a" text-anchor="middle">liquid</text>
+    <text x="260" y="170" font-family="Georgia, serif" font-size="13" fill="#5a5a5a" text-anchor="middle">almost nothing</text>
+    <text x="0" y="210" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">Hole has nothing left to be &#8212;</text>
+    <text x="0" y="230" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">not a closed gas bubble crushed</text>
+
+    <text x="0" y="290" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">The punch</text>
+    <text x="0" y="322" font-family="Georgia, serif" font-size="14" fill="#3a3a3a">Vapor leaves; hole vanishes</text>
+    <text x="0" y="348" font-family="Georgia, serif" font-size="14" fill="#3a3a3a">Outside liquid piles in</text>
+    <text x="0" y="374" font-family="Georgia, serif" font-size="14" fill="#3a3a3a">Against a wall: jet into steel</text>
+    <text x="0" y="410" font-family="Georgia, serif" font-size="14" fill="#c94a4a">Damage = late liquid hitting steel</text>
+    <text x="0" y="436" font-family="Georgia, serif" font-size="13" fill="#5a5a5a">Enough hits and that steel pits through</text>
+  </g>
+
+  <text x="28" y="870" font-family="Georgia, serif" font-size="12" fill="#5a5a5a">Schematic continuum pocket &#8212; not a crushed permanent gas bubble</text>
+</svg>

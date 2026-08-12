@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="act-1-the-bedside-question">Act 1: The Bedside Question</h1>
+
+<p><strong>Characters:</strong></p>
+
+<ul>
+  <li><strong>DR. SARAH HAYES</strong>: Vascular Surgeon. Calm, experienced, and observant.</li>
+  <li><strong>MARK</strong>: Patient. Anxious oil engineer, awake, arm numb from regional anesthesia.</li>
+  <li><strong>STUART</strong>: Third-year medical student, observing the surgery.</li>
+  <li><strong>ELENA</strong>: Circulating nurse, managing IV and instruments; may call numbers from the shared vitals monitor.</li>
+  <li><strong>PRIYA NAZARI</strong>: CRNA. At the head of the table (block / MAC); usually background.</li>
+</ul>
+
+<hr />
+
+<p>[<em>Scene Setting: Operating Room. The air is cool, hummed by the steady rhythm of the ventilation system. MARK lies supine on the operating table, his left arm extended on an armboard, prepped and draped. A screen at his shoulder hides the surgical field from his view; Dr. Hayes can look over it to meet his eyes when she speaks to him. A regional block has just been placed; they are waiting for it to set before going deeper. STUART stands beside her, observing. ELENA stands near the shared vitals monitor, adjusting the IV line. PRIYA is at the head of the table with the anesthesia machine — present, not in the light.</em>]</p>
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Glancing at the clock, then over the screen to Mark</em>] Block’s in. We’ll give it another minute before I go further. Okonkwo briefed me downstairs, but I want to hear it from you. While we wait—tell me what happened to your arm.</p>
+
+<p><strong>MARK</strong>: [<em>Staring at the ceiling, swallowing</em>] I was in the garage, using the table saw to make a cabinet with sliding glass doors. The glass was a quarter-inch thick, so I put in a quarter-inch dado set—two blades together, wide enough to cut the groove in one pass. The groove didn’t go through the board. The regular guard rides on a metal fin behind the blade, and that fin had nowhere to pass, so I took the assembly off. Just for that cut. I had the wood against the guide and was using a block to push it through. It twisted; the blade threw it back. My left hand slipped, and when I jerked away, the underside of my forearm caught the cutter. I pressed the first shop rag I could reach over it and ran next door to Steve’s. He drove me in.</p>
+
+<p><img src="/pulses-and-pathways/accident_sketch.png" alt="Accident Sketch" /></p>
+
+<p><strong>STUART</strong>: [<em>Quiet, almost to himself</em>] Mid-forearm… ulnar artery territory.</p>
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>A short nod</em>] We’ll see when we’re in. Elena, saline ready when I ask for it.</p>
+
+<p>[<em>She looks over the screen to Mark.</em>]</p>
+
+<p>Mark—before I go further. I’m going to press here. Tell me: sharp, or just pressure?</p>
+
+<p>[<em>A firm press on the forearm below the field.</em>]</p>
+
+<p><strong>MARK</strong>: [<em>Knuckles white on the table edge</em>] Not sharp. Just… weird. Like someone’s rooting around in a kitchen drawer, but the drawer is my wrist.</p>
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>A small nod; back to the field</em>] Good. That’s what we want. The numbing’s holding—you can feel pressure and movement, but cutting pain shouldn’t get through. If anything turns sharp, say so.</p>
+
+<p><strong>ELENA</strong>: [<em>Checking the vitals monitor</em>] Heart rate is ninety-six, blood pressure is one-thirty-eight over eighty-two. Vitals are stable, but he’s running a little fast.</p>
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Looks over the screen to Mark</em>] Completely normal under the circumstances. So, what is it you do, Mark?</p>
+
+<p><strong>MARK</strong>: [<em>Taking a shallow, rapid breath</em>] I’m an oil engineer. Reservoir and downhole hydraulics, offshore. Mostly keeping fluid columns from collapsing the rock or blowing out the top—wellbore stability, hydrostatic balance, transient pressure modeling. Math that has to work on a real well.</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Gently irrigating the wound with saline</em>] Hydrostatic balance. How does that work when you’re drilling thousands of feet down?</p>
+
+<p><strong>MARK</strong>: [<em>Rambling quickly, his voice high-pitched</em>] It’s all about density and depth. The formation rock is under immense pressure from the fluids trapped inside it. If we don’t counter that pressure, the gas or oil kicks into the well, and you get a blowout. So we pump a dense drilling fluid, what we call drilling mud, down the drill pipe and up the annulus…</p>
+
+<p><strong>STUART</strong>: [<em>Frowning behind his mask</em>] The annulus? Like the mitral valve annulus?</p>
+
+<p><strong>MARK</strong>: Mitral—? I don’t know what that is. In drilling, an annulus is just the empty ring-shaped space between the inner drill pipe and the outer steel casing. It’s the return path. Anyway, we have to design the hydrostatic pressure to be greater than the pore pressure of the formation but less than the fracture pressure of the rock.</p>
+
+<p><strong>STUART</strong>: [<em>Leaning closer to the wound</em>] So the mud just sits there?</p>
+
+<p><strong>MARK</strong>: [<em>Shaking his head, staring at the ceiling</em>] No, it’s constantly circulating. But the static base of it is just hydrostatic pressure — same rule as undergrad physics. Pressure is density times gravity times depth. Heavier mud, deeper hole, higher pressure at the bottom. If we don’t control the density, the whole system destabilizes. If the mud is too light, the well kicks — sorry — formation fluid pushes into the wellbore. If it’s too heavy, we fracture the reservoir and lose all our fluid into the rock, which drops the hydrostatic column and triggers a kick anyway. Same idea. It’s a very tight window.</p>
+
+<!-- stage-break -->
+
+<blockquote>
+  <p>[!NOTE]
+<strong>Hydrostatic Pressure</strong>
+$P_h = \rho g z$
+Pressure ($P_h$) increases linearly with depth ($z$), assuming constant fluid density ($\rho$) and gravity ($g$).</p>
+</blockquote>
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Using a suction tip to clear the surgical field</em>] And how do you model the flow along the well? If it’s circulating, it’s not static anymore.</p>
+
+<p><strong>MARK</strong>: [<em>Wiggling his uninjured right hand</em>] Right. Once it’s moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. Hard to talk through without a sketch. If I don’t draw, I just keep thinking about what you’re doing over there.</p>
+
+<!-- stage-break -->
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Chuckles</em>] Stuart, let’s help him out. Is there a sterile marker and a clean drape packet backing?</p>
+
+<p><strong>STUART</strong>: [<em>Retrieves a sterile skin marker and grabs a clean, stiff paper backing from a drape pack, holding it up in front of Mark’s face</em>] Here you go, Mark. Draw it out. I’ll hold it steady for you.</p>
+
+<p><strong>MARK</strong>: [<em>Takes the marker with his right hand and begins sketching rapidly on the paper backing, his hand trembling slightly but drawing clean, precise lines. He draws a concentric pipe diagram with arrows indicating flow direction</em>] Okay, look. This is how we visualize the system.</p>
+
+<p><img src="/pulses-and-pathways/01_the_well.svg" alt="The Well" /></p>
+
+<p><strong>MARK</strong>: [<em>Pointing with the marker</em>] Here’s the physical layout. The outer boundary is the steel casing. The inner tube is the drill pipe. The mud goes down the inside of the drill pipe and comes up that gap between them we just talked about—the annulus. And the mud is thick. It’s not like water. It’s basically a clay slurry. It won’t even start flowing until you push it hard enough, and once it does start moving, it actually thins out the faster you pump it.</p>
+
+<!-- stage-break -->
+<!-- projections-end -->
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Carefully dissecting around the ulnar artery</em>] So it doesn’t move like water in a hose.</p>
+
+<p><img src="/pulses-and-pathways/exposure_sketch.png" alt="Exposure Sketch" /></p>
+
+<!-- stage-break -->
+
+<p><strong>MARK</strong>: [<em>Nodding nervously</em>] Right. It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.</p>
+
+<p><strong>STUART</strong>: [<em>Holding the retractor, eyes wide</em>] So the pressure is higher when you’re pumping?</p>
+
+<p><strong>MARK</strong>: [<em>Sweat beads forming on his forehead</em>] Much higher. We call it the Equivalent Circulating Density, or ECD. It’s the effective density the wellbore walls feel. If the ECD spikes because of high flow rates or a restriction in the annulus, we risk breaking the formation. We run computer simulations on it, breaking the whole well down into chunks. You can’t just calculate it on paper because the mud gets compressed and heated the deeper it goes, changing how it flows at every single foot.</p>
+
+<p><strong>DR. SARAH HAYES</strong>: [<em>Locating the lacerated vessel, her movements precise</em>] There. Ulnar artery. Torn—but the ends look clean enough to work with.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/b9e25061bf36e56908e9c7722b4e8b82726a1f89">v1.0.1-1-gb9e2506</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 800" width="100%" height="100%">
+  <defs>
+    <marker id="arrow-charcoal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3a3a3a" />
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3" />
+  <line x1="30" y1="36" x2="490" y2="36" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="30" y1="400" x2="490" y2="400" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+  <line x1="30" y1="720" x2="490" y2="720" stroke="#e8e2d8" stroke-width="1" stroke-dasharray="8,8" />
+
+  <text x="40" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1c1c1c">Fig. 11 &#x2014; Darcy's Law: Two Variables at a Time</text>
+
+  <g transform="translate(0, 0)">
+    <text x="40" y="58" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Flow vs Pressure Drop</text>
+    <text x="40" y="76" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Same rock/fluid: raise the pressure drop, raise the flow. Steeper slope = higher permeability <tspan font-style="italic">k</tspan>.</text>
+
+    <line x1="90" y1="330" x2="460" y2="330" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <line x1="90" y1="330" x2="90" y2="100" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+
+    <text x="78" y="95" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#1c1c1c" text-anchor="end">Q</text>
+    <text x="78" y="110" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="end">flow</text>
+    <text x="78" y="122" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="end">rate</text>
+
+    <text x="275" y="358" font-family="Georgia, serif" font-size="12" fill="#1c1c1c" text-anchor="middle">pressure drop &#x00A0;<tspan font-style="italic">&#x0394;P</tspan>&#x00A0; &#x2192;</text>
+
+    <line x1="90" y1="275" x2="440" y2="275" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="90" y1="220" x2="440" y2="220" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="90" y1="165" x2="440" y2="165" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="190" y1="330" x2="190" y2="110" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="290" y1="330" x2="290" y2="110" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="390" y1="330" x2="390" y2="110" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+
+    <line x1="90" y1="330" x2="390" y2="120" stroke="#1e3d59" stroke-width="2.5" />
+    <line x1="90" y1="330" x2="440" y2="250" stroke="#c94a4a" stroke-width="2.2" stroke-dasharray="7,4" />
+
+    <line x1="110" y1="140" x2="140" y2="140" stroke="#1e3d59" stroke-width="2.5" />
+    <text x="148" y="144" font-family="Georgia, serif" font-size="11" fill="#1e3d59">High <tspan font-style="italic">k</tspan> (open rock)</text>
+    <line x1="110" y1="160" x2="140" y2="160" stroke="#c94a4a" stroke-width="2.2" stroke-dasharray="7,4" />
+    <text x="148" y="164" font-family="Georgia, serif" font-size="11" fill="#c94a4a">Low <tspan font-style="italic">k</tspan> (tight rock)</text>
+  </g>
+
+  <g transform="translate(0, 390)">
+    <text x="40" y="30" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1c1c1c">Flow vs Viscosity</text>
+    <text x="40" y="48" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">Fixed pressure drop: thicker fluid means less flow.</text>
+
+    <line x1="90" y1="280" x2="460" y2="280" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+    <line x1="90" y1="280" x2="90" y2="70" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#arrow-charcoal)" />
+
+    <text x="78" y="65" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#1c1c1c" text-anchor="end">Q</text>
+    <text x="78" y="80" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="end">flow</text>
+    <text x="78" y="92" font-family="Georgia, serif" font-size="10" fill="#5a5a5a" text-anchor="end">rate</text>
+
+    <text x="275" y="308" font-family="Georgia, serif" font-size="12" fill="#1c1c1c" text-anchor="middle">viscosity &#x00A0;<tspan font-style="italic">&#x03BC;</tspan>&#x00A0; &#x2192;</text>
+
+    <line x1="90" y1="230" x2="440" y2="230" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="90" y1="180" x2="440" y2="180" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="90" y1="130" x2="440" y2="130" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="190" y1="280" x2="190" y2="80" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="290" y1="280" x2="290" y2="80" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+    <line x1="390" y1="280" x2="390" y2="80" stroke="#e8e2d8" stroke-width="0.8" stroke-dasharray="4,4" />
+
+    <path d="M 120 100 C 155 150, 190 200, 230 230 C 285 265, 340 272, 390 276 C 420 278, 440 279, 455 279"
+          fill="none" stroke="#1e3d59" stroke-width="2.5" />
+
+    <circle cx="135" cy="120" r="3.5" fill="#1e3d59" />
+    <text x="148" y="114" font-family="Georgia, serif" font-size="11" fill="#1e3d59">Light oil / water</text>
+    <circle cx="370" cy="274" r="3.5" fill="#c94a4a" />
+    <line x1="370" y1="270" x2="370" y2="230" stroke="#c94a4a" stroke-width="0.9" />
+    <text x="370" y="222" font-family="Georgia, serif" font-size="11" fill="#c94a4a" text-anchor="middle">Heavy / viscous oil</text>
+  </g>
+
+  <g transform="translate(30, 730)">
+    <rect x="0" y="0" width="460" height="55" fill="#f2efe3" stroke="#e8e2d8" stroke-width="1" rx="3" />
+    <text x="16" y="24" font-family="Georgia, Times New Roman, serif" font-size="14" fill="#1c1c1c">
+      <tspan font-style="italic">Q</tspan> = &#x2212;(<tspan font-style="italic">k A</tspan> / <tspan font-style="italic">&#x03BC;</tspan>) &#x00B7; (<tspan font-style="italic">dP</tspan>/<tspan font-style="italic">dx</tspan>)
+    </text>
+    <text x="16" y="44" font-family="Georgia, serif" font-size="11" fill="#5a5a5a">
+      vertical axis: flow rate <tspan font-style="italic">Q</tspan> &#x00B7; horizontal: pressure drop <tspan font-style="italic">&#x0394;P</tspan> or viscosity <tspan font-style="italic">&#x03BC;</tspan>
+    </text>
+  </g>
+</svg>

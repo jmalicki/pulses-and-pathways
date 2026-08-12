@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="voice-audit-pulses--pathways">Voice Audit (Pulses &amp; Pathways)</h1>
+
+<p>Audit <strong>spoken dialogue only</strong> against writer notes. Do not rewrite act files unless the user explicitly asks.</p>
+
+<p><strong>Scanner ≠ truth.</strong> Heuristics are a high-recall candidate queue (false positives expected). Judge holistically against Voice DNA. SQLite marks record checks; higher <code class="language-plaintext highlighter-rouge">users.priority</code> overrides on disagreement; full mark history is kept.</p>
+
+<h2 id="authority">Authority</h2>
+
+<ol>
+  <li>Read <a href="/pulses-and-pathways/characters.html"><code class="language-plaintext highlighter-rouge">characters.md</code></a> — Anti–house-AI + Voice DNA / Do-Don’t.</li>
+  <li>Prefer the catalog over live-script drift.</li>
+  <li>Skim <a href="/pulses-and-pathways/case.html"><code class="language-plaintext highlighter-rouge">case.md</code></a> Team intensity / lanes when needed.</li>
+  <li>Compact axes: <a href="/pulses-and-pathways/skills/voice-audit/checklist.html">checklist.md</a>.</li>
+</ol>
+
+<h2 id="package-uv">Package (UV)</h2>
+
+<p>Canonical root: <code class="language-plaintext highlighter-rouge">skills/voice-audit/</code> (also <code class="language-plaintext highlighter-rouge">.cursor/skills/voice-audit/</code> via symlink).</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>skills/voice-audit <span class="o">&amp;&amp;</span> uv <span class="nb">sync</span>
+<span class="c"># or from repo root:</span>
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit <span class="nt">--help</span>
+</code></pre></div></div>
+
+<p>Dev: <code class="language-plaintext highlighter-rouge">uv run --project skills/voice-audit ruff check src tests</code> · <code class="language-plaintext highlighter-rouge">uv run --project skills/voice-audit pytest</code></p>
+
+<h2 id="cli">CLI</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Seed DB (joseph priority=100, ai-voice-audit priority=10)</span>
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit init-db
+
+<span class="c"># Noisy candidates; suppresses leave-as-is/fixed/wont-fix via effective marks</span>
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit scan act_<span class="k">*</span>.md <span class="nt">--hits-only</span>
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit scan act_<span class="k">*</span>.md <span class="nt">--summary</span>
+
+<span class="c"># Record a mark (human or AI). Same key + different users → history; priority wins.</span>
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit mark <span class="se">\</span>
+  <span class="nt">--file</span> act_2_pressure_and_flow.md <span class="nt">--speaker</span> HAYES <span class="se">\</span>
+  <span class="nt">--quote</span> <span class="s2">"Good. Let's roll."</span> <span class="nt">--heuristic</span> orphan-profundity <span class="se">\</span>
+  <span class="nt">--user</span> joseph <span class="nt">--verdict</span> leave-as-is <span class="se">\</span>
+  <span class="nt">--reason</span> <span class="s2">"Ops crumb to Stuart; flat field voice, not profundity"</span>
+
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit disagreements
+uv run <span class="nt">--project</span> skills/voice-audit voice-audit <span class="nb">users </span>list
+</code></pre></div></div>
+
+<p>DB default: <code class="language-plaintext highlighter-rouge">skills/voice-audit/data/marks.sqlite</code> (tracked in git for shared audit memory).</p>
+
+<p><strong>Verdicts:</strong> <code class="language-plaintext highlighter-rouge">leave-as-is</code> | <code class="language-plaintext highlighter-rouge">needs-fix</code> | <code class="language-plaintext highlighter-rouge">fixed</code> | <code class="language-plaintext highlighter-rouge">wont-fix</code><br />
+<strong>Suppress from open queue when effective mark is:</strong> leave-as-is, fixed, wont-fix.</p>
+
+<p><code class="language-plaintext highlighter-rouge">--reason</code> is required on every mark (≥12 chars). Heuristic id for judgments not tied to a scanner hit: <code class="language-plaintext highlighter-rouge">holistic</code>.</p>
+
+<h2 id="workflow">Workflow</h2>
+
+<ol>
+  <li>Confirm target acts.</li>
+  <li>Read Voice DNA for speakers present (Hayes three addresses; Stuart = observer not treatment team).</li>
+  <li><code class="language-plaintext highlighter-rouge">voice-audit scan … --hits-only</code> (candidates; FPs expected).</li>
+  <li>Holistic judgment on candidates <strong>and</strong> sample clean turns per speaker.</li>
+  <li><strong>Before reporting to the user:</strong> for each judgment, <code class="language-plaintext highlighter-rouge">voice-audit mark</code> as <code class="language-plaintext highlighter-rouge">ai-voice-audit</code> (or <code class="language-plaintext highlighter-rouge">joseph</code> if the user is dictating) with verdict + <code class="language-plaintext highlighter-rouge">--reason</code>. Do not skip the DB.</li>
+  <li>Then report findings (and optional rewrite suggestions). <strong>Do not</strong> patch acts unless asked.</li>
+</ol>
+
+<p>Joseph’s marks (priority 100) override AI marks (priority 10) on disagreement.</p>
+
+<h2 id="report-schema">Report schema</h2>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>File + line · Speaker · Quote · Track (<code class="language-plaintext highlighter-rouge">house-ai</code></td>
+          <td><code class="language-plaintext highlighter-rouge">character</code></td>
+          <td>both)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Guideline cite · Severity · Suggested rewrite (in-voice)</li>
+  <li>Optional leave-as-is / whitelist note</li>
+</ul>
+
+<p>End with per-character summary.</p>
+
+<h2 id="out-of-scope">Out of scope</h2>
+
+<ul>
+  <li>Stage directions / illustration prompts / science notes as “voice”</li>
+  <li>Mechanical regex “fixes”</li>
+  <li>Silent in-place rewrites</li>
+  <li>Reporting judgments without writing marks first</li>
+  <li>Mechanical regex “fixes” as substitutes for Voice DNA judgment</li>
+</ul>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/b9e25061bf36e56908e9c7722b4e8b82726a1f89">v1.0.1-1-gb9e2506</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

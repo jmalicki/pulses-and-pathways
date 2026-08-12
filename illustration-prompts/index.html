@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="illustration-prompts">Illustration prompts</h1>
+
+<p>Graphite/charcoal illustration prompts for <em>Pulses and Pathways</em>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Kind</th>
+      <th>Target</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/medical_shared_style.html"><code class="language-plaintext highlighter-rouge">medical_shared_style.md</code></a></td>
+      <td>Medical shared rules</td>
+      <td>(linked from each medical prompt)</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/accident.html"><code class="language-plaintext highlighter-rouge">accident.md</code></a></td>
+      <td>Workshop workflow</td>
+      <td><code class="language-plaintext highlighter-rouge">accident_sketch.png</code></td>
+      <td><strong>Needs three-pass regen</strong></td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/accident_pass_0_base.html"><code class="language-plaintext highlighter-rouge">accident_pass_0_base.md</code></a></td>
+      <td>Workshop pass 0</td>
+      <td><code class="language-plaintext highlighter-rouge">accident_pass_0_base.png</code></td>
+      <td>Pose/rag/saw; no wound</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/accident_pass_1_anatomy.html"><code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.md</code></a></td>
+      <td>Workshop pass 1</td>
+      <td><code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.png</code></td>
+      <td>Add wound at rag; no blood</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/accident_pass_2_blood.html"><code class="language-plaintext highlighter-rouge">accident_pass_2_blood.md</code></a></td>
+      <td>Workshop pass 2</td>
+      <td><code class="language-plaintext highlighter-rouge">accident_pass_2_blood.png</code></td>
+      <td>Edit pass 1; add arterial evidence</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/01_title_page.html"><code class="language-plaintext highlighter-rouge">01_title_page.md</code></a></td>
+      <td>Medical</td>
+      <td><code class="language-plaintext highlighter-rouge">title_page_sketch_*.jpg</code></td>
+      <td>Matches</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/02_exposure.html"><code class="language-plaintext highlighter-rouge">02_exposure.md</code></a></td>
+      <td>Medical</td>
+      <td><code class="language-plaintext highlighter-rouge">exposure_sketch.png</code></td>
+      <td>Regenerated</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/03_clamping.html"><code class="language-plaintext highlighter-rouge">03_clamping.md</code></a></td>
+      <td>Medical</td>
+      <td><code class="language-plaintext highlighter-rouge">clamping_sketch_*.jpg</code></td>
+      <td>Matches</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/04_suturing.html"><code class="language-plaintext highlighter-rouge">04_suturing.md</code></a></td>
+      <td>Medical</td>
+      <td><code class="language-plaintext highlighter-rouge">suturing_sketch_*.jpg</code></td>
+      <td>Matches</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/05_doppler.html"><code class="language-plaintext highlighter-rouge">05_doppler.md</code></a></td>
+      <td>Medical</td>
+      <td>duplex screen SVGs <code class="language-plaintext highlighter-rouge">09a</code>/<code class="language-plaintext highlighter-rouge">09b</code> (+ optional field JPG)</td>
+      <td>Screen SVGs in play; prompt retargeted from pencil Doppler</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/06_closure.html"><code class="language-plaintext highlighter-rouge">06_closure.md</code></a></td>
+      <td>Medical</td>
+      <td><code class="language-plaintext highlighter-rouge">closure_sketch_*.jpg</code></td>
+      <td>Matches</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/07_stenosis_cutaway.html"><code class="language-plaintext highlighter-rouge">07_stenosis_cutaway.md</code></a></td>
+      <td>Medical (labeled)</td>
+      <td><code class="language-plaintext highlighter-rouge">stenosis_cutaway.jpg</code></td>
+      <td>Keep labels; <strong>regen for crisp type</strong></td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/08_vascular_tree.html"><code class="language-plaintext highlighter-rouge">08_vascular_tree.md</code></a></td>
+      <td>Medical</td>
+      <td><code class="language-plaintext highlighter-rouge">vascular_tree.jpg</code></td>
+      <td>Matches</td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/09_velocity_profile_vessel.html"><code class="language-plaintext highlighter-rouge">09_velocity_profile_vessel.md</code></a></td>
+      <td>Procedural script</td>
+      <td><code class="language-plaintext highlighter-rouge">velocity_profile_vessel.png</code></td>
+      <td><code class="language-plaintext highlighter-rouge">build_velocity_profile_vessel.py</code> embeds into <code class="language-plaintext highlighter-rouge">02c_velocity_profile.svg</code></td>
+    </tr>
+    <tr>
+      <td><a href="/pulses-and-pathways/illustration-prompts/10_wellhead_choke.html"><code class="language-plaintext highlighter-rouge">10_wellhead_choke.md</code></a></td>
+      <td>Engineering (labeled)</td>
+      <td><code class="language-plaintext highlighter-rouge">choke_sketch.png</code> → Fig. 5 via <code class="language-plaintext highlighter-rouge">05_wellhead_choke.svg</code></td>
+      <td>Installed</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Medical plates link to <a href="/pulses-and-pathways/illustration-prompts/medical_shared_style.html"><code class="language-plaintext highlighter-rouge">medical_shared_style.md</code></a> and specify the patient’s <strong>left</strong> forearm. The wellhead choke is a labeled <strong>engineering</strong> plate exception (like stenosis cutaway). The workshop accident uses a repeatable three-pass workflow: lock the left volar-ulnar camera surface and rag anchor, add the non-bloody wound at that anchor, then add the clinically necessary pulse pattern.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/b9e25061bf36e56908e9c7722b4e8b82726a1f89">v1.0.1-1-gb9e2506</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

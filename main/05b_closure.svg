@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <filter id="pencil" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" result="disp" />
+      <feGaussianBlur in="disp" stdDeviation="0.8" />
+    </filter>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 0.98 0 0 0  0 0.96 0 0 0  0 0 0 0.1 0" />
+      <feBlend mode="multiply" in="SourceGraphic" in2="noise" />
+    </filter>
+    <pattern id="hatch-skin" width="15" height="15" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="15" stroke="#5a5a5a" stroke-width="0.3" opacity="0.4" filter="url(#pencil)"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f2efe3" filter="url(#paper)" />
+
+  <!-- Patient Arm Contours -->
+  <path d="M 100 250 C 300 200 500 200 700 250" fill="none" stroke="#4a4a4a" stroke-width="1.5" filter="url(#pencil)"/>
+  <path d="M 100 550 C 300 600 500 600 700 550" fill="none" stroke="#4a4a4a" stroke-width="1.5" filter="url(#pencil)"/>
+  <rect x="100" y="250" width="600" height="300" fill="url(#hatch-skin)" opacity="0.5"/>
+
+  <!-- Closed Incision Line (subcutaneous/intradermal) -->
+  <path d="M 250 400 C 350 380 450 420 550 400" fill="none" stroke="#3a3a3a" stroke-width="2" filter="url(#pencil)"/>
+  
+  <!-- Subtle cross-hatches for subcutaneous steri-strips or deep sutures showing slightly -->
+  <g filter="url(#pencil)">
+    <line x1="280" y1="385" x2="280" y2="405" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="310" y1="382" x2="310" y2="402" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="340" y1="380" x2="340" y2="405" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="370" y1="385" x2="370" y2="410" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="400" y1="390" x2="400" y2="415" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="430" y1="395" x2="430" y2="415" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="460" y1="400" x2="460" y2="420" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="490" y1="395" x2="490" y2="415" stroke="#5a5a5a" stroke-width="1"/>
+    <line x1="520" y1="390" x2="520" y2="410" stroke="#5a5a5a" stroke-width="1"/>
+  </g>
+
+  <!-- Skin Glue Applicator -->
+  <path d="M 600 150 L 520 380" fill="none" stroke="#3a3a3a" stroke-width="5" filter="url(#pencil)"/>
+  <!-- Ampoule shape -->
+  <ellipse cx="610" cy="120" rx="15" ry="35" transform="rotate(-20 610 120)" fill="none" stroke="#4a4a4a" stroke-width="1.5" filter="url(#pencil)"/>
+  <!-- Glue droplet -->
+  <path d="M 515 385 C 510 395 525 395 525 385 C 525 380 520 375 515 385" fill="#f2efe3" stroke="#3a3a3a" stroke-width="1" filter="url(#pencil)"/>
+  <!-- Thin glue layer over incision (represented by slight shading/highlight along the line) -->
+  <path d="M 400 405 C 450 415 500 405 520 395" fill="none" stroke="#5a5a5a" stroke-width="3" opacity="0.3" filter="url(#pencil)"/>
+
+  <!-- Gloved fingers holding applicator -->
+  <path d="M 640 200 C 600 230 570 200 580 170" fill="none" stroke="#5a5a5a" stroke-width="1.5" filter="url(#pencil)"/>
+  <path d="M 660 170 C 610 170 600 130 620 110" fill="none" stroke="#5a5a5a" stroke-width="1.5" filter="url(#pencil)"/>
+
+  <!-- Labels -->
+  <text x="350" y="470" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Subcuticular Closure</text>
+  <line x1="390" y1="410" x2="390" y2="455" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="2,2" filter="url(#pencil)"/>
+
+  <text x="650" y="320" font-family="Georgia, serif" font-size="16" fill="#3a3a3a" filter="url(#pencil)">Liquid Skin Adhesive</text>
+  <line x1="560" y1="280" x2="640" y2="315" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="2,2" filter="url(#pencil)"/>
+
+</svg>

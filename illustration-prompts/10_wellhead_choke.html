@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="wellhead-choke--engineering-illustration-prompt">Wellhead choke — engineering illustration prompt</h1>
+
+<p><strong>Target:</strong> <code class="language-plaintext highlighter-rouge">choke_sketch.png</code> (or <code class="language-plaintext highlighter-rouge">.jpg</code>); shown in the play via <code class="language-plaintext highlighter-rouge">05_wellhead_choke.svg</code> as <strong>Fig. 5</strong>.<br />
+<strong>Use:</strong> Embedded in Act 2 after Mark’s choke / stenosis bridge (<code class="language-plaintext highlighter-rouge">act_2_pressure_and_flow.md</code>).<br />
+<strong>Kind:</strong> Labeled engineering plate (exception like <code class="language-plaintext highlighter-rouge">07_stenosis_cutaway.md</code>).</p>
+
+<p>Copy everything under <strong>Prompt</strong> into the image model as-is. Do not invent alternate geometries.</p>
+
+<hr />
+
+<h2 id="prompt">Prompt</h2>
+
+<p>Graphite/charcoal on cream paper. Grayscale only—no color. Two equal side-by-side panels. Nothing in the frame except the two cutaways and the titles/labels named below. No background, manifold, gauges, signature, or watermark.</p>
+
+<p>Font: Georgia only (bold for titles, regular for labels). Small, print-sharp. Thin straight charcoal leader lines. No handwriting, no other fonts.</p>
+
+<p>LABELS — exact whitelist (mandatory; nothing else):</p>
+
+<ul>
+  <li>Panel titles only: “Fixed bean choke” (left) and “Adjustable choke” (right).</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Left panel leaders, all four required, spelling exact: Bean</td>
+          <td>Blanking cap</td>
+          <td>Inlet</td>
+          <td>Outlet</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Right panel leaders, all five required, spelling exact: Needle</td>
+          <td>Seat</td>
+          <td>Handwheel</td>
+          <td>Inlet</td>
+          <td>Outlet</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Do NOT label any other word.</li>
+</ul>
+
+<p>SHARED BODY (both panels): a simple pipe <strong>T</strong> cutaway—like a plumbing tee—not a cross, not a valve with a fat chamber.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        TOP access
+            │
+            │     ← vertical run: same pipe diameter top to bottom
+   INLET ───┤     ← side branch only; far side of vertical pipe is flush ID wall
+            │
+         OUTLET
+</code></pre></div></div>
+
+<p>Geometry rules:</p>
+
+<ul>
+  <li>Vertical run is one straight pipe of <strong>constant diameter</strong> from top access down to Outlet. Outer and inner walls are flush/cylindrical—<strong>no gigantic bulge</strong>, no thick boss, no swollen chamber opposite the Inlet.</li>
+  <li>Inlet is a side branch of similar pipe diameter joining that vertical run. Where they meet is a normal tee junction.</li>
+  <li>Opposite the Inlet: just the <strong>far inner wall of the vertical pipe</strong>, continuous and flush with the pipe above and below the junction. Not a protruding block wall. Not a fourth port.</li>
+  <li>Exactly three openings: Inlet (left), Outlet (bottom), Top access (top). No 4-way. Same outline both panels.</li>
+</ul>
+
+<p>BEAN / SEAT HEIGHT (both panels—do not ignore):</p>
+
+<ul>
+  <li>In the upper outlet leg, draw a clear <strong>bean box</strong>: a threaded cylindrical pocket machined into the outlet bore at the T junction—the receptacle the bean/seat screws into. Show the box as a distinct short chamber/threads in the outlet ID, not just a floating plug in open pipe.</li>
+  <li>Bean (left) and Seat (right) screw <strong>down into that bean box</strong> in the outlet.</li>
+  <li>Their <strong>top faces must be at or below the horizontal centerline of the Inlet</strong>—most of the bean/seat body is <strong>below</strong> that centerline, down inside the outlet-leg bean box.</li>
+  <li>Do <strong>not</strong> float them high in the upper vertical run under the blanking cap/handwheel. Leave clear empty bore in the top half above the inlet centerline (access space only).</li>
+</ul>
+
+<p>LEFT PANEL — Fixed bean choke (cutaway):</p>
+
+<ul>
+  <li>BEAN: short threaded cylinder, hole through inlet face (UP) to outlet face (DOWN). Screwed fully into the <strong>bean box in the outlet</strong>. Height rule above. Show threads engaging the box.</li>
+  <li>Inlet reaches the bean’s top face; ONLY path to Outlet is through the bean hole. No bypass around the bean or around the box.</li>
+  <li>BLANKING CAP on top access only.</li>
+</ul>
+
+<p>RIGHT PANEL — Adjustable choke (cutaway):</p>
+
+<ul>
+  <li>SEAT: same <strong>bean box in the outlet</strong>, same height rule. Seat screws into that box like the bean. Inlet face UP, outlet face DOWN.</li>
+  <li>SEAT bore is a <strong>cone</strong> (tapered hole). NEEDLE tip is a matching <strong>cone</strong> of the same taper—the two cones nest. Draw them mating; do not use a cylindrical needle in a cylindrical seat.</li>
+  <li>HANDWHEEL on top. Turning the wheel is what moves the needle: show <strong>stem threads way up at the top</strong>, in the topworks under/near the handwheel—that is how rotation becomes axial travel. No drive threads down by the seat.</li>
+  <li>NEEDLE extends down into the seat cone, partly open so a clear annular gap remains. Stem unlabeled.</li>
+  <li>Length invariant: the visible <strong>threaded stem length between the top of the choke body and the handwheel</strong> must be <strong>slightly more</strong> than the axial distance from the <strong>seat to the bottom tip of the needle</strong> (needle–seat engagement depth). They can look almost equal; if unsure, give a bit more thread up top than needle-into-seat below.</li>
+  <li>ONLY path through the matching cones past the needle. No bypass. No flow out the top.</li>
+</ul>
+
+<p>FORBIDDEN: 4-way cross; pipe opposite Inlet; bulging/swollen wall opposite Inlet; bean or seat floating in open bore with no threaded outlet pocket/bean box; bean or seat sitting high above inlet midline; mismatched needle/seat tapers; drive threads at the seat instead of at the top; top thread length shorter than needle-to-seat depth; bypass; colors; extra labels.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/b9e25061bf36e56908e9c7722b4e8b82726a1f89">v1.0.1-1-gb9e2506</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>

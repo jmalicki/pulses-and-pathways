@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulses and Pathways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background-color: #f2efe3 !important;
+      color: #333;
+      font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    .title-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .title-page img {
+      max-width: 600px;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .preferred-presentation {
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #e8e2d8;
+      border-bottom: 1px solid #e8e2d8;
+    }
+    .note-alert {
+      border-left: 4px solid #3170ce;
+      background-color: #e6f1ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #1e3d59;
+    }
+    .note-alert strong {
+      color: #0b438a;
+    }
+    .note-alert .note-math {
+      display: block;
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 1.1rem 0;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #555;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 4rem 0;
+    }
+    .preferred-presentation {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 4rem;
+    }
+    
+    /* Two-pane stage layout using semantic custom tags */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    stage-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    stage-row.projections-end {
+      align-items: end;
+    }
+    play-text {
+      display: block;
+      font-size: 1.1rem;
+    }
+    play-text p {
+      margin-bottom: 1.5rem;
+    }
+    projections {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 1rem;
+    }
+    stage-row.projections-end projections {
+      justify-content: flex-end;
+      padding-top: 0;
+    }
+    stage-row.projections-end projections img {
+      margin-bottom: 0;
+    }
+    projections img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+    projections .note-alert {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+    }
+    projections .markdown-alert {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    projections blockquote {
+      background-color: #fff;
+      border: 1px solid #e8e2d8;
+      border-left: 4px solid #4a90e2;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 0 0 2rem 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 800px) {
+      stage-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .site-version {
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.4;
+      color: #a39e93;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+    }
+    .site-version a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .site-version a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="accident-pass-2--arterial-evidence">Accident pass 2 — arterial evidence</h1>
+
+<p><strong>Input:</strong> <code class="language-plaintext highlighter-rouge">accident_pass_1_anatomy.png</code><br />
+<strong>Output:</strong> <code class="language-plaintext highlighter-rouge">accident_pass_2_blood.png</code><br />
+<strong>Finalization:</strong> After approval, copy this output to <code class="language-plaintext highlighter-rouge">accident_sketch.png</code>.<br />
+<strong>Pass boundary:</strong> Add only the clinically necessary blood evidence. Do not
+recompose, redraw, mirror, rotate, or crop.</p>
+
+<hr />
+
+<h2 id="prompt">Prompt</h2>
+
+<p>Edit the supplied Pass 1 image in place. Preserve every established graphite
+line and all approved geometry, especially:</p>
+
+<ul>
+  <li>the anatomical LEFT arm bent upward, distal wrist above proximal elbow,
+continuous with the LEFT shoulder—not attached to the RIGHT upper arm;</li>
+  <li>the rag held only by the anatomical RIGHT hand continuous with the RIGHT
+shoulder;</li>
+  <li>the broad ventral-ulnar wound plane visible to both Mark and camera;</li>
+  <li>Mark’s gaze fixed directly on the wound;</li>
+  <li>the rag and RIGHT hand approaching from the proximal/elbow side without
+blocking either sightline;</li>
+  <li>the wound location and morphology;</li>
+  <li>the standing pose, dextral/right-lateral body view, saw, matching dado
+stack/groove, removed safety parts, room, framing, and style.</li>
+</ul>
+
+<p>Add selective muted deep red only as specified below. This is restrained
+clinical evidence of active ulnar-artery hemorrhage, not horror or decorative
+violence.</p>
+
+<h2 id="1-pre-compression-wound-and-rag">1. Pre-compression wound and rag</h2>
+
+<p>Keep the existing wound <strong>10–14 cm proximal to the wrist crease</strong>, immediately
+distal/wristward of the rag.</p>
+
+<p>The healthy RIGHT hand continues driving the folded rag distal/wristward from
+the proximal side. Its stretched leading edge approaches the proximal wound
+lip but does not cover or seal it. Keep the RIGHT hand and rag below or beside
+Mark’s eye-to-wound sightline. Keep the wound fully or nearly fully visible to
+both Mark and camera.</p>
+
+<p>Add a small red stain only to the rag’s advancing corner where it has just made
+first contact. Do not soak the rag.</p>
+
+<p>The deepest ulnar segment completely divided the artery:</p>
+
+<ul>
+  <li>only the <strong>proximal / heart-side end</strong> is pulsatile;</li>
+  <li>the distal end does not pulse;</li>
+  <li>the distal end may show at most one weak gravity drip within a few
+centimeters of the wound.</li>
+</ul>
+
+<h2 id="2-earlier-evidence-on-the-saw-pulses-14">2. Earlier evidence on the saw: pulses 1–4</h2>
+
+<p>The first four systoles occurred before Mark pulled away:</p>
+
+<ul>
+  <li>one modest irregular smear or shallow pool <strong>5–8 cm across</strong> beside the
+cutter and workpiece;</li>
+  <li><strong>four discrete prior-pulse impact blotches</strong> on the metal deck; three may
+remain distinct if one merges into the smear;</li>
+  <li>each blotch approximately <strong>1–2 cm across</strong>;</li>
+  <li>blotch centers <strong>2–3 cm apart</strong> in a short <strong>8–12 cm trail</strong> toward the
+operator side;</li>
+  <li>a little blood on the near table edge, fence face, or cutter-adjacent metal;</li>
+  <li>only <strong>1–3 small drips</strong> in sawdust near the saw base.</li>
+</ul>
+
+<p>These are landed marks, not additional airborne jets. Do not obscure the
+two-plate dado stack, matching narrow groove, or workpiece. No giant pool or
+room-wide trail.</p>
+
+<h2 id="3-exactly-one-live-systolic-pulse-pulse-5">3. Exactly one live systolic pulse: pulse 5</h2>
+
+<p>Vitals are BP <strong>138/82</strong> and HR <strong>96</strong>:</p>
+
+<ul>
+  <li>beat interval: <strong>0.625 seconds</strong>;</li>
+  <li>free bleeding before the rag: approximately <strong>3 seconds</strong>;</li>
+  <li>total inventory: four landed systoles plus exactly one live airborne pulse.</li>
+</ul>
+
+<p>Pulse 5 emerges only from the proximal side of the still-uncovered wound:</p>
+
+<ul>
+  <li>direct it <strong>toward the camera/viewer</strong>, approximately <strong>20–30 degrees off the
+optical axis</strong>, so its length remains readable rather than collapsing into a
+foreshortened dot;</li>
+  <li>one coherent heartbeat-driven column <strong>5–10 cm long</strong> consisting of  <strong>3–6 primary droplets</strong>, each approximately <strong>1–3 mm</strong>;</li>
+  <li>optional few satellite droplets approximately <strong>0.5–1 mm</strong>;</li>
+  <li>total three-dimensional throw from wound to main landing <strong>15–25 cm /
+6–10 inches</strong>;</li>
+  <li>farthest satellite <strong>30 cm maximum</strong>;</li>
+  <li>trajectory enters the near foreground and lands on the floor closer to the
+camera, laterally offset from the wound;</li>
+  <li>it does not cross or land on the saw;</li>
+  <li>it does not hide the wound.</li>
+</ul>
+
+<p>This is one brief systolic pulse, not a continuous stream. Show no second
+airborne arc, unbroken ribbon, hose-like jet, mist, or steady gravity flow.</p>
+
+<h2 id="4-restraint-and-style">4. Restraint and style</h2>
+
+<p>Total visible blood after approximately three seconds is about <strong>15–30 ml</strong>:
+mostly the modest saw smear and four landed marks, plus the rag corner and small
+live burst.</p>
+
+<p>Blood alone is muted deep red. Preserve the grayscale courtroom-sketch style:
+open cream paper, broken contours, simplified midtones, sparse hatching, and no
+glossy wet rendering, specular highlights, smooth gradients, or photographic
+volume.</p>
+
+<h2 id="pass-2-audit">Pass 2 audit</h2>
+
+<ul>
+  <li>Pass 1 remains unchanged except for blood.</li>
+  <li>Mark and camera still see the broad LEFT ventral-ulnar wound plane.</li>
+  <li>LEFT arm remains bent upward; Mark remains standing and focused on the wound.</li>
+  <li>Rag remains proximal and has not hidden the wound.</li>
+  <li>Irregular wound morphology remains visible.</li>
+  <li>Exactly one live proximal pulse travels toward camera 20–30 degrees off-axis.</li>
+  <li>Connected column is 5–10 cm; total throw is 15–25 cm.</li>
+  <li>Distal stump does not pulse.</li>
+  <li>Four prior pulse marks and a modest smear remain on the saw.</li>
+  <li>Total blood remains restrained.</li>
+  <li>Dado stack, matching groove, removed safety parts, room, and style remain
+unchanged and readable.</li>
+</ul>
+
+<p>No text, labels, arrows, signatures, watermarks, new limbs, continuous stream,
+second jet, giant pool, or graphic tissue detail.</p>
+
+  </div>
+  
+  <p class="site-version">
+    
+    <a href="https://github.com/jmalicki/pulses-and-pathways/commit/b9e25061bf36e56908e9c7722b4e8b82726a1f89">v1.0.1-1-gb9e2506</a>
+    
+  </p>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+</body>
+</html>
