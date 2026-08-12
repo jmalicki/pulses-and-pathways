@@ -31,6 +31,6 @@ jobs:
           uv run --project skills/voice-audit voice-audit scan act_*.md --summary
           echo
           echo "=== voice-audit open hits (readable) ==="
-          # Plain text stays visible in the job log (not inside a collapsed group).
+          # PYTHONUNBUFFERED keeps hit lines ahead of the fail notice in the job log.
           # --fail-on-hits makes this step/job red; continue-on-error keeps the workflow green.
-          uv run --project skills/voice-audit voice-audit scan act_*.md --text --fail-on-hits
+          PYTHONUNBUFFERED=1 uv run --project skills/voice-audit voice-audit scan act_*.md --text --fail-on-hits

@@ -109,10 +109,8 @@ def cmd_scan(args: argparse.Namespace) -> int:
     sys.stdout.flush()
     conn.close()
     if args.fail_on_hits and stats.get("total_hits", 0) > 0:
-        print(
-            f"voice-audit: {stats['total_hits']} open hit(s) (see above)",
-            file=sys.stderr,
-        )
+        # stdout (not stderr) so CI log order stays: hits, then fail notice
+        print(f"voice-audit: {stats['total_hits']} open hit(s) (see above)")
         return 1
     return 0
 
