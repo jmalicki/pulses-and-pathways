@@ -143,7 +143,7 @@ Script size = source lines + dialogue cues (speaker labels). Cumulatives = midpo
 | **0** Handoff | ED accept minutes | ~15 min | ~32 lines, ~7 cues | none (story) | Brief prologue | **Good** |
 | **1** Bedside | Block onset∥prep; find ends | ~45→60 min | ~94 lines, ~27 cues | hydrostatic / mud / ECD | **Hold** then find | **Good** — early teach window |
 | **2** Narrowing | Clamp minutes + clear/expose | ~65→~80 | ~173 lines, ~35 cues | shut-in → stenosis / Bernoulli / thrombus | Clamp locked; talk rides exposure | **Dense but OK** |
-| **3** Network | Prepare-ends; Sync 7 High mid-act | ~80 | expanded (Phase 3) | cavitation molecule runaway + network | Med → **High** Sync 7 → Med | **Matched** to Sync 7 |
+| **3** Network | Prepare-ends; Sync 7 High mid-act | ~80 | expanded (Phase 3) | cavitation vanishing punch + network | Med → **High** Sync 7 → Med | **Matched** to Sync 7 |
 | **4** Living pipes | Stays / start sew | ~80→~110 | ~115 lines, ~25 cues | Windkessel / FSI / rheology / hoop | Hold → rising | **Good** |
 | **5** Inverse | Anastomosis + duplex/revise/close | ~110→~130 | ~193 lines, ~34 cues — **longest** | inverse + Darcy + duplex + purse (+ imaging sidebar) | **Critical path** | **Dense and matched** to long sew |
 

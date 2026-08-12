@@ -171,7 +171,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 
 **DR. SARAH HAYES**: [*Using a suction tip to clear the surgical field*] And how do you model the flow along the well? If it's circulating, it's not static anymore.
 
-**MARK**: [*Wiggling his uninjured right hand*] Right! Exactly. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. It's tough to explain without drawing. I'm a visual guy, Dr. Hayes. If I don't draw, my brain just focuses on what you're doing over there.
+**MARK**: [*Wiggling his uninjured right hand*] Right. Once it's moving, you have to add the dynamic frictional losses. It becomes a hydrodynamic problem. Hard to talk through without a sketch. If I don't draw, I just keep thinking about what you're doing over there.
 
 </div>
 </play-text>
@@ -212,7 +212,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 <play-text>
 <div markdown="1">
 
-**DR. SARAH HAYES**: [*Carefully dissecting around the ulnar artery*] Fascinating. So the fluid doesn't just flow smoothly like water through a hose.
+**DR. SARAH HAYES**: [*Carefully dissecting around the ulnar artery*] So it doesn't move like water in a hose.
 
 
 </div>
@@ -228,7 +228,7 @@ Mark—before I go further. I'm going to press here. Tell me: sharp, or just pre
 <play-text>
 <div markdown="1">
 
-**MARK**: [*Nodding nervously*] Exactly! It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
+**MARK**: [*Nodding nervously*] Right. It moves more like a solid plug in the center, with all the shearing happening right against the walls. Plus, the drill pipe is rotating, which churns the fluid even more. When the pumps are on, the total pressure at any depth is the sum of the static weight of the fluid and the dynamic friction from pumping it.
 
 **STUART**: [*Holding the retractor, eyes wide*] So the pressure is higher when you're pumping?
 
@@ -311,7 +311,7 @@ But if we *did* have an arterial line upstream of the clamp—the waveform would
 
 **DR. SARAH HAYES**
 [*Without looking up, she steadies the clamped vessel with forceps*]
-Ten points for quoting the physiology textbook verbatim, Stuart. And yes—that's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
+Good. That's what you'd see. The clamp creates a complete reflection boundary. When we shut off a major branch, that reflected pressure wave travels backward toward the heart. If this were a larger vessel, like the aorta, the sudden increase in afterload could strain the left ventricle. In peripheral vessels, we listen for that reflection or obstruction. If there's a partial blockage downstream, the turbulence creates a murmur—or what we call a bruit.
 
 **MARK**
 [*Nervously tapping his free hand against the arm board*]
@@ -387,7 +387,7 @@ Look at this sketch here.
 
 
 **MARK**
-A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and you don't get that pressure back clean on the other side. Same idea as your stenosis.
+A well will often flow harder than you want, so we use a choke—a narrow opening we can set—to bring the flow rate down. Same amount of fluid still has to pass that opening, so it speeds up, and the far-side pressure stays lower than it should. Same idea as your stenosis.
 
 </div>
 </play-text>
@@ -407,7 +407,7 @@ And the pressure curve does the opposite—it drops dramatically at the throat. 
 
 **MARK**
 [*Points to the chaotic swirls in Profile B*]
-Right. I've seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn't explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can't decelerate smoothly, so the kinetic energy goes into recirculating eddies. That's turbulence. Stuart: Reynolds number. Density times velocity times diameter, over viscosity. Once that climbs, laminar is gone and you're burning pressure for nothing.
+Right. I've seen that after an eroded choke bean on a surface line. Gauges bouncing, pressure loss we couldn't explain until we opened that section of pipe and found recirculation downstream of the throat. Same thing here. The velocity jet exits the constriction, sudden expansion, flow separation. Fluid can't decelerate smoothly, so that energy goes into recirculating eddies. That's turbulence. Past a throat like that, you're spending that energy on churn downstream — so the far-side pressure stays lower than it should.
 
 
 **DR. SARAH HAYES**
@@ -448,12 +448,8 @@ Occlusion — you mean a total blockage? So the turbulence tricks the body into 
 [*A brief silence falls over the room. The steady beep of the heart monitor fills the space.*]
 
 **DR. SARAH HAYES**
-[*Quietly, returning her focus to the wound*]
-Which is exactly why we're here tonight.
-
-[*Flat, to Stuart.*]
-
-Stuart, let's irrigate this field. I need it pristine before we go any further.
+[*Quietly, back to the wound; flat, to Stuart*]
+Stuart — irrigate. I need it pristine before we go further.
 
 
 </div>
@@ -547,14 +543,14 @@ Not the whole arm turning to steam—just little cavities when you dip under vap
 <div markdown="1">
 
 **MARK**
-Downstream the flow slows, pressure comes back up, and that vapor isn't happy being vapor anymore. It leaves at the edge—bit by bit, a molecule joins the liquid, kicks the boundary, settles almost quiet… but never as quiet as before. Each bit makes the next come harder and faster. As vapor that little bit claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid's still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit through.
+Downstream the flow slows, pressure comes back up, and that vapor isn't happy being vapor anymore. It leaves at the edge—joins the liquid—and as vapor it claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid's still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit right through that steel.
 
 
 </div>
 </play-text>
 <projections>
 <div markdown="1">
-![Molecule runaway collapse](12b_molecule_runaway_collapse.svg)
+![Collapse — vanishing punch](12b_molecule_runaway_collapse.svg)
 
 </div>
 </projections>
@@ -601,22 +597,22 @@ And once it branches hard enough, total cross-sectional area balloons—tiny in 
 
 **DR. SARAH HAYES**
 [*Nodding; hands still in the field, intensity eased*]
-Which is perfect for physiology. The blood slows down to a crawl in the capillaries—giving oxygen and nutrients enough time to diffuse across the single-cell-thick endothelial walls into the tissue. If blood moved through the capillaries at the speed it leaves the heart, we'd starve of oxygen.
+That's what you want in the capillary bed. Blood slows enough for oxygen and nutrients to diffuse across the endothelium. At aortic speed through capillaries, tissue would starve.
 
 **MARK**
 It's the exact same principle we use in gravel packs and reservoir sands. We slow down the fluid velocity near the wellbore by expanding the flow area, preventing high-velocity erosion and sand production.
 
 **DR. SARAH HAYES**
-[*Taking a saline syringe from Elena; still half in the conversation*]
-Everything in the body is designed to manage these gradients without structural failure. But we're working with living cells, not synthetic composites.
+[*Taking a saline syringe from Elena; a glance over the screen to Mark*]
+We're doing it with tissue, not gravel.
 
-[*Dr. Hayes gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.*]
+[*She gently washes the wound with saline, the fluid pooling and carrying away tiny drops of blood. Voice back to the table.*]
 
 **DR. SARAH HAYES**
 Stuart, irrigate here. Let's clear this field. The tissue walls here are incredibly delicate—look at the adventitia. They aren't steel.
 
 **MARK**
-No. Steel pipes don't breathe. They just sit there and take the pressure until they don't.
+Yeah — casing doesn't flex with every stroke. It just sits under load until something yields.
 
 </div>
 </play-text>
@@ -842,22 +838,6 @@ Right. The duplex probe measures the frequency shift of the sound waves bouncing
 
 
 **DR. SARAH HAYES**
-[*Adjusting the angle of her surgical loupes*]
-And if we need a more detailed map of the geometry, Stuart, what do we use?
-
-**STUART**
-CT angiography—inject contrast and take a CT scan so we can reconstruct the three-dimensional lumen. Then we can feed that geometry into a computational fluid dynamics model.
-
-**DR. SARAH HAYES**
-And if we need velocity data without contrast or radiation?
-
-**STUART**
-Phase-contrast MRI. It maps velocity vectors in three dimensions, so you can calculate wall shear stress and pressure gradients directly from the flow field.
-
-**DR. SARAH HAYES**
-[*To Stuart*]
-Exactly. Mapping the inside from signals at the edge.
-
 [*Looks over the screen to Mark, softer*]
 Let's hope my physical model matches the math.
 
@@ -894,6 +874,7 @@ The vessel is filling...
 <p><strong>Simplified Bernoulli Equation (Clinical)</strong></p>
 <div class="note-math">$$\Delta P \approx 4v^2$$</div>
 <p>A fast clinical heuristic where peak velocity $v$ directly estimates the pressure gradient $\Delta P$ across a heart valve or stenosis.</p>
+<p>Other outside maps (when needed, not tonight): CT angiography for lumen geometry; phase-contrast MRI for velocity fields without contrast.</p>
 </div>
 
 </div>
@@ -945,7 +926,7 @@ Unclamp. Duplex again.
 
 **STUART**
 [*Breathing out*]
-Strong triphasic flow. The waveform is beautiful.
+Strong triphasic. Peak's back down.
 
 </div>
 </play-text>
@@ -1014,14 +995,14 @@ All done, Mark. Joined and sealed—no leaks.
 Thanks, Doc. I have to say, the pressure drop in my arm was a lot easier to fix than a pressure leak in a deepwater well. We don't have the luxury of putting sutures on a reservoir two miles down.
 
 **DR. SARAH HAYES**
-[*Pulling off her surgical gloves with a sharp snap and smiling warmly*]
-Yes, well, you have to remember that I've had the benefit of several billion years of biological R&D to refine my vascular pipes. Evolution is a very patient engineer. Your steel casings have only had about a century.
+[*Pulling off her surgical gloves with a sharp snap; looks over the screen to Mark*]
+I've got living wall to sew. You don't get that two miles down.
 
 **MARK**
 [*Dryly*]
-I'll make sure to mention that to our reservoir modeling team. They could use a few million years of R&D.
+Yeah. Tell that to the modeling team next time the history match won't close.
 
-[*The team laughs softly as Elena begins clearing the surgical trays.*]
+[*Elena begins clearing the surgical trays.*]
 
 </div>
 </play-text>

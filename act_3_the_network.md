@@ -42,9 +42,9 @@ Not the whole arm turning to steam—just little cavities when you dip under vap
 <!-- stage-break -->
 
 **MARK**
-Downstream the flow slows, pressure comes back up, and that vapor isn't happy being vapor anymore. It leaves at the edge—bit by bit, a molecule joins the liquid, kicks the boundary, settles almost quiet… but never as quiet as before. Each bit makes the next come harder and faster. As vapor that little bit claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid's still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit through.
+Downstream the flow slows, pressure comes back up, and that vapor isn't happy being vapor anymore. It leaves at the edge—joins the liquid—and as vapor it claimed a huge share of the hole; as liquid it packs into almost nothing, so the hole has nothing left to be. Outside liquid's still at higher pressure, so it piles in as the hole disappears—and against a wall that pile-in is your punch. Liquid hitting steel. Enough times you pit right through that steel.
 
-![Molecule runaway collapse](12b_molecule_runaway_collapse.svg)
+![Collapse — vanishing punch](12b_molecule_runaway_collapse.svg)
 
 <!-- stage-break -->
 
